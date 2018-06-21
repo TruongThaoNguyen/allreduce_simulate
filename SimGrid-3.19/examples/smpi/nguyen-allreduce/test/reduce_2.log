@@ -1,0 +1,819 @@
+| #node	| #iter	| #W Size	| Algth 	| Time |
+| 16	|  1	|  1		| Defaut	| 
+| 256	|  1	|  1		| Defaut	| 
+------------------------------------------------------------------
+| 16	|  1	| 1024 (1K)	| Defaut	| 
+| 256	|  1	| 1024		| Defaut	| 
+| 16	|  1	|  1K		| Ring		|
+| 256	|  1	|  1K		| Ring		|
+| 16	|  1	|  1K		| Rab1		|
+| 256	|  1	|  1K		| Rab1		|
+| 16	|  1	|  1K		| smp_rdb	|
+| 256	|  1	|  1K		| smp_rdb	|
+------------------------------------------------------------------
+| 16	|  1	|  1M		| Defaut	| 0.0117819
+| 16	|  1	|  1M		| lr		| 0.00629186
+| 16	|  1	|  1M		| Rab1		| 0.00781485
+| 16	|  1	|  1M		| smp_rdb	| 0.00876502
+| 16	|  1	|  1M		| rdb		| 0.00885078
+| 16	|  1	|  1M		| mvapich2	| 0.0058585
+| 16	|  1	|  1M		| ompi		| 0.00628658
+| 16	|  1	|  1M		| mpich		| 0.00584098
+
+| 256	|  1	|  1M		| Defaut	| 0.189119
+| 256	|  1	|  1M		| lr		| 0.007919
+| 256	|  1	|  1M		| Rab1		| 0.0134408
+| 256	|  1	|  1M		| smp_rdb	| 0.0292236
+| 256	|  1	|  1M		| rdb		| 0.0284197
+| 256	|  1	|  1M		| mvapich2	| 0.00636043
+| 256	|  1	|  1M		| ompi		| 0.00792846
+| 256	|  1	|  1M		| mpich		| 0.00634085
+ 
+------------------------------------------------------------------
+| 16	|  1	|  10M		| Defaut	| 0.118099
+| 16	|  1	|  10M		| lr		| 0.0608778
+| 16	|  1	|  10M		| Rab1		| 0.0706128
+| 16	|  1	|  10M		| smp_rdb	| 0.0871647
+| 16	|  1	|  10M		| rdb		| 0.0871591
+| 16	|  1	|  10M		| mvapich2	| 0.0570833
+| 16	|  1	|  10M		| ompi		| 0.0612863 
+| 16	|  1	|  10M		| mpich		| 0.0572048
+
+| 256	|  1	|  10M		| Defaut	| 1.8906 
+| 256	|  1	|  10M		| lr		| 0.0658736
+| 256	|  1	|  10M		| Rab1		| 0.131754
+| 256	|  1	|  10M		| smp_rdb	| 0.290567
+| 256	|  1	|  10M		| rdb		| 0.289635
+| 256	|  1	|  10M		| mvapich2	| 0.0616824
+| 256	|  1	|  10M		| ompi		| 0.0658335
+| 256	|  1	|  10M		| mpich		| 0.0617709
+ 
+------------------------------------------------------------------
+| 16	|  1	|  100M		| Ring		|
+| 256	|  1	|  100M		| Ring		|
+==============================================================================
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mpich ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mpich'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mpich for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.061771] [smpi_kernel/INFO] Simulated time: 0.0617709 seconds.
+
+The simulation took 37.882 seconds (after parsing and platform setup)
+12.7183 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:ompi ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'ompi'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm ompi for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.065834] [smpi_kernel/INFO] Simulated time: 0.0658335 seconds.
+
+The simulation took 35.0263 seconds (after parsing and platform setup)
+12.8951 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mvapich2 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mvapich2'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mvapich2 for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.061682] [smpi_kernel/INFO] Simulated time: 0.0616824 seconds.
+
+The simulation took 37.8276 seconds (after parsing and platform setup)
+12.6395 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rdb for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.289635] [smpi_kernel/INFO] Simulated time: 0.289635 seconds.
+
+The simulation took 125.08 seconds (after parsing and platform setup)
+12.658 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:smp_rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'smp_rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm smp_rdb for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.290567] [smpi_kernel/INFO] Simulated time: 0.290567 seconds.
+
+The simulation took 105.371 seconds (after parsing and platform setup)
+12.6686 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rab1 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rab1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rab1 for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.131754] [smpi_kernel/INFO] Simulated time: 0.131754 seconds.
+
+The simulation took 52.7374 seconds (after parsing and platform setup)
+12.6354 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:lr ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'lr'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm lr for collective allreduce
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[0.065874] [smpi_kernel/INFO] Simulated time: 0.0658736 seconds.
+
+The simulation took 34.3001 seconds (after parsing and platform setup)
+12.7471 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:default ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'default'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+n0: 0/256,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.2160126157e+11
+[1.890605] [smpi_kernel/INFO] Simulated time: 1.8906 seconds.
+
+The simulation took 34.4694 seconds (after parsing and platform setup)
+12.6664 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+==============================================================================
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:default ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'default'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.118099] [smpi_kernel/INFO] Simulated time: 0.118099 seconds.
+
+The simulation took 2.15502 seconds (after parsing and platform setup)
+0.85528 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:lr ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'lr'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm lr for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.060878] [smpi_kernel/INFO] Simulated time: 0.0608778 seconds.
+
+The simulation took 2.02685 seconds (after parsing and platform setup)
+0.899207 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rab1 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rab1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rab1 for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.070613] [smpi_kernel/INFO] Simulated time: 0.0706128 seconds.
+
+The simulation took 2.37126 seconds (after parsing and platform setup)
+0.855208 seconds were actual computation of the application
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:smp_rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'smp_rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm smp_rdb for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.087165] [smpi_kernel/INFO] Simulated time: 0.0871647 seconds.
+
+The simulation took 4.11107 seconds (after parsing and platform setup)
+0.861381 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rdb for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.087159] [smpi_kernel/INFO] Simulated time: 0.0871591 seconds.
+
+The simulation took 4.77159 seconds (after parsing and platform setup)
+0.878877 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mvapich2 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mvapich2'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mvapich2 for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.057083] [smpi_kernel/INFO] Simulated time: 0.0570833 seconds.
+
+The simulation took 2.35325 seconds (after parsing and platform setup)
+0.842431 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:ompi ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'ompi'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm ompi for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.061286] [smpi_kernel/INFO] Simulated time: 0.0612863 seconds.
+
+The simulation took 2.25738 seconds (after parsing and platform setup)
+0.865949 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mpich ../nguyen-simple-example/allreduce
+-bash: /home/nguyen/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$: No such file or directory
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ../nguyen-simple-example/allreduce
+Segmentation fault
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mpich ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mpich'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mpich for collective allreduce
+n0: 0/16,weight size: 10485760, iteration: 1
+Global sum in rank 0 - 1.4260633600e+09
+[0.057205] [smpi_kernel/INFO] Simulated time: 0.0572048 seconds.
+
+The simulation took 2.37921 seconds (after parsing and platform setup)
+0.868682 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+==============================================================================
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mpich ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mpich'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mpich for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.006341] [smpi_kernel/INFO] Simulated time: 0.00634085 seconds.
+
+The simulation took 4.63897 seconds (after parsing and platform setup)
+1.36358 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:ompi ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'ompi'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm ompi for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.007928] [smpi_kernel/INFO] Simulated time: 0.00792846 seconds.
+
+The simulation took 6.77823 seconds (after parsing and platform setup)
+1.37551 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mvapich2 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mvapich2'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mvapich2 for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.006360] [smpi_kernel/INFO] Simulated time: 0.00636043 seconds.
+
+The simulation took 4.6026 seconds (after parsing and platform setup)
+1.32611 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rdb for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.028420] [smpi_kernel/INFO] Simulated time: 0.0284197 seconds.
+
+The simulation took 13.3559 seconds (after parsing and platform setup)
+1.34442 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:smp_rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'smp_rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm smp_rdb for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.029224] [smpi_kernel/INFO] Simulated time: 0.0292236 seconds.
+
+The simulation took 11.5369 seconds (after parsing and platform setup)
+1.35159 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rab1 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rab1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rab1 for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.013441] [smpi_kernel/INFO] Simulated time: 0.0134408 seconds.
+
+The simulation took 20.5527 seconds (after parsing and platform setup)
+1.35759 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:lr ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'lr'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm lr for collective allreduce
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.007919] [smpi_kernel/INFO] Simulated time: 0.007919 seconds.
+
+The simulation took 6.84149 seconds (after parsing and platform setup)
+1.38207 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./Tsubame3_32.txt -platform ./Tsubame3_32.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:default ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'default'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+n0: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[0.189119] [smpi_kernel/INFO] Simulated time: 0.189119 seconds.
+
+The simulation took 4.18425 seconds (after parsing and platform setup)
+1.34349 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+==============================================================================
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.011782] [smpi_kernel/INFO] Simulated time: 0.0117819 seconds.
+
+The simulation took 0.31116 seconds (after parsing and platform setup)
+0.134302 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:lr ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'lr'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm lr for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.006292] [smpi_kernel/INFO] Simulated time: 0.00629186 seconds.
+
+The simulation took 0.355754 seconds (after parsing and platform setup)
+0.151047 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rab1 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rab1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rab1 for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.007815] [smpi_kernel/INFO] Simulated time: 0.00781485 seconds.
+
+The simulation took 0.332135 seconds (after parsing and platform setup)
+0.136741 seconds were actual computation of the application
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:smp_rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'smp_rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm smp_rdb for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.008765] [smpi_kernel/INFO] Simulated time: 0.00876502 seconds.
+
+The simulation took 0.518681 seconds (after parsing and platform setup)
+0.13778 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rdb ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rdb'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rdb for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.008851] [smpi_kernel/INFO] Simulated time: 0.00885078 seconds.
+
+The simulation took 0.582136 seconds (after parsing and platform setup)
+0.151079 seconds were actual computation of the application
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mvapich2 ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mvapich2'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mvapich2 for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.005859] [smpi_kernel/INFO] Simulated time: 0.0058585 seconds.
+
+The simulation took 0.337363 seconds (after parsing and platform setup)
+0.144441 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:ompi ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'ompi'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm ompi for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.006287] [smpi_kernel/INFO] Simulated time: 0.00628658 seconds.
+
+The simulation took 0.299799 seconds (after parsing and platform setup)
+0.1484 seconds were actual computation of the application
+
+------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 16 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:mpich ../nguyen-simple-example/allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'mpich'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.000000] [smpi_coll/INFO] Switch to algorithm mpich for collective allreduce
+n0: 0/16,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 1.4260633600e+08
+[0.005841] [smpi_kernel/INFO] Simulated time: 0.00584098 seconds.
+
+The simulation took 0.35447 seconds (after parsing and platform setup)
+0.15097 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$
+
+------------------------------------------------------
+~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --log="smpi.:debug" --cfg=smpi/allreduce:ntt_lr_rab ./allreduce
+
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------
+------------------------------------------------------

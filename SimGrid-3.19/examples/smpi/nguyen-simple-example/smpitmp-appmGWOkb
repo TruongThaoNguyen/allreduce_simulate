@@ -1,0 +1,1284 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd">
+<platform version="4.1">
+  <actor host="node-0.acme.org" function="0"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="0"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-1.acme.org" function="1"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="1"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-2.acme.org" function="2"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="2"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-3.acme.org" function="3"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="3"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-4.acme.org" function="4"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="4"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-5.acme.org" function="5"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="5"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-6.acme.org" function="6"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="6"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-7.acme.org" function="7"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="7"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-8.acme.org" function="8"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="8"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-9.acme.org" function="9"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="9"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-10.acme.org" function="10"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="10"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-11.acme.org" function="11"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="11"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-12.acme.org" function="12"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="12"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-13.acme.org" function="13"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="13"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-14.acme.org" function="14"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="14"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-15.acme.org" function="15"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="15"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-16.acme.org" function="16"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="16"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-17.acme.org" function="17"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="17"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-18.acme.org" function="18"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="18"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-19.acme.org" function="19"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="19"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-20.acme.org" function="20"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="20"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-21.acme.org" function="21"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="21"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-22.acme.org" function="22"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="22"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-23.acme.org" function="23"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="23"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-24.acme.org" function="24"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="24"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-25.acme.org" function="25"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="25"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-26.acme.org" function="26"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="26"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-27.acme.org" function="27"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="27"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-28.acme.org" function="28"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="28"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-29.acme.org" function="29"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="29"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-30.acme.org" function="30"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="30"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-31.acme.org" function="31"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="31"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-32.acme.org" function="32"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="32"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-33.acme.org" function="33"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="33"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-34.acme.org" function="34"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="34"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-35.acme.org" function="35"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="35"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-36.acme.org" function="36"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="36"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-37.acme.org" function="37"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="37"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-38.acme.org" function="38"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="38"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-39.acme.org" function="39"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="39"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-40.acme.org" function="40"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="40"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-41.acme.org" function="41"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="41"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-42.acme.org" function="42"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="42"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-43.acme.org" function="43"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="43"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-44.acme.org" function="44"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="44"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-45.acme.org" function="45"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="45"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-46.acme.org" function="46"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="46"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-47.acme.org" function="47"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="47"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-48.acme.org" function="48"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="48"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-49.acme.org" function="49"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="49"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-50.acme.org" function="50"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="50"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-51.acme.org" function="51"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="51"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-52.acme.org" function="52"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="52"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-53.acme.org" function="53"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="53"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-54.acme.org" function="54"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="54"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-55.acme.org" function="55"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="55"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-56.acme.org" function="56"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="56"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-57.acme.org" function="57"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="57"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-58.acme.org" function="58"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="58"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-59.acme.org" function="59"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="59"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-60.acme.org" function="60"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="60"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-61.acme.org" function="61"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="61"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-62.acme.org" function="62"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="62"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-63.acme.org" function="63"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="63"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-64.acme.org" function="64"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="64"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-65.acme.org" function="65"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="65"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-66.acme.org" function="66"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="66"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-67.acme.org" function="67"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="67"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-68.acme.org" function="68"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="68"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-69.acme.org" function="69"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="69"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-70.acme.org" function="70"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="70"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-71.acme.org" function="71"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="71"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-72.acme.org" function="72"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="72"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-73.acme.org" function="73"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="73"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-74.acme.org" function="74"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="74"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-75.acme.org" function="75"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="75"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-76.acme.org" function="76"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="76"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-77.acme.org" function="77"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="77"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-78.acme.org" function="78"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="78"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-79.acme.org" function="79"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="79"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-80.acme.org" function="80"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="80"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-81.acme.org" function="81"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="81"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-82.acme.org" function="82"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="82"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-83.acme.org" function="83"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="83"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-84.acme.org" function="84"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="84"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-85.acme.org" function="85"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="85"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-86.acme.org" function="86"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="86"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-87.acme.org" function="87"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="87"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-88.acme.org" function="88"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="88"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-89.acme.org" function="89"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="89"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-90.acme.org" function="90"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="90"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-91.acme.org" function="91"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="91"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-92.acme.org" function="92"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="92"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-93.acme.org" function="93"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="93"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-94.acme.org" function="94"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="94"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-95.acme.org" function="95"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="95"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-96.acme.org" function="96"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="96"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-97.acme.org" function="97"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="97"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-98.acme.org" function="98"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="98"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-99.acme.org" function="99"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="99"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-100.acme.org" function="100"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="100"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-101.acme.org" function="101"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="101"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-102.acme.org" function="102"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="102"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-103.acme.org" function="103"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="103"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-104.acme.org" function="104"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="104"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-105.acme.org" function="105"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="105"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-106.acme.org" function="106"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="106"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-107.acme.org" function="107"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="107"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-108.acme.org" function="108"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="108"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-109.acme.org" function="109"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="109"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-110.acme.org" function="110"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="110"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-111.acme.org" function="111"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="111"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-112.acme.org" function="112"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="112"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-113.acme.org" function="113"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="113"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-114.acme.org" function="114"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="114"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-115.acme.org" function="115"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="115"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-116.acme.org" function="116"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="116"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-117.acme.org" function="117"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="117"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-118.acme.org" function="118"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="118"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-119.acme.org" function="119"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="119"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-120.acme.org" function="120"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="120"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-121.acme.org" function="121"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="121"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-122.acme.org" function="122"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="122"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-123.acme.org" function="123"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="123"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-124.acme.org" function="124"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="124"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-125.acme.org" function="125"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="125"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-126.acme.org" function="126"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="126"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-127.acme.org" function="127"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="127"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-128.acme.org" function="128"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="128"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-129.acme.org" function="129"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="129"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-130.acme.org" function="130"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="130"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-131.acme.org" function="131"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="131"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-132.acme.org" function="132"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="132"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-133.acme.org" function="133"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="133"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-134.acme.org" function="134"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="134"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-135.acme.org" function="135"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="135"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-136.acme.org" function="136"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="136"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-137.acme.org" function="137"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="137"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-138.acme.org" function="138"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="138"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-139.acme.org" function="139"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="139"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-140.acme.org" function="140"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="140"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-141.acme.org" function="141"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="141"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-142.acme.org" function="142"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="142"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-143.acme.org" function="143"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="143"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-144.acme.org" function="144"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="144"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-145.acme.org" function="145"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="145"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-146.acme.org" function="146"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="146"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-147.acme.org" function="147"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="147"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-148.acme.org" function="148"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="148"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-149.acme.org" function="149"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="149"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-150.acme.org" function="150"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="150"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-151.acme.org" function="151"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="151"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-152.acme.org" function="152"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="152"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-153.acme.org" function="153"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="153"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-154.acme.org" function="154"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="154"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-155.acme.org" function="155"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="155"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-156.acme.org" function="156"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="156"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-157.acme.org" function="157"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="157"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-158.acme.org" function="158"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="158"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-159.acme.org" function="159"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="159"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-160.acme.org" function="160"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="160"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-161.acme.org" function="161"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="161"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-162.acme.org" function="162"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="162"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-163.acme.org" function="163"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="163"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-164.acme.org" function="164"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="164"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-165.acme.org" function="165"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="165"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-166.acme.org" function="166"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="166"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-167.acme.org" function="167"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="167"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-168.acme.org" function="168"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="168"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-169.acme.org" function="169"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="169"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-170.acme.org" function="170"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="170"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-171.acme.org" function="171"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="171"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-172.acme.org" function="172"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="172"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-173.acme.org" function="173"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="173"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-174.acme.org" function="174"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="174"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-175.acme.org" function="175"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="175"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-176.acme.org" function="176"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="176"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-177.acme.org" function="177"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="177"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-178.acme.org" function="178"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="178"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-179.acme.org" function="179"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="179"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-180.acme.org" function="180"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="180"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-181.acme.org" function="181"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="181"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-182.acme.org" function="182"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="182"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-183.acme.org" function="183"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="183"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-184.acme.org" function="184"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="184"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-185.acme.org" function="185"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="185"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-186.acme.org" function="186"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="186"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-187.acme.org" function="187"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="187"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-188.acme.org" function="188"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="188"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-189.acme.org" function="189"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="189"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-190.acme.org" function="190"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="190"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-191.acme.org" function="191"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="191"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-192.acme.org" function="192"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="192"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-193.acme.org" function="193"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="193"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-194.acme.org" function="194"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="194"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-195.acme.org" function="195"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="195"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-196.acme.org" function="196"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="196"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-197.acme.org" function="197"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="197"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-198.acme.org" function="198"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="198"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-199.acme.org" function="199"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="199"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-200.acme.org" function="200"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="200"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-201.acme.org" function="201"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="201"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-202.acme.org" function="202"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="202"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-203.acme.org" function="203"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="203"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-204.acme.org" function="204"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="204"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-205.acme.org" function="205"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="205"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-206.acme.org" function="206"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="206"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-207.acme.org" function="207"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="207"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-208.acme.org" function="208"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="208"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-209.acme.org" function="209"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="209"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-210.acme.org" function="210"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="210"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-211.acme.org" function="211"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="211"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-212.acme.org" function="212"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="212"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-213.acme.org" function="213"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="213"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-214.acme.org" function="214"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="214"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-215.acme.org" function="215"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="215"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-216.acme.org" function="216"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="216"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-217.acme.org" function="217"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="217"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-218.acme.org" function="218"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="218"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-219.acme.org" function="219"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="219"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-220.acme.org" function="220"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="220"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-221.acme.org" function="221"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="221"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-222.acme.org" function="222"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="222"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-223.acme.org" function="223"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="223"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-224.acme.org" function="224"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="224"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-225.acme.org" function="225"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="225"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-226.acme.org" function="226"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="226"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-227.acme.org" function="227"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="227"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-228.acme.org" function="228"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="228"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-229.acme.org" function="229"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="229"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-230.acme.org" function="230"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="230"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-231.acme.org" function="231"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="231"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-232.acme.org" function="232"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="232"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-233.acme.org" function="233"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="233"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-234.acme.org" function="234"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="234"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-235.acme.org" function="235"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="235"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-236.acme.org" function="236"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="236"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-237.acme.org" function="237"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="237"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-238.acme.org" function="238"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="238"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-239.acme.org" function="239"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="239"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-240.acme.org" function="240"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="240"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-241.acme.org" function="241"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="241"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-242.acme.org" function="242"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="242"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-243.acme.org" function="243"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="243"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-244.acme.org" function="244"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="244"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-245.acme.org" function="245"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="245"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-246.acme.org" function="246"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="246"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-247.acme.org" function="247"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="247"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-248.acme.org" function="248"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="248"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-249.acme.org" function="249"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="249"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-250.acme.org" function="250"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="250"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-251.acme.org" function="251"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="251"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-252.acme.org" function="252"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="252"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-253.acme.org" function="253"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="253"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-254.acme.org" function="254"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="254"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+  <actor host="node-255.acme.org" function="255"> <!-- function name used only for logging -->
+    <argument value="smpirun"/> <!-- instance -->
+    <argument value="255"/> <!-- rank -->
+<argument value="1"/>
+  </actor>
+</platform>

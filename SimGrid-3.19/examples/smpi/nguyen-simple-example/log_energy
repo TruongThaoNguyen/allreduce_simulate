@@ -1,0 +1,53 @@
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile -platform ../../platforms/energy_platform.xml --cfg=smpi/display-timing:1 ./roundtrip --cfg=plugin:Energy --cfg=plugin:Link_Energy --cfg=smpi/host-speed:1e6
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'plugin' to 'Energy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'plugin' to 'Link_Energy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '1e6'
+MyHost1: 0/2
+MyHost2: 1/2
+Rank 0 (running on 'MyHost1'): sending the message rank 1
+Rank 1 (running on 'MyHost2'): receive the message and sending it to rank 0
+Rank 0 (running on 'MyHost1'): received the message from rank 1
+10.001971
+[10.001971] [surf_energy/INFO] Total energy consumption: 4200.729365 Joules (used hosts: 3200.532248 Joules; unused/idle hosts: 1000.197117)
+[10.001971] [link_energy/INFO] Total energy over all links: 10.005331
+[10.001971] [smpi_kernel/INFO] Simulated time: 10.002 seconds.
+
+The simulation took 0.0100625 seconds (after parsing and platform setup)
+0.000109861 seconds were actual computation of the application
+[10.001971] [surf_energy/INFO] Energy consumption of host MyHost1: 1200.236540 Joules
+[10.001971] [surf_energy/INFO] Energy consumption of host MyHost2: 2000.295708 Joules
+[10.001971] [surf_energy/INFO] Energy consumption of host MyHost3: 1000.197117 Joules
+[10.001971] [link_energy/INFO] Energy consumption of link 'bus': 10.005331 Joules
+
+
+--------------------------------------------------------------
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile -platform ../../platforms/energy_platform.xml --cfg=smpi/display-timing:1 ./roundtrip --cfg=plugin:Energy --cfg=plugin:Link_Energy --cfg=smpi/host-speed:1e6 --cfg=smpi/simulate-computation:no
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'plugin' to 'Energy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'plugin' to 'Link_Energy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '1e6'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/simulate-computation' to 'no'
+MyHost1: 0/2
+Rank 0 (running on 'MyHost1'): sending the message rank 1
+MyHost2: 1/2
+Rank 1 (running on 'MyHost2'): receive the message and sending it to rank 0
+Rank 0 (running on 'MyHost1'): received the message from rank 1
+10.001970
+[10.001970] [surf_energy/INFO] Total energy consumption: 4000.689584 Joules (used hosts: 2000.295536 Joules; unused/idle hosts: 2000.394048)
+[10.001970] [link_energy/INFO] Total energy over all links: 10.005330
+[10.001970] [smpi_kernel/INFO] Simulated time: 10.002 seconds.
+
+The simulation took 0.00799729 seconds (after parsing and platform setup)
+9.7185e-05 seconds were actual computation of the application
+[10.001970] [surf_energy/INFO] Energy consumption of host MyHost1: 1000.197024 Joules
+[10.001970] [surf_energy/INFO] Energy consumption of host MyHost2: 2000.295536 Joules
+[10.001970] [surf_energy/INFO] Energy consumption of host MyHost3: 1000.197024 Joules
+[10.001970] [link_energy/INFO] Energy consumption of link 'bus': 10.005330 Joules

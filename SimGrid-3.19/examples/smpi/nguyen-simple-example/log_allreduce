@@ -1,0 +1,222 @@
+| #node	| #iter	| #W Size	| Algth 	| Time |
+| 2		|  1	|  1		| Defaut	| 0.00241776
+| 256	|  1	|  1		| Defaut	| 0.0108984  (4.5x)
+------------------------------------------------------------------
+| 2		|  1	| 1024 (1K)	| Defaut	| 0.00276068
+| 256	|  1	| 1024		| Defaut	| 0.0314758 (11.4x)
+------------------------------------------------------------------
+| 2		|  1	|  1M		| Defaut	| 0.156652
+| 256	|  1	|  1M		| Defaut	| 18.9656
+------------------------------------------------------------------
+| 2		|  1	|  100M		| Defaut	| 14.2819
+| 256	|  1	|  100M		| Defaut	| Timeout
+| 256	|  100	|  1M		| Defaut	| 
+-----------------------------------------------------------------------------
+| 2		|  1	|  10		| Ring		|
+| 256	|  1	|  10		| Ring		|
+------------------------------------------------------------------
+| 2		|  1	|  1K		| Ring		|
+| 256	|  1	|  1K		| Ring		|
+------------------------------------------------------------------
+| 2		|  1	|  1M		| Rab1		| 0.0866161
+| 256	|  1	|  1M		| Rab1		| 2.11133 
+| 2		|  1	|  1M		| smp_rdb	| 0.0844653
+| 256	|  1	|  1M		| smp_rdb	| 8.32669 
+------------------------------------------------------------------
+| 2		|  1	|  100M		| Ring		|
+| 256	|  1	|  100M		| Ring		|
+==============================================================================
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpicc allreduce.c -o allreduce
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/256,weight size: 1, iteration: 1
+Global sum in rank 0 - 3.2896000000e+04
+[0.010898] [smpi_kernel/INFO] Simulated time: 0.0108984 seconds.
+
+The simulation took 0.763506 seconds (after parsing and platform setup)
+0.00118996 seconds were actual computation of the application
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/2,weight size: 1, iteration: 1
+Global sum in rank 0 - 3.0000000000e+00
+[0.002418] [smpi_kernel/INFO] Simulated time: 0.00241776 seconds.
+
+The simulation took 0.0124812 seconds (after parsing and platform setup)
+6.5019e-05 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$  ~/ai/SimGrid-3.19/build/bin/smpicc allreduce.c -o allreduce
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/2,weight size: 1024, iteration: 1
+Global sum in rank 0 - 3.0720000000e+03
+[0.002761] [smpi_kernel/INFO] Simulated time: 0.00276068 seconds.
+
+------------------------------------------------------------------
+The simulation took 0.0142249 seconds (after parsing and platform setup)
+8.7908e-05 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/256,weight size: 1024, iteration: 1
+Global sum in rank 0 - 3.3685504000e+07
+[0.031476] [smpi_kernel/INFO] Simulated time: 0.0314758 seconds.
+
+The simulation took 0.77098 seconds (after parsing and platform setup)
+0.00458284 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$  ~/ai/SimGrid-3.19/build/bin/smpicc allreduce.c -o allreduce
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/2,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.1457280000e+06
+[0.156652] [smpi_kernel/INFO] Simulated time: 0.156652 seconds.
+
+The simulation took 0.0507329 seconds (after parsing and platform setup)
+0.0194887 seconds were actual computation of the application
+------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[18.965605] [smpi_kernel/INFO] Simulated time: 18.9656 seconds.
+
+The simulation took 4.28266 seconds (after parsing and platform setup)
+1.45032 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+------------------------------------------------------------------
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$  ~/ai/SimGrid-3.19/build/bin/smpicc allreduce.c -o allreduce
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/2,weight size: 104857600, iteration: 1
+Global sum in rank 0 - 3.1457280000e+08
+[14.281932] [smpi_kernel/INFO] Simulated time: 14.2819 seconds.
+
+The simulation took 2.21851 seconds (after parsing and platform setup)
+1.07289 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+^[[A^C[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] CTRL-C pressed. The current status will be displayed before exit (disable that behavior with option 'verbose-exit').
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] 256 processes are still running, waiting for something.
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Legend of the following listing: "Process <pid> (<name>@<host>): <status>"
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 1 (0@node-0.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 2 (1@node-1.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 3 (2@node-2.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 4 (3@node-3.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 5 (4@node-4.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 6 (5@node-5.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 7 (6@node-6.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 8 (7@node-7.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 9 (8@node-8.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 10 (9@node-9.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 11 (10@node-10.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 12 (11@node-11.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 13 (12@node-12.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 14 (13@node-13.acme.org)
+[node-194.acme.org:194:(195) 0.000000] [simix_kernel/INFO] Process 15 (14@node-14.acme.org)
+---------------------------------------------------------------------------
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rab1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rab1'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rab1 for collective allreduce
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/2,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.1457280000e+06
+[0.086616] [smpi_kernel/INFO] Simulated time: 0.0866161 seconds.
+
+The simulation took 0.0544854 seconds (after parsing and platform setup)
+0.0191799 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+---------------------------------------------------------------------------
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:rab1 ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'rab1'
+[0.000000] [smpi_coll/INFO] Switch to algorithm rab1 for collective allreduce
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[2.111325] [smpi_kernel/INFO] Simulated time: 2.11133 seconds.
+
+The simulation took 9.82092 seconds (after parsing and platform setup)
+1.3145 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+
+---------------------------------------------------------------------------
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 2 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:smp_rdb ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'smp_rdb'
+[0.000000] [smpi_coll/INFO] Switch to algorithm smp_rdb for collective allreduce
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/2,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.1457280000e+06
+[0.084465] [smpi_kernel/INFO] Simulated time: 0.0844653 seconds.
+
+The simulation took 0.0593306 seconds (after parsing and platform setup)
+0.0191701 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+---------------------------------------------------------------------------
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 256 -hostfile ./hostfile_cluster_crossbar -platform ./cluster.xml --cfg=smpi/display-timing:1 --cfg=smpi/allreduce:smp_rdb ./allreduce
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'smp_rdb'
+[0.000000] [smpi_coll/INFO] Switch to algorithm smp_rdb for collective allreduce
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+node-0.acme.org: 0/256,weight size: 1048576, iteration: 1
+Global sum in rank 0 - 3.4493956096e+10
+[8.326690] [smpi_kernel/INFO] Simulated time: 8.32669 seconds.
+
+The simulation took 11.6068 seconds (after parsing and platform setup)
+1.40579 seconds were actual computation of the application
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-simple-example$
+

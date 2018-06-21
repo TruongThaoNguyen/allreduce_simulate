@@ -1,0 +1,271 @@
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/Multimedia-MPI/DBN/src$ ~/work/10_A../../../nguyen-simple-example/cluster.xml --cfg=smpi/display-timing:1 ./DBN
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/TCP-gamma' to '4194
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the p://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more info
+data distribution
+Data loaded: size=60000, dim=784
+1N60000
+1n_f784
+1RankNum30000
+DBN Parameter initializaion
+DBN Parameter initializaion broadcast
+DBN Parameter initializaion
+DBN Parameter initializaion broadcast
+DBN pretrain
+Data loaded: size=30000, dim=784
+layer: 0: rank:0
+DBN pretrain
+Data loaded: size=30000, dim=784
+layer: 0: rank:1
+0start epoch：0
+0Layer: 1, Epoch: 0, Error: 489120
+1start epoch：0
+1Layer: 1, Epoch: 0, Error: 486503
+0start epoch：1
+0Layer: 1, Epoch: 1, Error: 446429
+1start epoch：1
+1Layer: 1, Epoch: 1, Error: 443998
+0start epoch：2
+0Layer: 1, Epoch: 2, Error: 420072
+1start epoch：2
+1Layer: 1, Epoch: 2, Error: 420359
+layer: 1: rank:0
+Data loaded: size=30000, dim=500
+layer: 1: rank:1
+Data loaded: size=30000, dim=500
+0start epoch：0
+0Layer: 2, Epoch: 0, Error: 107650
+1start epoch：0
+1Layer: 2, Epoch: 0, Error: 108980
+0start epoch：1
+0Layer: 2, Epoch: 1, Error: 80270.8
+1start epoch：1
+1Layer: 2, Epoch: 1, Error: 80853.1
+0start epoch：2
+0Layer: 2, Epoch: 2, Error: 75526.7
+1start epoch：2
+1Layer: 2, Epoch: 2, Error: 76167.6
+layer: 2: rank:0
+Data loaded: size=30000, dim=500
+layer: 2: rank:1
+Data loaded: size=30000, dim=500
+0start epoch：0
+0Layer: 3, Epoch: 0, Error: 117684
+1start epoch：0
+1Layer: 3, Epoch: 0, Error: 118632
+0start epoch：1
+0Layer: 3, Epoch: 1, Error: 90244.6
+1start epoch：1
+1Layer: 3, Epoch: 1, Error: 90962.3
+0start epoch：2
+0Layer: 3, Epoch: 2, Error: 82479
+1start epoch：2
+1Layer: 3, Epoch: 2, Error: 82916.6
+pre-training END!
+finetune training
+Data loaded: size=30000, dim=900
+pre-training END!
+finetune training
+Data loaded: size=30000, dim=900
+build lr ok0
+build lr ok1
+rank:0Layer: logistic layer, Epoch: 0
+0: Train Accuracy=0.0987
+rank:1Layer: logistic layer, Epoch: 0
+1: Train Accuracy=0.0987333
+rank:0Layer: logistic layer, Epoch: 1
+0: Train Accuracy=0.0987
+rank:1Layer: logistic layer, Epoch: 1
+1: Train Accuracy=0.0987333
+rank:0Layer: logistic layer, Epoch: 2
+0: Train Accuracy=0.0987
+rank:1Layer: logistic layer, Epoch: 2
+1: Train Accuracy=0.0987333
+train lr ok0
+train lr ok1
+[1695.876999] [smpi_kernel/INFO] Simulated time: 1695.88 seconds.
+
+The simulation took 6539.62 seconds (after parsing and platform setup)
+6214.57 seconds were actual computation of the application
+[1695.876999] [smpi_kernel/INFO] More than 75% of the time was spent inside the application code.
+You may want to use sampling functions or trace replay to reduce this.
+--------------------------------------------------------------------
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/Multimedia-MPI/DBN/src$ ~/work/10_Approx/simgrid_data_redundancy/build/bin/smpirun -np 4 -hostfile ../../../nguyen-simple-example/hostfile_cluster_crossbar -platform ../../../nguyen-simple-example/cluster.xml --cfg=smpi/display-timing:1 ./DBN
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/TCP-gamma' to '4194304'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [smpi_kernel/INFO] You did not set the power of the host running the simulation.  The timings will certainly not be accurate.  Use the option "--cfg=smpi/host-speed:<flops>" to set its value.Check http://simgrid.org/simgrid/latest/doc/options.html#options_smpi_bench for more information.
+data distribution
+Data loaded: size=60000, dim=784
+2N60000
+2n_f784
+2RankNum15000
+1N60000
+1n_f784
+1RankNum15000
+3N60000
+3n_f784
+3RankNum15000
+DBN Parameter initializaion
+DBN Parameter initializaion broadcast
+DBN Parameter initializaion
+DBN Parameter initializaion broadcast
+DBN Parameter initializaion
+DBN Parameter initializaion broadcast
+DBN Parameter initializaion
+DBN Parameter initializaion broadcast
+DBN pretrain
+Data loaded: size=15000, dim=784
+layer: 0: rank:0
+DBN pretrain
+Data loaded: size=15000, dim=784
+layer: 0: rank:2
+DBN pretrain
+Data loaded: size=15000, dim=784
+layer: 0: rank:1
+DBN pretrain
+Data loaded: size=15000, dim=784
+layer: 0: rank:3
+0start epoch：0
+0Layer: 1, Epoch: 0, Error: 267146
+2start epoch：0
+2Layer: 1, Epoch: 0, Error: 264301
+1start epoch：0
+1Layer: 1, Epoch: 0, Error: 266995
+3start epoch：0
+3Layer: 1, Epoch: 0, Error: 266295
+0start epoch：1
+0Layer: 1, Epoch: 1, Error: 240915
+2start epoch：1
+2Layer: 1, Epoch: 1, Error: 240520
+1start epoch：1
+1Layer: 1, Epoch: 1, Error: 240173
+3start epoch：1
+3Layer: 1, Epoch: 1, Error: 240335
+0start epoch：2
+0Layer: 1, Epoch: 2, Error: 220260
+2start epoch：2
+2Layer: 1, Epoch: 2, Error: 220372
+1start epoch：2
+1Layer: 1, Epoch: 2, Error: 220290
+3start epoch：2
+3Layer: 1, Epoch: 2, Error: 219029
+layer: 1: rank:0
+Data loaded: size=15000, dim=500
+layer: 1: rank:2
+Data loaded: size=15000, dim=500
+layer: 1: rank:1
+Data loaded: size=15000, dim=500
+layer: 1: rank:3
+Data loaded: size=15000, dim=500
+0start epoch：0
+0Layer: 2, Epoch: 0, Error: 57517.7
+2start epoch：0
+2Layer: 2, Epoch: 0, Error: 58949.5
+1start epoch：0
+1Layer: 2, Epoch: 0, Error: 58166.2
+3start epoch：0
+3Layer: 2, Epoch: 0, Error: 58691.2
+0start epoch：1
+0Layer: 2, Epoch: 1, Error: 38032
+2start epoch：1
+2Layer: 2, Epoch: 1, Error: 38775.4
+1start epoch：1
+1Layer: 2, Epoch: 1, Error: 38055.8
+3start epoch：1
+3Layer: 2, Epoch: 1, Error: 38547.4
+0start epoch：2
+0Layer: 2, Epoch: 2, Error: 34341.6
+2start epoch：2
+2Layer: 2, Epoch: 2, Error: 35153
+1start epoch：2
+1Layer: 2, Epoch: 2, Error: 34684.4
+3start epoch：2
+3Layer: 2, Epoch: 2, Error: 35093.2
+layer: 2: rank:0
+Data loaded: size=15000, dim=500
+layer: 2: rank:2
+Data loaded: size=15000, dim=500
+layer: 2: rank:1
+Data loaded: size=15000, dim=500
+layer: 2: rank:3
+Data loaded: size=15000, dim=500
+0start epoch：0
+0Layer: 3, Epoch: 0, Error: 61298.6
+2start epoch：0
+2Layer: 3, Epoch: 0, Error: 61955.7
+1start epoch：0
+1Layer: 3, Epoch: 0, Error: 61335.7
+3start epoch：0
+3Layer: 3, Epoch: 0, Error: 62308
+0start epoch：1
+0Layer: 3, Epoch: 1, Error: 42890.7
+2start epoch：1
+2Layer: 3, Epoch: 1, Error: 43384.5
+1start epoch：1
+1Layer: 3, Epoch: 1, Error: 43210
+3start epoch：1
+3Layer: 3, Epoch: 1, Error: 43478.8
+0start epoch：2
+0Layer: 3, Epoch: 2, Error: 38436.4
+2start epoch：2
+2Layer: 3, Epoch: 2, Error: 38818.5
+1start epoch：2
+1Layer: 3, Epoch: 2, Error: 38627.3
+3start epoch：2
+3Layer: 3, Epoch: 2, Error: 38899
+pre-training END!
+finetune training
+Data loaded: size=15000, dim=900
+pre-training END!
+finetune training
+Data loaded: size=15000, dim=900
+pre-training END!
+finetune training
+Data loaded: size=15000, dim=900
+pre-training END!
+finetune training
+Data loaded: size=15000, dim=900
+build lr ok0
+build lr ok2
+build lr ok1
+build lr ok3
+rank:0Layer: logistic layer, Epoch: 0
+0: Train Accuracy=0.0997333
+rank:2Layer: logistic layer, Epoch: 0
+2: Train Accuracy=0.0978
+rank:1Layer: logistic layer, Epoch: 0
+1: Train Accuracy=0.0976667
+rank:3Layer: logistic layer, Epoch: 0
+3: Train Accuracy=0.0996667
+rank:0Layer: logistic layer, Epoch: 1
+0: Train Accuracy=0.0997333
+rank:2Layer: logistic layer, Epoch: 1
+2: Train Accuracy=0.0978
+rank:1Layer: logistic layer, Epoch: 1
+1: Train Accuracy=0.0976667
+rank:3Layer: logistic layer, Epoch: 1
+3: Train Accuracy=0.0996667
+rank:0Layer: logistic layer, Epoch: 2
+0: Train Accuracy=0.0997333
+rank:2Layer: logistic layer, Epoch: 2
+2: Train Accuracy=0.0978
+rank:1Layer: logistic layer, Epoch: 2
+1: Train Accuracy=0.0976667
+rank:3Layer: logistic layer, Epoch: 2
+3: Train Accuracy=0.0996667
+train lr ok0
+train lr ok2
+train lr ok1
+train lr ok3
+[1297.409839] [smpi_kernel/INFO] Simulated time: 1297.41 seconds.
+
+The simulation took 6607.74 seconds (after parsing and platform setup)
+6282.3 seconds were actual computation of the application
+[1297.409839] [smpi_kernel/INFO] More than 75% of the time was spent inside the application code.
+You may want to use sampling functions or trace replay to reduce this.
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/Multimedia-MPI/DBN/src$

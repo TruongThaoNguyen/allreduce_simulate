@@ -1,0 +1,43 @@
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 4 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:2 ./coll-allreduce --log=smpi_kernel.thres:warning --log=smpi_coll.thres:error --log=xbt_cfg.thres:critical   --cfg=smpi/allreduce:ntt_lr_rab
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0] sndbuf=[0 1 2 3 ]
+[1] sndbuf=[4 5 6 7 ]
+[2] sndbuf=[8 9 10 11 ]
+[3] sndbuf=[12 13 14 15 ]
+[3] rcvbuf=[20 22 24 26 ]
+[2] rcvbuf=[20 22 24 26 ]
+[1] rcvbuf=[4 6 8 10 ]
+[0] rcvbuf=[4 6 8 10 ]
+
+
+nguyen@calc1:~/ai/SimGrid-3.19/examples/smpi/nguyen-allreduce$ ~/ai/SimGrid-3.19/build/bin/smpirun -np 8 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:4 ./coll-allreduce --log=smpi_coll.thres:warning --log=smpi_coll.thres:error --log=xbt_cfg.thres:critical   --cfg=smpi/allreduce:default
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0] sndbuf=[0 1 2 3 4 5 6 7 ]
+[1] sndbuf=[8 9 10 11 12 13 14 15 ]
+[2] sndbuf=[16 17 18 19 20 21 22 23 ]
+[3] sndbuf=[24 25 26 27 28 29 30 31 ]
+[4] sndbuf=[32 33 34 35 36 37 38 39 ]
+[5] sndbuf=[40 41 42 43 44 45 46 47 ]
+[6] sndbuf=[48 49 50 51 52 53 54 55 ]
+[7] sndbuf=[56 57 58 59 60 61 62 63 ]
+[0] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[1] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[2] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[4] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[3] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[5] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[6] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[7] rcvbuf=[224 232 240 248 256 264 272 280 ]
+[0.000023] [smpi_kernel/INFO] Simulated time: 2.30853e-05 seconds.
+
+The simulation took 0.0272712 seconds (after parsing and platform setup)
+0.000138954 seconds were actual computation of the application
+
+
+
+ ~/ai/SimGrid-3.19/build/bin/smpirun -np 8 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:4 ./coll-allreduce --log=smpi_coll.thres:warning --log=smpi_coll.thres:error --log=xbt_cfg.thres:critical   --cfg=smpi/allreduce:ntt_lr_rab > test.log 2>&1 &
+ 
+ ~/ai/SimGrid-3.19/build/bin/smpirun -np 4 -hostfile ./Tsubame3_2.txt -platform ./Tsubame3_2.xml --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:2 ./coll-allreduce --log=smpi_kernel.thres:warning --log=smpi_coll.thres:error --log=xbt_cfg.thres:critical   --cfg=smpi/allreduce:ntt_lr_rab > test.log 2>&1 &
+
