@@ -13,7 +13,7 @@
       <prop id="watt_off" value="10" />
     </host>
     
-    <host id="MyHost2" speed="100.0Mf,50.0Mf,20.0Mf" pstate="0" core="1" >
+    <host id="MyHost2" speed="10.0Mf,50.0Mf,20.0Mf" pstate="0" core="1" >
       <!-- This host is mono-core, so AllCores=OneCore and is omitted -->
       <prop id="watt_per_state" value="100.0:200.0, 93.0:170.0, 90.0:150.0" />
       <prop id="watt_off" value="10" />

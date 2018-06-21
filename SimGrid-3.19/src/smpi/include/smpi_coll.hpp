@@ -82,6 +82,10 @@ static ret cat  (COLL_UNPAREN args); \
 namespace simgrid{
 namespace smpi{
 
+/*NguyenTT*/
+char* print_buffer(void*buf, int count, char*alert);
+/*END NguyenTT*/
+
 struct s_mpi_coll_description_t {
   const char *name;
   const char *description;
@@ -230,8 +234,12 @@ COLL_APPLY(action, COLL_ALLREDUCE_SIG, mvapich2_rs) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, mvapich2_two_level) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, impi) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, rab) COLL_sep \
+COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_rab) COLL_sep \
+COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_lr) COLL_sep \
+COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_rdb) COLL_sep \
+COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_binominal_lr) COLL_sep \
+COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_smp_binominal) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, automatic)
-
 COLL_ALLREDUCES(COLL_PROTO, COLL_NOsep)
 
 /************

@@ -33,6 +33,20 @@ XBT_LOG_NEW_DEFAULT_SUBCATEGORY(smpi_coll, smpi, "Logging specific to SMPI (coll
 namespace simgrid{
 namespace smpi{
 
+/*NguyenTT*/
+char* print_buffer(void*buf, int count, char*alert){
+	int threshold = 64;
+	int length = 0;
+	int i;
+	if (threshold > count){ threshold = count;}
+
+	for (i = 0; i < threshold; i++){	
+		length += sprintf(alert+length,"%d ", ((int*)buf)[i]);
+	}
+	return alert;
+}
+/*END NguyenTT*/
+
 void (*Colls::smpi_coll_cleanup_callback)();
 
 /* these arrays must be nullptr terminated */

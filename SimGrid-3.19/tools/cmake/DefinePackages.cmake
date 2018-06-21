@@ -255,6 +255,13 @@ set(SMPI_SRC
   src/smpi/include/smpi_topo.hpp
   src/surf/network_smpi.cpp
   src/surf/network_ib.cpp
+  # BEGIN NguyenTT
+  src/smpi/colls/allreduce/allreduce-ntt-lr-rab.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-lr-lr.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-lr-rdb.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-binominal-lr.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-smp-binominal.cpp
+  # END NguyenTT
   )
 
 set(XBT_SRC

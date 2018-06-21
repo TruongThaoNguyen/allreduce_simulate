@@ -534,6 +534,9 @@ void sg_config_init(int *argc, char **argv)
     xbt_cfg_register_string("smpi/alltoallv",     nullptr, nullptr,"Which collective to use for alltoallv");
     xbt_cfg_register_string("smpi/bcast",         nullptr, nullptr, "Which collective to use for bcast");
     xbt_cfg_register_string("smpi/reduce",        nullptr, nullptr, "Which collective to use for reduce");
+	/*NguyenTT*/
+	xbt_cfg_register_int("smpi/process_of_node", 1, nullptr, "NTT-Allreduce: Number of processes per a computing node");
+	/*END NguyenTT*/
 #endif // HAVE_SMPI
 
     /* Storage */
