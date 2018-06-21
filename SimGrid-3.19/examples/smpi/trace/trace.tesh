@@ -1,0 +1,8 @@
+# use the tested library, not the installed one
+# (since we want to pass it to the child, it has to be redefined before each command)
+# Go for the first test
+
+p Test instrumentation of SMPI
+$ ${bindir:=.}/../../../smpi_script/bin/smpirun -trace -trace-resource -trace-file ${bindir:=.}/smpi_trace.trace -hostfile ${srcdir:=.}/../hostfile -platform ${platfdir:=.}/small_platform.xml --cfg=path:${srcdir:=.}/../msg -np 3 ${bindir:=.}/smpi_trace --log=smpi_kernel.thres:warning --log=xbt_cfg.thres:warning
+
+$ rm -f ${bindir:=.}/smpi_trace.trace
