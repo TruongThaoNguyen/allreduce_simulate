@@ -1,0 +1,339 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM 'http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd'>
+<platform version='4.1'>
+<config>
+	<prop id='maxmin/precision' value='1e-4'/> 
+	<prop id='network/model' value='SMPI'/>
+	<!--  Negative values enable auto-select... -->
+	<prop id='contexts/nthreads' value='1'/>
+	<!--  Power of the executing computer in Flop per seconds. Used for extrapolating tasks execution time by SMPI [default is 20000]-->
+	<prop id='smpi/host-speed' value='50000000000.0'/>
+	<!--  Display simulated timing at the end of simulation -->
+	<prop id='smpi/display-timing' value='1'/>
+	<prop id='cpu/optim' value='Lazy'/>
+	<prop id='network/optim' value='Lazy'/>
+	<!--<prop id='smpi/coll-selector' value='mvapich2'/>-->
+	<prop id='smpi/cpu-threshold' value='0.00000000001'/>
+</config>
+<zone id='AS0' routing='Floyd'>
+<!--  Generate node -->
+	<host id="n0"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n1"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n2"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n3"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n4"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n5"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n6"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n7"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<router id="plx0"/>
+	<router id="plx2"/>
+	<router id="plx4"/>
+	<router id="plx6"/>
+	<host id="n8"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n9"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n10"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n11"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n12"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n13"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n14"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<host id="n15"speed="1e+11f"core="1" >
+		<prop id="watt_per_state" value="93:170" />
+		<prop id="watt_off" value="10" />
+	</host>
+	<router id="plx8"/>
+	<router id="plx10"/>
+	<router id="plx12"/>
+	<router id="plx14"/>
+	<router id="sroot"/>
+	<link id="ls_root"bandwidth="1.5e+11Bps" latency="1e-07s"/>
+	<router id="s0"/>
+	<link id="ls0" bandwidth="3e+11Bps" latency="1e-07s"/>
+<!--  Generate intra-links -->
+	<link id="ln0_n1" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln0_n2" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln0_n3" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln1_n2" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln1_n3" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln2_n3" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln0_n4" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln1_n5" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln2_n6" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln3_n7" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln4_n5" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln4_n6" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln4_n7" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln5_n6" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln5_n7" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln6_n7" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln0_plx0" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln1_plx0" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln2_plx2" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln3_plx2" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln4_plx4" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln5_plx4" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln6_plx6" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln7_plx6" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln8_n9" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln8_n10" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln8_n11" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln9_n10" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln9_n11" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln10_n11" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln8_n12" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln9_n13" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln10_n14" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln11_n15" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln12_n13" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln12_n14" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln12_n15" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln13_n14" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln13_n15" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln14_n15" bandwidth="50000000000.0Bps" latency="0s"/>
+	<link id="ln8_plx8" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln9_plx8" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln10_plx10" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln11_plx10" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln12_plx12" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln13_plx12" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln14_plx14" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+	<link id="ln15_plx14" bandwidth="16000000000.0Bps" latency="1e-07s"/>
+<!--  Generate inter-links -->
+	<link id="ls0_root" bandwidth="1.5e+11Bps" latency="2.6e-08s"/>
+	<link id="lplx0_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx2_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx4_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx6_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx8_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx10_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx12_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+	<link id="lplx14_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"/>
+<!--  Generate intra-route -->
+	<route src="n0" dst="n1">
+		<link_ctn id="ln0_n1" />
+	</route>
+	<route src="n0" dst="n2">
+		<link_ctn id="ln0_n2" />
+	</route>
+	<route src="n0" dst="n3">
+		<link_ctn id="ln0_n3" />
+	</route>
+	<route src="n1" dst="n2">
+		<link_ctn id="ln1_n2" />
+	</route>
+	<route src="n1" dst="n3">
+		<link_ctn id="ln1_n3" />
+	</route>
+	<route src="n2" dst="n3">
+		<link_ctn id="ln2_n3" />
+	</route>
+	<route src="n0" dst="n4">
+		<link_ctn id="ln0_n4" />
+	</route>
+	<route src="n1" dst="n5">
+		<link_ctn id="ln1_n5" />
+	</route>
+	<route src="n2" dst="n6">
+		<link_ctn id="ln2_n6" />
+	</route>
+	<route src="n3" dst="n7">
+		<link_ctn id="ln3_n7" />
+	</route>
+	<route src="n4" dst="n5">
+		<link_ctn id="ln4_n5" />
+	</route>
+	<route src="n4" dst="n6">
+		<link_ctn id="ln4_n6" />
+	</route>
+	<route src="n4" dst="n7">
+		<link_ctn id="ln4_n7" />
+	</route>
+	<route src="n5" dst="n6">
+		<link_ctn id="ln5_n6" />
+	</route>
+	<route src="n5" dst="n7">
+		<link_ctn id="ln5_n7" />
+	</route>
+	<route src="n6" dst="n7">
+		<link_ctn id="ln6_n7" />
+	</route>
+	<route src="n0" dst="plx0">
+		<link_ctn id="ln0_plx0" />
+	</route>
+	<route src="n1" dst="plx0">
+		<link_ctn id="ln1_plx0" />
+	</route>
+	<route src="n2" dst="plx2">
+		<link_ctn id="ln2_plx2" />
+	</route>
+	<route src="n3" dst="plx2">
+		<link_ctn id="ln3_plx2" />
+	</route>
+	<route src="n4" dst="plx4">
+		<link_ctn id="ln4_plx4" />
+	</route>
+	<route src="n5" dst="plx4">
+		<link_ctn id="ln5_plx4" />
+	</route>
+	<route src="n6" dst="plx6">
+		<link_ctn id="ln6_plx6" />
+	</route>
+	<route src="n7" dst="plx6">
+		<link_ctn id="ln7_plx6" />
+	</route>
+	<route src="n8" dst="n9">
+		<link_ctn id="ln8_n9" />
+	</route>
+	<route src="n8" dst="n10">
+		<link_ctn id="ln8_n10" />
+	</route>
+	<route src="n8" dst="n11">
+		<link_ctn id="ln8_n11" />
+	</route>
+	<route src="n9" dst="n10">
+		<link_ctn id="ln9_n10" />
+	</route>
+	<route src="n9" dst="n11">
+		<link_ctn id="ln9_n11" />
+	</route>
+	<route src="n10" dst="n11">
+		<link_ctn id="ln10_n11" />
+	</route>
+	<route src="n8" dst="n12">
+		<link_ctn id="ln8_n12" />
+	</route>
+	<route src="n9" dst="n13">
+		<link_ctn id="ln9_n13" />
+	</route>
+	<route src="n10" dst="n14">
+		<link_ctn id="ln10_n14" />
+	</route>
+	<route src="n11" dst="n15">
+		<link_ctn id="ln11_n15" />
+	</route>
+	<route src="n12" dst="n13">
+		<link_ctn id="ln12_n13" />
+	</route>
+	<route src="n12" dst="n14">
+		<link_ctn id="ln12_n14" />
+	</route>
+	<route src="n12" dst="n15">
+		<link_ctn id="ln12_n15" />
+	</route>
+	<route src="n13" dst="n14">
+		<link_ctn id="ln13_n14" />
+	</route>
+	<route src="n13" dst="n15">
+		<link_ctn id="ln13_n15" />
+	</route>
+	<route src="n14" dst="n15">
+		<link_ctn id="ln14_n15" />
+	</route>
+	<route src="n8" dst="plx8">
+		<link_ctn id="ln8_plx8" />
+	</route>
+	<route src="n9" dst="plx8">
+		<link_ctn id="ln9_plx8" />
+	</route>
+	<route src="n10" dst="plx10">
+		<link_ctn id="ln10_plx10" />
+	</route>
+	<route src="n11" dst="plx10">
+		<link_ctn id="ln11_plx10" />
+	</route>
+	<route src="n12" dst="plx12">
+		<link_ctn id="ln12_plx12" />
+	</route>
+	<route src="n13" dst="plx12">
+		<link_ctn id="ln13_plx12" />
+	</route>
+	<route src="n14" dst="plx14">
+		<link_ctn id="ln14_plx14" />
+	</route>
+	<route src="n15" dst="plx14">
+		<link_ctn id="ln15_plx14" />
+	</route>
+<!--  Generate inter-route -->
+	<route src="s0" dst="sroot">
+		<link_ctn id="ls0_root"/>
+		<link_ctn id="ls_root"/>
+	</route>
+	<route src="plx0" dst="s0">
+		<link_ctn id="lplx0_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx2" dst="s0">
+		<link_ctn id="lplx2_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx4" dst="s0">
+		<link_ctn id="lplx4_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx6" dst="s0">
+		<link_ctn id="lplx6_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx8" dst="s0">
+		<link_ctn id="lplx8_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx10" dst="s0">
+		<link_ctn id="lplx10_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx12" dst="s0">
+		<link_ctn id="lplx12_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx14" dst="s0">
+		<link_ctn id="lplx14_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+</zone>
+</platform>
+	

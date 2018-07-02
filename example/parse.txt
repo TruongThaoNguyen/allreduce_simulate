@@ -1,0 +1,613 @@
+file	ALGORITHM	#CORE_NUMBER	BUF_SIZE	ITERATION	SIMULATE_TIME	DETAIL
+allreduce1M_lr_32_0_0.log	lr	8	1048576	100	0.0341683
+allreduce1M_lr_32_0_0.log	0.000678	Begin	0.000678	Start	0.000678	Inter-1			0.001101	Inter-2			0.001267	Finish
+allreduce1M_lr_32_0_0.log	0.001267	Begin	0.001267	Start	0.001267	Inter-1			0.001433	Inter-2			0.001598	Finish
+allreduce1M_lr_32_0_0.log	0.001599	Begin	0.001599	Start	0.001599	Inter-1			0.001764	Inter-2			0.001930	Finish
+allreduce1M_lr_32_0_0.log	0.001931	Begin	0.001931	Start	0.001931	Inter-1			0.002096	Inter-2			0.002261	Finish
+allreduce1M_lr_32_0_0.log	0.002262	Begin	0.002262	Start	0.002262	Inter-1			0.002427	Inter-2			0.002593	Finish
+allreduce1M_lr_32_0_0.log	0.002594	Begin	0.002594	Start	0.002594	Inter-1			0.002759	Inter-2			0.002924	Finish
+allreduce1M_lr_32_0_0.log	0.002925	Begin	0.002925	Start	0.002925	Inter-1			0.003098	Inter-2			0.003263	Finish
+allreduce1M_lr_32_0_0.log	0.003264	Begin	0.003264	Start	0.003264	Inter-1			0.003430	Inter-2			0.003595	Finish
+allreduce1M_lr_32_0_0.log	0.003596	Begin	0.003596	Start	0.003596	Inter-1			0.003761	Inter-2			0.003926	Finish
+allreduce1M_lr_32_0_0.log	0.003927	Begin	0.003927	Start	0.003927	Inter-1			0.004093	Inter-2			0.004258	Finish
+allreduce1M_lr_32_0_0.log	0.004259	Begin	0.004259	Start	0.004259	Inter-1			0.004424	Inter-2			0.004589	Finish
+allreduce1M_lr_32_0_0.log	0.004590	Begin	0.004590	Start	0.004590	Inter-1			0.004758	Inter-2			0.004923	Finish
+allreduce1M_lr_32_0_0.log	0.004924	Begin	0.004924	Start	0.004924	Inter-1			0.005090	Inter-2			0.005255	Finish
+allreduce1M_lr_32_0_0.log	0.005256	Begin	0.005256	Start	0.005256	Inter-1			0.005421	Inter-2			0.005586	Finish
+allreduce1M_lr_32_0_0.log	0.005587	Begin	0.005587	Start	0.005587	Inter-1			0.005753	Inter-2			0.005918	Finish
+allreduce1M_lr_32_0_0.log	0.005919	Begin	0.005919	Start	0.005919	Inter-1			0.006084	Inter-2			0.006249	Finish
+allreduce1M_lr_32_0_0.log	0.006250	Begin	0.006250	Start	0.006250	Inter-1			0.006415	Inter-2			0.006581	Finish
+allreduce1M_lr_32_0_0.log	0.006582	Begin	0.006582	Start	0.006582	Inter-1			0.006747	Inter-2			0.006912	Finish
+allreduce1M_lr_32_0_0.log	0.006913	Begin	0.006913	Start	0.006913	Inter-1			0.007079	Inter-2			0.007244	Finish
+allreduce1M_lr_32_0_0.log	0.007245	Begin	0.007245	Start	0.007245	Inter-1			0.007410	Inter-2			0.007575	Finish
+allreduce1M_lr_32_0_0.log	0.007576	Begin	0.007576	Start	0.007576	Inter-1			0.007742	Inter-2			0.007907	Finish
+allreduce1M_lr_32_0_0.log	0.007908	Begin	0.007908	Start	0.007908	Inter-1			0.008073	Inter-2			0.008238	Finish
+allreduce1M_lr_32_0_0.log	0.008239	Begin	0.008239	Start	0.008239	Inter-1			0.008404	Inter-2			0.008570	Finish
+allreduce1M_lr_32_0_0.log	0.008571	Begin	0.008571	Start	0.008571	Inter-1			0.008736	Inter-2			0.008901	Finish
+allreduce1M_lr_32_0_0.log	0.008902	Begin	0.008902	Start	0.008902	Inter-1			0.009067	Inter-2			0.009233	Finish
+allreduce1M_lr_32_0_0.log	0.009233	Begin	0.009233	Start	0.009233	Inter-1			0.009399	Inter-2			0.009564	Finish
+allreduce1M_lr_32_0_0.log	0.009565	Begin	0.009565	Start	0.009565	Inter-1			0.009730	Inter-2			0.009896	Finish
+allreduce1M_lr_32_0_0.log	0.009896	Begin	0.009896	Start	0.009896	Inter-1			0.010062	Inter-2			0.010227	Finish
+allreduce1M_lr_32_0_0.log	0.010228	Begin	0.010228	Start	0.010228	Inter-1			0.010393	Inter-2			0.010558	Finish
+allreduce1M_lr_32_0_0.log	0.010559	Begin	0.010559	Start	0.010559	Inter-1			0.010725	Inter-2			0.010890	Finish
+allreduce1M_lr_32_0_0.log	0.010891	Begin	0.010891	Start	0.010891	Inter-1			0.011056	Inter-2			0.011221	Finish
+allreduce1M_lr_32_0_0.log	0.011222	Begin	0.011222	Start	0.011222	Inter-1			0.011387	Inter-2			0.011553	Finish
+allreduce1M_lr_32_0_0.log	0.011559	Begin	0.011559	Start	0.011559	Inter-1			0.011729	Inter-2			0.011894	Finish
+allreduce1M_lr_32_0_0.log	0.011895	Begin	0.011895	Start	0.011895	Inter-1			0.012061	Inter-2			0.012226	Finish
+allreduce1M_lr_32_0_0.log	0.012227	Begin	0.012227	Start	0.012227	Inter-1			0.012392	Inter-2			0.012558	Finish
+allreduce1M_lr_32_0_0.log	0.012558	Begin	0.012558	Start	0.012558	Inter-1			0.012724	Inter-2			0.012889	Finish
+allreduce1M_lr_32_0_0.log	0.012890	Begin	0.012890	Start	0.012890	Inter-1			0.013056	Inter-2			0.013221	Finish
+allreduce1M_lr_32_0_0.log	0.013226	Begin	0.013226	Start	0.013226	Inter-1			0.013391	Inter-2			0.013556	Finish
+allreduce1M_lr_32_0_0.log	0.013557	Begin	0.013557	Start	0.013557	Inter-1			0.013723	Inter-2			0.013888	Finish
+allreduce1M_lr_32_0_0.log	0.013889	Begin	0.013889	Start	0.013889	Inter-1			0.014054	Inter-2			0.014220	Finish
+allreduce1M_lr_32_0_0.log	0.014221	Begin	0.014221	Start	0.014221	Inter-1			0.014386	Inter-2			0.014551	Finish
+allreduce1M_lr_32_0_0.log	0.014552	Begin	0.014552	Start	0.014552	Inter-1			0.014718	Inter-2			0.014883	Finish
+allreduce1M_lr_32_0_0.log	0.014884	Begin	0.014884	Start	0.014884	Inter-1			0.015049	Inter-2			0.015215	Finish
+allreduce1M_lr_32_0_0.log	0.015216	Begin	0.015216	Start	0.015216	Inter-1			0.015381	Inter-2			0.015546	Finish
+allreduce1M_lr_32_0_0.log	0.015547	Begin	0.015547	Start	0.015547	Inter-1			0.015713	Inter-2			0.015878	Finish
+allreduce1M_lr_32_0_0.log	0.015879	Begin	0.015879	Start	0.015879	Inter-1			0.016044	Inter-2			0.016210	Finish
+allreduce1M_lr_32_0_0.log	0.016211	Begin	0.016211	Start	0.016211	Inter-1			0.016379	Inter-2			0.016544	Finish
+allreduce1M_lr_32_0_0.log	0.016545	Begin	0.016545	Start	0.016545	Inter-1			0.016711	Inter-2			0.016876	Finish
+allreduce1M_lr_32_0_0.log	0.016877	Begin	0.016877	Start	0.016877	Inter-1			0.017042	Inter-2			0.017208	Finish
+allreduce1M_lr_32_0_0.log	0.017209	Begin	0.017209	Start	0.017209	Inter-1			0.017374	Inter-2			0.017539	Finish
+allreduce1M_lr_32_0_0.log	0.017540	Begin	0.017540	Start	0.017540	Inter-1			0.017706	Inter-2			0.017871	Finish
+allreduce1M_lr_32_0_0.log	0.017872	Begin	0.017872	Start	0.017872	Inter-1			0.018037	Inter-2			0.018202	Finish
+allreduce1M_lr_32_0_0.log	0.018203	Begin	0.018203	Start	0.018203	Inter-1			0.018369	Inter-2			0.018534	Finish
+allreduce1M_lr_32_0_0.log	0.018535	Begin	0.018535	Start	0.018535	Inter-1			0.018700	Inter-2			0.018866	Finish
+allreduce1M_lr_32_0_0.log	0.018867	Begin	0.018867	Start	0.018867	Inter-1			0.019032	Inter-2			0.019198	Finish
+allreduce1M_lr_32_0_0.log	0.019199	Begin	0.019199	Start	0.019199	Inter-1			0.019364	Inter-2			0.019529	Finish
+allreduce1M_lr_32_0_0.log	0.019530	Begin	0.019530	Start	0.019530	Inter-1			0.019696	Inter-2			0.019861	Finish
+allreduce1M_lr_32_0_0.log	0.019862	Begin	0.019862	Start	0.019862	Inter-1			0.020028	Inter-2			0.020193	Finish
+allreduce1M_lr_32_0_0.log	0.020194	Begin	0.020194	Start	0.020194	Inter-1			0.020359	Inter-2			0.020524	Finish
+allreduce1M_lr_32_0_0.log	0.020525	Begin	0.020525	Start	0.020525	Inter-1			0.020691	Inter-2			0.020856	Finish
+allreduce1M_lr_32_0_0.log	0.020857	Begin	0.020857	Start	0.020857	Inter-1			0.021023	Inter-2			0.021188	Finish
+allreduce1M_lr_32_0_0.log	0.021189	Begin	0.021189	Start	0.021189	Inter-1			0.021354	Inter-2			0.021520	Finish
+allreduce1M_lr_32_0_0.log	0.021521	Begin	0.021521	Start	0.021521	Inter-1			0.021686	Inter-2			0.021851	Finish
+allreduce1M_lr_32_0_0.log	0.021852	Begin	0.021852	Start	0.021852	Inter-1			0.022017	Inter-2			0.022183	Finish
+allreduce1M_lr_32_0_0.log	0.022184	Begin	0.022184	Start	0.022184	Inter-1			0.022349	Inter-2			0.022514	Finish
+allreduce1M_lr_32_0_0.log	0.022515	Begin	0.022515	Start	0.022515	Inter-1			0.022680	Inter-2			0.022846	Finish
+allreduce1M_lr_32_0_0.log	0.022847	Begin	0.022847	Start	0.022847	Inter-1			0.023012	Inter-2			0.023177	Finish
+allreduce1M_lr_32_0_0.log	0.023178	Begin	0.023178	Start	0.023178	Inter-1			0.023343	Inter-2			0.023509	Finish
+allreduce1M_lr_32_0_0.log	0.023509	Begin	0.023509	Start	0.023509	Inter-1			0.023675	Inter-2			0.023840	Finish
+allreduce1M_lr_32_0_0.log	0.023841	Begin	0.023841	Start	0.023841	Inter-1			0.024006	Inter-2			0.024172	Finish
+allreduce1M_lr_32_0_0.log	0.024172	Begin	0.024172	Start	0.024172	Inter-1			0.024338	Inter-2			0.024503	Finish
+allreduce1M_lr_32_0_0.log	0.024504	Begin	0.024504	Start	0.024504	Inter-1			0.024669	Inter-2			0.024835	Finish
+allreduce1M_lr_32_0_0.log	0.024835	Begin	0.024835	Start	0.024835	Inter-1			0.025001	Inter-2			0.025166	Finish
+allreduce1M_lr_32_0_0.log	0.025167	Begin	0.025167	Start	0.025167	Inter-1			0.025332	Inter-2			0.025497	Finish
+allreduce1M_lr_32_0_0.log	0.025498	Begin	0.025498	Start	0.025498	Inter-1			0.025664	Inter-2			0.025829	Finish
+allreduce1M_lr_32_0_0.log	0.025830	Begin	0.025830	Start	0.025830	Inter-1			0.025995	Inter-2			0.026160	Finish
+allreduce1M_lr_32_0_0.log	0.026161	Begin	0.026161	Start	0.026161	Inter-1			0.026326	Inter-2			0.026492	Finish
+allreduce1M_lr_32_0_0.log	0.026492	Begin	0.026492	Start	0.026492	Inter-1			0.026658	Inter-2			0.026823	Finish
+allreduce1M_lr_32_0_0.log	0.026824	Begin	0.026824	Start	0.026824	Inter-1			0.026989	Inter-2			0.027155	Finish
+allreduce1M_lr_32_0_0.log	0.027156	Begin	0.027156	Start	0.027156	Inter-1			0.027321	Inter-2			0.027486	Finish
+allreduce1M_lr_32_0_0.log	0.027487	Begin	0.027487	Start	0.027487	Inter-1			0.027652	Inter-2			0.027818	Finish
+allreduce1M_lr_32_0_0.log	0.027818	Begin	0.027818	Start	0.027818	Inter-1			0.027984	Inter-2			0.028149	Finish
+allreduce1M_lr_32_0_0.log	0.028150	Begin	0.028150	Start	0.028150	Inter-1			0.028315	Inter-2			0.028480	Finish
+allreduce1M_lr_32_0_0.log	0.028481	Begin	0.028481	Start	0.028481	Inter-1			0.028647	Inter-2			0.028812	Finish
+allreduce1M_lr_32_0_0.log	0.028813	Begin	0.028813	Start	0.028813	Inter-1			0.028978	Inter-2			0.029143	Finish
+allreduce1M_lr_32_0_0.log	0.029144	Begin	0.029144	Start	0.029144	Inter-1			0.029310	Inter-2			0.029475	Finish
+allreduce1M_lr_32_0_0.log	0.029476	Begin	0.029476	Start	0.029476	Inter-1			0.029641	Inter-2			0.029806	Finish
+allreduce1M_lr_32_0_0.log	0.029807	Begin	0.029807	Start	0.029807	Inter-1			0.029972	Inter-2			0.030138	Finish
+allreduce1M_lr_32_0_0.log	0.030139	Begin	0.030139	Start	0.030139	Inter-1			0.030304	Inter-2			0.030469	Finish
+allreduce1M_lr_32_0_0.log	0.030470	Begin	0.030470	Start	0.030470	Inter-1			0.030635	Inter-2			0.030801	Finish
+allreduce1M_lr_32_0_0.log	0.030802	Begin	0.030802	Start	0.030802	Inter-1			0.030967	Inter-2			0.031132	Finish
+allreduce1M_lr_32_0_0.log	0.031133	Begin	0.031133	Start	0.031133	Inter-1			0.031298	Inter-2			0.031464	Finish
+allreduce1M_lr_32_0_0.log	0.031464	Begin	0.031464	Start	0.031464	Inter-1			0.031630	Inter-2			0.031795	Finish
+allreduce1M_lr_32_0_0.log	0.031796	Begin	0.031796	Start	0.031796	Inter-1			0.031961	Inter-2			0.032126	Finish
+allreduce1M_lr_32_0_0.log	0.032127	Begin	0.032127	Start	0.032127	Inter-1			0.032292	Inter-2			0.032458	Finish
+allreduce1M_lr_32_0_0.log	0.032458	Begin	0.032458	Start	0.032458	Inter-1			0.032624	Inter-2			0.032789	Finish
+allreduce1M_lr_32_0_0.log	0.032790	Begin	0.032790	Start	0.032790	Inter-1			0.032955	Inter-2			0.033121	Finish
+allreduce1M_lr_32_0_0.log	0.033121	Begin	0.033121	Start	0.033121	Inter-1			0.033287	Inter-2			0.033452	Finish
+allreduce1M_lr_32_0_0.log	0.033453	Begin	0.033453	Start	0.033453	Inter-1			0.033618	Inter-2			0.033784	Finish
+allreduce1M_lr_32_0_0.log	0.033784	Begin	0.033784	Start	0.033784	Inter-1			0.033950	Inter-2			0.034115	Finish
+allreduce1M_lr_32_0_0.log	
+allreduce1M_ntt_binominal_lr_32_0_0.log	ntt_binominal_lr	8	1048576	100	0.0451737
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.000778	Begin	0.000778	Start	0.000778	Intra-1	0.000846	Inter-1	0.001048	Inter-2	0.001200	Intra-2	0.001268	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.001269	Begin	0.001269	Start	0.001269	Intra-1	0.001337	Inter-1	0.001490	Inter-2	0.001642	Intra-2	0.001710	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.001711	Begin	0.001711	Start	0.001711	Intra-1	0.001779	Inter-1	0.001931	Inter-2	0.002083	Intra-2	0.002151	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.002152	Begin	0.002152	Start	0.002152	Intra-1	0.002221	Inter-1	0.002373	Inter-2	0.002525	Intra-2	0.002593	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.002594	Begin	0.002594	Start	0.002594	Intra-1	0.002663	Inter-1	0.002815	Inter-2	0.002967	Intra-2	0.003035	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.003036	Begin	0.003036	Start	0.003036	Intra-1	0.003104	Inter-1	0.003257	Inter-2	0.003409	Intra-2	0.003477	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.003478	Begin	0.003478	Start	0.003478	Intra-1	0.003546	Inter-1	0.003698	Inter-2	0.003850	Intra-2	0.003918	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.003919	Begin	0.003919	Start	0.003919	Intra-1	0.003987	Inter-1	0.004140	Inter-2	0.004292	Intra-2	0.004360	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.004361	Begin	0.004361	Start	0.004361	Intra-1	0.004437	Inter-1	0.004589	Inter-2	0.004741	Intra-2	0.004809	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.004810	Begin	0.004810	Start	0.004810	Intra-1	0.004878	Inter-1	0.005031	Inter-2	0.005183	Intra-2	0.005251	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.005252	Begin	0.005252	Start	0.005252	Intra-1	0.005320	Inter-1	0.005472	Inter-2	0.005624	Intra-2	0.005692	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.005693	Begin	0.005693	Start	0.005693	Intra-1	0.005761	Inter-1	0.005914	Inter-2	0.006066	Intra-2	0.006134	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.006135	Begin	0.006135	Start	0.006135	Intra-1	0.006204	Inter-1	0.006356	Inter-2	0.006508	Intra-2	0.006576	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.006577	Begin	0.006577	Start	0.006577	Intra-1	0.006645	Inter-1	0.006798	Inter-2	0.006950	Intra-2	0.007018	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.007021	Begin	0.007021	Start	0.007021	Intra-1	0.007091	Inter-1	0.007243	Inter-2	0.007395	Intra-2	0.007463	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.007464	Begin	0.007464	Start	0.007464	Intra-1	0.007532	Inter-1	0.007685	Inter-2	0.007837	Intra-2	0.007905	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.007906	Begin	0.007906	Start	0.007906	Intra-1	0.007974	Inter-1	0.008126	Inter-2	0.008278	Intra-2	0.008346	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.008347	Begin	0.008347	Start	0.008347	Intra-1	0.008415	Inter-1	0.008568	Inter-2	0.008720	Intra-2	0.008788	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.008789	Begin	0.008789	Start	0.008789	Intra-1	0.008858	Inter-1	0.009010	Inter-2	0.009162	Intra-2	0.009230	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.009230	Begin	0.009230	Start	0.009230	Intra-1	0.009299	Inter-1	0.009452	Inter-2	0.009604	Intra-2	0.009672	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.009673	Begin	0.009673	Start	0.009673	Intra-1	0.009741	Inter-1	0.009893	Inter-2	0.010045	Intra-2	0.010113	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.010114	Begin	0.010114	Start	0.010114	Intra-1	0.010182	Inter-1	0.010340	Inter-2	0.010492	Intra-2	0.010561	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.010561	Begin	0.010561	Start	0.010561	Intra-1	0.010629	Inter-1	0.010782	Inter-2	0.010934	Intra-2	0.011002	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.011003	Begin	0.011003	Start	0.011003	Intra-1	0.011071	Inter-1	0.011224	Inter-2	0.011376	Intra-2	0.011444	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.011448	Begin	0.011448	Start	0.011448	Intra-1	0.011522	Inter-1	0.011674	Inter-2	0.011826	Intra-2	0.011894	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.011895	Begin	0.011895	Start	0.011895	Intra-1	0.011963	Inter-1	0.012116	Inter-2	0.012268	Intra-2	0.012336	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.012337	Begin	0.012337	Start	0.012337	Intra-1	0.012405	Inter-1	0.012558	Inter-2	0.012710	Intra-2	0.012778	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.012778	Begin	0.012778	Start	0.012778	Intra-1	0.012847	Inter-1	0.012999	Inter-2	0.013151	Intra-2	0.013220	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.013220	Begin	0.013220	Start	0.013220	Intra-1	0.013289	Inter-1	0.013441	Inter-2	0.013593	Intra-2	0.013661	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.013662	Begin	0.013662	Start	0.013662	Intra-1	0.013730	Inter-1	0.013883	Inter-2	0.014035	Intra-2	0.014103	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.014104	Begin	0.014104	Start	0.014104	Intra-1	0.014172	Inter-1	0.014325	Inter-2	0.014477	Intra-2	0.014545	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.014546	Begin	0.014546	Start	0.014546	Intra-1	0.014614	Inter-1	0.014767	Inter-2	0.014919	Intra-2	0.014987	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.014987	Begin	0.014987	Start	0.014987	Intra-1	0.015056	Inter-1	0.015208	Inter-2	0.015360	Intra-2	0.015428	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.015429	Begin	0.015429	Start	0.015429	Intra-1	0.015497	Inter-1	0.015650	Inter-2	0.015802	Intra-2	0.015870	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.015871	Begin	0.015871	Start	0.015871	Intra-1	0.015939	Inter-1	0.016096	Inter-2	0.016248	Intra-2	0.016316	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.016317	Begin	0.016317	Start	0.016317	Intra-1	0.016385	Inter-1	0.016538	Inter-2	0.016690	Intra-2	0.016758	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.016759	Begin	0.016759	Start	0.016759	Intra-1	0.016827	Inter-1	0.016980	Inter-2	0.017132	Intra-2	0.017200	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.017201	Begin	0.017201	Start	0.017201	Intra-1	0.017269	Inter-1	0.017421	Inter-2	0.017573	Intra-2	0.017641	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.017642	Begin	0.017642	Start	0.017642	Intra-1	0.017710	Inter-1	0.017862	Inter-2	0.018014	Intra-2	0.018082	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.018083	Begin	0.018083	Start	0.018083	Intra-1	0.018152	Inter-1	0.018307	Inter-2	0.018459	Intra-2	0.018527	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.018528	Begin	0.018528	Start	0.018528	Intra-1	0.018596	Inter-1	0.018757	Inter-2	0.018909	Intra-2	0.018977	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.018978	Begin	0.018978	Start	0.018978	Intra-1	0.019047	Inter-1	0.019199	Inter-2	0.019351	Intra-2	0.019419	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.019420	Begin	0.019420	Start	0.019420	Intra-1	0.019488	Inter-1	0.019649	Inter-2	0.019801	Intra-2	0.019869	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.019870	Begin	0.019870	Start	0.019870	Intra-1	0.019938	Inter-1	0.020091	Inter-2	0.020243	Intra-2	0.020311	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.020312	Begin	0.020312	Start	0.020312	Intra-1	0.020380	Inter-1	0.020533	Inter-2	0.020685	Intra-2	0.020753	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.020754	Begin	0.020754	Start	0.020754	Intra-1	0.020822	Inter-1	0.020974	Inter-2	0.021126	Intra-2	0.021194	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.021195	Begin	0.021195	Start	0.021195	Intra-1	0.021263	Inter-1	0.021416	Inter-2	0.021568	Intra-2	0.021636	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.021637	Begin	0.021637	Start	0.021637	Intra-1	0.021705	Inter-1	0.021857	Inter-2	0.022009	Intra-2	0.022077	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.022078	Begin	0.022078	Start	0.022078	Intra-1	0.022146	Inter-1	0.022304	Inter-2	0.022456	Intra-2	0.022524	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.022525	Begin	0.022525	Start	0.022525	Intra-1	0.022593	Inter-1	0.022745	Inter-2	0.022897	Intra-2	0.022966	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.022966	Begin	0.022966	Start	0.022966	Intra-1	0.023035	Inter-1	0.023194	Inter-2	0.023346	Intra-2	0.023414	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.023415	Begin	0.023415	Start	0.023415	Intra-1	0.023484	Inter-1	0.023636	Inter-2	0.023788	Intra-2	0.023856	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.023857	Begin	0.023857	Start	0.023857	Intra-1	0.023925	Inter-1	0.024078	Inter-2	0.024230	Intra-2	0.024298	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.024299	Begin	0.024299	Start	0.024299	Intra-1	0.024367	Inter-1	0.024519	Inter-2	0.024671	Intra-2	0.024739	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.024740	Begin	0.024740	Start	0.024740	Intra-1	0.024808	Inter-1	0.024961	Inter-2	0.025113	Intra-2	0.025181	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.025182	Begin	0.025182	Start	0.025182	Intra-1	0.025251	Inter-1	0.025403	Inter-2	0.025555	Intra-2	0.025623	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.025624	Begin	0.025624	Start	0.025624	Intra-1	0.025692	Inter-1	0.025844	Inter-2	0.025996	Intra-2	0.026064	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.026065	Begin	0.026065	Start	0.026065	Intra-1	0.026141	Inter-1	0.026293	Inter-2	0.026445	Intra-2	0.026513	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.026514	Begin	0.026514	Start	0.026514	Intra-1	0.026582	Inter-1	0.026742	Inter-2	0.026894	Intra-2	0.026962	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.026963	Begin	0.026963	Start	0.026963	Intra-1	0.027031	Inter-1	0.027191	Inter-2	0.027343	Intra-2	0.027411	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.027412	Begin	0.027412	Start	0.027412	Intra-1	0.027480	Inter-1	0.027633	Inter-2	0.027785	Intra-2	0.027853	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.027854	Begin	0.027854	Start	0.027854	Intra-1	0.027922	Inter-1	0.028081	Inter-2	0.028233	Intra-2	0.028301	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.028302	Begin	0.028302	Start	0.028302	Intra-1	0.028371	Inter-1	0.028523	Inter-2	0.028675	Intra-2	0.028743	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.028744	Begin	0.028744	Start	0.028744	Intra-1	0.028812	Inter-1	0.028964	Inter-2	0.029116	Intra-2	0.029185	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.029185	Begin	0.029185	Start	0.029185	Intra-1	0.029254	Inter-1	0.029406	Inter-2	0.029558	Intra-2	0.029626	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.029627	Begin	0.029627	Start	0.029627	Intra-1	0.029695	Inter-1	0.029848	Inter-2	0.030000	Intra-2	0.030068	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.030068	Begin	0.030068	Start	0.030068	Intra-1	0.030137	Inter-1	0.030289	Inter-2	0.030441	Intra-2	0.030509	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.030510	Begin	0.030510	Start	0.030510	Intra-1	0.030586	Inter-1	0.030738	Inter-2	0.030890	Intra-2	0.030958	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.030959	Begin	0.030959	Start	0.030959	Intra-1	0.031027	Inter-1	0.031180	Inter-2	0.031332	Intra-2	0.031400	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.031401	Begin	0.031401	Start	0.031401	Intra-1	0.031469	Inter-1	0.031622	Inter-2	0.031774	Intra-2	0.031843	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.031843	Begin	0.031843	Start	0.031843	Intra-1	0.031912	Inter-1	0.032064	Inter-2	0.032216	Intra-2	0.032284	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.032285	Begin	0.032285	Start	0.032285	Intra-1	0.032354	Inter-1	0.032506	Inter-2	0.032658	Intra-2	0.032726	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.032727	Begin	0.032727	Start	0.032727	Intra-1	0.032795	Inter-1	0.032948	Inter-2	0.033100	Intra-2	0.033168	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.033169	Begin	0.033169	Start	0.033169	Intra-1	0.033238	Inter-1	0.033390	Inter-2	0.033542	Intra-2	0.033610	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.033619	Begin	0.033619	Start	0.033619	Intra-1	0.033687	Inter-1	0.033839	Inter-2	0.033991	Intra-2	0.034059	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.034060	Begin	0.034060	Start	0.034060	Intra-1	0.034128	Inter-1	0.034281	Inter-2	0.034433	Intra-2	0.034501	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.034502	Begin	0.034502	Start	0.034502	Intra-1	0.034570	Inter-1	0.034723	Inter-2	0.034875	Intra-2	0.034943	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.034944	Begin	0.034944	Start	0.034944	Intra-1	0.035012	Inter-1	0.035164	Inter-2	0.035316	Intra-2	0.035384	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.035385	Begin	0.035385	Start	0.035385	Intra-1	0.035461	Inter-1	0.035613	Inter-2	0.035765	Intra-2	0.035833	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.035834	Begin	0.035834	Start	0.035834	Intra-1	0.035902	Inter-1	0.036055	Inter-2	0.036207	Intra-2	0.036275	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.036276	Begin	0.036276	Start	0.036276	Intra-1	0.036344	Inter-1	0.036496	Inter-2	0.036648	Intra-2	0.036717	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.036717	Begin	0.036717	Start	0.036717	Intra-1	0.036785	Inter-1	0.036943	Inter-2	0.037095	Intra-2	0.037164	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.037164	Begin	0.037164	Start	0.037164	Intra-1	0.037235	Inter-1	0.037392	Inter-2	0.037544	Intra-2	0.037612	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.037613	Begin	0.037613	Start	0.037613	Intra-1	0.037681	Inter-1	0.037834	Inter-2	0.037986	Intra-2	0.038054	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.038054	Begin	0.038054	Start	0.038054	Intra-1	0.038123	Inter-1	0.038275	Inter-2	0.038427	Intra-2	0.038495	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.038496	Begin	0.038496	Start	0.038496	Intra-1	0.038573	Inter-1	0.038725	Inter-2	0.038877	Intra-2	0.038945	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.038946	Begin	0.038946	Start	0.038946	Intra-1	0.039014	Inter-1	0.039167	Inter-2	0.039319	Intra-2	0.039387	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.039388	Begin	0.039388	Start	0.039388	Intra-1	0.039456	Inter-1	0.039616	Inter-2	0.039768	Intra-2	0.039836	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.039837	Begin	0.039837	Start	0.039837	Intra-1	0.039905	Inter-1	0.040058	Inter-2	0.040210	Intra-2	0.040278	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.040279	Begin	0.040279	Start	0.040279	Intra-1	0.040347	Inter-1	0.040500	Inter-2	0.040652	Intra-2	0.040720	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.040720	Begin	0.040720	Start	0.040720	Intra-1	0.040789	Inter-1	0.040941	Inter-2	0.041093	Intra-2	0.041161	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.041162	Begin	0.041162	Start	0.041162	Intra-1	0.041230	Inter-1	0.041383	Inter-2	0.041535	Intra-2	0.041603	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.041603	Begin	0.041603	Start	0.041603	Intra-1	0.041672	Inter-1	0.041824	Inter-2	0.041976	Intra-2	0.042044	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.042045	Begin	0.042045	Start	0.042045	Intra-1	0.042113	Inter-1	0.042265	Inter-2	0.042417	Intra-2	0.042485	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.042486	Begin	0.042486	Start	0.042486	Intra-1	0.042554	Inter-1	0.042706	Inter-2	0.042858	Intra-2	0.042926	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.042927	Begin	0.042927	Start	0.042927	Intra-1	0.043004	Inter-1	0.043156	Inter-2	0.043308	Intra-2	0.043376	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.043377	Begin	0.043377	Start	0.043377	Intra-1	0.043445	Inter-1	0.043598	Inter-2	0.043750	Intra-2	0.043818	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.043819	Begin	0.043819	Start	0.043819	Intra-1	0.043887	Inter-1	0.044040	Inter-2	0.044192	Intra-2	0.044260	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.044260	Begin	0.044260	Start	0.044260	Intra-1	0.044329	Inter-1	0.044481	Inter-2	0.044633	Intra-2	0.044701	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	0.044702	Begin	0.044702	Start	0.044702	Intra-1	0.044771	Inter-1	0.044923	Inter-2	0.045075	Intra-2	0.045143	Finish
+allreduce1M_ntt_binominal_lr_32_0_0.log	
+allreduce1M_ntt_lr_lr_32_0_0.log	ntt_lr_lr	8	1048576	100	0.0131179
+allreduce1M_ntt_lr_lr_32_0_0.log	0.000903	Begin	0.000903	Start	0.000903	Intra-1	0.000923	Inter-1	0.001168	Inter-2	0.001207	Intra-2	0.001227	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001228	Begin	0.001228	Start	0.001228	Intra-1	0.001248	Inter-1	0.001287	Inter-2	0.001326	Intra-2	0.001346	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001346	Begin	0.001346	Start	0.001346	Intra-1	0.001374	Inter-1	0.001413	Inter-2	0.001452	Intra-2	0.001472	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001472	Begin	0.001472	Start	0.001472	Intra-1	0.001492	Inter-1	0.001532	Inter-2	0.001571	Intra-2	0.001591	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001591	Begin	0.001591	Start	0.001591	Intra-1	0.001611	Inter-1	0.001651	Inter-2	0.001689	Intra-2	0.001709	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001710	Begin	0.001710	Start	0.001710	Intra-1	0.001732	Inter-1	0.001777	Inter-2	0.001816	Intra-2	0.001835	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001836	Begin	0.001836	Start	0.001836	Intra-1	0.001856	Inter-1	0.001895	Inter-2	0.001934	Intra-2	0.001954	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.001954	Begin	0.001954	Start	0.001954	Intra-1	0.001974	Inter-1	0.002014	Inter-2	0.002052	Intra-2	0.002072	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002073	Begin	0.002073	Start	0.002073	Intra-1	0.002094	Inter-1	0.002132	Inter-2	0.002171	Intra-2	0.002191	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002192	Begin	0.002192	Start	0.002192	Intra-1	0.002212	Inter-1	0.002251	Inter-2	0.002290	Intra-2	0.002310	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002310	Begin	0.002310	Start	0.002310	Intra-1	0.002330	Inter-1	0.002369	Inter-2	0.002408	Intra-2	0.002428	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002429	Begin	0.002429	Start	0.002429	Intra-1	0.002449	Inter-1	0.002488	Inter-2	0.002527	Intra-2	0.002547	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002547	Begin	0.002547	Start	0.002547	Intra-1	0.002568	Inter-1	0.002607	Inter-2	0.002646	Intra-2	0.002666	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002666	Begin	0.002666	Start	0.002666	Intra-1	0.002688	Inter-1	0.002727	Inter-2	0.002766	Intra-2	0.002786	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002786	Begin	0.002786	Start	0.002786	Intra-1	0.002806	Inter-1	0.002845	Inter-2	0.002884	Intra-2	0.002904	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.002905	Begin	0.002905	Start	0.002905	Intra-1	0.002925	Inter-1	0.002964	Inter-2	0.003003	Intra-2	0.003023	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003023	Begin	0.003023	Start	0.003023	Intra-1	0.003043	Inter-1	0.003083	Inter-2	0.003122	Intra-2	0.003141	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003142	Begin	0.003142	Start	0.003142	Intra-1	0.003163	Inter-1	0.003202	Inter-2	0.003241	Intra-2	0.003260	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003261	Begin	0.003261	Start	0.003261	Intra-1	0.003281	Inter-1	0.003320	Inter-2	0.003359	Intra-2	0.003379	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003380	Begin	0.003380	Start	0.003380	Intra-1	0.003400	Inter-1	0.003439	Inter-2	0.003478	Intra-2	0.003497	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003498	Begin	0.003498	Start	0.003498	Intra-1	0.003518	Inter-1	0.003559	Inter-2	0.003598	Intra-2	0.003617	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003618	Begin	0.003618	Start	0.003618	Intra-1	0.003638	Inter-1	0.003685	Inter-2	0.003723	Intra-2	0.003743	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003744	Begin	0.003744	Start	0.003744	Intra-1	0.003764	Inter-1	0.003803	Inter-2	0.003842	Intra-2	0.003862	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003863	Begin	0.003863	Start	0.003863	Intra-1	0.003883	Inter-1	0.003922	Inter-2	0.003960	Intra-2	0.003980	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.003981	Begin	0.003981	Start	0.003981	Intra-1	0.004001	Inter-1	0.004047	Inter-2	0.004086	Intra-2	0.004106	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004107	Begin	0.004107	Start	0.004107	Intra-1	0.004127	Inter-1	0.004166	Inter-2	0.004205	Intra-2	0.004224	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004225	Begin	0.004225	Start	0.004225	Intra-1	0.004245	Inter-1	0.004285	Inter-2	0.004323	Intra-2	0.004343	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004344	Begin	0.004344	Start	0.004344	Intra-1	0.004364	Inter-1	0.004406	Inter-2	0.004445	Intra-2	0.004465	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004466	Begin	0.004466	Start	0.004466	Intra-1	0.004486	Inter-1	0.004525	Inter-2	0.004564	Intra-2	0.004584	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004584	Begin	0.004584	Start	0.004584	Intra-1	0.004604	Inter-1	0.004644	Inter-2	0.004683	Intra-2	0.004703	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004703	Begin	0.004703	Start	0.004703	Intra-1	0.004723	Inter-1	0.004762	Inter-2	0.004801	Intra-2	0.004821	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004822	Begin	0.004822	Start	0.004822	Intra-1	0.004841	Inter-1	0.004881	Inter-2	0.004920	Intra-2	0.004940	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.004940	Begin	0.004940	Start	0.004940	Intra-1	0.004961	Inter-1	0.005000	Inter-2	0.005039	Intra-2	0.005059	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005059	Begin	0.005059	Start	0.005059	Intra-1	0.005079	Inter-1	0.005118	Inter-2	0.005157	Intra-2	0.005177	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005177	Begin	0.005177	Start	0.005177	Intra-1	0.005197	Inter-1	0.005236	Inter-2	0.005275	Intra-2	0.005295	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005296	Begin	0.005296	Start	0.005296	Intra-1	0.005316	Inter-1	0.005363	Inter-2	0.005401	Intra-2	0.005421	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005422	Begin	0.005422	Start	0.005422	Intra-1	0.005442	Inter-1	0.005485	Inter-2	0.005524	Intra-2	0.005544	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005545	Begin	0.005545	Start	0.005545	Intra-1	0.005565	Inter-1	0.005604	Inter-2	0.005643	Intra-2	0.005663	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005664	Begin	0.005664	Start	0.005664	Intra-1	0.005684	Inter-1	0.005723	Inter-2	0.005762	Intra-2	0.005782	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005783	Begin	0.005783	Start	0.005783	Intra-1	0.005804	Inter-1	0.005843	Inter-2	0.005882	Intra-2	0.005901	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.005902	Begin	0.005902	Start	0.005902	Intra-1	0.005922	Inter-1	0.005962	Inter-2	0.006000	Intra-2	0.006020	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006021	Begin	0.006021	Start	0.006021	Intra-1	0.006041	Inter-1	0.006086	Inter-2	0.006124	Intra-2	0.006144	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006145	Begin	0.006145	Start	0.006145	Intra-1	0.006165	Inter-1	0.006206	Inter-2	0.006244	Intra-2	0.006264	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006265	Begin	0.006265	Start	0.006265	Intra-1	0.006285	Inter-1	0.006324	Inter-2	0.006363	Intra-2	0.006383	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006383	Begin	0.006383	Start	0.006383	Intra-1	0.006404	Inter-1	0.006443	Inter-2	0.006482	Intra-2	0.006501	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006502	Begin	0.006502	Start	0.006502	Intra-1	0.006522	Inter-1	0.006561	Inter-2	0.006600	Intra-2	0.006620	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006620	Begin	0.006620	Start	0.006620	Intra-1	0.006640	Inter-1	0.006680	Inter-2	0.006719	Intra-2	0.006739	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006739	Begin	0.006739	Start	0.006739	Intra-1	0.006759	Inter-1	0.006800	Inter-2	0.006839	Intra-2	0.006859	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006860	Begin	0.006860	Start	0.006860	Intra-1	0.006880	Inter-1	0.006919	Inter-2	0.006958	Intra-2	0.006978	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.006978	Begin	0.006978	Start	0.006978	Intra-1	0.006998	Inter-1	0.007038	Inter-2	0.007077	Intra-2	0.007097	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007097	Begin	0.007097	Start	0.007097	Intra-1	0.007118	Inter-1	0.007157	Inter-2	0.007195	Intra-2	0.007215	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007216	Begin	0.007216	Start	0.007216	Intra-1	0.007236	Inter-1	0.007275	Inter-2	0.007314	Intra-2	0.007334	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007334	Begin	0.007334	Start	0.007334	Intra-1	0.007354	Inter-1	0.007394	Inter-2	0.007433	Intra-2	0.007452	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007453	Begin	0.007453	Start	0.007453	Intra-1	0.007473	Inter-1	0.007520	Inter-2	0.007559	Intra-2	0.007579	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007579	Begin	0.007579	Start	0.007579	Intra-1	0.007599	Inter-1	0.007639	Inter-2	0.007678	Intra-2	0.007698	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007698	Begin	0.007698	Start	0.007698	Intra-1	0.007719	Inter-1	0.007758	Inter-2	0.007796	Intra-2	0.007816	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007817	Begin	0.007817	Start	0.007817	Intra-1	0.007837	Inter-1	0.007876	Inter-2	0.007915	Intra-2	0.007935	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.007951	Begin	0.007951	Start	0.007951	Intra-1	0.007971	Inter-1	0.008010	Inter-2	0.008048	Intra-2	0.008068	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008069	Begin	0.008069	Start	0.008069	Intra-1	0.008089	Inter-1	0.008128	Inter-2	0.008167	Intra-2	0.008187	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008188	Begin	0.008188	Start	0.008188	Intra-1	0.008208	Inter-1	0.008255	Inter-2	0.008293	Intra-2	0.008313	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008314	Begin	0.008314	Start	0.008314	Intra-1	0.008334	Inter-1	0.008373	Inter-2	0.008412	Intra-2	0.008432	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008433	Begin	0.008433	Start	0.008433	Intra-1	0.008453	Inter-1	0.008492	Inter-2	0.008531	Intra-2	0.008551	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008551	Begin	0.008551	Start	0.008551	Intra-1	0.008571	Inter-1	0.008611	Inter-2	0.008650	Intra-2	0.008669	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008670	Begin	0.008670	Start	0.008670	Intra-1	0.008690	Inter-1	0.008736	Inter-2	0.008775	Intra-2	0.008795	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008795	Begin	0.008795	Start	0.008795	Intra-1	0.008815	Inter-1	0.008854	Inter-2	0.008893	Intra-2	0.008913	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.008914	Begin	0.008914	Start	0.008914	Intra-1	0.008934	Inter-1	0.008980	Inter-2	0.009019	Intra-2	0.009039	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009039	Begin	0.009039	Start	0.009039	Intra-1	0.009060	Inter-1	0.009098	Inter-2	0.009137	Intra-2	0.009157	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009158	Begin	0.009158	Start	0.009158	Intra-1	0.009178	Inter-1	0.009217	Inter-2	0.009256	Intra-2	0.009276	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009276	Begin	0.009276	Start	0.009276	Intra-1	0.009296	Inter-1	0.009336	Inter-2	0.009375	Intra-2	0.009395	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009395	Begin	0.009395	Start	0.009395	Intra-1	0.009415	Inter-1	0.009454	Inter-2	0.009493	Intra-2	0.009513	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009514	Begin	0.009514	Start	0.009514	Intra-1	0.009535	Inter-1	0.009574	Inter-2	0.009612	Intra-2	0.009632	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009633	Begin	0.009633	Start	0.009633	Intra-1	0.009653	Inter-1	0.009692	Inter-2	0.009731	Intra-2	0.009751	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009752	Begin	0.009752	Start	0.009752	Intra-1	0.009771	Inter-1	0.009812	Inter-2	0.009851	Intra-2	0.009871	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009871	Begin	0.009871	Start	0.009871	Intra-1	0.009891	Inter-1	0.009931	Inter-2	0.009970	Intra-2	0.009989	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.009990	Begin	0.009990	Start	0.009990	Intra-1	0.010010	Inter-1	0.010050	Inter-2	0.010088	Intra-2	0.010108	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010109	Begin	0.010109	Start	0.010109	Intra-1	0.010131	Inter-1	0.010170	Inter-2	0.010209	Intra-2	0.010229	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010229	Begin	0.010229	Start	0.010229	Intra-1	0.010249	Inter-1	0.010289	Inter-2	0.010328	Intra-2	0.010347	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010348	Begin	0.010348	Start	0.010348	Intra-1	0.010368	Inter-1	0.010407	Inter-2	0.010446	Intra-2	0.010466	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010466	Begin	0.010466	Start	0.010466	Intra-1	0.010486	Inter-1	0.010526	Inter-2	0.010564	Intra-2	0.010584	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010585	Begin	0.010585	Start	0.010585	Intra-1	0.010605	Inter-1	0.010644	Inter-2	0.010683	Intra-2	0.010703	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010703	Begin	0.010703	Start	0.010703	Intra-1	0.010723	Inter-1	0.010763	Inter-2	0.010802	Intra-2	0.010821	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010822	Begin	0.010822	Start	0.010822	Intra-1	0.010842	Inter-1	0.010882	Inter-2	0.010920	Intra-2	0.010940	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.010941	Begin	0.010941	Start	0.010941	Intra-1	0.010961	Inter-1	0.011008	Inter-2	0.011047	Intra-2	0.011067	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011068	Begin	0.011068	Start	0.011068	Intra-1	0.011088	Inter-1	0.011127	Inter-2	0.011166	Intra-2	0.011186	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011187	Begin	0.011187	Start	0.011187	Intra-1	0.011207	Inter-1	0.011246	Inter-2	0.011285	Intra-2	0.011304	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011305	Begin	0.011305	Start	0.011305	Intra-1	0.011325	Inter-1	0.011365	Inter-2	0.011404	Intra-2	0.011423	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011424	Begin	0.011424	Start	0.011424	Intra-1	0.011444	Inter-1	0.011483	Inter-2	0.011522	Intra-2	0.011542	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011543	Begin	0.011543	Start	0.011543	Intra-1	0.011571	Inter-1	0.011610	Inter-2	0.011649	Intra-2	0.011669	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011669	Begin	0.011669	Start	0.011669	Intra-1	0.011689	Inter-1	0.011729	Inter-2	0.011767	Intra-2	0.011787	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011788	Begin	0.011788	Start	0.011788	Intra-1	0.011808	Inter-1	0.011847	Inter-2	0.011886	Intra-2	0.011906	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.011906	Begin	0.011906	Start	0.011906	Intra-1	0.011926	Inter-1	0.011965	Inter-2	0.012004	Intra-2	0.012024	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012025	Begin	0.012025	Start	0.012025	Intra-1	0.012045	Inter-1	0.012084	Inter-2	0.012123	Intra-2	0.012143	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012143	Begin	0.012143	Start	0.012143	Intra-1	0.012163	Inter-1	0.012210	Inter-2	0.012249	Intra-2	0.012268	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012269	Begin	0.012269	Start	0.012269	Intra-1	0.012289	Inter-1	0.012328	Inter-2	0.012367	Intra-2	0.012387	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012388	Begin	0.012388	Start	0.012388	Intra-1	0.012408	Inter-1	0.012448	Inter-2	0.012487	Intra-2	0.012507	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012507	Begin	0.012507	Start	0.012507	Intra-1	0.012527	Inter-1	0.012567	Inter-2	0.012606	Intra-2	0.012626	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012626	Begin	0.012626	Start	0.012626	Intra-1	0.012646	Inter-1	0.012693	Inter-2	0.012732	Intra-2	0.012752	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012753	Begin	0.012753	Start	0.012753	Intra-1	0.012773	Inter-1	0.012812	Inter-2	0.012851	Intra-2	0.012871	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012871	Begin	0.012871	Start	0.012871	Intra-1	0.012892	Inter-1	0.012932	Inter-2	0.012971	Intra-2	0.012991	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	0.012992	Begin	0.012992	Start	0.012992	Intra-1	0.013011	Inter-1	0.013051	Inter-2	0.013090	Intra-2	0.013110	Finish
+allreduce1M_ntt_lr_lr_32_0_0.log	
+allreduce1M_ntt_lr_rab_32_0_0.log	ntt_lr_rab	8	1048576	100	0.0132079
+allreduce1M_ntt_lr_rab_32_0_0.log	0.000718	Begin	0.000718	Start	0.000718	Intra-1	0.000745	Inter-1	0.000805	Inter-2	0.000846	Intra-2	0.000866	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.000866	Begin	0.000866	Start	0.000866	Intra-1	0.000886	Inter-1	0.000928	Inter-2	0.000969	Intra-2	0.000989	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.000990	Begin	0.000990	Start	0.000990	Intra-1	0.001009	Inter-1	0.001060	Inter-2	0.001100	Intra-2	0.001120	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001121	Begin	0.001121	Start	0.001121	Intra-1	0.001142	Inter-1	0.001190	Inter-2	0.001231	Intra-2	0.001251	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001251	Begin	0.001251	Start	0.001251	Intra-1	0.001271	Inter-1	0.001313	Inter-2	0.001354	Intra-2	0.001374	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001375	Begin	0.001375	Start	0.001375	Intra-1	0.001395	Inter-1	0.001436	Inter-2	0.001477	Intra-2	0.001497	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001497	Begin	0.001497	Start	0.001497	Intra-1	0.001517	Inter-1	0.001559	Inter-2	0.001600	Intra-2	0.001620	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001621	Begin	0.001621	Start	0.001621	Intra-1	0.001641	Inter-1	0.001682	Inter-2	0.001723	Intra-2	0.001743	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001744	Begin	0.001744	Start	0.001744	Intra-1	0.001764	Inter-1	0.001806	Inter-2	0.001847	Intra-2	0.001866	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001867	Begin	0.001867	Start	0.001867	Intra-1	0.001887	Inter-1	0.001928	Inter-2	0.001969	Intra-2	0.001989	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.001990	Begin	0.001990	Start	0.001990	Intra-1	0.002010	Inter-1	0.002051	Inter-2	0.002092	Intra-2	0.002112	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002113	Begin	0.002113	Start	0.002113	Intra-1	0.002133	Inter-1	0.002175	Inter-2	0.002215	Intra-2	0.002235	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002236	Begin	0.002236	Start	0.002236	Intra-1	0.002256	Inter-1	0.002298	Inter-2	0.002339	Intra-2	0.002359	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002359	Begin	0.002359	Start	0.002359	Intra-1	0.002379	Inter-1	0.002420	Inter-2	0.002461	Intra-2	0.002481	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002482	Begin	0.002482	Start	0.002482	Intra-1	0.002502	Inter-1	0.002543	Inter-2	0.002584	Intra-2	0.002604	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002605	Begin	0.002605	Start	0.002605	Intra-1	0.002625	Inter-1	0.002666	Inter-2	0.002707	Intra-2	0.002727	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002728	Begin	0.002728	Start	0.002728	Intra-1	0.002748	Inter-1	0.002789	Inter-2	0.002830	Intra-2	0.002850	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002851	Begin	0.002851	Start	0.002851	Intra-1	0.002871	Inter-1	0.002912	Inter-2	0.002953	Intra-2	0.002973	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.002973	Begin	0.002973	Start	0.002973	Intra-1	0.002993	Inter-1	0.003035	Inter-2	0.003076	Intra-2	0.003096	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003096	Begin	0.003096	Start	0.003096	Intra-1	0.003116	Inter-1	0.003158	Inter-2	0.003199	Intra-2	0.003219	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003220	Begin	0.003220	Start	0.003220	Intra-1	0.003240	Inter-1	0.003281	Inter-2	0.003322	Intra-2	0.003342	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003342	Begin	0.003342	Start	0.003342	Intra-1	0.003362	Inter-1	0.003404	Inter-2	0.003445	Intra-2	0.003465	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003465	Begin	0.003465	Start	0.003465	Intra-1	0.003486	Inter-1	0.003532	Inter-2	0.003573	Intra-2	0.003593	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003593	Begin	0.003593	Start	0.003593	Intra-1	0.003613	Inter-1	0.003655	Inter-2	0.003696	Intra-2	0.003716	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003716	Begin	0.003716	Start	0.003716	Intra-1	0.003744	Inter-1	0.003785	Inter-2	0.003826	Intra-2	0.003846	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003847	Begin	0.003847	Start	0.003847	Intra-1	0.003867	Inter-1	0.003916	Inter-2	0.003957	Intra-2	0.003977	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.003977	Begin	0.003977	Start	0.003977	Intra-1	0.003998	Inter-1	0.004039	Inter-2	0.004080	Intra-2	0.004100	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004101	Begin	0.004101	Start	0.004101	Intra-1	0.004121	Inter-1	0.004162	Inter-2	0.004203	Intra-2	0.004223	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004224	Begin	0.004224	Start	0.004224	Intra-1	0.004245	Inter-1	0.004292	Inter-2	0.004333	Intra-2	0.004353	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004354	Begin	0.004354	Start	0.004354	Intra-1	0.004374	Inter-1	0.004415	Inter-2	0.004456	Intra-2	0.004476	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004477	Begin	0.004477	Start	0.004477	Intra-1	0.004497	Inter-1	0.004538	Inter-2	0.004579	Intra-2	0.004599	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004600	Begin	0.004600	Start	0.004600	Intra-1	0.004627	Inter-1	0.004668	Inter-2	0.004709	Intra-2	0.004729	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004730	Begin	0.004730	Start	0.004730	Intra-1	0.004750	Inter-1	0.004791	Inter-2	0.004832	Intra-2	0.004852	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004853	Begin	0.004853	Start	0.004853	Intra-1	0.004874	Inter-1	0.004915	Inter-2	0.004955	Intra-2	0.004975	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.004976	Begin	0.004976	Start	0.004976	Intra-1	0.004996	Inter-1	0.005038	Inter-2	0.005079	Intra-2	0.005098	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005099	Begin	0.005099	Start	0.005099	Intra-1	0.005120	Inter-1	0.005161	Inter-2	0.005202	Intra-2	0.005222	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005223	Begin	0.005223	Start	0.005223	Intra-1	0.005243	Inter-1	0.005284	Inter-2	0.005325	Intra-2	0.005345	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005345	Begin	0.005345	Start	0.005345	Intra-1	0.005366	Inter-1	0.005407	Inter-2	0.005448	Intra-2	0.005467	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005468	Begin	0.005468	Start	0.005468	Intra-1	0.005488	Inter-1	0.005537	Inter-2	0.005578	Intra-2	0.005598	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005599	Begin	0.005599	Start	0.005599	Intra-1	0.005619	Inter-1	0.005660	Inter-2	0.005701	Intra-2	0.005720	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005729	Begin	0.005729	Start	0.005729	Intra-1	0.005749	Inter-1	0.005790	Inter-2	0.005830	Intra-2	0.005850	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005859	Begin	0.005859	Start	0.005859	Intra-1	0.005879	Inter-1	0.005920	Inter-2	0.005961	Intra-2	0.005981	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.005981	Begin	0.005981	Start	0.005981	Intra-1	0.006001	Inter-1	0.006043	Inter-2	0.006084	Intra-2	0.006104	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006105	Begin	0.006105	Start	0.006105	Intra-1	0.006125	Inter-1	0.006166	Inter-2	0.006207	Intra-2	0.006227	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006228	Begin	0.006228	Start	0.006228	Intra-1	0.006248	Inter-1	0.006289	Inter-2	0.006330	Intra-2	0.006350	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006350	Begin	0.006350	Start	0.006350	Intra-1	0.006370	Inter-1	0.006412	Inter-2	0.006453	Intra-2	0.006473	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006474	Begin	0.006474	Start	0.006474	Intra-1	0.006493	Inter-1	0.006535	Inter-2	0.006576	Intra-2	0.006596	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006596	Begin	0.006596	Start	0.006596	Intra-1	0.006617	Inter-1	0.006658	Inter-2	0.006699	Intra-2	0.006719	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006720	Begin	0.006720	Start	0.006720	Intra-1	0.006740	Inter-1	0.006782	Inter-2	0.006823	Intra-2	0.006842	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006843	Begin	0.006843	Start	0.006843	Intra-1	0.006863	Inter-1	0.006905	Inter-2	0.006946	Intra-2	0.006966	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.006967	Begin	0.006967	Start	0.006967	Intra-1	0.006994	Inter-1	0.007035	Inter-2	0.007076	Intra-2	0.007095	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007096	Begin	0.007096	Start	0.007096	Intra-1	0.007124	Inter-1	0.007165	Inter-2	0.007206	Intra-2	0.007225	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007226	Begin	0.007226	Start	0.007226	Intra-1	0.007246	Inter-1	0.007296	Inter-2	0.007337	Intra-2	0.007356	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007357	Begin	0.007357	Start	0.007357	Intra-1	0.007378	Inter-1	0.007419	Inter-2	0.007459	Intra-2	0.007479	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007480	Begin	0.007480	Start	0.007480	Intra-1	0.007500	Inter-1	0.007543	Inter-2	0.007584	Intra-2	0.007604	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007605	Begin	0.007605	Start	0.007605	Intra-1	0.007625	Inter-1	0.007667	Inter-2	0.007707	Intra-2	0.007727	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007728	Begin	0.007728	Start	0.007728	Intra-1	0.007748	Inter-1	0.007791	Inter-2	0.007832	Intra-2	0.007852	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007853	Begin	0.007853	Start	0.007853	Intra-1	0.007873	Inter-1	0.007915	Inter-2	0.007956	Intra-2	0.007976	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.007977	Begin	0.007977	Start	0.007977	Intra-1	0.007997	Inter-1	0.008039	Inter-2	0.008080	Intra-2	0.008100	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008101	Begin	0.008101	Start	0.008101	Intra-1	0.008121	Inter-1	0.008163	Inter-2	0.008204	Intra-2	0.008223	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008224	Begin	0.008224	Start	0.008224	Intra-1	0.008244	Inter-1	0.008285	Inter-2	0.008326	Intra-2	0.008346	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008347	Begin	0.008347	Start	0.008347	Intra-1	0.008367	Inter-1	0.008408	Inter-2	0.008449	Intra-2	0.008469	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008470	Begin	0.008470	Start	0.008470	Intra-1	0.008490	Inter-1	0.008531	Inter-2	0.008572	Intra-2	0.008592	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008592	Begin	0.008592	Start	0.008592	Intra-1	0.008612	Inter-1	0.008654	Inter-2	0.008695	Intra-2	0.008715	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008716	Begin	0.008716	Start	0.008716	Intra-1	0.008736	Inter-1	0.008777	Inter-2	0.008818	Intra-2	0.008838	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008839	Begin	0.008839	Start	0.008839	Intra-1	0.008859	Inter-1	0.008907	Inter-2	0.008948	Intra-2	0.008968	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.008969	Begin	0.008969	Start	0.008969	Intra-1	0.008989	Inter-1	0.009030	Inter-2	0.009071	Intra-2	0.009091	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009092	Begin	0.009092	Start	0.009092	Intra-1	0.009112	Inter-1	0.009155	Inter-2	0.009196	Intra-2	0.009216	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009216	Begin	0.009216	Start	0.009216	Intra-1	0.009236	Inter-1	0.009280	Inter-2	0.009321	Intra-2	0.009341	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009341	Begin	0.009341	Start	0.009341	Intra-1	0.009361	Inter-1	0.009403	Inter-2	0.009444	Intra-2	0.009464	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009464	Begin	0.009464	Start	0.009464	Intra-1	0.009484	Inter-1	0.009526	Inter-2	0.009567	Intra-2	0.009587	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009587	Begin	0.009587	Start	0.009587	Intra-1	0.009607	Inter-1	0.009649	Inter-2	0.009690	Intra-2	0.009710	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009710	Begin	0.009710	Start	0.009710	Intra-1	0.009730	Inter-1	0.009772	Inter-2	0.009813	Intra-2	0.009833	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009833	Begin	0.009833	Start	0.009833	Intra-1	0.009853	Inter-1	0.009895	Inter-2	0.009936	Intra-2	0.009956	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.009957	Begin	0.009957	Start	0.009957	Intra-1	0.009977	Inter-1	0.010019	Inter-2	0.010060	Intra-2	0.010080	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010080	Begin	0.010080	Start	0.010080	Intra-1	0.010100	Inter-1	0.010142	Inter-2	0.010183	Intra-2	0.010203	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010203	Begin	0.010203	Start	0.010203	Intra-1	0.010223	Inter-1	0.010272	Inter-2	0.010313	Intra-2	0.010333	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010334	Begin	0.010334	Start	0.010334	Intra-1	0.010354	Inter-1	0.010395	Inter-2	0.010436	Intra-2	0.010456	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010457	Begin	0.010457	Start	0.010457	Intra-1	0.010477	Inter-1	0.010518	Inter-2	0.010559	Intra-2	0.010579	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010580	Begin	0.010580	Start	0.010580	Intra-1	0.010600	Inter-1	0.010641	Inter-2	0.010682	Intra-2	0.010702	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010702	Begin	0.010702	Start	0.010702	Intra-1	0.010722	Inter-1	0.010771	Inter-2	0.010812	Intra-2	0.010832	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010833	Begin	0.010833	Start	0.010833	Intra-1	0.010853	Inter-1	0.010894	Inter-2	0.010935	Intra-2	0.010955	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.010955	Begin	0.010955	Start	0.010955	Intra-1	0.010975	Inter-1	0.011016	Inter-2	0.011057	Intra-2	0.011077	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011078	Begin	0.011078	Start	0.011078	Intra-1	0.011098	Inter-1	0.011139	Inter-2	0.011180	Intra-2	0.011200	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011200	Begin	0.011200	Start	0.011200	Intra-1	0.011221	Inter-1	0.011262	Inter-2	0.011303	Intra-2	0.011323	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011324	Begin	0.011324	Start	0.011324	Intra-1	0.011344	Inter-1	0.011392	Inter-2	0.011433	Intra-2	0.011453	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011454	Begin	0.011454	Start	0.011454	Intra-1	0.011474	Inter-1	0.011515	Inter-2	0.011556	Intra-2	0.011576	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011577	Begin	0.011577	Start	0.011577	Intra-1	0.011597	Inter-1	0.011638	Inter-2	0.011679	Intra-2	0.011699	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011699	Begin	0.011699	Start	0.011699	Intra-1	0.011720	Inter-1	0.011768	Inter-2	0.011808	Intra-2	0.011828	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011829	Begin	0.011829	Start	0.011829	Intra-1	0.011849	Inter-1	0.011890	Inter-2	0.011931	Intra-2	0.011951	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.011952	Begin	0.011952	Start	0.011952	Intra-1	0.011972	Inter-1	0.012020	Inter-2	0.012061	Intra-2	0.012081	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012081	Begin	0.012081	Start	0.012081	Intra-1	0.012102	Inter-1	0.012143	Inter-2	0.012184	Intra-2	0.012204	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012204	Begin	0.012204	Start	0.012204	Intra-1	0.012232	Inter-1	0.012273	Inter-2	0.012314	Intra-2	0.012334	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012334	Begin	0.012334	Start	0.012334	Intra-1	0.012354	Inter-1	0.012395	Inter-2	0.012436	Intra-2	0.012456	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012457	Begin	0.012457	Start	0.012457	Intra-1	0.012477	Inter-1	0.012518	Inter-2	0.012559	Intra-2	0.012579	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012579	Begin	0.012579	Start	0.012579	Intra-1	0.012599	Inter-1	0.012641	Inter-2	0.012682	Intra-2	0.012702	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012702	Begin	0.012702	Start	0.012702	Intra-1	0.012730	Inter-1	0.012771	Inter-2	0.012812	Intra-2	0.012832	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012832	Begin	0.012832	Start	0.012832	Intra-1	0.012852	Inter-1	0.012893	Inter-2	0.012934	Intra-2	0.012954	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.012955	Begin	0.012955	Start	0.012955	Intra-1	0.012976	Inter-1	0.013016	Inter-2	0.013057	Intra-2	0.013077	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	0.013078	Begin	0.013078	Start	0.013078	Intra-1	0.013098	Inter-1	0.013139	Inter-2	0.013180	Intra-2	0.013200	Finish
+allreduce1M_ntt_lr_rab_32_0_0.log	
+allreduce1M_ntt_lr_rdb_32_0_0.log	ntt_lr_rdb	8	1048576	100	0.0153882
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.000782	Begin	0.000782	Start	0.000782	Intra-1	0.000832	Inter			0.001133	Intra-2	0.001153	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.001153	Begin	0.001153	Start	0.001153	Intra-1	0.001174	Inter			0.001275	Intra-2	0.001295	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.001296	Begin	0.001296	Start	0.001296	Intra-1	0.001316	Inter			0.001418	Intra-2	0.001437	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.001438	Begin	0.001438	Start	0.001438	Intra-1	0.001459	Inter			0.001560	Intra-2	0.001580	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.001580	Begin	0.001580	Start	0.001580	Intra-1	0.001600	Inter			0.001702	Intra-2	0.001722	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.001723	Begin	0.001723	Start	0.001723	Intra-1	0.001743	Inter			0.001844	Intra-2	0.001864	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.001865	Begin	0.001865	Start	0.001865	Intra-1	0.001885	Inter			0.001994	Intra-2	0.002014	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002014	Begin	0.002014	Start	0.002014	Intra-1	0.002034	Inter			0.002136	Intra-2	0.002156	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002157	Begin	0.002157	Start	0.002157	Intra-1	0.002177	Inter			0.002289	Intra-2	0.002309	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002309	Begin	0.002309	Start	0.002309	Intra-1	0.002330	Inter			0.002431	Intra-2	0.002451	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002452	Begin	0.002452	Start	0.002452	Intra-1	0.002472	Inter			0.002581	Intra-2	0.002601	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002601	Begin	0.002601	Start	0.002601	Intra-1	0.002622	Inter			0.002724	Intra-2	0.002744	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002744	Begin	0.002744	Start	0.002744	Intra-1	0.002764	Inter			0.002866	Intra-2	0.002886	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.002886	Begin	0.002886	Start	0.002886	Intra-1	0.002907	Inter			0.003008	Intra-2	0.003028	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003029	Begin	0.003029	Start	0.003029	Intra-1	0.003049	Inter			0.003156	Intra-2	0.003175	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003177	Begin	0.003177	Start	0.003177	Intra-1	0.003197	Inter			0.003298	Intra-2	0.003318	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003318	Begin	0.003318	Start	0.003318	Intra-1	0.003338	Inter			0.003447	Intra-2	0.003467	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003467	Begin	0.003467	Start	0.003467	Intra-1	0.003488	Inter			0.003591	Intra-2	0.003611	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003612	Begin	0.003612	Start	0.003612	Intra-1	0.003632	Inter			0.003741	Intra-2	0.003761	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003761	Begin	0.003761	Start	0.003761	Intra-1	0.003781	Inter			0.003884	Intra-2	0.003903	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.003904	Begin	0.003904	Start	0.003904	Intra-1	0.003924	Inter			0.004026	Intra-2	0.004046	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004046	Begin	0.004046	Start	0.004046	Intra-1	0.004066	Inter			0.004168	Intra-2	0.004188	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004189	Begin	0.004189	Start	0.004189	Intra-1	0.004209	Inter			0.004311	Intra-2	0.004331	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004331	Begin	0.004331	Start	0.004331	Intra-1	0.004351	Inter			0.004453	Intra-2	0.004473	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004474	Begin	0.004474	Start	0.004474	Intra-1	0.004494	Inter			0.004596	Intra-2	0.004615	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004616	Begin	0.004616	Start	0.004616	Intra-1	0.004636	Inter			0.004738	Intra-2	0.004757	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004758	Begin	0.004758	Start	0.004758	Intra-1	0.004778	Inter			0.004880	Intra-2	0.004900	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.004901	Begin	0.004901	Start	0.004901	Intra-1	0.004921	Inter			0.005023	Intra-2	0.005042	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005043	Begin	0.005043	Start	0.005043	Intra-1	0.005063	Inter			0.005165	Intra-2	0.005185	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005185	Begin	0.005185	Start	0.005185	Intra-1	0.005205	Inter			0.005308	Intra-2	0.005328	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005328	Begin	0.005328	Start	0.005328	Intra-1	0.005348	Inter			0.005450	Intra-2	0.005470	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005471	Begin	0.005471	Start	0.005471	Intra-1	0.005491	Inter			0.005600	Intra-2	0.005620	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005621	Begin	0.005621	Start	0.005621	Intra-1	0.005641	Inter			0.005742	Intra-2	0.005762	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005763	Begin	0.005763	Start	0.005763	Intra-1	0.005790	Inter			0.005892	Intra-2	0.005912	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.005912	Begin	0.005912	Start	0.005912	Intra-1	0.005932	Inter			0.006034	Intra-2	0.006054	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006055	Begin	0.006055	Start	0.006055	Intra-1	0.006076	Inter			0.006181	Intra-2	0.006201	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006202	Begin	0.006202	Start	0.006202	Intra-1	0.006222	Inter			0.006323	Intra-2	0.006343	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006344	Begin	0.006344	Start	0.006344	Intra-1	0.006364	Inter			0.006466	Intra-2	0.006486	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006487	Begin	0.006487	Start	0.006487	Intra-1	0.006506	Inter			0.006609	Intra-2	0.006628	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006629	Begin	0.006629	Start	0.006629	Intra-1	0.006649	Inter			0.006751	Intra-2	0.006771	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006772	Begin	0.006772	Start	0.006772	Intra-1	0.006791	Inter			0.006893	Intra-2	0.006913	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.006914	Begin	0.006914	Start	0.006914	Intra-1	0.006933	Inter			0.007036	Intra-2	0.007056	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007057	Begin	0.007057	Start	0.007057	Intra-1	0.007077	Inter			0.007178	Intra-2	0.007198	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007199	Begin	0.007199	Start	0.007199	Intra-1	0.007219	Inter			0.007320	Intra-2	0.007340	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007341	Begin	0.007341	Start	0.007341	Intra-1	0.007361	Inter			0.007463	Intra-2	0.007482	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007484	Begin	0.007484	Start	0.007484	Intra-1	0.007509	Inter			0.007611	Intra-2	0.007630	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007631	Begin	0.007631	Start	0.007631	Intra-1	0.007651	Inter			0.007753	Intra-2	0.007773	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007774	Begin	0.007774	Start	0.007774	Intra-1	0.007794	Inter			0.007902	Intra-2	0.007922	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.007923	Begin	0.007923	Start	0.007923	Intra-1	0.007943	Inter			0.008045	Intra-2	0.008065	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008065	Begin	0.008065	Start	0.008065	Intra-1	0.008086	Inter			0.008188	Intra-2	0.008207	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008208	Begin	0.008208	Start	0.008208	Intra-1	0.008228	Inter			0.008330	Intra-2	0.008350	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008350	Begin	0.008350	Start	0.008350	Intra-1	0.008370	Inter			0.008472	Intra-2	0.008492	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008493	Begin	0.008493	Start	0.008493	Intra-1	0.008513	Inter			0.008615	Intra-2	0.008635	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008635	Begin	0.008635	Start	0.008635	Intra-1	0.008655	Inter			0.008757	Intra-2	0.008777	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008778	Begin	0.008778	Start	0.008778	Intra-1	0.008798	Inter			0.008907	Intra-2	0.008927	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.008927	Begin	0.008927	Start	0.008927	Intra-1	0.008947	Inter			0.009049	Intra-2	0.009069	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009070	Begin	0.009070	Start	0.009070	Intra-1	0.009089	Inter			0.009191	Intra-2	0.009211	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009212	Begin	0.009212	Start	0.009212	Intra-1	0.009232	Inter			0.009341	Intra-2	0.009361	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009361	Begin	0.009361	Start	0.009361	Intra-1	0.009381	Inter			0.009488	Intra-2	0.009508	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009509	Begin	0.009509	Start	0.009509	Intra-1	0.009530	Inter			0.009631	Intra-2	0.009651	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009651	Begin	0.009651	Start	0.009651	Intra-1	0.009671	Inter			0.009773	Intra-2	0.009793	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009794	Begin	0.009794	Start	0.009794	Intra-1	0.009814	Inter			0.009915	Intra-2	0.009935	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.009936	Begin	0.009936	Start	0.009936	Intra-1	0.009956	Inter			0.010058	Intra-2	0.010077	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010078	Begin	0.010078	Start	0.010078	Intra-1	0.010099	Inter			0.010208	Intra-2	0.010228	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010228	Begin	0.010228	Start	0.010228	Intra-1	0.010248	Inter			0.010358	Intra-2	0.010378	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010379	Begin	0.010379	Start	0.010379	Intra-1	0.010400	Inter			0.010502	Intra-2	0.010521	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010522	Begin	0.010522	Start	0.010522	Intra-1	0.010542	Inter			0.010644	Intra-2	0.010664	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010664	Begin	0.010664	Start	0.010664	Intra-1	0.010685	Inter			0.010787	Intra-2	0.010807	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010808	Begin	0.010808	Start	0.010808	Intra-1	0.010828	Inter			0.010930	Intra-2	0.010950	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.010950	Begin	0.010950	Start	0.010950	Intra-1	0.010970	Inter			0.011072	Intra-2	0.011091	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011092	Begin	0.011092	Start	0.011092	Intra-1	0.011112	Inter			0.011214	Intra-2	0.011234	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011234	Begin	0.011234	Start	0.011234	Intra-1	0.011254	Inter			0.011357	Intra-2	0.011377	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011378	Begin	0.011378	Start	0.011378	Intra-1	0.011398	Inter			0.011500	Intra-2	0.011520	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011520	Begin	0.011520	Start	0.011520	Intra-1	0.011540	Inter			0.011646	Intra-2	0.011666	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011666	Begin	0.011666	Start	0.011666	Intra-1	0.011687	Inter			0.011789	Intra-2	0.011809	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011809	Begin	0.011809	Start	0.011809	Intra-1	0.011829	Inter			0.011931	Intra-2	0.011950	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.011951	Begin	0.011951	Start	0.011951	Intra-1	0.011971	Inter			0.012073	Intra-2	0.012093	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012093	Begin	0.012093	Start	0.012093	Intra-1	0.012113	Inter			0.012216	Intra-2	0.012235	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012236	Begin	0.012236	Start	0.012236	Intra-1	0.012256	Inter			0.012358	Intra-2	0.012378	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012378	Begin	0.012378	Start	0.012378	Intra-1	0.012398	Inter			0.012500	Intra-2	0.012520	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012521	Begin	0.012521	Start	0.012521	Intra-1	0.012541	Inter			0.012651	Intra-2	0.012671	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012671	Begin	0.012671	Start	0.012671	Intra-1	0.012691	Inter			0.012793	Intra-2	0.012813	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012814	Begin	0.012814	Start	0.012814	Intra-1	0.012834	Inter			0.012936	Intra-2	0.012956	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.012956	Begin	0.012956	Start	0.012956	Intra-1	0.012976	Inter			0.013078	Intra-2	0.013098	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013099	Begin	0.013099	Start	0.013099	Intra-1	0.013119	Inter			0.013221	Intra-2	0.013241	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013241	Begin	0.013241	Start	0.013241	Intra-1	0.013261	Inter			0.013364	Intra-2	0.013383	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013384	Begin	0.013384	Start	0.013384	Intra-1	0.013404	Inter			0.013506	Intra-2	0.013526	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013527	Begin	0.013527	Start	0.013527	Intra-1	0.013547	Inter			0.013649	Intra-2	0.013669	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013669	Begin	0.013669	Start	0.013669	Intra-1	0.013689	Inter			0.013791	Intra-2	0.013811	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013812	Begin	0.013812	Start	0.013812	Intra-1	0.013832	Inter			0.013933	Intra-2	0.013953	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.013954	Begin	0.013954	Start	0.013954	Intra-1	0.013974	Inter			0.014076	Intra-2	0.014096	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014097	Begin	0.014097	Start	0.014097	Intra-1	0.014117	Inter			0.014218	Intra-2	0.014238	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014239	Begin	0.014239	Start	0.014239	Intra-1	0.014259	Inter			0.014361	Intra-2	0.014381	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014381	Begin	0.014381	Start	0.014381	Intra-1	0.014401	Inter			0.014503	Intra-2	0.014523	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014523	Begin	0.014523	Start	0.014523	Intra-1	0.014544	Inter			0.014645	Intra-2	0.014665	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014666	Begin	0.014666	Start	0.014666	Intra-1	0.014686	Inter			0.014788	Intra-2	0.014807	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014808	Begin	0.014808	Start	0.014808	Intra-1	0.014828	Inter			0.014930	Intra-2	0.014949	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.014950	Begin	0.014950	Start	0.014950	Intra-1	0.014970	Inter			0.015072	Intra-2	0.015092	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.015093	Begin	0.015093	Start	0.015093	Intra-1	0.015114	Inter			0.015216	Intra-2	0.015236	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	0.015237	Begin	0.015237	Start	0.015237	Intra-1	0.015257	Inter			0.015360	Intra-2	0.015380	Finish
+allreduce1M_ntt_lr_rdb_32_0_0.log	
+allreduce1M_ntt_smp_binominal_32_0_0.log	ntt_smp_binominal	8	1048576	100	0.0534516
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.000786	Begin	0.001072	Start	0.001072	Intra-1	0.001141	Inter-1	0.001335	Inter-2	0.001527	Intra-2	0.001595	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.001596	Begin	0.001596	Start	0.001596	Intra-1	0.001664	Inter-1	0.001856	Inter-2	0.002048	Intra-2	0.002117	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.002117	Begin	0.002117	Start	0.002117	Intra-1	0.002185	Inter-1	0.002385	Inter-2	0.002577	Intra-2	0.002645	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.002646	Begin	0.002646	Start	0.002646	Intra-1	0.002714	Inter-1	0.002909	Inter-2	0.003102	Intra-2	0.003170	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.003170	Begin	0.003170	Start	0.003170	Intra-1	0.003239	Inter-1	0.003431	Inter-2	0.003623	Intra-2	0.003691	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.003692	Begin	0.003692	Start	0.003692	Intra-1	0.003760	Inter-1	0.003953	Inter-2	0.004145	Intra-2	0.004213	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.004214	Begin	0.004214	Start	0.004214	Intra-1	0.004282	Inter-1	0.004474	Inter-2	0.004666	Intra-2	0.004734	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.004735	Begin	0.004735	Start	0.004735	Intra-1	0.004803	Inter-1	0.004996	Inter-2	0.005188	Intra-2	0.005256	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.005257	Begin	0.005257	Start	0.005257	Intra-1	0.005325	Inter-1	0.005518	Inter-2	0.005710	Intra-2	0.005778	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.005779	Begin	0.005779	Start	0.005779	Intra-1	0.005847	Inter-1	0.006040	Inter-2	0.006232	Intra-2	0.006300	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.006301	Begin	0.006301	Start	0.006301	Intra-1	0.006369	Inter-1	0.006561	Inter-2	0.006754	Intra-2	0.006822	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.006822	Begin	0.006822	Start	0.006822	Intra-1	0.006890	Inter-1	0.007083	Inter-2	0.007275	Intra-2	0.007343	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.007344	Begin	0.007344	Start	0.007344	Intra-1	0.007412	Inter-1	0.007605	Inter-2	0.007797	Intra-2	0.007865	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.007866	Begin	0.007866	Start	0.007866	Intra-1	0.007934	Inter-1	0.008127	Inter-2	0.008319	Intra-2	0.008387	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.008388	Begin	0.008388	Start	0.008388	Intra-1	0.008456	Inter-1	0.008649	Inter-2	0.008841	Intra-2	0.008909	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.008909	Begin	0.008909	Start	0.008909	Intra-1	0.008978	Inter-1	0.009171	Inter-2	0.009363	Intra-2	0.009431	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.009432	Begin	0.009432	Start	0.009432	Intra-1	0.009500	Inter-1	0.009699	Inter-2	0.009891	Intra-2	0.009959	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.009960	Begin	0.009960	Start	0.009960	Intra-1	0.010028	Inter-1	0.010221	Inter-2	0.010413	Intra-2	0.010481	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.010482	Begin	0.010482	Start	0.010482	Intra-1	0.010550	Inter-1	0.010749	Inter-2	0.010941	Intra-2	0.011009	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.011010	Begin	0.011010	Start	0.011010	Intra-1	0.011082	Inter-1	0.011274	Inter-2	0.011466	Intra-2	0.011534	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.011535	Begin	0.011535	Start	0.011535	Intra-1	0.011603	Inter-1	0.011804	Inter-2	0.011996	Intra-2	0.012064	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.012065	Begin	0.012065	Start	0.012065	Intra-1	0.012141	Inter-1	0.012333	Inter-2	0.012525	Intra-2	0.012593	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.012594	Begin	0.012594	Start	0.012594	Intra-1	0.012662	Inter-1	0.012854	Inter-2	0.013047	Intra-2	0.013115	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.013115	Begin	0.013115	Start	0.013115	Intra-1	0.013184	Inter-1	0.013376	Inter-2	0.013568	Intra-2	0.013636	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.013637	Begin	0.013637	Start	0.013637	Intra-1	0.013705	Inter-1	0.013898	Inter-2	0.014090	Intra-2	0.014158	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.014159	Begin	0.014159	Start	0.014159	Intra-1	0.014227	Inter-1	0.014427	Inter-2	0.014620	Intra-2	0.014688	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.014688	Begin	0.014688	Start	0.014688	Intra-1	0.014757	Inter-1	0.014957	Inter-2	0.015149	Intra-2	0.015217	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.015217	Begin	0.015217	Start	0.015217	Intra-1	0.015286	Inter-1	0.015479	Inter-2	0.015671	Intra-2	0.015739	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.015739	Begin	0.015739	Start	0.015739	Intra-1	0.015808	Inter-1	0.016000	Inter-2	0.016192	Intra-2	0.016260	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.016261	Begin	0.016261	Start	0.016261	Intra-1	0.016329	Inter-1	0.016522	Inter-2	0.016714	Intra-2	0.016782	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.016783	Begin	0.016783	Start	0.016783	Intra-1	0.016851	Inter-1	0.017051	Inter-2	0.017243	Intra-2	0.017311	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.017312	Begin	0.017312	Start	0.017312	Intra-1	0.017380	Inter-1	0.017580	Inter-2	0.017772	Intra-2	0.017840	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.017841	Begin	0.017841	Start	0.017841	Intra-1	0.017909	Inter-1	0.018109	Inter-2	0.018301	Intra-2	0.018369	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.018370	Begin	0.018370	Start	0.018370	Intra-1	0.018438	Inter-1	0.018630	Inter-2	0.018823	Intra-2	0.018891	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.018891	Begin	0.018891	Start	0.018891	Intra-1	0.018960	Inter-1	0.019152	Inter-2	0.019344	Intra-2	0.019412	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.019413	Begin	0.019413	Start	0.019413	Intra-1	0.019481	Inter-1	0.019674	Inter-2	0.019866	Intra-2	0.019934	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.019935	Begin	0.019935	Start	0.019935	Intra-1	0.020003	Inter-1	0.020196	Inter-2	0.020388	Intra-2	0.020456	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.020457	Begin	0.020457	Start	0.020457	Intra-1	0.020533	Inter-1	0.020725	Inter-2	0.020917	Intra-2	0.020985	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.020986	Begin	0.020986	Start	0.020986	Intra-1	0.021054	Inter-1	0.021255	Inter-2	0.021447	Intra-2	0.021515	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.021516	Begin	0.021516	Start	0.021516	Intra-1	0.021584	Inter-1	0.021778	Inter-2	0.021970	Intra-2	0.022038	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.022039	Begin	0.022039	Start	0.022039	Intra-1	0.022107	Inter-1	0.022300	Inter-2	0.022492	Intra-2	0.022560	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.022561	Begin	0.022561	Start	0.022561	Intra-1	0.022629	Inter-1	0.022829	Inter-2	0.023021	Intra-2	0.023089	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.023090	Begin	0.023090	Start	0.023090	Intra-1	0.023158	Inter-1	0.023350	Inter-2	0.023543	Intra-2	0.023611	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.023611	Begin	0.023611	Start	0.023611	Intra-1	0.023680	Inter-1	0.023881	Inter-2	0.024073	Intra-2	0.024141	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.024142	Begin	0.024142	Start	0.024142	Intra-1	0.024210	Inter-1	0.024403	Inter-2	0.024595	Intra-2	0.024663	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.024664	Begin	0.024664	Start	0.024664	Intra-1	0.024732	Inter-1	0.024924	Inter-2	0.025117	Intra-2	0.025185	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.025185	Begin	0.025185	Start	0.025185	Intra-1	0.025254	Inter-1	0.025448	Inter-2	0.025640	Intra-2	0.025708	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.025709	Begin	0.025709	Start	0.025709	Intra-1	0.025777	Inter-1	0.025970	Inter-2	0.026162	Intra-2	0.026230	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.026231	Begin	0.026231	Start	0.026231	Intra-1	0.026299	Inter-1	0.026492	Inter-2	0.026684	Intra-2	0.026752	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.026753	Begin	0.026753	Start	0.026753	Intra-1	0.026821	Inter-1	0.027020	Inter-2	0.027212	Intra-2	0.027280	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.027281	Begin	0.027281	Start	0.027281	Intra-1	0.027349	Inter-1	0.027542	Inter-2	0.027734	Intra-2	0.027802	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.027803	Begin	0.027803	Start	0.027803	Intra-1	0.027871	Inter-1	0.028063	Inter-2	0.028256	Intra-2	0.028324	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.028325	Begin	0.028325	Start	0.028325	Intra-1	0.028393	Inter-1	0.028592	Inter-2	0.028784	Intra-2	0.028852	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.028853	Begin	0.028853	Start	0.028853	Intra-1	0.028921	Inter-1	0.029114	Inter-2	0.029306	Intra-2	0.029374	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.029375	Begin	0.029375	Start	0.029375	Intra-1	0.029443	Inter-1	0.029635	Inter-2	0.029828	Intra-2	0.029896	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.029896	Begin	0.029896	Start	0.029896	Intra-1	0.029965	Inter-1	0.030164	Inter-2	0.030356	Intra-2	0.030424	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.030425	Begin	0.030425	Start	0.030425	Intra-1	0.030493	Inter-1	0.030686	Inter-2	0.030878	Intra-2	0.030946	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.030947	Begin	0.030947	Start	0.030947	Intra-1	0.031015	Inter-1	0.031207	Inter-2	0.031400	Intra-2	0.031468	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.031469	Begin	0.031469	Start	0.031469	Intra-1	0.031537	Inter-1	0.031729	Inter-2	0.031921	Intra-2	0.031990	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.031990	Begin	0.031990	Start	0.031990	Intra-1	0.032058	Inter-1	0.032258	Inter-2	0.032450	Intra-2	0.032518	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.032519	Begin	0.032519	Start	0.032519	Intra-1	0.032587	Inter-1	0.032779	Inter-2	0.032971	Intra-2	0.033039	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.033040	Begin	0.033040	Start	0.033040	Intra-1	0.033108	Inter-1	0.033308	Inter-2	0.033500	Intra-2	0.033568	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.033569	Begin	0.033569	Start	0.033569	Intra-1	0.033637	Inter-1	0.033829	Inter-2	0.034022	Intra-2	0.034090	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.034090	Begin	0.034090	Start	0.034090	Intra-1	0.034159	Inter-1	0.034351	Inter-2	0.034543	Intra-2	0.034611	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.034620	Begin	0.034620	Start	0.034620	Intra-1	0.034688	Inter-1	0.034880	Inter-2	0.035072	Intra-2	0.035140	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.035141	Begin	0.035141	Start	0.035141	Intra-1	0.035209	Inter-1	0.035403	Inter-2	0.035595	Intra-2	0.035663	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.035663	Begin	0.035663	Start	0.035663	Intra-1	0.035732	Inter-1	0.035925	Inter-2	0.036117	Intra-2	0.036185	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.036186	Begin	0.036186	Start	0.036186	Intra-1	0.036254	Inter-1	0.036447	Inter-2	0.036639	Intra-2	0.036707	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.036707	Begin	0.036707	Start	0.036707	Intra-1	0.036776	Inter-1	0.036969	Inter-2	0.037161	Intra-2	0.037229	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.037230	Begin	0.037230	Start	0.037230	Intra-1	0.037298	Inter-1	0.037492	Inter-2	0.037684	Intra-2	0.037752	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.037753	Begin	0.037753	Start	0.037753	Intra-1	0.037821	Inter-1	0.038014	Inter-2	0.038206	Intra-2	0.038274	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.038275	Begin	0.038275	Start	0.038275	Intra-1	0.038343	Inter-1	0.038536	Inter-2	0.038728	Intra-2	0.038796	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.038796	Begin	0.038796	Start	0.038796	Intra-1	0.038865	Inter-1	0.039058	Inter-2	0.039250	Intra-2	0.039318	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.039319	Begin	0.039319	Start	0.039319	Intra-1	0.039387	Inter-1	0.039581	Inter-2	0.039773	Intra-2	0.039841	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.039842	Begin	0.039842	Start	0.039842	Intra-1	0.039910	Inter-1	0.040102	Inter-2	0.040294	Intra-2	0.040363	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.040363	Begin	0.040363	Start	0.040363	Intra-1	0.040431	Inter-1	0.040624	Inter-2	0.040816	Intra-2	0.040884	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.040885	Begin	0.040885	Start	0.040885	Intra-1	0.040953	Inter-1	0.041148	Inter-2	0.041340	Intra-2	0.041408	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.041409	Begin	0.041409	Start	0.041409	Intra-1	0.041477	Inter-1	0.041669	Inter-2	0.041861	Intra-2	0.041929	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.041930	Begin	0.041930	Start	0.041930	Intra-1	0.041998	Inter-1	0.042192	Inter-2	0.042384	Intra-2	0.042453	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.042453	Begin	0.042453	Start	0.042453	Intra-1	0.042521	Inter-1	0.042714	Inter-2	0.042907	Intra-2	0.042975	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.042975	Begin	0.042975	Start	0.042975	Intra-1	0.043044	Inter-1	0.043237	Inter-2	0.043429	Intra-2	0.043497	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.043498	Begin	0.043498	Start	0.043498	Intra-1	0.043566	Inter-1	0.043758	Inter-2	0.043950	Intra-2	0.044018	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.044019	Begin	0.044019	Start	0.044019	Intra-1	0.044087	Inter-1	0.044280	Inter-2	0.044472	Intra-2	0.044540	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.044541	Begin	0.044541	Start	0.044541	Intra-1	0.044609	Inter-1	0.044803	Inter-2	0.044995	Intra-2	0.045063	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.045064	Begin	0.045064	Start	0.045064	Intra-1	0.045132	Inter-1	0.045325	Inter-2	0.045517	Intra-2	0.045586	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.045586	Begin	0.045586	Start	0.045586	Intra-1	0.045654	Inter-1	0.045849	Inter-2	0.046041	Intra-2	0.046109	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.046110	Begin	0.046110	Start	0.046110	Intra-1	0.046179	Inter-1	0.046379	Inter-2	0.046571	Intra-2	0.046639	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.046640	Begin	0.046640	Start	0.046640	Intra-1	0.046708	Inter-1	0.046908	Inter-2	0.047100	Intra-2	0.047168	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.047169	Begin	0.047169	Start	0.047169	Intra-1	0.047239	Inter-1	0.047431	Inter-2	0.047623	Intra-2	0.047691	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.047695	Begin	0.047695	Start	0.047695	Intra-1	0.047764	Inter-1	0.047957	Inter-2	0.048149	Intra-2	0.048217	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.048218	Begin	0.048218	Start	0.048218	Intra-1	0.048286	Inter-1	0.048479	Inter-2	0.048671	Intra-2	0.048739	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.048740	Begin	0.048740	Start	0.048740	Intra-1	0.048808	Inter-1	0.049001	Inter-2	0.049193	Intra-2	0.049261	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.049262	Begin	0.049262	Start	0.049262	Intra-1	0.049330	Inter-1	0.049523	Inter-2	0.049715	Intra-2	0.049783	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.049784	Begin	0.049784	Start	0.049784	Intra-1	0.049852	Inter-1	0.050045	Inter-2	0.050237	Intra-2	0.050305	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.050305	Begin	0.050305	Start	0.050305	Intra-1	0.050374	Inter-1	0.050566	Inter-2	0.050759	Intra-2	0.050827	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.050827	Begin	0.050827	Start	0.050827	Intra-1	0.050895	Inter-1	0.051088	Inter-2	0.051280	Intra-2	0.051348	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.051349	Begin	0.051349	Start	0.051349	Intra-1	0.051417	Inter-1	0.051617	Inter-2	0.051809	Intra-2	0.051877	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.051878	Begin	0.051878	Start	0.051878	Intra-1	0.051946	Inter-1	0.052139	Inter-2	0.052331	Intra-2	0.052400	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.052400	Begin	0.052400	Start	0.052400	Intra-1	0.052469	Inter-1	0.052661	Inter-2	0.052853	Intra-2	0.052921	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	0.052922	Begin	0.052922	Start	0.052922	Intra-1	0.052990	Inter-1	0.053183	Inter-2	0.053375	Intra-2	0.053443	Finish
+allreduce1M_ntt_smp_binominal_32_0_0.log	
