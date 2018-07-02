@@ -9,11 +9,11 @@
 	# if (opperation is not define), use lr or ring_segmented
 	# else use   redbcast.
 
-SIMGRID="//home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpirun"
-SIZE=32
+SIMGRID="/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpirun"
+SIZE=128
 PLATFORM="./platforms/Tsubame3_128.xml"
 HOSTFILE="./platforms/Tsubame3_128.lr.txt"
-APP="./allreduce1M"
+APP="./allreduce256M"
 NODESIZE="8"
 LOG_DIR="./logs"
 for i in 0 #1 2 3 4 5 6 7 8 9 
@@ -22,10 +22,10 @@ do
 	do
 		#for ALGO in "mvapich2" "ompi" "mpich"
 		#for ALGO in "lr" "rdb" "rab" "mvapich2" "ompi" "mpich"
-		for ALGO in "ntt_smp_binominal" "ntt_binominal_lr" "ntt_lr_rab" "ntt_lr_lr" "ntt_lr_rdb" "lr"
-		#for ALGO in "lr"
+		#for ALGO in "ntt_smp_binominal" "ntt_binominal_lr" "ntt_lr_rab" "ntt_lr_lr" "ntt_lr_rdb" "lr"
+		for ALGO in "lr"
 		do
-			for APP in "./allreduce1M" #"./allreduce2M" "./allreduce4M" "./allreduce8M" "./allreduce16M" "./allreduce32M"
+			for APP in "./allreduce256M" #"./allreduce2M" "./allreduce4M" "./allreduce8M" "./allreduce16M" "./allreduce32M"
 			do
 				CONFIG="--cfg=exception/cutpath:1 --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:${NODESIZE} --cfg=smpi/allreduce:${ALGO} --log=smpi_coll.:critical"
 				LOG_FILE="${LOG_DIR}/${APP}_${ALGO}_${SIZE}_${i}_${j}.log"

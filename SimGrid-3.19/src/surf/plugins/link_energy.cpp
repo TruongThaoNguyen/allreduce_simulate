@@ -53,6 +53,7 @@ public:
 
   void initWattsRangeList();
   double getConsumedEnergy();
+  double getIdleEnergy();
   void update();
 
 private:
@@ -65,6 +66,7 @@ private:
   double busy_{0.0};
 
   double totalEnergy_{0.0};
+  double totalIdle_{0.0};
   double lastUpdated_{0.0}; /*< Timestamp of the last energy update event*/
 };
 
@@ -80,6 +82,9 @@ void LinkEnergy::update()
 {
   double power = getPower();
   double now   = surf_get_clock();
+  if ( power == idle_){
+	totalIdle_ += power * (now - lastUpdated_);
+  }
   totalEnergy_ += power * (now - lastUpdated_);
   lastUpdated_ = now;
 }
@@ -144,6 +149,15 @@ double LinkEnergy::getConsumedEnergy()
 }
 }
 
+double LinkEnergy::getIdleEnergy()
+{
+  if (lastUpdated_ < surf_get_clock()) // We need to simcall this as it modifies the environment
+    simgrid::simix::kernelImmediate(std::bind(&LinkEnergy::update, this));
+  return this->totalIdle_;
+}
+}
+}
+
 using simgrid::plugin::LinkEnergy;
 
 /* **************************** events  callback *************************** */
@@ -167,12 +181,16 @@ static void onSimulationEnd()
   std::vector<simgrid::s4u::Link*> links = simgrid::s4u::Engine::getInstance()->getAllLinks();
 
   double total_energy = 0.0; // Total dissipated energy (whole platform)
+  double total_idle = 0.0;
   for (const auto link : links) {
     double link_energy = link->extension<LinkEnergy>()->getConsumedEnergy();
     total_energy += link_energy;
+	double link_idle_energy = link->extension<LinkEnergy>()->getIdleEnergy();
+	total_idle += link_idle_energy;
   }
 
   XBT_INFO("Total energy over all links: %f", total_energy);
+  XBT_INFO("Total idle energy over all links: %f", total_idle);
 }
 /* **************************** Public interface *************************** */
 SG_BEGIN_DECL()
@@ -203,9 +221,12 @@ void sg_link_energy_plugin_init()
   });
 
   simgrid::s4u::Link::onDestruction.connect([](simgrid::s4u::Link& link) {
-    if (strcmp(link.getCname(), "__loopback__"))
+    if (strcmp(link.getCname(), "__loopback__")){
       XBT_INFO("Energy consumption of link '%s': %f Joules", link.getCname(),
                link.extension<LinkEnergy>()->getConsumedEnergy());
+	  XBT_INFO("Idle Energy consumption of link '%s': %f Joules", link.getCname(),
+               link.extension<LinkEnergy>()->getIdleEnergy());
+    }
   });
 
   simgrid::s4u::Link::onCommunicationStateChange.connect([](simgrid::surf::NetworkAction* action) {
