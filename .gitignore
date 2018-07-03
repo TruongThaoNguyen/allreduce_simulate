@@ -1,3 +1,8 @@
+./node_size/logs/*.*
+./node_size/logs2/*.*
+./node_size/logs4/*.*
+./node_size/logs8/*.*
+./node_size/logs16/*.*
 ./message_size/logs/*.*
 ./message_size/logs128M/*.*
 ./message_size/logs16M/*.*

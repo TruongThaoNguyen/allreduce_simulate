@@ -37,7 +37,7 @@ def main():
 	if len(sys.argv) >= 3:
 		deployType = str(sys.argv[2])
 	
-	hostPerNode = 4
+	hostPerNode = 8
 	if len(sys.argv) >= 4:
 		hostPerNode = int(sys.argv[3])
 
@@ -50,6 +50,8 @@ def main():
 	ARCHITECTURE = architecture
 	
 	pathFileName = ARCHITECTURE + "_" + str(totalNode) + '.' + deployType + '.txt'
+	if (ARCHITECTURE == "NVCluster"):
+		pathFileName = ARCHITECTURE + "_" + str(hostPerNode) + "_" + str(totalNode) + '.' + deployType + '.txt'
 	print 'Write paths into ' + pathFileName
 	fo = open(pathFileName, "w")
 	for nodeIdx in range(0,totalNode):
@@ -59,10 +61,12 @@ def main():
 				line = "n" + str(idx) + ":1\r\n"
 				fo.writelines(line)
 		if (deployType == "lr"):
-			mapping_order = [0,1,2,3]
+			mapping_order = [0,1,2,7,4,5,6,3]
 			if ( hostPerNode == 8):
-				mapping_order = [0,1,2,7,4,5,6,3]
-
+				mapping_order = [0,1,2,3]
+			if ( hostPerNode == 8):
+				mapping_order = [0,1]
+				
 			for hostIdx in mapping_order:
 				idx = nodeIdx*HOST_PER_NODE + hostIdx
 				line = "n" + str(idx) + ":1\r\n"
