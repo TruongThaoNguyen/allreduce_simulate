@@ -178,8 +178,8 @@ def main():
 			line = '''	<link id="ln''' + src + '''_n''' + dst + '''" ''' 
 			line += '''bandwidth="''' + str(INTRA_LINK_BW * linkList[linkIdx][2])  + '''Bps" '''
 			line += '''latency="''' +  str(INTRA_SWITCH_LAT) +'''s">'''
-			line += '''<prop id="watt_range" value="''' + str(GPU_ENERGY_LINK_NVLINK_IDLE*2)
-			line += ''':''' + str(GPU_ENERGY_LINK_NVLINK_PEAK*2) +'''" />'''
+			line += '''<prop id="watt_range" value="''' + str(GPU_ENERGY_LINK_NVLINK_IDLE*2 * linkList[linkIdx][2])
+			line += ''':''' + str(GPU_ENERGY_LINK_NVLINK_PEAK*2 * linkList[linkIdx][2]) +'''" />'''
 			line += '''</link>\r\n'''
 			fo.writelines(line)
 	
