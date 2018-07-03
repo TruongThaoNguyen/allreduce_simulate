@@ -1,0 +1,490 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM 'http://simgrid.gforge.inria.fr/simgrid/simgrid.dtd'>
+<platform version='4.1'>
+<config>
+	<prop id='maxmin/precision' value='1e-4'/> 
+	<prop id='network/model' value='SMPI'/>
+	<!--  Negative values enable auto-select... -->
+	<prop id='contexts/nthreads' value='1'/>
+	<!--  Power of the executing computer in Flop per seconds. Used for extrapolating tasks execution time by SMPI [default is 20000]-->
+	<prop id='smpi/host-speed' value='50000000000.0'/>
+	<!--  Display simulated timing at the end of simulation -->
+	<prop id='smpi/display-timing' value='1'/>
+	<prop id='cpu/optim' value='Lazy'/>
+	<prop id='network/optim' value='Lazy'/>
+	<!--<prop id='smpi/coll-selector' value='mvapich2'/>-->
+	<prop id='smpi/cpu-threshold' value='0.00000000001'/>
+</config>
+<zone id='AS0' routing='Floyd'>
+<!--  Generate node -->
+	<host id="n0"speed="9.3e+12f"core="1" />
+	<host id="n1"speed="9.3e+12f"core="1" />
+	<host id="n2"speed="9.3e+12f"core="1" />
+	<host id="n3"speed="9.3e+12f"core="1" />
+	<router id="plx0"/>
+	<router id="plx2"/>
+	<host id="n4"speed="9.3e+12f"core="1" />
+	<host id="n5"speed="9.3e+12f"core="1" />
+	<host id="n6"speed="9.3e+12f"core="1" />
+	<host id="n7"speed="9.3e+12f"core="1" />
+	<router id="plx4"/>
+	<router id="plx6"/>
+	<host id="n8"speed="9.3e+12f"core="1" />
+	<host id="n9"speed="9.3e+12f"core="1" />
+	<host id="n10"speed="9.3e+12f"core="1" />
+	<host id="n11"speed="9.3e+12f"core="1" />
+	<router id="plx8"/>
+	<router id="plx10"/>
+	<host id="n12"speed="9.3e+12f"core="1" />
+	<host id="n13"speed="9.3e+12f"core="1" />
+	<host id="n14"speed="9.3e+12f"core="1" />
+	<host id="n15"speed="9.3e+12f"core="1" />
+	<router id="plx12"/>
+	<router id="plx14"/>
+	<host id="n16"speed="9.3e+12f"core="1" />
+	<host id="n17"speed="9.3e+12f"core="1" />
+	<host id="n18"speed="9.3e+12f"core="1" />
+	<host id="n19"speed="9.3e+12f"core="1" />
+	<router id="plx16"/>
+	<router id="plx18"/>
+	<host id="n20"speed="9.3e+12f"core="1" />
+	<host id="n21"speed="9.3e+12f"core="1" />
+	<host id="n22"speed="9.3e+12f"core="1" />
+	<host id="n23"speed="9.3e+12f"core="1" />
+	<router id="plx20"/>
+	<router id="plx22"/>
+	<host id="n24"speed="9.3e+12f"core="1" />
+	<host id="n25"speed="9.3e+12f"core="1" />
+	<host id="n26"speed="9.3e+12f"core="1" />
+	<host id="n27"speed="9.3e+12f"core="1" />
+	<router id="plx24"/>
+	<router id="plx26"/>
+	<host id="n28"speed="9.3e+12f"core="1" />
+	<host id="n29"speed="9.3e+12f"core="1" />
+	<host id="n30"speed="9.3e+12f"core="1" />
+	<host id="n31"speed="9.3e+12f"core="1" />
+	<router id="plx28"/>
+	<router id="plx30"/>
+	<router id="sroot"/>
+	<link id="ls_root"bandwidth="4.5e+11Bps" latency="1e-07s"/>
+	<router id="s0"/>
+	<link id="ls0" bandwidth="2.25e+11Bps" latency="1e-07s"/>
+	<router id="s1"/>
+	<link id="ls1" bandwidth="2.25e+11Bps" latency="1e-07s"/>
+<!--  Generate intra-links -->
+	<link id="ln0_n1" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln0_n2" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln0_n3" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln1_n2" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln1_n3" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln2_n3" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln0_plx0" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln1_plx0" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln2_plx2" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln3_plx2" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln4_n5" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln4_n6" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln4_n7" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln5_n6" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln5_n7" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln6_n7" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln4_plx4" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln5_plx4" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln6_plx6" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln7_plx6" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln8_n9" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln8_n10" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln8_n11" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln9_n10" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln9_n11" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln10_n11" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln8_plx8" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln9_plx8" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln10_plx10" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln11_plx10" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln12_n13" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln12_n14" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln12_n15" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln13_n14" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln13_n15" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln14_n15" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln12_plx12" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln13_plx12" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln14_plx14" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln15_plx14" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln16_n17" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln16_n18" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln16_n19" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln17_n18" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln17_n19" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln18_n19" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln16_plx16" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln17_plx16" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln18_plx18" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln19_plx18" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln20_n21" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln20_n22" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln20_n23" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln21_n22" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln21_n23" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln22_n23" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln20_plx20" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln21_plx20" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln22_plx22" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln23_plx22" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln24_n25" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln24_n26" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln24_n27" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln25_n26" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln25_n27" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln26_n27" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln24_plx24" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln25_plx24" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln26_plx26" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln27_plx26" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln28_n29" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln28_n30" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln28_n31" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln29_n30" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln29_n31" bandwidth="1e+11Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln30_n31" bandwidth="50000000000.0Bps" latency="0s"><prop id="watt_range" value="19.04:22.4" /></link>
+	<link id="ln28_plx28" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln29_plx28" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln30_plx30" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+	<link id="ln31_plx30" bandwidth="16000000000.0Bps" latency="1e-07s"><prop id="watt_range" value="10.37:12.2" /></link>
+<!--  Generate inter-links -->
+	<link id="ls0_root" bandwidth="2.25e+11Bps" latency="2.6e-08s"><prop id="watt_range" value="19.4166666667:23.5" /></link>
+	<link id="ls1_root" bandwidth="2.25e+11Bps" latency="2.6e-08s"><prop id="watt_range" value="19.4166666667:23.5" /></link>
+	<link id="lplx0_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx2_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx4_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx6_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx8_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx10_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx12_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx14_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx16_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx18_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx20_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx22_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx24_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx26_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx28_s0" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+	<link id="lplx30_s1" bandwidth="12500000000.0Bps" latency="2.6e-08s"><prop id="watt_range" value="8.26666666667:9.5" /></link>
+<!--  Generate intra-route -->
+	<route src="n0" dst="n1">
+		<link_ctn id="ln0_n1" />
+	</route>
+	<route src="n0" dst="n2">
+		<link_ctn id="ln0_n2" />
+	</route>
+	<route src="n0" dst="n3">
+		<link_ctn id="ln0_n3" />
+	</route>
+	<route src="n1" dst="n2">
+		<link_ctn id="ln1_n2" />
+	</route>
+	<route src="n1" dst="n3">
+		<link_ctn id="ln1_n3" />
+	</route>
+	<route src="n2" dst="n3">
+		<link_ctn id="ln2_n3" />
+	</route>
+	<route src="n0" dst="plx0">
+		<link_ctn id="ln0_plx0" />
+	</route>
+	<route src="n1" dst="plx0">
+		<link_ctn id="ln1_plx0" />
+	</route>
+	<route src="n2" dst="plx2">
+		<link_ctn id="ln2_plx2" />
+	</route>
+	<route src="n3" dst="plx2">
+		<link_ctn id="ln3_plx2" />
+	</route>
+	<route src="n4" dst="n5">
+		<link_ctn id="ln4_n5" />
+	</route>
+	<route src="n4" dst="n6">
+		<link_ctn id="ln4_n6" />
+	</route>
+	<route src="n4" dst="n7">
+		<link_ctn id="ln4_n7" />
+	</route>
+	<route src="n5" dst="n6">
+		<link_ctn id="ln5_n6" />
+	</route>
+	<route src="n5" dst="n7">
+		<link_ctn id="ln5_n7" />
+	</route>
+	<route src="n6" dst="n7">
+		<link_ctn id="ln6_n7" />
+	</route>
+	<route src="n4" dst="plx4">
+		<link_ctn id="ln4_plx4" />
+	</route>
+	<route src="n5" dst="plx4">
+		<link_ctn id="ln5_plx4" />
+	</route>
+	<route src="n6" dst="plx6">
+		<link_ctn id="ln6_plx6" />
+	</route>
+	<route src="n7" dst="plx6">
+		<link_ctn id="ln7_plx6" />
+	</route>
+	<route src="n8" dst="n9">
+		<link_ctn id="ln8_n9" />
+	</route>
+	<route src="n8" dst="n10">
+		<link_ctn id="ln8_n10" />
+	</route>
+	<route src="n8" dst="n11">
+		<link_ctn id="ln8_n11" />
+	</route>
+	<route src="n9" dst="n10">
+		<link_ctn id="ln9_n10" />
+	</route>
+	<route src="n9" dst="n11">
+		<link_ctn id="ln9_n11" />
+	</route>
+	<route src="n10" dst="n11">
+		<link_ctn id="ln10_n11" />
+	</route>
+	<route src="n8" dst="plx8">
+		<link_ctn id="ln8_plx8" />
+	</route>
+	<route src="n9" dst="plx8">
+		<link_ctn id="ln9_plx8" />
+	</route>
+	<route src="n10" dst="plx10">
+		<link_ctn id="ln10_plx10" />
+	</route>
+	<route src="n11" dst="plx10">
+		<link_ctn id="ln11_plx10" />
+	</route>
+	<route src="n12" dst="n13">
+		<link_ctn id="ln12_n13" />
+	</route>
+	<route src="n12" dst="n14">
+		<link_ctn id="ln12_n14" />
+	</route>
+	<route src="n12" dst="n15">
+		<link_ctn id="ln12_n15" />
+	</route>
+	<route src="n13" dst="n14">
+		<link_ctn id="ln13_n14" />
+	</route>
+	<route src="n13" dst="n15">
+		<link_ctn id="ln13_n15" />
+	</route>
+	<route src="n14" dst="n15">
+		<link_ctn id="ln14_n15" />
+	</route>
+	<route src="n12" dst="plx12">
+		<link_ctn id="ln12_plx12" />
+	</route>
+	<route src="n13" dst="plx12">
+		<link_ctn id="ln13_plx12" />
+	</route>
+	<route src="n14" dst="plx14">
+		<link_ctn id="ln14_plx14" />
+	</route>
+	<route src="n15" dst="plx14">
+		<link_ctn id="ln15_plx14" />
+	</route>
+	<route src="n16" dst="n17">
+		<link_ctn id="ln16_n17" />
+	</route>
+	<route src="n16" dst="n18">
+		<link_ctn id="ln16_n18" />
+	</route>
+	<route src="n16" dst="n19">
+		<link_ctn id="ln16_n19" />
+	</route>
+	<route src="n17" dst="n18">
+		<link_ctn id="ln17_n18" />
+	</route>
+	<route src="n17" dst="n19">
+		<link_ctn id="ln17_n19" />
+	</route>
+	<route src="n18" dst="n19">
+		<link_ctn id="ln18_n19" />
+	</route>
+	<route src="n16" dst="plx16">
+		<link_ctn id="ln16_plx16" />
+	</route>
+	<route src="n17" dst="plx16">
+		<link_ctn id="ln17_plx16" />
+	</route>
+	<route src="n18" dst="plx18">
+		<link_ctn id="ln18_plx18" />
+	</route>
+	<route src="n19" dst="plx18">
+		<link_ctn id="ln19_plx18" />
+	</route>
+	<route src="n20" dst="n21">
+		<link_ctn id="ln20_n21" />
+	</route>
+	<route src="n20" dst="n22">
+		<link_ctn id="ln20_n22" />
+	</route>
+	<route src="n20" dst="n23">
+		<link_ctn id="ln20_n23" />
+	</route>
+	<route src="n21" dst="n22">
+		<link_ctn id="ln21_n22" />
+	</route>
+	<route src="n21" dst="n23">
+		<link_ctn id="ln21_n23" />
+	</route>
+	<route src="n22" dst="n23">
+		<link_ctn id="ln22_n23" />
+	</route>
+	<route src="n20" dst="plx20">
+		<link_ctn id="ln20_plx20" />
+	</route>
+	<route src="n21" dst="plx20">
+		<link_ctn id="ln21_plx20" />
+	</route>
+	<route src="n22" dst="plx22">
+		<link_ctn id="ln22_plx22" />
+	</route>
+	<route src="n23" dst="plx22">
+		<link_ctn id="ln23_plx22" />
+	</route>
+	<route src="n24" dst="n25">
+		<link_ctn id="ln24_n25" />
+	</route>
+	<route src="n24" dst="n26">
+		<link_ctn id="ln24_n26" />
+	</route>
+	<route src="n24" dst="n27">
+		<link_ctn id="ln24_n27" />
+	</route>
+	<route src="n25" dst="n26">
+		<link_ctn id="ln25_n26" />
+	</route>
+	<route src="n25" dst="n27">
+		<link_ctn id="ln25_n27" />
+	</route>
+	<route src="n26" dst="n27">
+		<link_ctn id="ln26_n27" />
+	</route>
+	<route src="n24" dst="plx24">
+		<link_ctn id="ln24_plx24" />
+	</route>
+	<route src="n25" dst="plx24">
+		<link_ctn id="ln25_plx24" />
+	</route>
+	<route src="n26" dst="plx26">
+		<link_ctn id="ln26_plx26" />
+	</route>
+	<route src="n27" dst="plx26">
+		<link_ctn id="ln27_plx26" />
+	</route>
+	<route src="n28" dst="n29">
+		<link_ctn id="ln28_n29" />
+	</route>
+	<route src="n28" dst="n30">
+		<link_ctn id="ln28_n30" />
+	</route>
+	<route src="n28" dst="n31">
+		<link_ctn id="ln28_n31" />
+	</route>
+	<route src="n29" dst="n30">
+		<link_ctn id="ln29_n30" />
+	</route>
+	<route src="n29" dst="n31">
+		<link_ctn id="ln29_n31" />
+	</route>
+	<route src="n30" dst="n31">
+		<link_ctn id="ln30_n31" />
+	</route>
+	<route src="n28" dst="plx28">
+		<link_ctn id="ln28_plx28" />
+	</route>
+	<route src="n29" dst="plx28">
+		<link_ctn id="ln29_plx28" />
+	</route>
+	<route src="n30" dst="plx30">
+		<link_ctn id="ln30_plx30" />
+	</route>
+	<route src="n31" dst="plx30">
+		<link_ctn id="ln31_plx30" />
+	</route>
+<!--  Generate inter-route -->
+	<route src="s0" dst="sroot">
+		<link_ctn id="ls0_root"/>
+		<link_ctn id="ls_root"/>
+	</route>
+	<route src="s1" dst="sroot">
+		<link_ctn id="ls1_root"/>
+		<link_ctn id="ls_root"/>
+	</route>
+	<route src="plx0" dst="s0">
+		<link_ctn id="lplx0_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx2" dst="s1">
+		<link_ctn id="lplx2_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx4" dst="s0">
+		<link_ctn id="lplx4_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx6" dst="s1">
+		<link_ctn id="lplx6_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx8" dst="s0">
+		<link_ctn id="lplx8_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx10" dst="s1">
+		<link_ctn id="lplx10_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx12" dst="s0">
+		<link_ctn id="lplx12_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx14" dst="s1">
+		<link_ctn id="lplx14_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx16" dst="s0">
+		<link_ctn id="lplx16_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx18" dst="s1">
+		<link_ctn id="lplx18_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx20" dst="s0">
+		<link_ctn id="lplx20_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx22" dst="s1">
+		<link_ctn id="lplx22_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx24" dst="s0">
+		<link_ctn id="lplx24_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx26" dst="s1">
+		<link_ctn id="lplx26_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+	<route src="plx28" dst="s0">
+		<link_ctn id="lplx28_s0"/>
+		<link_ctn id="ls0"/>
+	</route>
+	<route src="plx30" dst="s1">
+		<link_ctn id="lplx30_s1"/>
+		<link_ctn id="ls1"/>
+	</route>
+</zone>
+</platform>
+	

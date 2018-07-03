@@ -1,9 +1,11 @@
 #!/bin/bash
 ## PARSING CG' LOG FILE
 OUTPUT_FILE="./parse.txt"
+ENERGY_OUPUT_FILE="./energy_parse.txt"
 TEMP_FILE="./temp.txt"
 FILES="./logs/*"
 echo -e "file\tALGORITHM\t#CORE_NUMBER\tBUF_SIZE\tITERATION\tSIMULATE_TIME\tDETAIL" >> ${OUTPUT_FILE}
+echo -e "file\tALGORITHM\t#CORE_NUMBER\tBUF_SIZE\tITERATION\tCONSUME_ENERGY\tIDLE_ENERGY\tDETAIL" >> ${ENERGY_OUPUT_FILE}
 
 grep -rl '\/home.*allreduce\/' $FILES | xargs sed -i 's/\/home.*allreduce\//\t/g'
 
@@ -49,6 +51,19 @@ do
 	sed -i 's/\]\s*allreduce-.*\[0\] Finish algorithm/\tFinish/g' ${TEMP_FILE}
 
 	cat "${TEMP_FILE}" >> ${OUTPUT_FILE}
+	
+	CONSUME_ENERGY=$(grep -o "Total energy over all links: [0-9|.]*" $f | head -1)
+	IDLE_ENERGY=$(grep -o "Total idle energy over all links: [0-9|.]*" $f | head -1)
+	echo -e ${f}"\t"${ALGO}"\t"${CORE_NUMBER}"\t"${BUF_SIZE}"\t"${ITER}"\t"${CONSUME_ENERGY}"\t"${IDLE_ENERGY} >> ${ENERGY_OUPUT_FILE}
+	
+	ENERGY_DETAIL=$(grep -o "\[link_energy\/INFO\] .* Joules" $f)
+	echo -e ${f}"\t"${ENERGY_DETAIL} > ${TEMP_FILE}
+	sed -i 's/\[link_energy\/INFO\]//g' ${TEMP_FILE}
+	grep -rl 'Joules  Energy consumption of link' ${TEMP_FILE}| xargs sed -i "s|Joules  Energy consumption of link|\n${f}\t|g"
+	sed -i 's/Energy consumption of link //g' ${TEMP_FILE}
+	sed -i 's/Joules  Idle.*:/\t/g' ${TEMP_FILE}
+	sed -i 's/:/\t/g' ${TEMP_FILE}
+	cat "${TEMP_FILE}" >> ${ENERGY_OUPUT_FILE}
 done
 rm ${TEMP_FILE}
 sed -i 's/\.\/logs\// /g' ${OUTPUT_FILE}
@@ -60,3 +75,14 @@ sed -i 's/smpi\/process_of_node/ /g' ${OUTPUT_FILE}
 sed -i 's/Simulated time: / /g' ${OUTPUT_FILE}
 sed -i 's/ //g' ${OUTPUT_FILE}
 sed -i "s/'//g" ${OUTPUT_FILE}
+
+sed -i 's/\.\/logs\// /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/ to / /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/smpi\/allreduce/ /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/weight size:/ /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/iteration:/ /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/smpi\/process_of_node/ /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/Total energy over all links: / /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/Total idle energy over all links: / /g' ${ENERGY_OUPUT_FILE}
+sed -i 's/ //g' ${ENERGY_OUPUT_FILE}
+sed -i "s/'//g" ${ENERGY_OUPUT_FILE}

@@ -168,7 +168,7 @@ def main():
 		
 	#4.3. Link generate 
 	#4.3.1. Intra-link generate (NVLINK)
-	# This is only for 8 nodes.
+	# This is only for 4 nodes.
 	fo.writelines("<!--  Generate intra-links -->\r\n")
 	linkList = [(0,1,1),(0,2,2),(0,3,1),(1,2,1),(1,3,2),(2,3,1)]
 	for nodeIdx in range(0,totalNode):
@@ -176,8 +176,11 @@ def main():
 			src = str(get_host_Id(nodeIdx,linkList[linkIdx][0],HOST_PER_NODE))
 			dst = str(get_host_Id(nodeIdx,linkList[linkIdx][1],HOST_PER_NODE))
 			line = '''	<link id="ln''' + src + '''_n''' + dst + '''" ''' 
-			line += '''bandwidth="''' + str(INTRA_LINK_BW) * linkList[linkIdx][2]  + '''Bps" '''
-			line += '''latency="''' +  str(INTRA_SWITCH_LAT) +'''s"/>\r\n'''
+			line += '''bandwidth="''' + str(INTRA_LINK_BW * linkList[linkIdx][2])  + '''Bps" '''
+			line += '''latency="''' +  str(INTRA_SWITCH_LAT) +'''s">'''
+			line += '''<prop id="watt_range" value="''' + str(GPU_ENERGY_LINK_NVLINK_IDLE*2)
+			line += ''':''' + str(GPU_ENERGY_LINK_NVLINK_PEAK*2) +'''" />'''
+			line += '''</link>\r\n'''
 			fo.writelines(line)
 	
 		# 4.3.2. Node-PLX Router links
@@ -191,7 +194,10 @@ def main():
 			line += '''	<link id="ln''' + src + '''_plx''' + dst + '''" ''' 
 			line += '''bandwidth="''' + str(PLX_BW) + '''Bps" '''
 			#It should be no latency for this link but here state the PLX switch latency
-			line += '''latency="''' +  str(PLX_LAT) +'''s"/>\r\n''' 	
+			line += '''latency="''' +  str(PLX_LAT) +'''s">'''
+			line += '''<prop id="watt_range" value="''' + str(GPU_ENERGY_LINK_NVLINK_IDLE + ENERGY_LINK_PCIe_IDLE)
+			line += ''':''' + str(GPU_ENERGY_LINK_NVLINK_PEAK + ENERGY_LINK_PCIe_PEAK) +'''" />'''
+			line += '''</link>\r\n'''
 			fo.writelines(line)
 
 	fo.writelines("<!--  Generate inter-links -->\r\n")
@@ -199,24 +205,33 @@ def main():
 		#up link
 		line = '''	<link id="ls''' + str(switchIdx) + '''_root" ''' 
 		line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP) + '''Bps" '''
-		line += '''latency="''' +  str(CALBE_LAT) +'''s"/>\r\n''' 
+		line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+		line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_IB_SPINE_IDLE)
+		line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_IB_SPINE_PEAK) +'''" />'''
+		line += '''</link>\r\n'''
 		fo.writelines(line)
 
 		switchIdx2 = switchIdx+1
 		line = '''	<link id="ls''' + str(switchIdx2) + '''_root" ''' 
 		line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP) + '''Bps" '''
-		line += '''latency="''' +  str(CALBE_LAT) +'''s"/>\r\n''' 
+		line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+		line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_IB_SPINE_IDLE)
+		line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_IB_SPINE_PEAK) +'''" />'''
+		line += '''</link>\r\n'''
 		fo.writelines(line)
 		
 		for plxId in range(0,nodePerL1Switch*HOST_PER_NODE,4):
-			src = switchIdx*nodePerL1Switch*HOST_PER_NODE + plxId
+			src = switchIdx*nodePerL1Switch*HOST_PER_NODE / 2 + plxId #multiple 2 since 2 IBswitch per 9 nodes.
 			src2 = src + 2
 			if src < totalNode * HOST_PER_NODE:
 				src = str(src)
 				#down link
 				line = '''	<link id="lplx''' + src + '''_s''' + str(switchIdx) +'''" ''' 
 				line += '''bandwidth="''' + str(INTER_LINK_BW) + '''Bps" '''
-				line += '''latency="''' +  str(CALBE_LAT) +'''s"/>\r\n''' 
+				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+				line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_PCIe_IDLE)
+				line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_PCIe_PEAK) +'''" />'''
+				line += '''</link>\r\n'''
 				fo.writelines(line)
 			
 			if src2 < totalNode * HOST_PER_NODE:
@@ -224,7 +239,10 @@ def main():
 				#down link
 				line = '''	<link id="lplx''' + src2 + '''_s''' + str(switchIdx2) +'''" ''' 
 				line += '''bandwidth="''' + str(INTER_LINK_BW) + '''Bps" '''
-				line += '''latency="''' +  str(CALBE_LAT) +'''s"/>\r\n''' 
+				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+				line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_PCIe_IDLE)
+				line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_PCIe_PEAK) +'''" />'''
+				line += '''</link>\r\n'''
 				fo.writelines(line)
 				
 	# 4.4 Generate route
@@ -267,7 +285,7 @@ def main():
 		fo.writelines(line) 
 		
 		for plxId in range(0,nodePerL1Switch*HOST_PER_NODE,4):
-			src = switchIdx*nodePerL1Switch*HOST_PER_NODE + plxId
+			src = switchIdx*nodePerL1Switch*HOST_PER_NODE/2 + plxId
 			src2 = src + 2
 			if src < totalNode * HOST_PER_NODE:
 				src = str(src)
