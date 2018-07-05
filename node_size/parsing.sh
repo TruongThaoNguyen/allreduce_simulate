@@ -1,6 +1,6 @@
 #!/bin/bash
 ## PARSING CG' LOG FILE
-SIZE=2
+SIZE="8_32"
 OUTPUT_FILE="./parse${SIZE}.txt"
 ENERGY_OUPUT_FILE="./energy_parse${SIZE}.txt"
 TEMP_FILE="./temp${SIZE}.txt"

@@ -1,0 +1,22 @@
+./logs2_128/allreduce32M_lr_256.log	lr	2	33554432	1000	59.4376
+./logs2_128/allreduce32M_ntt_binominal_lr_256.log	ntt_binominal_lr	2	33554432	1000	70.5241
+./logs2_128/allreduce32M_ntt_lr_lr_256.log	ntt_lr_lr	2	33554432	1000	138.324
+./logs2_128/allreduce32M_ntt_lr_rab_256.log	ntt_lr_rab	2	33554432	1000	70.3865
+./logs2_128/allreduce32M_ntt_lr_rdb_256.log	ntt_lr_rdb	2	33554432	1000	187.033
+./logs2_128/allreduce32M_ntt_smp_binominal_256.log	ntt_smp_binominal	2	33554432	1000	90.0071
+----------------
+./logs4_64/allreduce32M_lr_256.log	lr	4	33554432	1000	30.7617
+./logs4_64/allreduce32M_ntt_binominal_lr_256.log	ntt_binominal_lr	4	33554432	1000	188.188
+./logs4_64/allreduce32M_ntt_lr_lr_256.log	ntt_lr_lr	4	33554432	1000	83.389
+./logs4_64/allreduce32M_ntt_lr_rab_256.log	ntt_lr_rab	4	33554432	1000	37.9606
+./logs4_64/allreduce32M_ntt_lr_rdb_256.log	ntt_lr_rdb	4	33554432	1000	70.1226
+./logs4_64/allreduce32M_ntt_smp_binominal_256.log	ntt_smp_binominal	4	33554432	1000	66.9181
+----------------
+./logs8_32/allreduce32M_lr_256.log	lr	8	33554432	1000	48.8506
+./logs8_32/allreduce32M_ntt_binominal_lr_256.log	ntt_binominal_lr	8	33554432	1000	97.9364
+./logs8_32/allreduce32M_ntt_lr_lr_256.log	ntt_lr_lr	8	33554432	1000	52.8384
+./logs8_32/allreduce32M_ntt_lr_rab_256.log	ntt_lr_rab	8	33554432	1000	51.3263
+./logs8_32/allreduce32M_ntt_lr_rdb_256.log	ntt_lr_rdb	8	33554432	1000	74.9662
+./logs8_32/allreduce32M_ntt_smp_binominal_256.log	ntt_smp_binominal	8	33554432	1000	409.322
+----------------
+----------------

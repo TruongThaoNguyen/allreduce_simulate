@@ -7,15 +7,27 @@
 ./logs32/allreduce32M_rab_32.log	rab	4	33554432	1000	6.93297
 ./logs32/allreduce32M_rdb_32.log	rdb	4	33554432	1000	37.0643
 ----------------
-allreduce32M_lr_64.log	lr	4	33554432	1000	12.1047
-allreduce32M_ntt_binominal_lr_64.log	ntt_binominal_lr	4	33554432	1000	13.278
-allreduce32M_ntt_lr_lr_64.log	ntt_lr_lr	4	33554432	1000	6.74008
-allreduce32M_ntt_lr_rab_64.log	ntt_lr_rab	4	33554432	1000	6.60376
-allreduce32M_ntt_lr_rdb_64.log	ntt_lr_rdb	4	33554432	1000	12.7427
-allreduce32M_ntt_smp_binominal_64.log	ntt_smp_binominal	4	33554432	1000	25.4853
-allreduce32M_rdb_64.log	rdb	4	33554432	1000	
+./logs64/allreduce32M_lr_64.log	lr	4	33554432	1000	12.1047
+./logs64/allreduce32M_ntt_binominal_lr_64.log	ntt_binominal_lr	4	33554432	1000	13.278
+./logs64/allreduce32M_ntt_lr_lr_64.log	ntt_lr_lr	4	33554432	1000	6.74008
+./logs64/allreduce32M_ntt_lr_rab_64.log	ntt_lr_rab	4	33554432	1000	6.60376
+./logs64/allreduce32M_ntt_lr_rdb_64.log	ntt_lr_rdb	4	33554432	1000	12.7427
+./logs64/allreduce32M_ntt_smp_binominal_64.log	ntt_smp_binominal	4	33554432	1000	25.4853
+./logs64/allreduce32M_rdb_64.log	rdb	4	33554432	1000	
 ----------------
+./logs128/allreduce32M_lr_128.log	lr	4	33554432	1000	12.8692
+./logs128/allreduce32M_ntt_binominal_lr_128.log	ntt_binominal_lr	4	33554432	1000	13.8566
+./logs128/allreduce32M_ntt_lr_lr_128.log	ntt_lr_lr	4	33554432	1000	7.13709
+./logs128/allreduce32M_ntt_lr_rab_128.log	ntt_lr_rab	4	33554432	1000	6.80179
+./logs128/allreduce32M_ntt_lr_rdb_128.log	ntt_lr_rdb	4	33554432	1000	15.6582
+./logs128/allreduce32M_ntt_smp_binominal_128.log	ntt_smp_binominal	4	33554432	1000	31.3132
 ----------------
+./logs256/allreduce32M_lr_256.log	lr	4	33554432	1000	14.2619
+./logs256/allreduce32M_ntt_binominal_lr_256.log	ntt_binominal_lr	4	33554432	1000	14.6742
+./logs256/allreduce32M_ntt_lr_lr_256.log	ntt_lr_lr	4	33554432	1000	7.86399
+./logs256/allreduce32M_ntt_lr_rab_256.log	ntt_lr_rab	4	33554432	1000	6.90911
+./logs256/allreduce32M_ntt_lr_rdb_256.log	ntt_lr_rdb	4	33554432	1000	18.5737
+./logs256/allreduce32M_ntt_smp_binominal_256.log	ntt_smp_binominal	4	33554432	1000	37.1411
 ----------------
 ----------------
 ----------------

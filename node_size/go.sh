@@ -14,37 +14,40 @@ SIZE=256
 PLATFORM="../platforms/NVCluster_4_64.xml"
 HOSTFILE="../platforms/NVCluster_4_64.txt"
 APP="../app/"
-NODESIZE="4"
+NODESIZE="8"
 LOG_DIR="./logs"
 #for ALGO in "mvapich2" "ompi" "mpich"
 #for ALGO in "lr" "rdb" "rab_rdb"
-for ALGO in "lr" "rdb" "ntt_smp_binominal" "ntt_binominal_lr"
+# for ALGO in "lr" "ntt_smp_binominal" "ntt_binominal_lr" #"rdb" 
+# do	
+for ALGO in "ntt_lr_rab" "ntt_lr_lr" "ntt_lr_rdb" "lr" "ntt_smp_binominal" "ntt_binominal_lr" #"ntt_lr_binominal"
 do
-# for ALGO in "ntt_lr_rab" "ntt_lr_lr" "ntt_lr_rdb" #"ntt_lr_binominal"
-# do
-	# HOSTFILE="../platforms/NVCluster_4_64.lr.txt"
 	APP1="allreduce32M"
-	for ARCHITECTURE in "2_128
+	for NODESIZE in 8 #2 #4 8
 	do
+		NODENUMBER=$((${SIZE} / ${NODESIZE}))
+		ARCHITECTURE="${NODESIZE}_${NODENUMBER}"
+		PLATFORM="../platforms/NVCluster_${ARCHITECTURE}.xml"
+		HOSTFILE="../platforms/NVCluster_${ARCHITECTURE}.lr.txt"
 		CONFIG="--cfg=exception/cutpath:1 --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:${NODESIZE} --cfg=smpi/allreduce:${ALGO} --log=smpi_coll.:critical --cfg=plugin:Link_Energy"
-		LOG_FILE="${LOG_DIR}${SIZE}/${APP1}_${ALGO}_${SIZE}.log"
+		LOG_FILE="${LOG_DIR}${ARCHITECTURE}/${APP1}_${ALGO}_${SIZE}.log"
 		${SIMGRID} -np ${SIZE} -map -platform ${PLATFORM} -hostfile ${HOSTFILE} ${CONFIG} ${APP}${APP1} >> ${LOG_FILE} 2>&1 &
 	
-		if [ "$SIZE" = "32" ]
-		then
-			sleep 3100s
-		elif [ "$SIZE" = "64" ]
-		then
-			sleep 6200s
-		elif [ "$SIZE" = "128" ]
-		then
-			sleep 12400s
-		elif [ "$SIZE" = "256" ]
-		then
-			sleep 24800s
-		else
-			sleep 10m
-		fi
+		# if [ "$SIZE" = "32" ]
+		# then
+			# sleep 3100s
+		# elif [ "$SIZE" = "64" ]
+		# then
+			# sleep 6200s
+		# elif [ "$SIZE" = "128" ]
+		# then
+			# sleep 12400s
+		# elif [ "$SIZE" = "256" ]
+		# then
+			# sleep 24800s
+		# else
+			# sleep 10m
+		# fi
 	done
 done
 
