@@ -1,0 +1,5 @@
+allreduce32M_lr_Dragonfly_4_64.log	lr	4	33554432	1000	41.2523
+allreduce32M_ntt_lr_lr_Dragonfly_4_64.log	ntt_lr_lr	4	33554432	1000	36.3236
+allreduce32M_ntt_lr_rab_Dragonfly_4_64.log	ntt_lr_rab	4	33554432	1000	31.3975
+allreduce32M_ntt_lr_rdb_Dragonfly_4_64.log	ntt_lr_rdb	4	33554432	1000	124.383
+----------------
