@@ -24,9 +24,9 @@ def main():
 		
 	# 2. Get the argument
 	totalNode = int(sys.argv[1])
-	topoFileName = None
+	topoFileName = ''
 	if len(sys.argv) >= 4:
-		layoutFileName = str(sys.argv[3])		
+		topoFileName = str(sys.argv[3])		
 		
 	# 3. Parameter
 	HOST_SPEED = 9.3E12 # flop for NVIDIA Tesla P100
@@ -73,7 +73,7 @@ def main():
 	#Note that the total energy of 1 link = energy out + energy in...
 	
 	#4. Generte xml file 
-	ARCHITECTURE = "NVCluster_" + str(HOST_PER_NODE) 
+	ARCHITECTURE = "Dragonfly_" + str(HOST_PER_NODE) 
 	pathFileName = ARCHITECTURE + "_" + str(totalNode) + '.xml'
 	print 'Write paths into ' + pathFileName
 	fo = open(pathFileName, "w")
@@ -126,28 +126,19 @@ def main():
 		
 		
 	# 4.2.3. IB Switch generate
-	#TODO: Should load inter-node network from file ??
-	# In this example, generate the topology like NV_Cluster. 
-	# 	+ 2:1 oversubscription, 36-ports (24:12)
-	#	+ 100GBps links
+	# In this example, generate the topology from file. 
+	# Switch with 2:1 oversubscription, 36-ports (24:12)
+	# 24 Down port for 4.5 nodes/switch
+	# 
 	# 	+ Switch latency 100ns
-	L1_SWITCH_UP = 12
-	L1_SWITCH_DOWN = 24
-	print L1_SWITCH_DOWN, HOST_PER_NODE, (HOST_PER_NODE/2)
-	nodePerL1Switch = L1_SWITCH_DOWN/(HOST_PER_NODE/2) #4 Plx switch per nodes; 6 nodes per L1 switch	
+	L1_SWITCH_UP = 36
+	nodePerL1Switch = 1 # Use 1 node /1 switch
+	# TODO - need to calculate the swtich degree k; each link bandwidth = L1_SWITCH_UP/k
+	DEGREE = 9
+	
 	print totalNode,nodePerL1Switch
 	totalL1Switch = int(math.ceil(1.0*totalNode/nodePerL1Switch))
 	#print totalL1Switch,totalNode
-	
-	#L2 switch
-	#fo.writelines("\r\n")
-	line = '''	<router id="sroot"/>\r\n'''
-	fo.writelines(line)
-	#L2 switch latency
-	line = '''	<link id="ls_root"''' 
-	line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP*totalL1Switch) + '''Bps" '''
-	line += '''latency="''' +  str(INTER_SWITCH_LAT) +'''s"/>\r\n''' 
-	fo.writelines(line)
 	
 	for switchIdx in range(0,totalL1Switch):
 		#L1-switch
@@ -155,7 +146,7 @@ def main():
 		fo.writelines(line)
 		#switch latency
 		line = '''	<link id="ls''' + str(switchIdx) + '''" ''' 
-		line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_DOWN) + '''Bps" '''
+		line += '''bandwidth="''' + str(INTER_LINK_BW) + '''Bps" '''
 		line += '''latency="''' +  str(INTER_SWITCH_LAT) +'''s"/>\r\n''' 
 		fo.writelines(line)	
 		
@@ -173,7 +164,6 @@ def main():
 		linkList = linkList + [(8,9,1),(8,10,1),(8,11,1),(9,10,1),(9,11,1),(10,11,1)]
 		linkList = linkList + [(12,13,1),(12,14,1),(12,15,1),(13,14,1),(13,15,1),(14,15,1)]
 		linkList = linkList + [(0,13,1),(1,4,1),(2,7,1),(3,14,1),(5,8,1),(6,11,1),(9,12,1),(10,15,1)]
-		
 		
 	for nodeIdx in range(0,totalNode):
 		for linkIdx in range (0,len(linkList)):
@@ -205,16 +195,28 @@ def main():
 			fo.writelines(line)
 
 	fo.writelines("<!--  Generate inter-links -->\r\n")
+	#generate dragonfly link that load from file.
+	if topoFileName <> '':
+		f = open(topoFileName, 'r')
+		for line in f:
+			splitLine = line.replace('\n','')
+			splitLine = splitLine.split(' ')
+			srcSwitch = int(splitLine[0])
+			dstSwitch = int(splitLine[1])
+			if (srcSwitch < totalL1Switch) and (dstSwitch < totalL1Switch):
+				line = '''	<link id="ls''' + str(srcSwitch) + '''_s''' + str(dstSwitch) + '''"''' 
+				line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP/DEGREE) + '''Bps" '''
+				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+				line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_IB_EDGE_IDLE)
+				line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_IB_EDGE_PEAK) +'''" />'''
+				line += '''</link>\r\n'''
+				fo.writelines(line)
+		f.close()
+	else:
+		print "Empty topo file"
+		return None
+	
 	for switchIdx in range(0,totalL1Switch):
-		#up link
-		line = '''	<link id="ls''' + str(switchIdx) + '''_root" ''' 
-		line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP) + '''Bps" '''
-		line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
-		line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_IB_SPINE_IDLE)
-		line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_IB_SPINE_PEAK) +'''" />'''
-		line += '''</link>\r\n'''
-		fo.writelines(line)
-
 		for plxId in range(0,nodePerL1Switch*HOST_PER_NODE,2):
 			src = switchIdx*nodePerL1Switch*HOST_PER_NODE + plxId
 			if src < totalNode * HOST_PER_NODE:
@@ -252,14 +254,36 @@ def main():
 			fo.writelines(line) 
 			
 	fo.writelines("<!--  Generate inter-route -->\r\n")
+	if topoFileName <> '':
+		f = open(topoFileName, 'r')
+		for line in f:
+			splitLine = line.replace('\n','')
+			splitLine = splitLine.split(' ')
+			srcSwitch = int(splitLine[0])
+			dstSwitch = int(splitLine[1])
+			if (srcSwitch < totalL1Switch) and (dstSwitch < totalL1Switch):
+				line = '''	<route src="s''' + str(srcSwitch) + '''" dst="s''' + str(dstSwitch) + '''">
+		<link_ctn id="ls''' + str(srcSwitch) + '''_s''' + str(dstSwitch) + '''"/>
+		<link_ctn id="ls_''' + str(dstSwitch) + '''"/>
+	</route>\r\n'''
+				fo.writelines(line) 
+			
+				line = '''	<link id="ls''' + str(srcSwitch) + '''_s''' + str(dstSwitch) + '''"''' 
+				line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP/DEGREE) + '''Bps" '''
+				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+				line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_IB_EDGE_IDLE)
+				line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_IB_EDGE_PEAK) +'''" />'''
+				line += '''</link>\r\n'''
+				fo.writelines(line)
+		f.close()
+	else:
+		print "Empty topo file"
+		return None
+	
+	
 	for switchIdx in range(0,totalL1Switch):	
 		#4.4.3. Route to L2
-		line = '''	<route src="s''' + str(switchIdx) + '''" dst="sroot">
-		<link_ctn id="ls''' + str(switchIdx) + '''_root"/>
-		<link_ctn id="ls_root"/>
-	</route>\r\n'''
-		fo.writelines(line) 
-	
+
 		for plxId in range(0,nodePerL1Switch*HOST_PER_NODE,2):
 			src = switchIdx*nodePerL1Switch*HOST_PER_NODE + plxId
 			if src < totalNode * HOST_PER_NODE:

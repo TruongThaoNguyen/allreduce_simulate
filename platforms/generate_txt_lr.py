@@ -62,10 +62,12 @@ def main():
 				fo.writelines(line)
 		if (deployType == "lr"):
 			mapping_order = [0,1,2,7,4,5,6,3]
-			if ( hostPerNode == 8):
+			if ( HOST_PER_NODE == 4):
 				mapping_order = [0,1,2,3]
-			if ( hostPerNode == 8):
+			if ( HOST_PER_NODE == 2):
 				mapping_order = [0,1]
+			if ( HOST_PER_NODE == 16):
+				mapping_order = [0,1,2,7,4,5,6,11,8,9,10,15,12,13,14,3]
 				
 			for hostIdx in mapping_order:
 				idx = nodeIdx*HOST_PER_NODE + hostIdx

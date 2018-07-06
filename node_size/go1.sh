@@ -15,22 +15,23 @@ PLATFORM="../platforms/NVCluster_4_64.xml"
 HOSTFILE="../platforms/NVCluster_4_64.txt"
 APP="../app/"
 NODESIZE="8"
-LOG_DIR="./logs"
+LOG_DIR="./logs_rank"
 #for ALGO in "mvapich2" "ompi" "mpich"
 #for ALGO in "lr" "rdb" "rab_rdb"
 # for ALGO in "lr" "ntt_smp_binominal" "ntt_binominal_lr" #"rdb" 
 # do	
-for ALGO in "lr" #"ntt_lr_rab" "ntt_lr_lr" "ntt_lr_rdb" "lr" #"ntt_lr_binominal"
+for LEADERNUMBER in 16 #2 8 #16
 do
+	ALGO="ntt_lr_lr" #"ntt_lr_lr" "ntt_lr_rab" "ntt_lr_rdb" #"ntt_lr_binominal"
 	APP1="allreduce32M"
-	for NODESIZE in 2 4 8 #16
+	for NODESIZE in 4 #8 16
 	do
 		NODENUMBER=$((${SIZE} / ${NODESIZE}))
 		ARCHITECTURE="${NODESIZE}_${NODENUMBER}"
 		PLATFORM="../platforms/NVCluster_${ARCHITECTURE}.xml"
 		HOSTFILE="../platforms/NVCluster_${ARCHITECTURE}.lr.txt"
-		CONFIG="--cfg=exception/cutpath:1 --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:${NODESIZE} --cfg=smpi/allreduce:${ALGO} --log=smpi_coll.:critical --cfg=plugin:Link_Energy"
-		LOG_FILE="${LOG_DIR}${ARCHITECTURE}/${APP1}_${ALGO}_NVCluster${ARCHITECTURE}.log"
+		CONFIG="--cfg=exception/cutpath:1 --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:${LEADERNUMBER} --cfg=smpi/allreduce:${ALGO} --log=smpi_coll.:critical --cfg=plugin:Link_Energy"
+		LOG_FILE="${LOG_DIR}/${APP1}_${ALGO}_NVCluster${ARCHITECTURE}_${LEADERNUMBER}.log"
 		${SIMGRID} -np ${SIZE} -map -platform ${PLATFORM} -hostfile ${HOSTFILE} ${CONFIG} ${APP}${APP1} >> ${LOG_FILE} 2>&1 &
 	
 		# if [ "$SIZE" = "32" ]
