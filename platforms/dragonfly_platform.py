@@ -264,17 +264,9 @@ def main():
 			if (srcSwitch < totalL1Switch) and (dstSwitch < totalL1Switch):
 				line = '''	<route src="s''' + str(srcSwitch) + '''" dst="s''' + str(dstSwitch) + '''">
 		<link_ctn id="ls''' + str(srcSwitch) + '''_s''' + str(dstSwitch) + '''"/>
-		<link_ctn id="ls_''' + str(dstSwitch) + '''"/>
+		<link_ctn id="ls''' + str(dstSwitch) + '''"/>
 	</route>\r\n'''
 				fo.writelines(line) 
-			
-				line = '''	<link id="ls''' + str(srcSwitch) + '''_s''' + str(dstSwitch) + '''"''' 
-				line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP/DEGREE) + '''Bps" '''
-				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
-				line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_EDGE_IDLE + ENERGY_LINK_IB_EDGE_IDLE)
-				line += ''':''' + str(ENERGY_LINK_IB_EDGE_PEAK + ENERGY_LINK_IB_EDGE_PEAK) +'''" />'''
-				line += '''</link>\r\n'''
-				fo.writelines(line)
 		f.close()
 	else:
 		print "Empty topo file"

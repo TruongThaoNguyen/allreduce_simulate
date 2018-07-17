@@ -11,8 +11,8 @@
 
 SIMGRID="/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpirun"
 SIZE=64
-PLATFORM="./platforms/Tsubame3_16.xml"
-HOSTFILE="./platforms/Tsubame3_16.lr.txt"
+PLATFORM="../platforms/NVCluster_2_128.xml"
+HOSTFILE="../platforms/NVCluster_2_128.lr.txt"
 APP="./allreduce1M"
 NODESIZE="4"
 LOG_DIR="./logs"
@@ -23,7 +23,7 @@ do
 		#for ALGO in "mvapich2" "ompi" "mpich"
 		#for ALGO in "lr" "rdb" "rab" "mvapich2" "ompi" "mpich"
 		#for ALGO in "ntt_smp_binominal" "ntt_binominal_lr" "ntt_lr_rab" "ntt_lr_lr" "ntt_lr_rdb" "lr"
-		for ALGO in "ntt_lr_lr" "lr"
+		for ALGO in "lr"
 		do
 			for APP in "./allreduce1M" #"./allreduce2M" "./allreduce4M" "./allreduce8M" "./allreduce16M" "./allreduce32M"
 			do

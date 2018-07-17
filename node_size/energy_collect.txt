@@ -1,14 +1,14 @@
-./logs2_128/allreduce32M_lr_NVCluster2_128.log	lr	2	33554432	1000		
+./logs2_128/allreduce32M_lr_NVCluster2_128.log	lr	2	33554432	1000	211735.515911	147871.914600
 ./logs2_128/allreduce32M_ntt_lr_lr_NVCluster2_128.log	ntt_lr_lr	2	33554432	1000	189580.956565	131750.282781
 ./logs2_128/allreduce32M_ntt_lr_rab_NVCluster2_128.log	ntt_lr_rab	2	33554432	1000	175878.479553	122829.402344
 ./logs2_128/allreduce32M_ntt_lr_rdb_NVCluster2_128.log	ntt_lr_rdb	2	33554432	1000		
 ----------------
-./logs4_64/allreduce32M_lr_NVCluster4_64.log	lr	4	33554432	1000		
+./logs4_64/allreduce32M_lr_NVCluster4_64.log	lr	4	33554432	1000	65178.310338	34390.625385
 ./logs4_64/allreduce32M_ntt_lr_lr_NVCluster4_64.log	ntt_lr_lr	4	33554432	1000	69701.425125	36766.446888
 ./logs4_64/allreduce32M_ntt_lr_rab_NVCluster4_64.log	ntt_lr_rab	4	33554432	1000	68391.887252	36810.607235
 ./logs4_64/allreduce32M_ntt_lr_rdb_NVCluster4_64.log	ntt_lr_rdb	4	33554432	1000	245349.621551	138687.352248
 ----------------
-./logs8_32/allreduce32M_lr_NVCluster8_32.log	lr	8	33554432	1000		
+./logs8_32/allreduce32M_lr_NVCluster8_32.log	lr	8	33554432	1000	58110.721428	37798.020725
 ./logs8_32/allreduce32M_ntt_lr_lr_NVCluster8_32.log	ntt_lr_lr	8	33554432	1000	41945.238668	21418.250516
 ./logs8_32/allreduce32M_ntt_lr_rab_NVCluster8_32.log	ntt_lr_rab	8	33554432	1000	43777.497766	22951.429360
 ./logs8_32/allreduce32M_ntt_lr_rdb_NVCluster8_32.log	ntt_lr_rdb	8	33554432	1000		
@@ -18,8 +18,4 @@
 ./logs16_16/allreduce32M_ntt_lr_rab_NVCluster16_16.log	ntt_lr_rab	16	33554432	1000	31422.914374	15995.699912
 ./logs16_16/allreduce32M_ntt_lr_rdb_NVCluster16_16.log	ntt_lr_rdb	16	33554432	1000	58784.071217	31702.223486
 ----------------
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_16.log	ntt_lr_lr	16	33554432	1000	55894.156897	29097.144303
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_16.log.bak	ntt_lr_lr	16	33554432	1000		
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_2.log	ntt_lr_lr	2	33554432	1000	84263.843226	48109.411566
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_8.log	ntt_lr_lr	8	33554432	1000	66634.980124	34099.549517
 ----------------

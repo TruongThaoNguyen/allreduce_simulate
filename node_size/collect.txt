@@ -1,11 +1,14 @@
+./logs2_128/allreduce32M_lr_NVCluster2_128.log	lr	2	33554432	1000	15.191
 ./logs2_128/allreduce32M_ntt_lr_lr_NVCluster2_128.log	ntt_lr_lr	2	33554432	1000	13.6051
 ./logs2_128/allreduce32M_ntt_lr_rab_NVCluster2_128.log	ntt_lr_rab	2	33554432	1000	12.6204
 ./logs2_128/allreduce32M_ntt_lr_rdb_NVCluster2_128.log	ntt_lr_rdb	2	33554432	1000	
 ----------------
+./logs4_64/allreduce32M_lr_NVCluster4_64.log	lr	4	33554432	1000	9.96954
 ./logs4_64/allreduce32M_ntt_lr_lr_NVCluster4_64.log	ntt_lr_lr	4	33554432	1000	7.65859
 ./logs4_64/allreduce32M_ntt_lr_rab_NVCluster4_64.log	ntt_lr_rab	4	33554432	1000	7.52481
 ./logs4_64/allreduce32M_ntt_lr_rdb_NVCluster4_64.log	ntt_lr_rdb	4	33554432	1000	27.2822
 ----------------
+./logs8_32/allreduce32M_lr_NVCluster8_32.log	lr	8	33554432	1000	9.96955
 ./logs8_32/allreduce32M_ntt_lr_lr_NVCluster8_32.log	ntt_lr_lr	8	33554432	1000	4.57378
 ./logs8_32/allreduce32M_ntt_lr_rab_NVCluster8_32.log	ntt_lr_rab	8	33554432	1000	4.79012
 ./logs8_32/allreduce32M_ntt_lr_rdb_NVCluster8_32.log	ntt_lr_rdb	8	33554432	1000	
@@ -15,8 +18,4 @@
 ./logs16_16/allreduce32M_ntt_lr_rab_NVCluster16_16.log	ntt_lr_rab	16	33554432	1000	3.41752
 ./logs16_16/allreduce32M_ntt_lr_rdb_NVCluster16_16.log	ntt_lr_rdb	16	33554432	1000	6.47743
 ----------------
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_16.log	ntt_lr_lr	16	33554432	1000	7.04346
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_16.log.bak	ntt_lr_lr	16	33554432	1000	
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_2.log	ntt_lr_lr	2	33554432	1000	9.30135
-./logs_rank/allreduce32M_ntt_lr_lr_NVCluster4_64_8.log	ntt_lr_lr	8	33554432	1000	8.42144
 ----------------

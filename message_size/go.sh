@@ -20,7 +20,7 @@ LOG_DIR="./logs128M"
 #for ALGO in "lr" "rdb" "rab_rdb"
 # for ALGO in "lr" "ntt_smp_binominal" "ntt_binominal_lr" #"rdb" 
 # do
-for ALGO in "lr" #"ntt_lr_lr" "ntt_lr_rdb" #"ntt_lr_binominal"
+for ALGO in "ntt_smp_binominal" #"ntt_lr_lr" "ntt_lr_rdb" #"ntt_lr_binominal"
 do
 	HOSTFILE="../platforms/Tsubame3_64.lr.txt"
 	for APP1 in "allreduce128M" #"allreduce4M" #"allreduce8M" "allreduce16M" "allreduce32M" "allreduce64M" "allreduce128M" "allreduce256M"
