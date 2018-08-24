@@ -146,8 +146,6 @@ double LinkEnergy::getConsumedEnergy()
     simgrid::simix::kernelImmediate(std::bind(&LinkEnergy::update, this));
   return this->totalEnergy_;
 }
-}
-}
 
 double LinkEnergy::getIdleEnergy()
 {
