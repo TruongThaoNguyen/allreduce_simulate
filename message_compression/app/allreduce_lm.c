@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	int hostname_len;
 
 	//1. Check parameter
-	if (argc != 2)
+	if (argc < 2)
 	{
 		fprintf(stderr,"Usage: %s <soure-folder>\n", argv[0]);
 		return;
