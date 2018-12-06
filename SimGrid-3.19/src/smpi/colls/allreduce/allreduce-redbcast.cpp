@@ -11,14 +11,17 @@ int Coll_allreduce_redbcast::allreduce(void *buf, void *buf2, int count,
                                        MPI_Datatype datatype, MPI_Op op,
                                        MPI_Comm comm)
 {
-  XBT_WARN("[NNNN] [%d] Start function",comm->rank());
-  XBT_WARN("[NNNN] [%d] Start algorithm",rank);
-  XBT_WARN("[NNNN] [%d] reduce inter-communication",rank);
-  Colls::reduce(buf, buf2, count, datatype, op, 0, comm);
-  XBT_WARN("[NNNN] [%d] broadcast inter-communication",rank);
-  Colls::bcast(buf2, count, datatype, 0, comm);
-  XBT_WARN("[NNNN] [%d] Finish algorithm",rank);	
-  return MPI_SUCCESS;
+	int size, rank;
+	size = comm->size(); 
+	rank = comm->rank();
+	XBT_WARN("[NNNN] [%d] Start function",comm->rank());
+	XBT_WARN("[NNNN] [%d] Start algorithm",rank);
+	XBT_WARN("[NNNN] [%d] reduce inter-communication",rank);
+	Colls::reduce(buf, buf2, count, datatype, op, 0, comm);
+	XBT_WARN("[NNNN] [%d] broadcast inter-communication",rank);
+	Colls::bcast(buf2, count, datatype, 0, comm);
+	XBT_WARN("[NNNN] [%d] Finish algorithm",rank);	
+	return MPI_SUCCESS;
 }
 }
 }
