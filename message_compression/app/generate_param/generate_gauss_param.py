@@ -37,6 +37,7 @@ def main():
 	
 	# 3. Generate random values and write to files
 	MAX_BUFF_SIZE = 29900
+	random.seed(seed)
 	for fileIdx in range(0,file_maxidx):
 		out_file_name = out_file_prefix + str(fileIdx) + ".txt"
 		print "Write " + str(number_of_values) +  " values into " + out_file_name
@@ -44,7 +45,6 @@ def main():
 		# 3.1. 1st line
 		line = "iter0," + str(number_of_values) + "\n"
 		fo.writelines(line)
-		random.seed(seed)
 		line = ""
 		for i in range (0, number_of_values):
 			if line <> "":
@@ -55,6 +55,10 @@ def main():
 				line += "\n"
 				fo.writelines(line)
 				line = ""
+		
+		if line <> "":
+			fo.writelines(line)
+			
 		fo.close()
 	
 main()

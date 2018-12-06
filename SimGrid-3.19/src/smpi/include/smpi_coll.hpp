@@ -241,7 +241,6 @@ COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_binominal_lr) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_smp_binominal) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, automatic)
 COLL_ALLREDUCES(COLL_PROTO, COLL_NOsep)
-
 /************
  * ALLTOALL *
  ************/
