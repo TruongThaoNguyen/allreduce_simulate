@@ -13,7 +13,10 @@
 ./network_size/logs512/*.*
 ./network_size/logs64/*.*
 ./network_size/logs/*.*
+./message_compression/log/*.*
+./message_compression/test/*.*
 ./a.diff
+./a.txt
 ./SimGrid-3.19/CMakeCache.txt
 ./SimGrid-3.19/CMakeFiles/
 ./SimGrid-3.19/CPackConfig.cmake

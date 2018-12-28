@@ -10,10 +10,10 @@
 	# else use   redbcast.
 
 SIMGRID="/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpirun"
-SIZE=64
+SIZE=32
 PLATFORM="../platforms/NVCluster_2_128.xml"
 HOSTFILE="../platforms/NVCluster_2_128.lr.txt"
-APP="./allreduce1M"
+APP="./allreduce"
 NODESIZE="4"
 LOG_DIR="./logs"
 for i in 0 #1 2 3 4 5 6 7 8 9 

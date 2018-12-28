@@ -6,7 +6,7 @@
 //#define N (1024 * 1024 * 1)
 #define N (1024 * 1024 * 1)  //Weight size
 #define K 8 	//Batch size
-#define M 1000	//Number of iteration
+#define M 100	//Number of iteration
 int main(int argc, char *argv[])
 {
   int size, rank;
@@ -33,7 +33,8 @@ int main(int argc, char *argv[])
 	int j=0;
 	for (j=0; j < N; j++){
 		//local_sum[j] = (N-j) * (rank +1);
-		local_sum[j] = rank * N + j;
+		//local_sum[j] = rank * N + j;
+		local_sum[j] = j;
 	}
 	
 	for (i = 0; i < M; i++){
@@ -44,13 +45,15 @@ int main(int argc, char *argv[])
 		MPI_Allreduce(local_sum, global_sum, N, MPI_FLOAT, MPI_SUM,MPI_COMM_WORLD);
 		
 		// Print the result
-		/*if (rank == 0)
-		{
-			fprintf(stderr,"%s: %d/%d,weight size: %d, iteration: %d\n", hostname, rank, size, N * sizeof(float), M);
-			printf("Global sum in rank %d - %.10e\n", rank, global_sum[0]);
-		}*/
-		
 		//printf("Global sum in rank %d - %.10e\n", rank, global_sum[N-1]);
+	}
+	
+	if (rank == 0)
+	{
+		fprintf(stderr,"%s: %d/%d,weight size: %d, iteration: %d\n", hostname, rank, size, N * sizeof(float), M);
+		for (j=0; j < 100; j++){
+			printf("Global sum in rank %d - %.10e\n", rank, global_sum[j]);
+		}
 	}
 	MPI_Finalize();
 	return 0;

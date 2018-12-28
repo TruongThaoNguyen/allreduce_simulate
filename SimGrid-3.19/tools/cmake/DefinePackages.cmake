@@ -257,7 +257,11 @@ set(SMPI_SRC
   src/surf/network_ib.cpp
   # BEGIN NguyenTT
   src/smpi/colls/allreduce/allreduce-ntt-lr-rab.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-lr-rab-pipeline.cpp
   src/smpi/colls/allreduce/allreduce-ntt-lr-lr.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-lr-lr-pipeline.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-lr-lr-pipeline-blocking.cpp
+  src/smpi/colls/allreduce/allreduce-ntt-lr-lr-pipeline-nb.cpp
   src/smpi/colls/allreduce/allreduce-ntt-lr-rdb.cpp
   src/smpi/colls/allreduce/allreduce-ntt-binominal-lr.cpp
   src/smpi/colls/allreduce/allreduce-ntt-smp-binominal.cpp
