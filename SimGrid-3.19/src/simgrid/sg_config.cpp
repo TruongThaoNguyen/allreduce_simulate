@@ -536,7 +536,7 @@ void sg_config_init(int *argc, char **argv)
     xbt_cfg_register_string("smpi/reduce",        nullptr, nullptr, "Which collective to use for reduce");
 	/*NguyenTT*/
 	xbt_cfg_register_int("smpi/process_of_node", 1, nullptr, "NTT-Allreduce: Number of processes per a computing node");
-	xbt_cfg_register_int("smpi/pipeline_segment_size", 1024, nullptr, "NTT-Allreduce: default segment size for pipelining but it is typically passed as a command line argument");
+	xbt_cfg_register_int("smpi/pipeline_segment_number", 2, nullptr, "NTT-Allreduce: default segment number for pipelining but it is typically passed as a command line argument");
 	/*END NguyenTT*/
 #endif // HAVE_SMPI
 

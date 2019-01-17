@@ -235,11 +235,8 @@ COLL_APPLY(action, COLL_ALLREDUCE_SIG, mvapich2_two_level) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, impi) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, rab) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_rab) COLL_sep \
-COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_rab_pipeline) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_lr) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_lr_pipeline) COLL_sep \
-COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_lr_pipeline_blocking) COLL_sep \
-COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_lr_pipeline_nb) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_lr_rdb) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_binominal_lr) COLL_sep \
 COLL_APPLY(action, COLL_ALLREDUCE_SIG, ntt_smp_binominal) COLL_sep \

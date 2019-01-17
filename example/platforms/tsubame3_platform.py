@@ -170,7 +170,7 @@ def main():
 	#4.3.1. Intra-link generate (NVLINK)
 	# This is only for 4 nodes.
 	fo.writelines("<!--  Generate intra-links -->\r\n")
-	linkList = [(0,1,1),(0,2,2),(0,3,1),(1,2,1),(1,3,2),(2,3,1)]
+	linkList = [(0,1,1),(0,2,1),(0,3,2),(1,2,2),(1,3,1),(2,3,1)]
 	for nodeIdx in range(0,totalNode):
 		for linkIdx in range (0,len(linkList)):
 			src = str(get_host_Id(nodeIdx,linkList[linkIdx][0],HOST_PER_NODE))

@@ -1,0 +1,506 @@
+[rank 0] -> n0
+[rank 1] -> n1
+[rank 2] -> n2
+[rank 3] -> n3
+[rank 4] -> n4
+[rank 5] -> n5
+[rank 6] -> n6
+[rank 7] -> n7
+[rank 8] -> n8
+[rank 9] -> n9
+[rank 10] -> n10
+[rank 11] -> n11
+[rank 12] -> n12
+[rank 13] -> n13
+[rank 14] -> n14
+[rank 15] -> n15
+[rank 16] -> n16
+[rank 17] -> n17
+[rank 18] -> n18
+[rank 19] -> n19
+[rank 20] -> n20
+[rank 21] -> n21
+[rank 22] -> n22
+[rank 23] -> n23
+[rank 24] -> n24
+[rank 25] -> n25
+[rank 26] -> n26
+[rank 27] -> n27
+[rank 28] -> n28
+[rank 29] -> n29
+[rank 30] -> n30
+[rank 31] -> n31
+[rank 32] -> n32
+[rank 33] -> n33
+[rank 34] -> n34
+[rank 35] -> n35
+[rank 36] -> n36
+[rank 37] -> n37
+[rank 38] -> n38
+[rank 39] -> n39
+[rank 40] -> n40
+[rank 41] -> n41
+[rank 42] -> n42
+[rank 43] -> n43
+[rank 44] -> n44
+[rank 45] -> n45
+[rank 46] -> n46
+[rank 47] -> n47
+[rank 48] -> n48
+[rank 49] -> n49
+[rank 50] -> n50
+[rank 51] -> n51
+[rank 52] -> n52
+[rank 53] -> n53
+[rank 54] -> n54
+[rank 55] -> n55
+[rank 56] -> n56
+[rank 57] -> n57
+[rank 58] -> n58
+[rank 59] -> n59
+[rank 60] -> n60
+[rank 61] -> n61
+[rank 62] -> n62
+[rank 63] -> n63
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'exception/cutpath' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/process_of_node' to '4'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/pipeline_segment_number' to '2'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/allreduce' to 'lr'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+n0: 0/64,weight size: 134217728, iteration: 1
+[n37:37:(38) 0.000549] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [37] Start function
+[n37:37:(38) 0.000549] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [37] Start algorithm
+[n37:37:(38) 0.000549] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [37] lr reduce-scatter
+[n38:38:(39) 0.000550] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [38] Start function
+[n38:38:(39) 0.000550] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [38] Start algorithm
+[n38:38:(39) 0.000550] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [38] lr reduce-scatter
+[n36:36:(37) 0.000550] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [36] Start function
+[n36:36:(37) 0.000550] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [36] Start algorithm
+[n36:36:(37) 0.000550] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [36] lr reduce-scatter
+[n39:39:(40) 0.000566] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [39] Start function
+[n39:39:(40) 0.000566] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [39] Start algorithm
+[n39:39:(40) 0.000566] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [39] lr reduce-scatter
+[n35:35:(36) 0.000574] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [35] Start function
+[n35:35:(36) 0.000574] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [35] Start algorithm
+[n35:35:(36) 0.000574] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [35] lr reduce-scatter
+[n50:50:(51) 0.000576] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [50] Start function
+[n50:50:(51) 0.000576] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [50] Start algorithm
+[n50:50:(51) 0.000576] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [50] lr reduce-scatter
+[n61:61:(62) 0.000576] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [61] Start function
+[n61:61:(62) 0.000576] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [61] Start algorithm
+[n61:61:(62) 0.000576] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [61] lr reduce-scatter
+[n60:60:(61) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [60] Start function
+[n60:60:(61) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [60] Start algorithm
+[n60:60:(61) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [60] lr reduce-scatter
+[n62:62:(63) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [62] Start function
+[n62:62:(63) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [62] Start algorithm
+[n62:62:(63) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [62] lr reduce-scatter
+[n45:45:(46) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [45] Start function
+[n45:45:(46) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [45] Start algorithm
+[n45:45:(46) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [45] lr reduce-scatter
+[n43:43:(44) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [43] Start function
+[n43:43:(44) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [43] Start algorithm
+[n43:43:(44) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [43] lr reduce-scatter
+[n57:57:(58) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [57] Start function
+[n57:57:(58) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [57] Start algorithm
+[n57:57:(58) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [57] lr reduce-scatter
+[n48:48:(49) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [48] Start function
+[n48:48:(49) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [48] Start algorithm
+[n48:48:(49) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [48] lr reduce-scatter
+[n58:58:(59) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [58] Start function
+[n58:58:(59) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [58] Start algorithm
+[n58:58:(59) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [58] lr reduce-scatter
+[n30:30:(31) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [30] Start function
+[n30:30:(31) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [30] Start algorithm
+[n30:30:(31) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [30] lr reduce-scatter
+[n49:49:(50) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [49] Start function
+[n49:49:(50) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [49] Start algorithm
+[n49:49:(50) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [49] lr reduce-scatter
+[n59:59:(60) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [59] Start function
+[n59:59:(60) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [59] Start algorithm
+[n59:59:(60) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [59] lr reduce-scatter
+[n53:53:(54) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [53] Start function
+[n53:53:(54) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [53] Start algorithm
+[n53:53:(54) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [53] lr reduce-scatter
+[n52:52:(53) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [52] Start function
+[n52:52:(53) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [52] Start algorithm
+[n52:52:(53) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [52] lr reduce-scatter
+[n34:34:(35) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [34] Start function
+[n34:34:(35) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [34] Start algorithm
+[n34:34:(35) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [34] lr reduce-scatter
+[n54:54:(55) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [54] Start function
+[n54:54:(55) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [54] Start algorithm
+[n54:54:(55) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [54] lr reduce-scatter
+[n46:46:(47) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [46] Start function
+[n46:46:(47) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [46] Start algorithm
+[n46:46:(47) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [46] lr reduce-scatter
+[n51:51:(52) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [51] Start function
+[n51:51:(52) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [51] Start algorithm
+[n51:51:(52) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [51] lr reduce-scatter
+[n41:41:(42) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [41] Start function
+[n41:41:(42) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [41] Start algorithm
+[n41:41:(42) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [41] lr reduce-scatter
+[n56:56:(57) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [56] Start function
+[n56:56:(57) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [56] Start algorithm
+[n56:56:(57) 0.000577] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [56] lr reduce-scatter
+[n22:22:(23) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [22] Start function
+[n22:22:(23) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [22] Start algorithm
+[n22:22:(23) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [22] lr reduce-scatter
+[n55:55:(56) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [55] Start function
+[n55:55:(56) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [55] Start algorithm
+[n55:55:(56) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [55] lr reduce-scatter
+[n33:33:(34) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [33] Start function
+[n33:33:(34) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [33] Start algorithm
+[n33:33:(34) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [33] lr reduce-scatter
+[n25:25:(26) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [25] Start function
+[n25:25:(26) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [25] Start algorithm
+[n25:25:(26) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [25] lr reduce-scatter
+[n63:63:(64) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [63] Start function
+[n63:63:(64) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [63] Start algorithm
+[n63:63:(64) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [63] lr reduce-scatter
+[n44:44:(45) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [44] Start function
+[n44:44:(45) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [44] Start algorithm
+[n44:44:(45) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [44] lr reduce-scatter
+[n40:40:(41) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [40] Start function
+[n40:40:(41) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [40] Start algorithm
+[n40:40:(41) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [40] lr reduce-scatter
+[n47:47:(48) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [47] Start function
+[n47:47:(48) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [47] Start algorithm
+[n47:47:(48) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [47] lr reduce-scatter
+[n18:18:(19) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [18] Start function
+[n18:18:(19) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [18] Start algorithm
+[n18:18:(19) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [18] lr reduce-scatter
+[n27:27:(28) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [27] Start function
+[n27:27:(28) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [27] Start algorithm
+[n27:27:(28) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [27] lr reduce-scatter
+[n42:42:(43) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [42] Start function
+[n42:42:(43) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [42] Start algorithm
+[n42:42:(43) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [42] lr reduce-scatter
+[n26:26:(27) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [26] Start function
+[n26:26:(27) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [26] Start algorithm
+[n26:26:(27) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [26] lr reduce-scatter
+[n23:23:(24) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [23] Start function
+[n23:23:(24) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [23] Start algorithm
+[n23:23:(24) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [23] lr reduce-scatter
+[n29:29:(30) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [29] Start function
+[n29:29:(30) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [29] Start algorithm
+[n29:29:(30) 0.000578] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [29] lr reduce-scatter
+[n24:24:(25) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [24] Start function
+[n24:24:(25) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [24] Start algorithm
+[n24:24:(25) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [24] lr reduce-scatter
+[n28:28:(29) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [28] Start function
+[n28:28:(29) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [28] Start algorithm
+[n28:28:(29) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [28] lr reduce-scatter
+[n17:17:(18) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [17] Start function
+[n17:17:(18) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [17] Start algorithm
+[n17:17:(18) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [17] lr reduce-scatter
+[n10:10:(11) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [10] Start function
+[n10:10:(11) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [10] Start algorithm
+[n10:10:(11) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [10] lr reduce-scatter
+[n31:31:(32) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [31] Start function
+[n31:31:(32) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [31] Start algorithm
+[n31:31:(32) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [31] lr reduce-scatter
+[n19:19:(20) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [19] Start function
+[n19:19:(20) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [19] Start algorithm
+[n19:19:(20) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [19] lr reduce-scatter
+[n32:32:(33) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [32] Start function
+[n32:32:(33) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [32] Start algorithm
+[n32:32:(33) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [32] lr reduce-scatter
+[n21:21:(22) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [21] Start function
+[n21:21:(22) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [21] Start algorithm
+[n21:21:(22) 0.000579] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [21] lr reduce-scatter
+[n15:15:(16) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [15] Start function
+[n15:15:(16) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [15] Start algorithm
+[n15:15:(16) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [15] lr reduce-scatter
+[n20:20:(21) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [20] Start function
+[n20:20:(21) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [20] Start algorithm
+[n20:20:(21) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [20] lr reduce-scatter
+[n7:7:(8) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [7] Start function
+[n7:7:(8) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [7] Start algorithm
+[n7:7:(8) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [7] lr reduce-scatter
+[n12:12:(13) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [12] Start function
+[n12:12:(13) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [12] Start algorithm
+[n12:12:(13) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [12] lr reduce-scatter
+[n6:6:(7) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [6] Start function
+[n6:6:(7) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [6] Start algorithm
+[n6:6:(7) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [6] lr reduce-scatter
+[n4:4:(5) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [4] Start function
+[n4:4:(5) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [4] Start algorithm
+[n4:4:(5) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [4] lr reduce-scatter
+[n8:8:(9) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [8] Start function
+[n8:8:(9) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [8] Start algorithm
+[n8:8:(9) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [8] lr reduce-scatter
+[n13:13:(14) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [13] Start function
+[n13:13:(14) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [13] Start algorithm
+[n13:13:(14) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [13] lr reduce-scatter
+[n3:3:(4) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [3] Start function
+[n3:3:(4) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [3] Start algorithm
+[n3:3:(4) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [3] lr reduce-scatter
+[n11:11:(12) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [11] Start function
+[n11:11:(12) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [11] Start algorithm
+[n11:11:(12) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [11] lr reduce-scatter
+[n5:5:(6) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [5] Start function
+[n5:5:(6) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [5] Start algorithm
+[n5:5:(6) 0.000580] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [5] lr reduce-scatter
+[n14:14:(15) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [14] Start function
+[n14:14:(15) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [14] Start algorithm
+[n14:14:(15) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [14] lr reduce-scatter
+[n16:16:(17) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [16] Start function
+[n16:16:(17) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [16] Start algorithm
+[n16:16:(17) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [16] lr reduce-scatter
+[n2:2:(3) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [2] Start function
+[n2:2:(3) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [2] Start algorithm
+[n2:2:(3) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [2] lr reduce-scatter
+[n9:9:(10) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [9] Start function
+[n9:9:(10) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [9] Start algorithm
+[n9:9:(10) 0.000581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [9] lr reduce-scatter
+[n1:1:(2) 0.000599] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [1] Start function
+[n1:1:(2) 0.000599] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [1] Start algorithm
+[n1:1:(2) 0.000599] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [1] lr reduce-scatter
+[n0:0:(1) 0.001148] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:28: [smpi_colls/WARNING] [NNNN] [0] Start function
+[n0:0:(1) 0.001148] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:69: [smpi_colls/WARNING] [NNNN] [0] Start algorithm
+[n0:0:(1) 0.001148] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:70: [smpi_colls/WARNING] [NNNN] [0] lr reduce-scatter
+[n58:58:(59) 0.023161] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [58] lr all-gather
+[n53:53:(54) 0.023187] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [53] lr all-gather
+[n50:50:(51) 0.023187] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [50] lr all-gather
+[n25:25:(26) 0.023210] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [25] lr all-gather
+[n22:22:(23) 0.023210] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [22] lr all-gather
+[n45:45:(46) 0.023320] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [45] lr all-gather
+[n42:42:(43) 0.023320] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [42] lr all-gather
+[n9:9:(10) 0.023378] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [9] lr all-gather
+[n6:6:(7) 0.023378] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [6] lr all-gather
+[n41:41:(42) 0.023462] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [41] lr all-gather
+[n38:38:(39) 0.023462] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [38] lr all-gather
+[n5:5:(6) 0.023464] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [5] lr all-gather
+[n37:37:(38) 0.023465] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [37] lr all-gather
+[n34:34:(35) 0.023465] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [34] lr all-gather
+[n57:57:(58) 0.023468] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [57] lr all-gather
+[n54:54:(55) 0.023468] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [54] lr all-gather
+[n49:49:(50) 0.023468] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [49] lr all-gather
+[n46:46:(47) 0.023468] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [46] lr all-gather
+[n29:29:(30) 0.023470] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [29] lr all-gather
+[n33:33:(34) 0.023470] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [33] lr all-gather
+[n26:26:(27) 0.023470] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [26] lr all-gather
+[n30:30:(31) 0.023470] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [30] lr all-gather
+[n21:21:(22) 0.023471] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [21] lr all-gather
+[n18:18:(19) 0.023471] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [18] lr all-gather
+[n17:17:(18) 0.023472] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [17] lr all-gather
+[n13:13:(14) 0.023472] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [13] lr all-gather
+[n14:14:(15) 0.023472] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [14] lr all-gather
+[n10:10:(11) 0.023472] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [10] lr all-gather
+[n59:59:(60) 0.023479] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [59] lr all-gather
+[n60:60:(61) 0.023479] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [60] lr all-gather
+[n52:52:(53) 0.023505] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [52] lr all-gather
+[n51:51:(52) 0.023505] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [51] lr all-gather
+[n24:24:(25) 0.023529] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [24] lr all-gather
+[n23:23:(24) 0.023529] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [23] lr all-gather
+[n2:2:(3) 0.023581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [2] lr all-gather
+[n61:61:(62) 0.023581] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [61] lr all-gather
+[n44:44:(45) 0.023643] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [44] lr all-gather
+[n43:43:(44) 0.023643] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [43] lr all-gather
+[n8:8:(9) 0.023702] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [8] lr all-gather
+[n7:7:(8) 0.023702] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [7] lr all-gather
+[n40:40:(41) 0.023785] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [40] lr all-gather
+[n39:39:(40) 0.023785] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [39] lr all-gather
+[n4:4:(5) 0.023787] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [4] lr all-gather
+[n3:3:(4) 0.023787] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [3] lr all-gather
+[n36:36:(37) 0.023788] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [36] lr all-gather
+[n35:35:(36) 0.023788] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [35] lr all-gather
+[n56:56:(57) 0.023791] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [56] lr all-gather
+[n55:55:(56) 0.023791] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [55] lr all-gather
+[n48:48:(49) 0.023791] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [48] lr all-gather
+[n47:47:(48) 0.023791] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [47] lr all-gather
+[n32:32:(33) 0.023793] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [32] lr all-gather
+[n31:31:(32) 0.023793] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [31] lr all-gather
+[n28:28:(29) 0.023793] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [28] lr all-gather
+[n27:27:(28) 0.023793] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [27] lr all-gather
+[n20:20:(21) 0.023794] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [20] lr all-gather
+[n19:19:(20) 0.023794] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [19] lr all-gather
+[n16:16:(17) 0.023795] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [16] lr all-gather
+[n15:15:(16) 0.023795] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [15] lr all-gather
+[n12:12:(13) 0.023795] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [12] lr all-gather
+[n11:11:(12) 0.023795] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [11] lr all-gather
+[n1:1:(2) 0.023902] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [1] lr all-gather
+[n62:62:(63) 0.023902] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [62] lr all-gather
+[n0:0:(1) 0.024223] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [0] lr all-gather
+[n63:63:(64) 0.024223] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:93: [smpi_colls/WARNING] [NNNN] [63] lr all-gather
+[n22:22:(23) 0.046317] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [22] Finish algorithm
+[n58:58:(59) 0.046356] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [58] Finish algorithm
+[n53:53:(54) 0.046356] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [53] Finish algorithm
+[n50:50:(51) 0.046359] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [50] Finish algorithm
+[n25:25:(26) 0.046361] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [25] Finish algorithm
+[n21:21:(22) 0.046507] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [21] Finish algorithm
+[n18:18:(19) 0.046507] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [18] Finish algorithm
+[n45:45:(46) 0.046534] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [45] Finish algorithm
+[n42:42:(43) 0.046534] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [42] Finish algorithm
+[n9:9:(10) 0.046593] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [9] Finish algorithm
+[n6:6:(7) 0.046593] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [6] Finish algorithm
+[n59:59:(60) 0.046633] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [59] Finish algorithm
+[n60:60:(61) 0.046633] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [60] Finish algorithm
+[n52:52:(53) 0.046637] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [52] Finish algorithm
+[n51:51:(52) 0.046637] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [51] Finish algorithm
+[n24:24:(25) 0.046640] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [24] Finish algorithm
+[n23:23:(24) 0.046640] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [23] Finish algorithm
+[n41:41:(42) 0.046669] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [41] Finish algorithm
+[n38:38:(39) 0.046669] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [38] Finish algorithm
+[n5:5:(6) 0.046670] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [5] Finish algorithm
+[n37:37:(38) 0.046672] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [37] Finish algorithm
+[n34:34:(35) 0.046672] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [34] Finish algorithm
+[n57:57:(58) 0.046679] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [57] Finish algorithm
+[n54:54:(55) 0.046679] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [54] Finish algorithm
+[n49:49:(50) 0.046682] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [49] Finish algorithm
+[n46:46:(47) 0.046682] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [46] Finish algorithm
+[n33:33:(34) 0.046684] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [33] Finish algorithm
+[n29:29:(30) 0.046684] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [29] Finish algorithm
+[n30:30:(31) 0.046684] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [30] Finish algorithm
+[n26:26:(27) 0.046684] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [26] Finish algorithm
+[n17:17:(18) 0.046686] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [17] Finish algorithm
+[n13:13:(14) 0.046686] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [13] Finish algorithm
+[n14:14:(15) 0.046686] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [14] Finish algorithm
+[n10:10:(11) 0.046686] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [10] Finish algorithm
+[n2:2:(3) 0.046719] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [2] Finish algorithm
+[n61:61:(62) 0.046719] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [61] Finish algorithm
+[n56:56:(57) 0.046820] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [56] Finish algorithm
+[n55:55:(56) 0.046820] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [55] Finish algorithm
+[n20:20:(21) 0.046825] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [20] Finish algorithm
+[n19:19:(20) 0.046825] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [19] Finish algorithm
+[n44:44:(45) 0.046858] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [44] Finish algorithm
+[n43:43:(44) 0.046858] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [43] Finish algorithm
+[n8:8:(9) 0.046916] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [8] Finish algorithm
+[n7:7:(8) 0.046916] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [7] Finish algorithm
+[n48:48:(49) 0.046931] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [48] Finish algorithm
+[n47:47:(48) 0.046931] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [47] Finish algorithm
+[n40:40:(41) 0.046988] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [40] Finish algorithm
+[n39:39:(40) 0.046988] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [39] Finish algorithm
+[n4:4:(5) 0.046991] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [4] Finish algorithm
+[n3:3:(4) 0.046991] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [3] Finish algorithm
+[n36:36:(37) 0.046995] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [36] Finish algorithm
+[n35:35:(36) 0.046995] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [35] Finish algorithm
+[n28:28:(29) 0.047007] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [28] Finish algorithm
+[n27:27:(28) 0.047007] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [27] Finish algorithm
+[n32:32:(33) 0.047007] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [32] Finish algorithm
+[n31:31:(32) 0.047007] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [31] Finish algorithm
+[n12:12:(13) 0.047009] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [12] Finish algorithm
+[n11:11:(12) 0.047009] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [11] Finish algorithm
+[n16:16:(17) 0.047009] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [16] Finish algorithm
+[n15:15:(16) 0.047009] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [15] Finish algorithm
+[n1:1:(2) 0.047042] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [1] Finish algorithm
+[n62:62:(63) 0.047042] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [62] Finish algorithm
+[n0:0:(1) 0.047186] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [0] Finish algorithm
+n0: 0/64,weight size: 134217728, iteration: 1
+[n63:63:(64) 0.047186] /home/nguyen/ai/allreduce_simulate/SimGrid-3.19/src/smpi/colls/allreduce/allreduce-lr.cpp:109: [smpi_colls/WARNING] [NNNN] [63] Finish algorithm
+[0.047187] [smpi_kernel/INFO] Simulated time: 0.0471874 seconds. 
+
+The simulation took 16.3662 seconds (after parsing and platform setup)
+6.97625 seconds were actual computation of the application
+Global sum in rank 0 - 0.0000000000e+00
+Global sum in rank 0 - 6.4000000000e+01
+Global sum in rank 0 - 1.2800000000e+02
+Global sum in rank 0 - 1.9200000000e+02
+Global sum in rank 0 - 2.5600000000e+02
+Global sum in rank 0 - 3.2000000000e+02
+Global sum in rank 0 - 3.8400000000e+02
+Global sum in rank 0 - 4.4800000000e+02
+Global sum in rank 0 - 5.1200000000e+02
+Global sum in rank 0 - 5.7600000000e+02
+Global sum in rank 0 - 6.4000000000e+02
+Global sum in rank 0 - 7.0400000000e+02
+Global sum in rank 0 - 7.6800000000e+02
+Global sum in rank 0 - 8.3200000000e+02
+Global sum in rank 0 - 8.9600000000e+02
+Global sum in rank 0 - 9.6000000000e+02
+Global sum in rank 0 - 1.0240000000e+03
+Global sum in rank 0 - 1.0880000000e+03
+Global sum in rank 0 - 1.1520000000e+03
+Global sum in rank 0 - 1.2160000000e+03
+Global sum in rank 0 - 1.2800000000e+03
+Global sum in rank 0 - 1.3440000000e+03
+Global sum in rank 0 - 1.4080000000e+03
+Global sum in rank 0 - 1.4720000000e+03
+Global sum in rank 0 - 1.5360000000e+03
+Global sum in rank 0 - 1.6000000000e+03
+Global sum in rank 0 - 1.6640000000e+03
+Global sum in rank 0 - 1.7280000000e+03
+Global sum in rank 0 - 1.7920000000e+03
+Global sum in rank 0 - 1.8560000000e+03
+Global sum in rank 0 - 1.9200000000e+03
+Global sum in rank 0 - 1.9840000000e+03
+Global sum in rank 0 - 2.0480000000e+03
+Global sum in rank 0 - 2.1120000000e+03
+Global sum in rank 0 - 2.1760000000e+03
+Global sum in rank 0 - 2.2400000000e+03
+Global sum in rank 0 - 2.3040000000e+03
+Global sum in rank 0 - 2.3680000000e+03
+Global sum in rank 0 - 2.4320000000e+03
+Global sum in rank 0 - 2.4960000000e+03
+Global sum in rank 0 - 2.5600000000e+03
+Global sum in rank 0 - 2.6240000000e+03
+Global sum in rank 0 - 2.6880000000e+03
+Global sum in rank 0 - 2.7520000000e+03
+Global sum in rank 0 - 2.8160000000e+03
+Global sum in rank 0 - 2.8800000000e+03
+Global sum in rank 0 - 2.9440000000e+03
+Global sum in rank 0 - 3.0080000000e+03
+Global sum in rank 0 - 3.0720000000e+03
+Global sum in rank 0 - 3.1360000000e+03
+Global sum in rank 0 - 3.2000000000e+03
+Global sum in rank 0 - 3.2640000000e+03
+Global sum in rank 0 - 3.3280000000e+03
+Global sum in rank 0 - 3.3920000000e+03
+Global sum in rank 0 - 3.4560000000e+03
+Global sum in rank 0 - 3.5200000000e+03
+Global sum in rank 0 - 3.5840000000e+03
+Global sum in rank 0 - 3.6480000000e+03
+Global sum in rank 0 - 3.7120000000e+03
+Global sum in rank 0 - 3.7760000000e+03
+Global sum in rank 0 - 3.8400000000e+03
+Global sum in rank 0 - 3.9040000000e+03
+Global sum in rank 0 - 3.9680000000e+03
+Global sum in rank 0 - 4.0320000000e+03
+Global sum in rank 0 - 4.0960000000e+03
+Global sum in rank 0 - 4.1600000000e+03
+Global sum in rank 0 - 4.2240000000e+03
+Global sum in rank 0 - 4.2880000000e+03
+Global sum in rank 0 - 4.3520000000e+03
+Global sum in rank 0 - 4.4160000000e+03
+Global sum in rank 0 - 4.4800000000e+03
+Global sum in rank 0 - 4.5440000000e+03
+Global sum in rank 0 - 4.6080000000e+03
+Global sum in rank 0 - 4.6720000000e+03
+Global sum in rank 0 - 4.7360000000e+03
+Global sum in rank 0 - 4.8000000000e+03
+Global sum in rank 0 - 4.8640000000e+03
+Global sum in rank 0 - 4.9280000000e+03
+Global sum in rank 0 - 4.9920000000e+03
+Global sum in rank 0 - 5.0560000000e+03
+Global sum in rank 0 - 5.1200000000e+03
+Global sum in rank 0 - 5.1840000000e+03
+Global sum in rank 0 - 5.2480000000e+03
+Global sum in rank 0 - 5.3120000000e+03
+Global sum in rank 0 - 5.3760000000e+03
+Global sum in rank 0 - 5.4400000000e+03
+Global sum in rank 0 - 5.5040000000e+03
+Global sum in rank 0 - 5.5680000000e+03
+Global sum in rank 0 - 5.6320000000e+03
+Global sum in rank 0 - 5.6960000000e+03
+Global sum in rank 0 - 5.7600000000e+03
+Global sum in rank 0 - 5.8240000000e+03
+Global sum in rank 0 - 5.8880000000e+03
+Global sum in rank 0 - 5.9520000000e+03
+Global sum in rank 0 - 6.0160000000e+03
+Global sum in rank 0 - 6.0800000000e+03
+Global sum in rank 0 - 6.1440000000e+03
+Global sum in rank 0 - 6.2080000000e+03
+Global sum in rank 0 - 6.2720000000e+03
+Global sum in rank 0 - 6.3360000000e+03

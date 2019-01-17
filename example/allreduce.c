@@ -4,9 +4,9 @@
 #include <smpi/smpi.h>
 
 //#define N (1024 * 1024 * 1)
-#define N (1024 * 1024 * 1)  //Weight size
+#define N (1024 * 1024 * 32)  //Weight size
 #define K 8 	//Batch size
-#define M 100	//Number of iteration
+#define M 1	//Number of iteration
 int main(int argc, char *argv[])
 {
   int size, rank;
