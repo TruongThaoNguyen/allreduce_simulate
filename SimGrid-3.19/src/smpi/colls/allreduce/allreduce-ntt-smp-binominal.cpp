@@ -35,7 +35,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
                                            int count, MPI_Datatype dtype,
                                            MPI_Op op, MPI_Comm comm)
 {
-  XBT_WARN("[NNNN] [%d] Start function",comm->rank());	
+  if (comm->rank() ==0){ XBT_WARN("[NNNN] [%d] Start function",comm->rank());}
   int comm_size, rank;
   void *tmp_buf;
   int tag = COLL_TAG_ALLREDUCE;
@@ -69,7 +69,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
   intra_rank = rank % num_core;
   inter_rank = rank / num_core;
   
-  XBT_WARN("[NNNN] [%d] Start algorithm",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] Start algorithm",rank);}
   char alert[1000];
 ////XBT_WARN("[NNNN] [%d] sbuf=[%s]",rank, print_buffer(send_buf,count,alert));	
   /* size of processes participate in intra communications =>
@@ -81,7 +81,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
                recv_buf, count, dtype, rank, tag, comm, &status);
 
   /* start binomial reduce intra communication inside each SMP node */
-  XBT_WARN("[NNNN] [%d] binomial reduce intra communication",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] binomial reduce intra communication",rank);}
   mask = 1;
   while (mask < num_core) {
     if ((mask & intra_rank) == 0) {
@@ -102,7 +102,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
 
   /* start binomial reduce inter-communication between each SMP nodes:
      each node only have one process that can communicate to other nodes */
-  XBT_WARN("[NNNN] [%d] binomial reduce inter-communication",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] binomial reduce inter-communication",rank);}
   if (intra_rank == 0) {
     mask = 1;
     while (mask < inter_comm_size) {
@@ -124,7 +124,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
 
   /* start binomial broadcast inter-communication between each SMP nodes:
      each node only have one process that can communicate to other nodes */
-  XBT_WARN("[NNNN] [%d] binomial broadcast inter-communication",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] binomial broadcast inter-communication",rank);}
   if (intra_rank == 0) {
     mask = 1;
     while (mask < inter_comm_size) {
@@ -151,7 +151,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
   }
 
   /* start binomial broadcast intra-communication inside each SMP nodes */
-  XBT_WARN("[NNNN] [%d] binomial broadcast intra-communication",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] binomial broadcast intra-communication",rank);}
   int num_core_in_current_smp = num_core;
   if (inter_rank == (inter_comm_size - 1)) {
     num_core_in_current_smp = comm_size - (inter_rank * num_core);
@@ -179,7 +179,7 @@ int Coll_allreduce_ntt_smp_binominal::allreduce(void *send_buf, void *recv_buf,
   }
 
   smpi_free_tmp_buffer(tmp_buf);
-  XBT_WARN("[NNNN] [%d] Finish algorithm",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] Finish algorithm",rank);}
   return MPI_SUCCESS;
 }
 }

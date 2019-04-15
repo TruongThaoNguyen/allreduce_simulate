@@ -25,7 +25,7 @@ int Coll_allreduce_ntt_binominal_lr::allreduce(void *sbuf, void *rbuf, int rcoun
                                            MPI_Datatype dtype, MPI_Op op,
                                            MPI_Comm comm)
 {
-	XBT_WARN("[NNNN] [%d] Start function",comm->rank());
+	if (comm->rank() ==0){ XBT_WARN("[NNNN] [%d] Start function",comm->rank());}
 	int tag = COLL_TAG_ALLREDUCE;
 	MPI_Status status;
 	int size, rank, intra_count, inter_count, i;
@@ -61,12 +61,12 @@ int Coll_allreduce_ntt_binominal_lr::allreduce(void *sbuf, void *rbuf, int rcoun
 		return MPI_SUCCESS;
 	} 
 
-	XBT_WARN("[NNNN] [%d] Start algorithm",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] Start algorithm",rank);}
 	char alert[1000];
 	//XBT_WARN("[NNNN] [%d] sbuf=[%s]",rank, print_buffer(sbuf,rcount,alert));	
 	/*1. reduce binominal inside each group */
 	/**************************************************/
-	XBT_WARN("[NNNN] [%d] binomial reduce intra communication",rank);	
+	if (rank ==0){XBT_WARN("[NNNN] [%d] binomial reduce intra communication",rank);}
 	//1.1. copy send_buf to rbuf
 	Request::sendrecv(sbuf, rcount, dtype, rank, tag,rbuf, rcount, dtype, rank, tag, comm, &status);
 	//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));
@@ -94,7 +94,7 @@ int Coll_allreduce_ntt_binominal_lr::allreduce(void *sbuf, void *rbuf, int rcoun
 	/*2. reduce-scatter -inter between groups: the same local_rank nodes*/
 	/**************************************************/
 	int send_offset, recv_offset;
-	XBT_WARN("[NNNN] [%d] inter lr reduce-scatter",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] inter lr reduce-scatter",rank);}
 	if(intra_rank == 0){
 		//2.1. copy (partial of)recv_buf to send_buf
 		send_offset = ((intra_rank) % intra_size) * rcount * extent;
@@ -118,7 +118,7 @@ int Coll_allreduce_ntt_binominal_lr::allreduce(void *sbuf, void *rbuf, int rcoun
 		
 		/*3. allgather - inter between root of each SMP node*/
 		/**************************************************/
-		XBT_WARN("[NNNN] [%d] inter lr allgather",rank);
+		if (rank ==0){XBT_WARN("[NNNN] [%d] inter lr allgather",rank);}
 		for (i = 0; i < (inter_size - 1); i++) {
 			send_offset = ((inter_rank - i + 2 * inter_size)%inter_size) * inter_count * extent;
 			recv_offset = ((inter_rank - 1 - i + 2 * inter_size)%inter_size) * inter_count * extent;
@@ -131,7 +131,7 @@ int Coll_allreduce_ntt_binominal_lr::allreduce(void *sbuf, void *rbuf, int rcoun
 	/*4. bcast - inside each group */
 	/**************************************************/
 	/* start binomial broadcast intra-communication inside each SMP nodes */
-	XBT_WARN("[NNNN] [%d] binomial broadcast intra-communication",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] binomial broadcast intra-communication",rank);}
 	int num_core_in_current_smp = intra_size;
 	if (inter_rank == (inter_size - 1)) {
 		num_core_in_current_smp = size - (inter_rank * intra_size);
@@ -158,7 +158,7 @@ int Coll_allreduce_ntt_binominal_lr::allreduce(void *sbuf, void *rbuf, int rcoun
 	}
 
 	smpi_free_tmp_buffer(tmp_buf);
-    XBT_WARN("[NNNN] [%d] Finish algorithm",rank);
+    if (rank ==0){XBT_WARN("[NNNN] [%d] Finish algorithm",rank);}
 	return MPI_SUCCESS;
 }
 }

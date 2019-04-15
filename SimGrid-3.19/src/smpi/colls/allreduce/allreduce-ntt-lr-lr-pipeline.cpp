@@ -34,7 +34,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
                                            MPI_Datatype dtype, MPI_Op op,
                                            MPI_Comm comm)
 {
-	XBT_WARN("[NNNN] [%d] Start function",comm->rank());
+    if (comm->rank() ==0){ XBT_WARN("[NNNN] [%d] Start function",comm->rank());}
 	int tag = COLL_TAG_ALLREDUCE;
 	MPI_Status status, status2;
 	int size, rank, intra_count, inter_count, i;
@@ -97,7 +97,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 		remainder = remainder_flag = remainder_offset = 0;
 	}  
 	int segment_count = (rcount/ segment_size) * size;  // number of items per segment
-	XBT_WARN("[NNNN] [%d] segment_count %d, segment_size %d, ",rank, segment_count,segment_size);	
+	XBT_DEBUG("[NNNN] [%d] segment_count %d, segment_size %d, ",rank, segment_count,segment_size);	
 	int intra_segment_count = segment_count / intra_size;
 	int inter_segment_count = intra_segment_count / inter_size;
 	intra_count = intra_segment_count * number_segments;
@@ -124,21 +124,21 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 	int ring_next_node_8[] = {2,4,7,1,6,0,3,5}; 
 	int ring_prev_node_8[] = {5,7,0,6,1,3,4,2};  */
 	
-	XBT_WARN("[NNNN] [%d] intra_segment_count %d, inter_segment_count %d,intra_count %d, inter_count %d",rank, intra_segment_count, inter_segment_count,intra_count,inter_count);
+	XBT_DEBUG("[NNNN] [%d] intra_segment_count %d, inter_segment_count %d,intra_count %d, inter_count %d",rank, intra_segment_count, inter_segment_count,intra_count,inter_count);
 	//XBT_WARN("[NNNN] [%d] Start algorithm",rank);
 	/* pipelining over number_segments (+1 is because we have 2 big_phases*/
-	XBT_WARN("[NNNN] [%d] number_segments %d, rcount %d",rank, number_segments, rcount);
+	XBT_DEBUG("[NNNN] [%d] number_segments %d, rcount %d",rank, number_segments, rcount);
 	for (step = 0; step < number_segments + 1; step++) {
 		int send_offset, recv_offset;
 		int src, dst;
-		XBT_WARN("[NNNN] [%d] Step %d",rank, step);
+		if (rank ==0){XBT_WARN("[NNNN] [%d] Step %d",rank, step);}
 		if (step < number_segments) {
 			//char alert[1000];
 			//XBT_WARN("[NNNN] [%d] sbuf=[%s]",rank, print_buffer(sbuf,rcount,alert));	
 			/*1. reduce-scatter inside each group (local-ring)*/
 			/**************************************************/
 			if (step > 0){
-				XBT_WARN("[NNNN] [%d] inter lr allgather for step %d",rank,step -1);
+				if (rank ==0){XBT_DEBUG("[NNNN] [%d] inter lr allgather for step %d",rank,step -1);}
 				// phase 3 of step-1
 				for (i = 0; i < (inter_size - 1); i++) {	
 					recv_offset = ((intra_rank * intra_count  + ((inter_rank - 1 - i + 2 * inter_size)%inter_size) * inter_count) + (step-1) * inter_segment_count) * extent;
@@ -162,7 +162,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));		   
 
 			//1.2. reduce-scatter
-			XBT_WARN("[NNNN] [%d] intra lr reduce-scatter for step %d",rank, step);
+			if (rank ==0){XBT_DEBUG("[NNNN] [%d] intra lr reduce-scatter for step %d",rank, step);}
 			for (i = 0; i < (intra_size - 1); i++) {
 				send_offset = (((intra_rank - 1 - i + 2 * intra_size) % intra_size) * intra_count + step * intra_segment_count)* extent;
 				recv_offset = (((intra_rank - 2 - i + 2 * intra_size) % intra_size) * intra_count + step * intra_segment_count)* extent;
@@ -179,13 +179,13 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			
 			if (step > 0){
 				// wait for phase-3 here
-				XBT_WARN("[NNNN] [%d] Wait phase 3 for step %d",rank, step-1);
+				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Wait phase 3 for step %d",rank, step-1);}
 				Request::waitall(inter_size - 1, phase3_rrequest_array, phase3_rstatus_array);
 				Request::waitall(inter_size - 1, phase3_srequest_array, phase3_sstatus_array);			   
 			}
 			/*2. reduce-scatter -inter between groups: the same local_rank nodes*/
 			/**************************************************/
-			XBT_WARN("[NNNN] [%d] inter lr reduce-scatter",rank);
+			if (rank ==0){XBT_WARN("[NNNN] [%d] inter lr reduce-scatter",rank);}
 			//2.1. copy (partial of)recv_buf to send_buf
 			send_offset = (((intra_rank) % intra_size) * intra_count + (step) * intra_segment_count) * extent;
 			recv_offset = (((intra_rank) % intra_size) * intra_count + (step) * intra_segment_count) * extent;
@@ -196,7 +196,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			//2.1. reduce-scatter
 			// phase 4 of step-1
 			if (step > 0){
-				XBT_WARN("[NNNN] [%d] intra lr allgather for step",rank, step -1);
+				if (rank ==0){XBT_DEBUG("[NNNN] [%d] intra lr allgather for step",rank, step -1);}
 				for (i = 0; i < (intra_size - 1); i++) {
 					recv_offset = (((intra_rank - 1 - i + 2 * intra_size) % intra_size) * intra_count + (step -1) * intra_segment_count)  * extent;
 					src = ((intra_rank + intra_size - 1) % intra_size) + inter_rank * intra_size;
@@ -211,14 +211,14 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			}
 			
 			for (i = 0; i < (inter_size - 1); i++) {
-				XBT_WARN("[NNNN] [%d] Phase 2-Communication: %d, %d",rank,step, i);
+				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Phase 2-Communication: %d, %d",rank,step, i);}
 				send_offset = ((intra_rank * intra_count  + ((inter_rank - 1 - i + 2 * inter_size)%inter_size) * inter_count) + (step) * inter_segment_count) * extent;
 				recv_offset = ((intra_rank * intra_count  + ((inter_rank - 2 - i + 2 * inter_size)%inter_size) * inter_count) + (step) * inter_segment_count) * extent;
 				src = intra_rank + ((inter_rank + inter_size - 1)% inter_size)* intra_size;
 				dst = intra_rank + ((inter_rank + 1)% inter_size)* intra_size;
 				Request::sendrecv((char *) rbuf + send_offset, inter_segment_count, dtype, dst, tag + i * inter_size + step, 
 				(char *) rbuf + recv_offset, inter_segment_count, dtype,src, tag + i * inter_size + step, comm, &status);
-				XBT_WARN("[NNNN] [%d] Phase 2-Computation: %d, %d",rank,step, i);
+				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Phase 2-Computation: %d, %d",rank,step, i);}
 				// compute result to rbuf+recv_offset
 				if(op!=MPI_OP_NULL) op->apply( (char *) sbuf + recv_offset, (char *) rbuf + recv_offset,
 							   &inter_segment_count, dtype);
@@ -227,7 +227,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 
 			if (step > 0){
 				// wait for phase-4 here
-				XBT_WARN("[NNNN] [%d] Wait  phase 4 for step %d",rank, step-1);
+				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Wait  phase 4 for step %d",rank, step-1);}
 				Request::waitall(intra_size - 1, phase4_rrequest_array, phase4_rstatus_array);
 				Request::waitall(intra_size - 1, phase4_srequest_array, phase4_sstatus_array);			   
 			}
@@ -236,7 +236,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			/*4. allgather - inside each group */
 			/**************************************************/
 		} else {
-			XBT_WARN("[NNNN] [%d] Last inter lr allgather at step %d",rank, step);
+			if (rank ==0){XBT_WARN("[NNNN] [%d] Last inter lr allgather at step %d",rank, step);}
 			for (i = 0; i < (inter_size - 1); i++) {
 				send_offset = ((intra_rank * intra_count  + ((inter_rank - i + 2 * inter_size)%inter_size) * inter_count) + (step-1) * inter_segment_count) * extent;
 				recv_offset = ((intra_rank * intra_count  + ((inter_rank - 1 - i + 2 * inter_size)%inter_size) * inter_count) + (step-1) * inter_segment_count) * extent;
@@ -247,7 +247,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 				//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));		   	
 			}
 			
-			XBT_WARN("[NNNN] [%d] Last intra lr allgather at step %d",rank, step);
+			if (rank ==0){XBT_WARN("[NNNN] [%d] Last intra lr allgather at step %d",rank, step);}
 			for (i = 0; i < (intra_size - 1); i++) {
 				send_offset = (((intra_rank - i + 2 * intra_size) % intra_size) * intra_count + (step -1) * intra_segment_count)* extent;
 				recv_offset = (((intra_rank - 1 - i + 2 * intra_size) % intra_size) * intra_count + (step -1) * intra_segment_count)* extent;
@@ -279,7 +279,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 	free(phase4_rstatus_array);
 	free(phase4_sstatus_array);
 	
-    XBT_WARN("[NNNN] [%d] Finish algorithm",rank);	
+    if (rank ==0){XBT_WARN("[NNNN] [%d] Finish algorithm",rank);}	
 	return MPI_SUCCESS;
 }
 }

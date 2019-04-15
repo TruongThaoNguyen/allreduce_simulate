@@ -24,7 +24,7 @@ int Coll_allreduce_ntt_lr_rdb::allreduce(void *sbuf, void *rbuf, int rcount,
                                            MPI_Datatype dtype, MPI_Op op,
                                            MPI_Comm comm)
 {
-	XBT_WARN("[NNNN] [%d] Start function",comm->rank());
+	if (comm->rank() ==0){ XBT_WARN("[NNNN] [%d] Start function",comm->rank());}
 	int tag = COLL_TAG_ALLREDUCE;
 	MPI_Status status;
 	int size, rank, intra_count, inter_count, i;
@@ -78,13 +78,13 @@ int Coll_allreduce_ntt_lr_rdb::allreduce(void *sbuf, void *rbuf, int rcount,
 
 	// size of each point-to-point communication is equal to the size of the whole message divided by number of processes
 	intra_count = rcount / intra_size;
-	XBT_WARN("[NNNN] [%d] Start algorithm",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] Start algorithm",rank);}
 	char alert[1000];
 	//XBT_WARN("[NNNN] [%d] sbuf=[%s]",rank, print_buffer(sbuf,rcount,alert));	
 	/*1. reduce-scatter inside each group (local-ring)*/
 	/**************************************************/
 	//1.1. copy (partial of)send_buf to recv_buf
-	XBT_WARN("[NNNN] [%d] intra lr reduce-scatter",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] intra lr reduce-scatter",rank);}
 	int send_offset, recv_offset;
 	int src, dst;
 	send_offset = ((intra_rank - 1 + intra_size) % intra_size) * intra_count * extent;
@@ -109,7 +109,7 @@ int Coll_allreduce_ntt_lr_rdb::allreduce(void *sbuf, void *rbuf, int rcount,
 
 	/*2. recusive-doubling -inter between groups: the same local_rank nodes*/
 	/**************************************************/
-	XBT_WARN("[NNNN] [%d] inter rdb",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] inter rdb",rank);}
 	
 	// find nearest power-of-two less than or equal to comm_size
 	void *tmp_buf = NULL;
@@ -209,7 +209,7 @@ int Coll_allreduce_ntt_lr_rdb::allreduce(void *sbuf, void *rbuf, int rcount,
 	
 	/*3. allgather - inside each group */
 	/**************************************************/
-	XBT_WARN("[NNNN] [%d] intra lr allgather",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] intra lr allgather",rank);}
 	for (i = 0; i < (intra_size - 1); i++) {
 		send_offset = ((intra_rank - i + 2 * intra_size) % intra_size) * intra_count * extent;
 		recv_offset = ((intra_rank - 1 - i + 2 * intra_size) % intra_size) * intra_count * extent;
@@ -227,7 +227,7 @@ int Coll_allreduce_ntt_lr_rdb::allreduce(void *sbuf, void *rbuf, int rcount,
 		return Colls::allreduce((char *) sbuf + remainder_offset,(char *) rbuf + remainder_offset, remainder, dtype, op,comm);
 		//XBT_WARN("[NNNN] [%d] buf=[%s]",rank, print_buffer(rbuf,rcount,alert));
 	}
-    XBT_WARN("[NNNN] [%d] Finish algorithm",rank);
+    if (rank ==0){XBT_WARN("[NNNN] [%d] Finish algorithm",rank);}
 	return MPI_SUCCESS;
 }
 }

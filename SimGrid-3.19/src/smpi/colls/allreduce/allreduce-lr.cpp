@@ -25,7 +25,7 @@ Coll_allreduce_lr::allreduce(void *sbuf, void *rbuf, int rcount,
                              MPI_Datatype dtype, MPI_Op op, MPI_Comm comm)
 {
 	
-  XBT_WARN("[NNNN] [%d] Start function",comm->rank());
+  if (comm->rank() ==0){ XBT_WARN("[NNNN] [%d] Start function",comm->rank());}
   int tag = COLL_TAG_ALLREDUCE;
   MPI_Status status;
   int rank, i, size, count;
@@ -66,8 +66,8 @@ Coll_allreduce_lr::allreduce(void *sbuf, void *rbuf, int rcount,
      2. use logical ring reduce-scatter
      3. use logical ring all-gather
    */
-	XBT_WARN("[NNNN] [%d] Start algorithm",rank);
-	XBT_WARN("[NNNN] [%d] lr reduce-scatter",rank);
+	if (rank ==0){XBT_WARN("[NNNN] [%d] Start algorithm",rank);}
+	if (rank ==0){XBT_WARN("[NNNN] [%d] lr reduce-scatter",rank);}
   // copy partial data
   send_offset = ((rank - 1 + size) % size) * count * extent;
   recv_offset = ((rank - 1 + size) % size) * count * extent;
@@ -90,7 +90,7 @@ Coll_allreduce_lr::allreduce(void *sbuf, void *rbuf, int rcount,
   }
 
   // all-gather
-  XBT_WARN("[NNNN] [%d] lr all-gather",rank);
+  if (rank ==0){XBT_WARN("[NNNN] [%d] lr all-gather",rank);}
   for (i = 0; i < (size - 1); i++) {
     send_offset = ((rank - i + 2 * size) % size) * count * extent;
     recv_offset = ((rank - 1 - i + 2 * size) % size) * count * extent;
@@ -106,7 +106,7 @@ Coll_allreduce_lr::allreduce(void *sbuf, void *rbuf, int rcount,
                          (char *) rbuf + remainder_offset, remainder, dtype, op,
                          comm);
   }
-  XBT_WARN("[NNNN] [%d] Finish algorithm",rank);	
+  if (rank ==0){XBT_WARN("[NNNN] [%d] Finish algorithm",rank);}	
   return 0;
 }
 }
