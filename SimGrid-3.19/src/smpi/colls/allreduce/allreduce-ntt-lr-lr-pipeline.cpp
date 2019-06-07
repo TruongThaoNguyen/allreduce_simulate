@@ -138,7 +138,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			/*1. reduce-scatter inside each group (local-ring)*/
 			/**************************************************/
 			if (step > 0){
-				if (rank ==0){XBT_DEBUG("[NNNN] [%d] inter lr allgather for step %d",rank,step -1);}
+				if (rank ==0){XBT_WARN("[NNNN] [%d] inter lr allgather for step %d",rank,step -1);}
 				// phase 3 of step-1
 				for (i = 0; i < (inter_size - 1); i++) {	
 					recv_offset = ((intra_rank * intra_count  + ((inter_rank - 1 - i + 2 * inter_size)%inter_size) * inter_count) + (step-1) * inter_segment_count) * extent;
@@ -154,7 +154,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			}
 			
 			//1.1. copy (partial of)send_buf to recv_buf
-			//XBT_WARN("[NNNN] [%d] intra lr reduce-scatter",rank);
+			if (rank ==0){XBT_DEBUG("[NNNN] [%d] copy 1",rank);}
 			send_offset = (((intra_rank - 1 + intra_size) % intra_size) * intra_count + step * intra_segment_count)* extent;
 			recv_offset = (((intra_rank - 1 + intra_size) % intra_size) * intra_count + step * intra_segment_count)* extent;
 			Request::sendrecv((char *) sbuf + send_offset, intra_segment_count, dtype, rank, tag - 1,
@@ -162,7 +162,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));		   
 
 			//1.2. reduce-scatter
-			if (rank ==0){XBT_DEBUG("[NNNN] [%d] intra lr reduce-scatter for step %d",rank, step);}
+			if (rank ==0){XBT_WARN("[NNNN] [%d] intra lr reduce-scatter for step %d",rank, step);}
 			for (i = 0; i < (intra_size - 1); i++) {
 				send_offset = (((intra_rank - 1 - i + 2 * intra_size) % intra_size) * intra_count + step * intra_segment_count)* extent;
 				recv_offset = (((intra_rank - 2 - i + 2 * intra_size) % intra_size) * intra_count + step * intra_segment_count)* extent;
@@ -179,24 +179,15 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 			
 			if (step > 0){
 				// wait for phase-3 here
-				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Wait phase 3 for step %d",rank, step-1);}
+				if (rank ==0){XBT_WARN("[NNNN] [%d] Wait phase 3 for step %d",rank, step-1);}
 				Request::waitall(inter_size - 1, phase3_rrequest_array, phase3_rstatus_array);
 				Request::waitall(inter_size - 1, phase3_srequest_array, phase3_sstatus_array);			   
 			}
 			/*2. reduce-scatter -inter between groups: the same local_rank nodes*/
 			/**************************************************/
-			if (rank ==0){XBT_WARN("[NNNN] [%d] inter lr reduce-scatter",rank);}
-			//2.1. copy (partial of)recv_buf to send_buf
-			send_offset = (((intra_rank) % intra_size) * intra_count + (step) * intra_segment_count) * extent;
-			recv_offset = (((intra_rank) % intra_size) * intra_count + (step) * intra_segment_count) * extent;
-			Request::sendrecv((char *) rbuf + send_offset, intra_segment_count, dtype, rank, tag - 1,
-					   (char *) sbuf + recv_offset, intra_segment_count, dtype, rank, tag - 1, comm,
-					   &status);
-			////XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));
-			//2.1. reduce-scatter
 			// phase 4 of step-1
 			if (step > 0){
-				if (rank ==0){XBT_DEBUG("[NNNN] [%d] intra lr allgather for step",rank, step -1);}
+				if (rank ==0){XBT_WARN("[NNNN] [%d] intra lr allgather for step %d",rank, step -1);}
 				for (i = 0; i < (intra_size - 1); i++) {
 					recv_offset = (((intra_rank - 1 - i + 2 * intra_size) % intra_size) * intra_count + (step -1) * intra_segment_count)  * extent;
 					src = ((intra_rank + intra_size - 1) % intra_size) + inter_rank * intra_size;
@@ -210,6 +201,16 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 				}
 			}
 			
+			//2.1. reduce-scatter
+			//2.1. copy (partial of)recv_buf to send_buf
+			if (rank ==0){XBT_DEBUG("[NNNN] [%d] copy 2",rank);}
+			send_offset = (((intra_rank) % intra_size) * intra_count + (step) * intra_segment_count) * extent;
+			recv_offset = (((intra_rank) % intra_size) * intra_count + (step) * intra_segment_count) * extent;
+			Request::sendrecv((char *) rbuf + send_offset, intra_segment_count, dtype, rank, tag - 1,
+					   (char *) sbuf + recv_offset, intra_segment_count, dtype, rank, tag - 1, comm,
+					   &status);
+			
+			if (rank ==0){XBT_WARN("[NNNN] [%d] inter lr reduce-scatter",rank);}
 			for (i = 0; i < (inter_size - 1); i++) {
 				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Phase 2-Communication: %d, %d",rank,step, i);}
 				send_offset = ((intra_rank * intra_count  + ((inter_rank - 1 - i + 2 * inter_size)%inter_size) * inter_count) + (step) * inter_segment_count) * extent;
@@ -227,7 +228,7 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 
 			if (step > 0){
 				// wait for phase-4 here
-				if (rank ==0){XBT_DEBUG("[NNNN] [%d] Wait  phase 4 for step %d",rank, step-1);}
+				if (rank ==0){XBT_WARN("[NNNN] [%d] Wait  phase 4 for step %d",rank, step-1);}
 				Request::waitall(intra_size - 1, phase4_rrequest_array, phase4_rstatus_array);
 				Request::waitall(intra_size - 1, phase4_srequest_array, phase4_sstatus_array);			   
 			}
@@ -244,8 +245,13 @@ int Coll_allreduce_ntt_lr_lr_pipeline::allreduce(void *sbuf, void *rbuf, int rco
 				dst = intra_rank + ((inter_rank + 1)% inter_size)* intra_size;
 				Request::sendrecv((char *) rbuf + send_offset, inter_segment_count, dtype, dst, 30000 + tag + i * inter_size + step - 1, 
 				(char *) rbuf + recv_offset, inter_segment_count, dtype,src,  30000 + tag + i * inter_size + step - 1, comm, &status);
-				//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));		   	
+				//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));
+				//Test: using nonblocking for speed-up?
+				//phase3_rrequest_array[i] = Request::irecv((char *) rbuf + recv_offset, inter_segment_count, dtype,src, 30000 + tag + i * inter_size + step - 1, comm);
+				//phase3_srequest_array[i] = Request::isend((char *) rbuf + send_offset, inter_segment_count, dtype, dst, 30000 + tag + i * inter_size + step - 1, comm);
 			}
+			//Request::waitall(inter_size - 1, phase3_rrequest_array, phase3_rstatus_array);
+			//Request::waitall (inter_size - 1, phase3_srequest_array, phase3_sstatus_array);
 			
 			if (rank ==0){XBT_WARN("[NNNN] [%d] Last intra lr allgather at step %d",rank, step);}
 			for (i = 0; i < (intra_size - 1); i++) {
