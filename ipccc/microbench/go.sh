@@ -18,10 +18,10 @@ APP="run.out"
 NODESIZE="4"
 LOG_DIR="./logs"
 densities=(0.0625 0.03125 0.015625 0.0078125 0.00390625 0.001953125)
-dimensions=(16777216)
+dimensions=(16777216 33554432 67108864)
 
 
-for SIZE in 8 #16 #32 #64 128 256 512 1024
+for SIZE in 32 #16 #32 #64 128 256 512 1024
 do
 	for N in "${dimensions[@]}"; do
 		for D in "${densities[@]}"; do
@@ -30,6 +30,7 @@ do
 			LOG_FILE="${LOG_DIR}/${SIZE}_${N}_${D}.log"
 			${SIMGRID} -np ${SIZE} -map -platform ${PLATFORM} -hostfile ${HOSTFILE} ${CONFIG} ${APP1} >> ${LOG_FILE} 2>&1 &
 		done
+		sleep(2m)
 	done
 done
 
