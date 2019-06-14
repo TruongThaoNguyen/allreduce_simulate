@@ -11,7 +11,12 @@ template<class IdxType, class ValType> int c_allreduce_small(struct stream *send
   int rank, worldsize;
   MPI_Comm_size(comm, &worldsize);
   MPI_Comm_rank(comm, &rank);
-
+	double t_mpi1, t_mpi, computeTime, interTime, initTime; 
+	computeTime = 0;
+	interTime=0;
+	initTime = 0;
+	t_mpi = -MPI_Wtime();
+	
   if(worldsize == 1) {
     memcpy(recvbuf, sendbuf, countBytes<IdxType, ValType>(sendbuf, dim));
     return MPI_SUCCESS;
@@ -98,7 +103,10 @@ template<class IdxType, class ValType> int c_allreduce_small(struct stream *send
 
     // Split streams
     split_stream<IdxType, ValType>(mybuf, splits, dim, pof2);
-
+	t_mpi += MPI_Wtime();
+	initTime += t_mpi;
+	t_mpi = -MPI_Wtime();
+	
     mytmp1 = (struct stream *) malloc(mymaxbytes);
     mytmp2 = (struct stream *) malloc(mymaxbytes);
 
@@ -129,12 +137,14 @@ template<class IdxType, class ValType> int c_allreduce_small(struct stream *send
       }
 
       // Sum sparse items
+	  	t_mpi1 = -MPI_Wtime();
       if(myFirstBuf) {
         sum_streams<IdxType, ValType>(mytmp1, recvs[index], mytmp2, mymaxsize);
       } else {
         sum_streams<IdxType, ValType>(mytmp2, recvs[index], mytmp1, mymaxsize);
       }
-
+		t_mpi1 += MPI_Wtime();
+		computeTime += t_mpi1;
       myFirstBuf = !myFirstBuf;
 
       pending--;
@@ -194,13 +204,18 @@ template<class IdxType, class ValType> int c_allreduce_small(struct stream *send
 
       mask = mask << 1;
     }
-
+ 	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+	t_mpi1 = -MPI_Wtime();
     // Copy into recv buffer
     if(firstBuf) {
       memcpy(recvbuf, tmp1, countBytes<IdxType, ValType>(tmp1, dim));
     } else {
       memcpy(recvbuf, tmp2, countBytes<IdxType, ValType>(tmp2, dim));
     }
+ 	t_mpi1 += MPI_Wtime();
+	computeTime += t_mpi1;
+ 	t_mpi =-MPI_Wtime();
   }
 
   if (rank < 2*rem) {
@@ -225,6 +240,13 @@ template<class IdxType, class ValType> int c_allreduce_small(struct stream *send
   free(tmp1);
   free(tmp2);
   free(tmp3);
-
+  
+	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+    if(rank == 0) {
+		printf("\t\tSparse Ring-Small Compute time: \t%f\tsecs\n", computeTime);
+		printf("\t\tSparse Ring-Small Inter time: \t%f\tsecs\n", interTime);
+		printf("\t\tSparse Ring-Small Init time: \t%f\tsecs\n", initTime);
+	}
   return MPI_SUCCESS;
 }

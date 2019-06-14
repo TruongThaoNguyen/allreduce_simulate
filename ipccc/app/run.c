@@ -8,6 +8,7 @@
 #include "c_allreduce_ring.h"
 #include "c_allreduce_dense_ring.h"
 #include "c_allreduce_dense_ring_ring.h"
+#include "c_allreduce_ring_ring.h"
 #include "c_allreduce_ring.h"
 
 #include <stddef.h>
@@ -82,7 +83,8 @@ void create_sparse(const unsigned dim, const unsigned count, my_s_item *v) {
 int main(int argc, char* argv[]) {
 
   MPI_Init(&argc, &argv);
-
+  double t_mpi1, maxT1;
+  t_mpi1 = -MPI_Wtime();
   if (argc < 2) {
     printf("You have to specify the dimension as integer and the density (0,1) as a positive float as arguments!\n");
     exit(-1);
@@ -146,18 +148,20 @@ int main(int argc, char* argv[]) {
       }
 #endif
 
+	t_mpi1 += MPI_Wtime();
+	MPI_Reduce(&t_mpi1, &maxT1, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+	if(rank == OUTPUT_RANK) printf("Prepare the sparse data:\t%f\tsecs\n", maxT1);
     for(int j = 0; j < TAKES; ++j) {
 
       double t_mpi, maxT;
-
-      // ===
+ /*       // ===
       // Run Dense AllReduce
       MPI_Barrier(MPI_COMM_WORLD);
       t_mpi = -MPI_Wtime();
       MPI_Allreduce(my, res, dim, MPI_VAL_TYPE, MPI_SUM, MPI_COMM_WORLD);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Dense blocking finished [0]:\t\t\t\t%f secs\n", maxT);
+      if(rank == OUTPUT_RANK) printf("Dense blocking finished [0]:\t%f\tsecs\n", maxT);
       // ===
 
       // ===
@@ -167,7 +171,7 @@ int main(int argc, char* argv[]) {
       c_allreduce_dense_ring<IdxType, ValType>(mys, recvbuf, dim, MPI_COMM_WORLD);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Dense Ring AllReduce finished [6]:\t\t\t%f secs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+      if(rank == OUTPUT_RANK) printf("Dense Ring AllReduce finished [6]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
 
 #ifdef COMPARE_TO_DENSE 
       neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
@@ -186,7 +190,7 @@ int main(int argc, char* argv[]) {
       c_allreduce_dense_ring_ring<IdxType, ValType>(mys, recvbuf, dim, MPI_COMM_WORLD, gpuPerNode);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Dense Ring_Ring AllReduce finished [7]:\t\t%f secs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+      if(rank == OUTPUT_RANK) printf("Dense Ring_Ring AllReduce finished [7]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
 
 #ifdef COMPARE_TO_DENSE 
       neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
@@ -204,7 +208,7 @@ int main(int argc, char* argv[]) {
       c_allreduce_recdoubling<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Sparse blocking (RecDoulbing) finished [2]:\t%f secs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+      if(rank == OUTPUT_RANK) printf("Sparse blocking (RecDoulbing) finished [2]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
 
 #ifdef COMPARE_TO_DENSE 
       neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
@@ -222,7 +226,7 @@ int main(int argc, char* argv[]) {
       c_allreduce_big<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Sparse blocking (Big) finished [3]:\t\t\t%f secs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+      if(rank == OUTPUT_RANK) printf("Sparse blocking (Big) finished [3]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
 
 #ifdef COMPARE_TO_DENSE 
       neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
@@ -240,7 +244,7 @@ int main(int argc, char* argv[]) {
       c_allreduce_small<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Sparse blocking (Small) finished [4]:\t\t%f secs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+      if(rank == OUTPUT_RANK) printf("Sparse blocking (Small) finished [4]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
 
 #ifdef COMPARE_TO_DENSE 
       neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
@@ -257,7 +261,26 @@ int main(int argc, char* argv[]) {
       c_allreduce_ring<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD);
       t_mpi += MPI_Wtime();
       MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
-      if(rank == OUTPUT_RANK) printf("Sparse Ring AllReduce finished [5]:\t\t\t%f secs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+      if(rank == OUTPUT_RANK) printf("Sparse Ring AllReduce finished [5]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+
+#ifdef COMPARE_TO_DENSE 
+      neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
+      MPI_Allreduce(&neq, &all_neq, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD); 
+      if(rank == OUTPUT_RANK) {
+        printf("Equal [With AllReduce Dense]: %s\n", (all_neq > 0) ? "False!" : "True");
+      }
+#endif
+      // ===
+	   */
+      // ===
+      // Run ring_ring AllReduce
+	  int gpuPerNode = 4;
+      MPI_Barrier(MPI_COMM_WORLD);
+      t_mpi = -MPI_Wtime();
+      c_allreduce_ring_ring<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD,gpuPerNode);
+      t_mpi += MPI_Wtime();
+      MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+      if(rank == OUTPUT_RANK) printf("Sparse Ring Ring AllReduce finished [8]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
 
 #ifdef COMPARE_TO_DENSE 
       neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);

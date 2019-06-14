@@ -10,6 +10,11 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
   int r, p;
   MPI_Comm_size(comm, &p);
   MPI_Comm_rank(comm, &r);
+	double t_mpi1, t_mpi, computeTime, interTime, initTime; 
+	computeTime = 0;
+	interTime=0;
+	initTime = 0;
+	t_mpi = -MPI_Wtime();
 
   if(p == 1) {
     memcpy(recvbuf, sendbuf, countBytes<IdxType, ValType>(sendbuf, dim));
@@ -46,7 +51,10 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
     splits[i] = (struct stream *)(buf + i * (sizeof(unsigned) + maxsegsize * sizeof(ValType)));
   }
   split_stream<IdxType, ValType>(sendbuf, splits, dim, p);
-
+	t_mpi += MPI_Wtime();
+	initTime += t_mpi;
+	t_mpi = -MPI_Wtime();
+	
   /* reduce peers */
   speer = (r+1)%p;
   rpeer = (r-1+p)%p;
@@ -63,7 +71,8 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
     MPI_Sendrecv(splits[selement], countBytes<IdxType, ValType>(splits[selement], segsizes[selement]), MPI_BYTE, speer, 1, recvsplit, sizeof(ValType) * maxsegsize + sizeof(unsigned), MPI_BYTE, rpeer, 1, comm, MPI_STATUS_IGNORE);
     //printf("[%i] round %i - sending %i\n", r, round, selement);
     //printf("[%i] round %i - receiving %i\n", r, round, relement);
-
+	
+	t_mpi1 = -MPI_Wtime();
     tmpptr = sum_into_stream<IdxType, ValType>(splits[relement], recvsplit, tmpbuf, segsizes[relement], false);
     if(tmpptr == recvsplit) {
       recvsplit = splits[relement];
@@ -72,7 +81,8 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
       tmpbuf = splits[relement];
       splits[relement] = tmpptr;
     }
-
+	t_mpi1 += MPI_Wtime();
+	computeTime += t_mpi1;
     //printf("[%i] round %i - reducing %i\n", r, round, relement);
 
     round++;
@@ -88,6 +98,9 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
   } while (round < 2*p-2);
 
   // Add into 
+ 	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+	t_mpi1 = -MPI_Wtime();
   unsigned overall = 0;
   for(i = 0; i < p; ++i) {
     overall += splits[i]->nofitems;
@@ -141,11 +154,17 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
       offset += segsize;
     }
   }
+ 	t_mpi1 += MPI_Wtime();
+	computeTime += t_mpi1;
 
   free(buf);
   free(ptrForDelete1);
   free(ptrForDelete2);
   free(segsizes);
-
+    if(r == 0) {
+		printf("\t\tSparse Ring Compute time: \t%f\tsecs\n", computeTime);
+		printf("\t\tSparse Ring Inter time: \t%f\tsecs\n", interTime);
+		printf("\t\tSparse Ring Ring Init time: \t%f\tsecs\n", initTime);
+	}
   return MPI_SUCCESS;
 }

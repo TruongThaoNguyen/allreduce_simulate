@@ -15,8 +15,14 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 		printf("FIX ME! allreduce_lr_lr algorithm can't be used if #process is not divisible by #process_per_group ! ");
 	}
 	MPI_Comm_rank(comm, &rank);
+	double t_mpi1, t_mpi, computeTime, intraTime, interTime, initTime; 
+	computeTime = 0;
+	intraTime=0;
+	interTime=0;
+	initTime = 0;
+	t_mpi = -MPI_Wtime();
 	int extent = sizeof(ValType);
-	int inter_size = (size + intra_size - 1) / intra_size;
+	int inter_size = (size) / intra_size;
 	
 	int intra_rank = rank % intra_size; 
 	int inter_rank = rank / intra_size; // nodeIdx
@@ -35,9 +41,11 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 	inter_count = intra_count / inter_size;
 	//printf("[NNNN] [%d] rcount=%d intra_rank = %d, inter_rank = %d, intra_size=%d, inter_size=%d, intra_count=%d, inter_count=%d, nofitems=%d\n", rank,rcount, intra_rank, inter_rank,intra_size,inter_size,intra_count,inter_count, sendbuf->nofitems);
 	
-	
 	ValType *snd = (ValType*)sendbuf->items;
 	ValType *rcv = (ValType*)recvbuf->items;
+	t_mpi += MPI_Wtime();
+	initTime += t_mpi;
+	t_mpi = -MPI_Wtime();
 	/*1. reduce-scatter inside each group (local-ring)*/
 	/**************************************************/
 	//1.1. copy (partial of)send_buf to recv_buf
@@ -59,13 +67,18 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 		dst = ((intra_rank + 1) % intra_size) + inter_rank * intra_size;
 		//printf("[NNNN] [%d] src=%d dst=%d, send_offset=%d, recv_offset=%d\n",rank,src,dst,send_offset,recv_offset);
 		MPI_Sendrecv(rcv + send_offset, intra_count* extent, MPI_BYTE, dst, tag + i, rcv+ recv_offset, intra_count* extent, MPI_BYTE,src, tag + i, comm, &status);
-		
+
  		// compute result to rbuf+recv_offset
+		t_mpi1 = -MPI_Wtime();
 		for(j = 0; j < intra_count; ++j) {
 		  (rcv+recv_offset)[j] = (rcv+recv_offset)[j] + (snd+recv_offset)[j];
-		} 
+		}
+		t_mpi1 += MPI_Wtime();
+		computeTime += t_mpi1;
 	}	
-
+	t_mpi += MPI_Wtime();
+	intraTime += t_mpi;
+	t_mpi = -MPI_Wtime();
 	/*2. reduce-scatter -inter between groups: the same local_rank nodes*/
 	/**************************************************/
  	//if (rank ==0){printf("[NNNN] [%d] inter lr reduce-scatter",rank);}
@@ -84,13 +97,18 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 		src = intra_rank + ((inter_rank + inter_size - 1)% inter_size)* intra_size;
 		dst = intra_rank + ((inter_rank + 1)% inter_size)* intra_size;
 		MPI_Sendrecv(rcv + send_offset, inter_count*extent, MPI_BYTE, dst, tag + i, rcv + recv_offset, inter_count*extent, MPI_BYTE,src, tag + i, comm, &status);
-
+		
 		// compute result to rbuf+recv_offset
+		t_mpi1 = -MPI_Wtime();
 		for(j = 0; j < inter_count; ++j) {
 		  (rcv+recv_offset)[j] = (rcv+recv_offset)[j] + (snd+recv_offset)[j];
-		}   			   
+		} 
+		t_mpi1 += MPI_Wtime();
+		computeTime += t_mpi1;		
 	}
-	
+	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+	t_mpi = -MPI_Wtime();
 	/*3. allgather - inter between root of each SMP node*/
 	/**************************************************/
  	//if (rank ==0){printf("[NNNN] [%d] inter lr allgather",rank);}
@@ -102,7 +120,9 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 		MPI_Sendrecv(rcv + send_offset, inter_count*extent, MPI_BYTE, dst, tag + i, rcv + recv_offset, inter_count*extent, MPI_BYTE,src, tag + i, comm, &status);
 		//XBT_WARN("[NNNN] [%d] rbuf=[%s]",rank, print_buffer(rbuf,rcount,alert));		   	
 	} 
-
+	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+	t_mpi = -MPI_Wtime();
 	/*4. allgather - inside each group */
 	/**************************************************/
  	//if (rank ==0){printf("[NNNN] [%d] intra lr allgather",rank);}
@@ -113,12 +133,19 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 		dst = ((intra_rank + 1) % intra_size) + inter_rank * intra_size;
 		MPI_Sendrecv(rcv + send_offset, intra_count*extent, MPI_BYTE, dst, tag + i, rcv + recv_offset, intra_count*extent, MPI_BYTE,src, tag + i, comm, &status);	   	
 	}
-	
+	t_mpi += MPI_Wtime();
+	intraTime += t_mpi;
 	/* when communication size is not divisible by number of process:
 	 call the native implementation for the remain chunk at the end of the operation */
 	if (remainder_flag) {
 		//XBT_WARN("[NNNN] [%d] remainder path",rank);
 		printf("For MPI_allreduce ntt_lr_lr when communication data count is not divisible by number of process, call the native implementation for the remain chunk at the end of the operation. TODO");
+	}
+    if(rank == 0){
+		printf("\t\tDense Ring Ring Compute time: \t%f\tsecs\n", computeTime);
+		printf("\t\tDense Ring Ring Intra time: \t%f\tsecs\n", intraTime);
+		printf("\t\tDense Ring Ring Inter time: \t%f\tsecs\n", interTime);
+		printf("\t\tDense Ring Ring Init time: \t%f\tsecs\n", initTime);
 	}
   return MPI_SUCCESS;
 }

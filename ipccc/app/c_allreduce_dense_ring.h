@@ -10,7 +10,12 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring(const struct s
   int r, p;
   MPI_Comm_size(comm, &p);
   MPI_Comm_rank(comm, &r);
-
+	double t_mpi1, t_mpi, computeTime, interTime, initTime; 
+	computeTime = 0;
+	interTime=0;
+	initTime = 0;
+	t_mpi = -MPI_Wtime();
+	
   if(p == 1) {
     memcpy(recvbuf, sendbuf, countBytes<IdxType, ValType>(sendbuf, dim));
     return MPI_SUCCESS;
@@ -46,7 +51,10 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring(const struct s
   ValType *snd = (ValType*)sendbuf->items;
   ValType *rcv = (ValType*)recvbuf->items;
   recvbuf->nofitems = dim;
-
+	t_mpi += MPI_Wtime();
+	initTime += t_mpi;
+	t_mpi = -MPI_Wtime();
+	
   int round = 0;
   /* first p-1 rounds are reductions */
   do {
@@ -65,10 +73,13 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring(const struct s
     //printf("[%i] round %i - receiving %i\n", r, round, relement);
 
     //printf("[%i] round %i - reducing %i\n", r, round, relement);
+	t_mpi1 = -MPI_Wtime();
     for(i = 0; i < segsizes[relement]; ++i) {
       (rcv+roffset)[i] = (rcv+roffset)[i] + (snd+roffset)[i];
     }
-
+	t_mpi1 += MPI_Wtime();
+	computeTime += t_mpi1;
+	
     round++;
   } while(round < p-1);
 
@@ -82,6 +93,13 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring(const struct s
     MPI_Sendrecv(rcv+soffset, sizeof(ValType) * segsizes[selement], MPI_BYTE, speer, 1, rcv+roffset, sizeof(ValType) * segsizes[relement], MPI_BYTE, rpeer, 1, comm, MPI_STATUS_IGNORE);
     round++;  
   } while (round < 2*p-2);
-
+  
+	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+    if(r == 0) {
+		printf("\t\tDense Ring Compute time: \t%f\tsecs\n", computeTime);
+		printf("\t\tDense Ring Inter time: \t%f\tsecs\n", interTime);
+		printf("\t\tDense Ring Init time: \t%f\tsecs\n", initTime);
+	}
   return MPI_SUCCESS;
 }

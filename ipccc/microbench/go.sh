@@ -10,27 +10,30 @@
 
 SIMGRID="/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpirun"
 SIZE=8
-PLATFORM="../../platforms/Tsubame3_64.xml"
-HOSTFILE="../../platforms/Tsubame3_64.txt"
+# PLATFORM="../../platforms/Tsubame3_64.xml"
+# HOSTFILE="../../platforms/Tsubame3_64.txt"
+ARCHITECTURE="ABCI"
+PLATFORM="../platforms/ABCI_68.xml"
+HOSTFILE="../platforms/ABCI_68.txt"
 #APP="../app/run_all"
 APP_DIR="/home/nguyen_truong/allreduce_simulate/ipccc/app/"
 APP="run.out"
 NODESIZE="4"
-LOG_DIR="./logs"
-densities=(0.0625 0.03125 0.015625 0.0078125 0.00390625 0.001953125)
-dimensions=(16777216 33554432 67108864)
+LOG_DIR="./test"
+densities=(0.0078125) #(0.0625 0.03125 0.015625 0.0078125 0.00390625 0.001953125)
+dimensions=(16777216) #16777216 33554432 67108864)
 
 
-for SIZE in 32 #16 #32 #64 128 256 512 1024
+for SIZE in 16 #8 16 32 64 #128 #256 512 1024
 do
 	for N in "${dimensions[@]}"; do
 		for D in "${densities[@]}"; do
 			APP1="${APP_DIR}${APP} ${N} ${D}"
 			CONFIG="--cfg=exception/cutpath:1 --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:${NODESIZE}" # --cfg=smpi/allreduce:${ALGO} --log=smpi_coll.:critical --cfg=plugin:Link_Energy"
-			LOG_FILE="${LOG_DIR}/${SIZE}_${N}_${D}.log"
+			LOG_FILE="${LOG_DIR}/${ARCHITECTURE}_${SIZE}_${N}_${D}.log"
 			${SIMGRID} -np ${SIZE} -map -platform ${PLATFORM} -hostfile ${HOSTFILE} ${CONFIG} ${APP1} >> ${LOG_FILE} 2>&1 &
 		done
-		sleep(2m)
+		#sleep 2m
 	done
 done
 
