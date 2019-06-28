@@ -9,6 +9,7 @@
 #include "c_allreduce_dense_ring.h"
 #include "c_allreduce_dense_ring_ring.h"
 #include "c_allreduce_ring_ring.h"
+#include "c_allreduce_ring_ring_loop.h"
 #include "c_allreduce_ring.h"
 
 #include <stddef.h>
@@ -23,7 +24,7 @@ typedef int ValType;
 #define MPI_IDX_TYPE MPI_UNSIGNED
 #define MPI_VAL_TYPE MPI_INT
 
-//#define COMPARE_TO_DENSE true
+#define COMPARE_TO_DENSE true
 #define TAKES 1 //10
 #define EXPERIMENTS 1 //5
 
@@ -138,7 +139,8 @@ int main(int argc, char* argv[]) {
       }
     }
     ValType *res = (ValType*)malloc(sizeof(ValType)*dim);
-
+    //if(rank == OUTPUT_RANK) printf("mys.item %d \n", mys->nofitems);
+	//printStream<IdxType,ValType>(mys,dim,rank);
 #ifdef COMPARE_TO_DENSE 
       int neq, all_neq;
       neq = isDifferent<IdxType, ValType>(my, sendbuf, dim, rank);
@@ -154,7 +156,8 @@ int main(int argc, char* argv[]) {
     for(int j = 0; j < TAKES; ++j) {
 
       double t_mpi, maxT;
- /*       // ===
+	   int gpuPerNode = 4;
+	  // ===
       // Run Dense AllReduce
       MPI_Barrier(MPI_COMM_WORLD);
       t_mpi = -MPI_Wtime();
@@ -181,10 +184,9 @@ int main(int argc, char* argv[]) {
       }
 #endif
       // ===
-
+	  
       // ===
       // Run dense ring_ring AllReduce
- 	  int gpuPerNode = 4;
       MPI_Barrier(MPI_COMM_WORLD);
       t_mpi = -MPI_Wtime();
       c_allreduce_dense_ring_ring<IdxType, ValType>(mys, recvbuf, dim, MPI_COMM_WORLD, gpuPerNode);
@@ -199,9 +201,9 @@ int main(int argc, char* argv[]) {
         printf("Equal [With AllReduce Dense]: %s\n", (all_neq > 0) ? "False!" : "True");
       }
 #endif 
-      // ===
+      // === 
   
-      // ===
+/*     // ===
       // Run custom AllReduce (RecDoubling)
       MPI_Barrier(MPI_COMM_WORLD);
       t_mpi = -MPI_Wtime();
@@ -217,7 +219,7 @@ int main(int argc, char* argv[]) {
         printf("Equal [With AllReduce Dense]: %s\n", (all_neq > 0) ? "False!" : "True");
       }
 #endif
-      // ===
+      // === */
 
       // ===
       // Run custom AllReduce (Big - DSAR)
@@ -253,7 +255,6 @@ int main(int argc, char* argv[]) {
         printf("Equal [With AllReduce Dense]: %s\n", (all_neq > 0) ? "False!" : "True");
       }
 #endif
-
       // ===
       // Run ring AllReduce
       MPI_Barrier(MPI_COMM_WORLD);
@@ -269,12 +270,29 @@ int main(int argc, char* argv[]) {
       if(rank == OUTPUT_RANK) {
         printf("Equal [With AllReduce Dense]: %s\n", (all_neq > 0) ? "False!" : "True");
       }
-#endif
+#endif */
       // ===
-	   */
+
+/*       // ===
+      // Run ring_ring AllReduce LOOP
+      MPI_Barrier(MPI_COMM_WORLD);
+      t_mpi = -MPI_Wtime();
+      c_allreduce_ring_ring_loop<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD,gpuPerNode);
+      t_mpi += MPI_Wtime();
+      MPI_Reduce(&t_mpi, &maxT, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+      if(rank == OUTPUT_RANK) printf("Sparse Ring Ring loop AllReduce finished [8]:\t%f\tsecs - Dense: %s\n", maxT, (recvbuf->nofitems == dim) ? "True" : "False");
+	 
+#ifdef COMPARE_TO_DENSE 
+      neq = isDifferent<IdxType, ValType>(res, recvbuf, dim, rank);
+      MPI_Allreduce(&neq, &all_neq, 1, MPI_INT, MPI_SUM, MPI_COMM_WORLD); 
+      if(rank == OUTPUT_RANK) {
+        printf("Equal [With AllReduce Dense]: %s\n", (all_neq > 0) ? "False!" : "True");
+      }
+#endif
+      // === */
+	  
       // ===
       // Run ring_ring AllReduce
-	  int gpuPerNode = 4;
       MPI_Barrier(MPI_COMM_WORLD);
       t_mpi = -MPI_Wtime();
       c_allreduce_ring_ring<IdxType, ValType>(sendbuf, recvbuf, dim, MPI_COMM_WORLD,gpuPerNode);
@@ -293,6 +311,7 @@ int main(int argc, char* argv[]) {
 	  
       if(rank == OUTPUT_RANK) printf("=================================================================\n");
     }
+	
 
     free(sendbuf);
     free(recvbuf);

@@ -1,3 +1,4 @@
+./ipccc/microbenchmark/logs/*.*
 ./node_size/logs/*.*
 ./node_size/logs2/*.*
 ./node_size/logs4/*.*

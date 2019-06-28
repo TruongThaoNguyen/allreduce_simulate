@@ -1,0 +1,2424 @@
+./logs/ABCI_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000099	secs
+./logs/ABCI_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.001010	secs
+./logs/ABCI_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.004229	secs
+./logs/ABCI_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/ABCI_16_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.005303	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000100	secs
+./logs/ABCI_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000960	secs
+./logs/ABCI_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.004233	secs
+./logs/ABCI_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/ABCI_16_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.005259	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000101	secs
+./logs/ABCI_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.000993	secs
+./logs/ABCI_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.004220	secs
+./logs/ABCI_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/ABCI_16_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.005282	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000121	secs
+./logs/ABCI_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.000988	secs
+./logs/ABCI_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.004222	secs
+./logs/ABCI_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/ABCI_16_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.005294	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000111	secs
+./logs/ABCI_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001010	secs
+./logs/ABCI_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.004208	secs
+./logs/ABCI_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/ABCI_16_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.005297	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000104	secs
+./logs/ABCI_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001051	secs
+./logs/ABCI_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.004168	secs
+./logs/ABCI_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/ABCI_16_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.005291	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000106	secs
+./logs/ABCI_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001006	secs
+./logs/ABCI_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.004227	secs
+./logs/ABCI_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/ABCI_16_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.005303	secs - Dense: False
+
+./logs/ABCI_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000152	secs
+./logs/ABCI_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.000981	secs
+./logs/ABCI_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.004225	secs
+./logs/ABCI_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000013	secs
+./logs/ABCI_16_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.005342	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000651	secs
+./logs/ABCI_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.003775	secs
+./logs/ABCI_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.028784	secs
+./logs/ABCI_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/ABCI_32_134217728_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.033554	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000714	secs
+./logs/ABCI_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.003600	secs
+./logs/ABCI_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.029048	secs
+./logs/ABCI_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_134217728_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.033662	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000632	secs
+./logs/ABCI_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.003504	secs
+./logs/ABCI_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.029192	secs
+./logs/ABCI_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/ABCI_32_134217728_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.033619	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000652	secs
+./logs/ABCI_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.003691	secs
+./logs/ABCI_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.028876	secs
+./logs/ABCI_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/ABCI_32_134217728_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.033455	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.001175	secs
+./logs/ABCI_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.003280	secs
+./logs/ABCI_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.029657	secs
+./logs/ABCI_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/ABCI_32_134217728_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.035542	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000710	secs
+./logs/ABCI_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.003508	secs
+./logs/ABCI_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.029162	secs
+./logs/ABCI_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/ABCI_32_134217728_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.033444	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.001806	secs
+./logs/ABCI_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.003499	secs
+./logs/ABCI_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.029518	secs
+./logs/ABCI_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_134217728_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.035188	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.001162	secs
+./logs/ABCI_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.003964	secs
+./logs/ABCI_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.029473	secs
+./logs/ABCI_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/ABCI_32_134217728_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.035441	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000590	secs
+./logs/ABCI_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.003545	secs
+./logs/ABCI_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.028888	secs
+./logs/ABCI_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/ABCI_32_134217728_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.033322	secs - Dense: False
+
+./logs/ABCI_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000818	secs
+./logs/ABCI_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.003251	secs
+./logs/ABCI_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.029342	secs
+./logs/ABCI_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_134217728_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.033304	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000096	secs
+./logs/ABCI_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000916	secs
+./logs/ABCI_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.005990	secs
+./logs/ABCI_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_16777216_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.006999	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000088	secs
+./logs/ABCI_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000936	secs
+./logs/ABCI_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.005967	secs
+./logs/ABCI_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_16777216_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.006994	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000093	secs
+./logs/ABCI_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.000918	secs
+./logs/ABCI_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.005986	secs
+./logs/ABCI_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_16777216_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.007002	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000099	secs
+./logs/ABCI_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000925	secs
+./logs/ABCI_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.005987	secs
+./logs/ABCI_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_16777216_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.007013	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000094	secs
+./logs/ABCI_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.000926	secs
+./logs/ABCI_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.005984	secs
+./logs/ABCI_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_32_16777216_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.007007	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000108	secs
+./logs/ABCI_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.000929	secs
+./logs/ABCI_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.005970	secs
+./logs/ABCI_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_16777216_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.007023	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000103	secs
+./logs/ABCI_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.000929	secs
+./logs/ABCI_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.005987	secs
+./logs/ABCI_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_16777216_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.007018	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000095	secs
+./logs/ABCI_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000920	secs
+./logs/ABCI_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.005980	secs
+./logs/ABCI_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_16777216_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.006996	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000117	secs
+./logs/ABCI_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.000935	secs
+./logs/ABCI_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.005980	secs
+./logs/ABCI_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_16777216_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.007073	secs - Dense: False
+
+./logs/ABCI_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000097	secs
+./logs/ABCI_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.000921	secs
+./logs/ABCI_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.005981	secs
+./logs/ABCI_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_16777216_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.007006	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Compute time: 	0.000072	secs
+./logs/ABCI_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Intra time: 	0.000795	secs
+./logs/ABCI_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Inter time: 	0.004383	secs
+./logs/ABCI_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_33554432_0.001953125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.005262	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Compute time: 	0.000059	secs
+./logs/ABCI_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Intra time: 	0.000834	secs
+./logs/ABCI_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Inter time: 	0.004347	secs
+./logs/ABCI_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.001953125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.005251	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Compute time: 	0.000063	secs
+./logs/ABCI_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Intra time: 	0.000846	secs
+./logs/ABCI_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Inter time: 	0.004388	secs
+./logs/ABCI_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_33554432_0.001953125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.005303	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Compute time: 	0.000060	secs
+./logs/ABCI_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Intra time: 	0.001329	secs
+./logs/ABCI_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Inter time: 	0.003857	secs
+./logs/ABCI_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/ABCI_32_33554432_0.001953125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.005261	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Compute time: 	0.000060	secs
+./logs/ABCI_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Intra time: 	0.001327	secs
+./logs/ABCI_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Inter time: 	0.003863	secs
+./logs/ABCI_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.001953125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.005262	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Compute time: 	0.000073	secs
+./logs/ABCI_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Intra time: 	0.000837	secs
+./logs/ABCI_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Inter time: 	0.004359	secs
+./logs/ABCI_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_33554432_0.001953125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.005275	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Compute time: 	0.000059	secs
+./logs/ABCI_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Intra time: 	0.000790	secs
+./logs/ABCI_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Inter time: 	0.004387	secs
+./logs/ABCI_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_33554432_0.001953125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.005246	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Compute time: 	0.000057	secs
+./logs/ABCI_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Intra time: 	0.000832	secs
+./logs/ABCI_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Inter time: 	0.004367	secs
+./logs/ABCI_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_33554432_0.001953125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.005266	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Compute time: 	0.000081	secs
+./logs/ABCI_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Intra time: 	0.000806	secs
+./logs/ABCI_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Inter time: 	0.004396	secs
+./logs/ABCI_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.001953125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.005270	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Compute time: 	0.000065	secs
+./logs/ABCI_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Intra time: 	0.000820	secs
+./logs/ABCI_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Inter time: 	0.004407	secs
+./logs/ABCI_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.001953125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.005303	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Compute time: 	0.000101	secs
+./logs/ABCI_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Intra time: 	0.000930	secs
+./logs/ABCI_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Inter time: 	0.006166	secs
+./logs/ABCI_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_33554432_0.00390625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.007199	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/ABCI_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Intra time: 	0.000984	secs
+./logs/ABCI_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Inter time: 	0.006121	secs
+./logs/ABCI_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.00390625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.007204	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Compute time: 	0.000122	secs
+./logs/ABCI_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Intra time: 	0.000943	secs
+./logs/ABCI_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Inter time: 	0.006175	secs
+./logs/ABCI_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_33554432_0.00390625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.007218	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Compute time: 	0.000118	secs
+./logs/ABCI_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Intra time: 	0.000949	secs
+./logs/ABCI_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Inter time: 	0.006184	secs
+./logs/ABCI_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.00390625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.007232	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Compute time: 	0.000095	secs
+./logs/ABCI_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Intra time: 	0.000952	secs
+./logs/ABCI_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Inter time: 	0.006147	secs
+./logs/ABCI_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_33554432_0.00390625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.007205	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Compute time: 	0.000101	secs
+./logs/ABCI_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Intra time: 	0.000947	secs
+./logs/ABCI_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Inter time: 	0.006159	secs
+./logs/ABCI_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_33554432_0.00390625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.007208	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Compute time: 	0.000105	secs
+./logs/ABCI_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Intra time: 	0.000948	secs
+./logs/ABCI_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Inter time: 	0.006149	secs
+./logs/ABCI_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/ABCI_32_33554432_0.00390625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.007231	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Compute time: 	0.000094	secs
+./logs/ABCI_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Intra time: 	0.000950	secs
+./logs/ABCI_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Inter time: 	0.006149	secs
+./logs/ABCI_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.00390625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.007208	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Compute time: 	0.000125	secs
+./logs/ABCI_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Intra time: 	0.001010	secs
+./logs/ABCI_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Inter time: 	0.006145	secs
+./logs/ABCI_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/ABCI_32_33554432_0.00390625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.007304	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Compute time: 	0.000097	secs
+./logs/ABCI_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Intra time: 	0.000948	secs
+./logs/ABCI_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Inter time: 	0.006155	secs
+./logs/ABCI_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_33554432_0.00390625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.007198	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000192	secs
+./logs/ABCI_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.001262	secs
+./logs/ABCI_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.009393	secs
+./logs/ABCI_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000031	secs
+./logs/ABCI_32_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.010823	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000180	secs
+./logs/ABCI_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.001223	secs
+./logs/ABCI_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.009424	secs
+./logs/ABCI_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_32_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.010817	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000182	secs
+./logs/ABCI_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001221	secs
+./logs/ABCI_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.009428	secs
+./logs/ABCI_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_32_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.010810	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000205	secs
+./logs/ABCI_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.001235	secs
+./logs/ABCI_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.009425	secs
+./logs/ABCI_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_32_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.010873	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000193	secs
+./logs/ABCI_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.001227	secs
+./logs/ABCI_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.009401	secs
+./logs/ABCI_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/ABCI_32_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.010814	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000188	secs
+./logs/ABCI_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001201	secs
+./logs/ABCI_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.009432	secs
+./logs/ABCI_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000032	secs
+./logs/ABCI_32_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.010797	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000184	secs
+./logs/ABCI_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001218	secs
+./logs/ABCI_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.009426	secs
+./logs/ABCI_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000031	secs
+./logs/ABCI_32_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.010809	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000198	secs
+./logs/ABCI_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001234	secs
+./logs/ABCI_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.009397	secs
+./logs/ABCI_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/ABCI_32_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.010881	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000196	secs
+./logs/ABCI_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001236	secs
+./logs/ABCI_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.009398	secs
+./logs/ABCI_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/ABCI_32_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.010822	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000178	secs
+./logs/ABCI_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001255	secs
+./logs/ABCI_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.009382	secs
+./logs/ABCI_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/ABCI_32_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.010786	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Compute time: 	0.000256	secs
+./logs/ABCI_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Intra time: 	0.001687	secs
+./logs/ABCI_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Inter time: 	0.015040	secs
+./logs/ABCI_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.016920	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Compute time: 	0.000288	secs
+./logs/ABCI_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Intra time: 	0.001695	secs
+./logs/ABCI_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Inter time: 	0.015017	secs
+./logs/ABCI_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.017081	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Compute time: 	0.000278	secs
+./logs/ABCI_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Intra time: 	0.001657	secs
+./logs/ABCI_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Inter time: 	0.015000	secs
+./logs/ABCI_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/ABCI_32_33554432_0.015625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.016868	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Compute time: 	0.000256	secs
+./logs/ABCI_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Intra time: 	0.001677	secs
+./logs/ABCI_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Inter time: 	0.015048	secs
+./logs/ABCI_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.016914	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Compute time: 	0.000318	secs
+./logs/ABCI_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Intra time: 	0.001711	secs
+./logs/ABCI_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Inter time: 	0.015022	secs
+./logs/ABCI_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.017026	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Compute time: 	0.000266	secs
+./logs/ABCI_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Intra time: 	0.001730	secs
+./logs/ABCI_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Inter time: 	0.015046	secs
+./logs/ABCI_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.017130	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Compute time: 	0.000343	secs
+./logs/ABCI_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Intra time: 	0.001814	secs
+./logs/ABCI_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Inter time: 	0.015022	secs
+./logs/ABCI_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.017103	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Compute time: 	0.000256	secs
+./logs/ABCI_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Intra time: 	0.001718	secs
+./logs/ABCI_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Inter time: 	0.015027	secs
+./logs/ABCI_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Init time: 	0.000007	secs
+./logs/ABCI_32_33554432_0.015625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.016924	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Compute time: 	0.000254	secs
+./logs/ABCI_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Intra time: 	0.001788	secs
+./logs/ABCI_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Inter time: 	0.014943	secs
+./logs/ABCI_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Init time: 	0.000007	secs
+./logs/ABCI_32_33554432_0.015625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.016927	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Compute time: 	0.000389	secs
+./logs/ABCI_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Intra time: 	0.001856	secs
+./logs/ABCI_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Inter time: 	0.014903	secs
+./logs/ABCI_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_33554432_0.015625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.017067	secs - Dense: False
+
+./logs/ABCI_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Compute time: 	0.000510	secs
+./logs/ABCI_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Intra time: 	0.001949	secs
+./logs/ABCI_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Inter time: 	0.020221	secs
+./logs/ABCI_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/ABCI_32_33554432_0.03125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.022709	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Compute time: 	0.000477	secs
+./logs/ABCI_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Intra time: 	0.001984	secs
+./logs/ABCI_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Inter time: 	0.020202	secs
+./logs/ABCI_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/ABCI_32_33554432_0.03125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.022619	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Compute time: 	0.000598	secs
+./logs/ABCI_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Intra time: 	0.001931	secs
+./logs/ABCI_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Inter time: 	0.020195	secs
+./logs/ABCI_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Init time: 	0.000065	secs
+./logs/ABCI_32_33554432_0.03125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.022797	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Compute time: 	0.000485	secs
+./logs/ABCI_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Intra time: 	0.002114	secs
+./logs/ABCI_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Inter time: 	0.020082	secs
+./logs/ABCI_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/ABCI_32_33554432_0.03125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.022776	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Compute time: 	0.000489	secs
+./logs/ABCI_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Intra time: 	0.001998	secs
+./logs/ABCI_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Inter time: 	0.020218	secs
+./logs/ABCI_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/ABCI_32_33554432_0.03125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.022609	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Compute time: 	0.000715	secs
+./logs/ABCI_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Intra time: 	0.001981	secs
+./logs/ABCI_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Inter time: 	0.020195	secs
+./logs/ABCI_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Init time: 	0.000048	secs
+./logs/ABCI_32_33554432_0.03125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.022824	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Compute time: 	0.000482	secs
+./logs/ABCI_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Intra time: 	0.002006	secs
+./logs/ABCI_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Inter time: 	0.020220	secs
+./logs/ABCI_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/ABCI_32_33554432_0.03125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.022624	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Compute time: 	0.000506	secs
+./logs/ABCI_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Intra time: 	0.001994	secs
+./logs/ABCI_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Inter time: 	0.020212	secs
+./logs/ABCI_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/ABCI_32_33554432_0.03125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.022871	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Compute time: 	0.000748	secs
+./logs/ABCI_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Intra time: 	0.001992	secs
+./logs/ABCI_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Inter time: 	0.020241	secs
+./logs/ABCI_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_33554432_0.03125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.022849	secs - Dense: True
+./logs/ABCI_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Compute time: 	0.000477	secs
+./logs/ABCI_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Intra time: 	0.001962	secs
+./logs/ABCI_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Inter time: 	0.020228	secs
+./logs/ABCI_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/ABCI_32_33554432_0.03125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.022569	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Compute time: 	0.000566	secs
+./logs/ABCI_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Intra time: 	0.002405	secs
+./logs/ABCI_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Inter time: 	0.021704	secs
+./logs/ABCI_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/ABCI_32_33554432_0.0625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.024528	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Compute time: 	0.000560	secs
+./logs/ABCI_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Intra time: 	0.002182	secs
+./logs/ABCI_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Inter time: 	0.021936	secs
+./logs/ABCI_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Init time: 	0.000039	secs
+./logs/ABCI_32_33554432_0.0625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.024525	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Compute time: 	0.000566	secs
+./logs/ABCI_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Intra time: 	0.002150	secs
+./logs/ABCI_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Inter time: 	0.021932	secs
+./logs/ABCI_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/ABCI_32_33554432_0.0625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.024483	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Compute time: 	0.000628	secs
+./logs/ABCI_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Intra time: 	0.002505	secs
+./logs/ABCI_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Inter time: 	0.021603	secs
+./logs/ABCI_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Init time: 	0.000044	secs
+./logs/ABCI_32_33554432_0.0625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.024668	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Compute time: 	0.000591	secs
+./logs/ABCI_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Intra time: 	0.002160	secs
+./logs/ABCI_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Inter time: 	0.021937	secs
+./logs/ABCI_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/ABCI_32_33554432_0.0625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.024522	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Compute time: 	0.000778	secs
+./logs/ABCI_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Intra time: 	0.002163	secs
+./logs/ABCI_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Inter time: 	0.021952	secs
+./logs/ABCI_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Init time: 	0.000039	secs
+./logs/ABCI_32_33554432_0.0625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.024746	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Compute time: 	0.000688	secs
+./logs/ABCI_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Intra time: 	0.002144	secs
+./logs/ABCI_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Inter time: 	0.021934	secs
+./logs/ABCI_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/ABCI_32_33554432_0.0625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.024614	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Compute time: 	0.000617	secs
+./logs/ABCI_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Intra time: 	0.002170	secs
+./logs/ABCI_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Inter time: 	0.021951	secs
+./logs/ABCI_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/ABCI_32_33554432_0.0625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.024631	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Compute time: 	0.000557	secs
+./logs/ABCI_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Intra time: 	0.002204	secs
+./logs/ABCI_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Inter time: 	0.021907	secs
+./logs/ABCI_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/ABCI_32_33554432_0.0625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.024574	secs - Dense: True
+./logs/ABCI_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Compute time: 	0.000621	secs
+./logs/ABCI_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Intra time: 	0.002150	secs
+./logs/ABCI_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Inter time: 	0.021940	secs
+./logs/ABCI_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Init time: 	0.000045	secs
+./logs/ABCI_32_33554432_0.0625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.024651	secs - Dense: True
+./logs/ABCI_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000020	secs
+./logs/ABCI_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000712	secs
+./logs/ABCI_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.003144	secs
+./logs/ABCI_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.003869	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000024	secs
+./logs/ABCI_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000710	secs
+./logs/ABCI_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.003157	secs
+./logs/ABCI_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.003883	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000020	secs
+./logs/ABCI_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.000707	secs
+./logs/ABCI_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.003147	secs
+./logs/ABCI_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.003868	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000021	secs
+./logs/ABCI_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000709	secs
+./logs/ABCI_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.003145	secs
+./logs/ABCI_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.003868	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000030	secs
+./logs/ABCI_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.000715	secs
+./logs/ABCI_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.003156	secs
+./logs/ABCI_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.003893	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000023	secs
+./logs/ABCI_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.000714	secs
+./logs/ABCI_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.003158	secs
+./logs/ABCI_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.003888	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000022	secs
+./logs/ABCI_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.000717	secs
+./logs/ABCI_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.003153	secs
+./logs/ABCI_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.003885	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000017	secs
+./logs/ABCI_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000708	secs
+./logs/ABCI_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.003145	secs
+./logs/ABCI_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.003865	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000019	secs
+./logs/ABCI_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.000709	secs
+./logs/ABCI_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.003147	secs
+./logs/ABCI_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/ABCI_32_4194304_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.003869	secs - Dense: False
+
+./logs/ABCI_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000025	secs
+./logs/ABCI_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001072	secs
+./logs/ABCI_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.002787	secs
+./logs/ABCI_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000002	secs
+./logs/ABCI_32_4194304_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.003877	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000379	secs
+./logs/ABCI_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.002670	secs
+./logs/ABCI_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.015364	secs
+./logs/ABCI_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_67108864_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.018430	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000298	secs
+./logs/ABCI_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.001928	secs
+./logs/ABCI_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.016071	secs
+./logs/ABCI_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_67108864_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.018246	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000349	secs
+./logs/ABCI_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001949	secs
+./logs/ABCI_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.016233	secs
+./logs/ABCI_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000010	secs
+./logs/ABCI_32_67108864_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.018858	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000293	secs
+./logs/ABCI_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.001935	secs
+./logs/ABCI_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.016163	secs
+./logs/ABCI_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_67108864_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.018336	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000313	secs
+./logs/ABCI_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.001949	secs
+./logs/ABCI_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.016165	secs
+./logs/ABCI_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000011	secs
+./logs/ABCI_32_67108864_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.018368	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000328	secs
+./logs/ABCI_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001826	secs
+./logs/ABCI_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.016184	secs
+./logs/ABCI_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_67108864_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.018347	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000351	secs
+./logs/ABCI_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001879	secs
+./logs/ABCI_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.016234	secs
+./logs/ABCI_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_67108864_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.018583	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000342	secs
+./logs/ABCI_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001888	secs
+./logs/ABCI_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.016243	secs
+./logs/ABCI_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/ABCI_32_67108864_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.018595	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000305	secs
+./logs/ABCI_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001896	secs
+./logs/ABCI_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.016212	secs
+./logs/ABCI_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000010	secs
+./logs/ABCI_32_67108864_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.018399	secs - Dense: False
+
+./logs/ABCI_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000282	secs
+./logs/ABCI_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001962	secs
+./logs/ABCI_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.016097	secs
+./logs/ABCI_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/ABCI_32_67108864_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.018285	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/ABCI_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000787	secs
+./logs/ABCI_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.004241	secs
+./logs/ABCI_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_8388608_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.005083	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000056	secs
+./logs/ABCI_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000773	secs
+./logs/ABCI_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.003820	secs
+./logs/ABCI_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_8388608_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.004669	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000043	secs
+./logs/ABCI_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001113	secs
+./logs/ABCI_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.003469	secs
+./logs/ABCI_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_8388608_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.004636	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000050	secs
+./logs/ABCI_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000774	secs
+./logs/ABCI_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.004253	secs
+./logs/ABCI_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_8388608_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.005101	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000047	secs
+./logs/ABCI_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.000892	secs
+./logs/ABCI_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.004137	secs
+./logs/ABCI_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/ABCI_32_8388608_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.005092	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000043	secs
+./logs/ABCI_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001442	secs
+./logs/ABCI_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.003414	secs
+./logs/ABCI_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_8388608_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.004908	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000043	secs
+./logs/ABCI_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001218	secs
+./logs/ABCI_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.003797	secs
+./logs/ABCI_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/ABCI_32_8388608_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.005068	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/ABCI_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000794	secs
+./logs/ABCI_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.004231	secs
+./logs/ABCI_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/ABCI_32_8388608_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.005081	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000048	secs
+./logs/ABCI_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.000774	secs
+./logs/ABCI_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.004143	secs
+./logs/ABCI_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_8388608_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.004976	secs - Dense: False
+
+./logs/ABCI_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000054	secs
+./logs/ABCI_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.000790	secs
+./logs/ABCI_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.004234	secs
+./logs/ABCI_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/ABCI_32_8388608_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.005089	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000309	secs
+./logs/ABCI_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.001747	secs
+./logs/ABCI_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.022873	secs
+./logs/ABCI_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000024	secs
+./logs/ABCI_64_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.025034	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000403	secs
+./logs/ABCI_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.001593	secs
+./logs/ABCI_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.022867	secs
+./logs/ABCI_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000024	secs
+./logs/ABCI_64_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.024900	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000397	secs
+./logs/ABCI_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001767	secs
+./logs/ABCI_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.022872	secs
+./logs/ABCI_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/ABCI_64_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.025086	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000309	secs
+./logs/ABCI_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.001562	secs
+./logs/ABCI_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.023070	secs
+./logs/ABCI_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000025	secs
+./logs/ABCI_64_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.025107	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000320	secs
+./logs/ABCI_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.001688	secs
+./logs/ABCI_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.022746	secs
+./logs/ABCI_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_64_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.024862	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000388	secs
+./logs/ABCI_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001903	secs
+./logs/ABCI_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.022753	secs
+./logs/ABCI_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000028	secs
+./logs/ABCI_64_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.025090	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000287	secs
+./logs/ABCI_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.002128	secs
+./logs/ABCI_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.022619	secs
+./logs/ABCI_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/ABCI_64_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.025051	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000349	secs
+./logs/ABCI_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001724	secs
+./logs/ABCI_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.022949	secs
+./logs/ABCI_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/ABCI_64_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.025016	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000336	secs
+./logs/ABCI_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001900	secs
+./logs/ABCI_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.022760	secs
+./logs/ABCI_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_64_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.025056	secs - Dense: False
+
+./logs/ABCI_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000379	secs
+./logs/ABCI_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001585	secs
+./logs/ABCI_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.022872	secs
+./logs/ABCI_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000024	secs
+./logs/ABCI_64_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.024925	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000081	secs
+./logs/ABCI_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000827	secs
+./logs/ABCI_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.001443	secs
+./logs/ABCI_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000030	secs
+./logs/ABCI_8_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.002349	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000090	secs
+./logs/ABCI_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000853	secs
+./logs/ABCI_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.001439	secs
+./logs/ABCI_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000025	secs
+./logs/ABCI_8_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.002365	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000082	secs
+./logs/ABCI_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.000842	secs
+./logs/ABCI_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.001447	secs
+./logs/ABCI_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000024	secs
+./logs/ABCI_8_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.002358	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000068	secs
+./logs/ABCI_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000842	secs
+./logs/ABCI_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.001440	secs
+./logs/ABCI_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/ABCI_8_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.002340	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000093	secs
+./logs/ABCI_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.000843	secs
+./logs/ABCI_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.001447	secs
+./logs/ABCI_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000025	secs
+./logs/ABCI_8_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.002370	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000086	secs
+./logs/ABCI_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.000842	secs
+./logs/ABCI_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.001444	secs
+./logs/ABCI_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/ABCI_8_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.002356	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000079	secs
+./logs/ABCI_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.000841	secs
+./logs/ABCI_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.001439	secs
+./logs/ABCI_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000032	secs
+./logs/ABCI_8_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.002357	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000075	secs
+./logs/ABCI_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000837	secs
+./logs/ABCI_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.001441	secs
+./logs/ABCI_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000026	secs
+./logs/ABCI_8_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.002348	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000074	secs
+./logs/ABCI_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.000848	secs
+./logs/ABCI_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.001439	secs
+./logs/ABCI_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/ABCI_8_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.002348	secs - Dense: False
+
+./logs/ABCI_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000082	secs
+./logs/ABCI_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.000837	secs
+./logs/ABCI_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.001440	secs
+./logs/ABCI_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000039	secs
+./logs/ABCI_8_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.002366	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000100	secs
+./logs/DGX1_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.001253	secs
+./logs/DGX1_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.002653	secs
+./logs/DGX1_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX1_16_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.003972	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000090	secs
+./logs/DGX1_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.001270	secs
+./logs/DGX1_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.002516	secs
+./logs/DGX1_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000006	secs
+./logs/DGX1_16_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.003987	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000101	secs
+./logs/DGX1_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001248	secs
+./logs/DGX1_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.002683	secs
+./logs/DGX1_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX1_16_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.003995	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000103	secs
+./logs/DGX1_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001270	secs
+./logs/DGX1_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.002546	secs
+./logs/DGX1_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX1_16_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.003984	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000112	secs
+./logs/DGX1_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001268	secs
+./logs/DGX1_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.002563	secs
+./logs/DGX1_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX1_16_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.003921	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000106	secs
+./logs/DGX1_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001266	secs
+./logs/DGX1_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.002551	secs
+./logs/DGX1_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000006	secs
+./logs/DGX1_16_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.003983	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000113	secs
+./logs/DGX1_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001272	secs
+./logs/DGX1_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.002543	secs
+./logs/DGX1_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX1_16_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.004008	secs - Dense: False
+
+./logs/DGX1_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000104	secs
+./logs/DGX1_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001256	secs
+./logs/DGX1_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.002633	secs
+./logs/DGX1_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX1_16_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.003954	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000674	secs
+./logs/DGX1_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.005046	secs
+./logs/DGX1_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.014799	secs
+./logs/DGX1_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_134217728_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.021716	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000754	secs
+./logs/DGX1_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.005284	secs
+./logs/DGX1_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.014734	secs
+./logs/DGX1_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000037	secs
+./logs/DGX1_32_134217728_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.021043	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000665	secs
+./logs/DGX1_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.005752	secs
+./logs/DGX1_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.014417	secs
+./logs/DGX1_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/DGX1_32_134217728_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.021138	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000764	secs
+./logs/DGX1_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.005246	secs
+./logs/DGX1_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.014752	secs
+./logs/DGX1_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000039	secs
+./logs/DGX1_32_134217728_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.020981	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000847	secs
+./logs/DGX1_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.005281	secs
+./logs/DGX1_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.014803	secs
+./logs/DGX1_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_134217728_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.021420	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000847	secs
+./logs/DGX1_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.005256	secs
+./logs/DGX1_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.014745	secs
+./logs/DGX1_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000036	secs
+./logs/DGX1_32_134217728_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.021059	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000695	secs
+./logs/DGX1_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.005203	secs
+./logs/DGX1_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.014805	secs
+./logs/DGX1_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX1_32_134217728_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.021731	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000677	secs
+./logs/DGX1_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.005203	secs
+./logs/DGX1_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.014826	secs
+./logs/DGX1_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_134217728_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.021096	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000627	secs
+./logs/DGX1_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.005637	secs
+./logs/DGX1_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.014457	secs
+./logs/DGX1_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_134217728_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.021107	secs - Dense: False
+
+./logs/DGX1_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000702	secs
+./logs/DGX1_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.005323	secs
+./logs/DGX1_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.014820	secs
+./logs/DGX1_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX1_32_134217728_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.021520	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000091	secs
+./logs/DGX1_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.001168	secs
+./logs/DGX1_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.004223	secs
+./logs/DGX1_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_16777216_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.005484	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000091	secs
+./logs/DGX1_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.001167	secs
+./logs/DGX1_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.004226	secs
+./logs/DGX1_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_16777216_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.005495	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000102	secs
+./logs/DGX1_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001173	secs
+./logs/DGX1_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.004232	secs
+./logs/DGX1_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX1_32_16777216_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.005512	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000097	secs
+./logs/DGX1_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.001175	secs
+./logs/DGX1_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.004206	secs
+./logs/DGX1_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX1_32_16777216_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.005500	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000099	secs
+./logs/DGX1_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.001177	secs
+./logs/DGX1_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.004217	secs
+./logs/DGX1_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_16777216_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.005490	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000095	secs
+./logs/DGX1_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001171	secs
+./logs/DGX1_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.004216	secs
+./logs/DGX1_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_16777216_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.005497	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX1_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001174	secs
+./logs/DGX1_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.004214	secs
+./logs/DGX1_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_16777216_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.005492	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX1_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001175	secs
+./logs/DGX1_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.004204	secs
+./logs/DGX1_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000029	secs
+./logs/DGX1_32_16777216_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.005491	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000108	secs
+./logs/DGX1_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001180	secs
+./logs/DGX1_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.004186	secs
+./logs/DGX1_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_16777216_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.005518	secs - Dense: False
+
+./logs/DGX1_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000110	secs
+./logs/DGX1_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001169	secs
+./logs/DGX1_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.004190	secs
+./logs/DGX1_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_32_16777216_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.005499	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Compute time: 	0.000058	secs
+./logs/DGX1_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Intra time: 	0.000960	secs
+./logs/DGX1_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Inter time: 	0.003329	secs
+./logs/DGX1_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.004363	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Compute time: 	0.000077	secs
+./logs/DGX1_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Intra time: 	0.001302	secs
+./logs/DGX1_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Inter time: 	0.002955	secs
+./logs/DGX1_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.004354	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Compute time: 	0.000059	secs
+./logs/DGX1_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Intra time: 	0.000930	secs
+./logs/DGX1_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Inter time: 	0.003441	secs
+./logs/DGX1_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.004449	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Compute time: 	0.000068	secs
+./logs/DGX1_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Intra time: 	0.001161	secs
+./logs/DGX1_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Inter time: 	0.003130	secs
+./logs/DGX1_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Init time: 	0.000003	secs
+./logs/DGX1_32_33554432_0.001953125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.004397	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Compute time: 	0.000058	secs
+./logs/DGX1_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Intra time: 	0.000932	secs
+./logs/DGX1_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Inter time: 	0.003438	secs
+./logs/DGX1_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_33554432_0.001953125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.004447	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Compute time: 	0.000069	secs
+./logs/DGX1_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Intra time: 	0.001366	secs
+./logs/DGX1_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Inter time: 	0.002948	secs
+./logs/DGX1_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.004404	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Compute time: 	0.000060	secs
+./logs/DGX1_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Intra time: 	0.000941	secs
+./logs/DGX1_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Inter time: 	0.003387	secs
+./logs/DGX1_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_33554432_0.001953125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.004419	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Compute time: 	0.000048	secs
+./logs/DGX1_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Intra time: 	0.000930	secs
+./logs/DGX1_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Inter time: 	0.003444	secs
+./logs/DGX1_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.004431	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Compute time: 	0.000059	secs
+./logs/DGX1_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Intra time: 	0.000931	secs
+./logs/DGX1_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Inter time: 	0.003441	secs
+./logs/DGX1_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.004441	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Compute time: 	0.000059	secs
+./logs/DGX1_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Intra time: 	0.000933	secs
+./logs/DGX1_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Inter time: 	0.003430	secs
+./logs/DGX1_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.001953125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.004432	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Compute time: 	0.000107	secs
+./logs/DGX1_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Intra time: 	0.001207	secs
+./logs/DGX1_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Inter time: 	0.004309	secs
+./logs/DGX1_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_33554432_0.00390625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.005616	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Compute time: 	0.000096	secs
+./logs/DGX1_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Intra time: 	0.001204	secs
+./logs/DGX1_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Inter time: 	0.004273	secs
+./logs/DGX1_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_33554432_0.00390625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.005573	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Compute time: 	0.000095	secs
+./logs/DGX1_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Intra time: 	0.001207	secs
+./logs/DGX1_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Inter time: 	0.004267	secs
+./logs/DGX1_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_33554432_0.00390625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.005575	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Compute time: 	0.000108	secs
+./logs/DGX1_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Intra time: 	0.001216	secs
+./logs/DGX1_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Inter time: 	0.004245	secs
+./logs/DGX1_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_33554432_0.00390625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.005615	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Compute time: 	0.000103	secs
+./logs/DGX1_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Intra time: 	0.001214	secs
+./logs/DGX1_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Inter time: 	0.004229	secs
+./logs/DGX1_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_33554432_0.00390625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.005652	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Compute time: 	0.000095	secs
+./logs/DGX1_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Intra time: 	0.001206	secs
+./logs/DGX1_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Inter time: 	0.004269	secs
+./logs/DGX1_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Init time: 	0.000024	secs
+./logs/DGX1_32_33554432_0.00390625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.005584	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX1_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Intra time: 	0.001206	secs
+./logs/DGX1_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Inter time: 	0.004273	secs
+./logs/DGX1_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_33554432_0.00390625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.005583	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Compute time: 	0.000102	secs
+./logs/DGX1_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Intra time: 	0.001202	secs
+./logs/DGX1_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Inter time: 	0.004259	secs
+./logs/DGX1_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Init time: 	0.000028	secs
+./logs/DGX1_32_33554432_0.00390625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.005614	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Compute time: 	0.000119	secs
+./logs/DGX1_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Intra time: 	0.001213	secs
+./logs/DGX1_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Inter time: 	0.004221	secs
+./logs/DGX1_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Init time: 	0.000028	secs
+./logs/DGX1_32_33554432_0.00390625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.005563	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Compute time: 	0.000120	secs
+./logs/DGX1_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Intra time: 	0.001203	secs
+./logs/DGX1_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Inter time: 	0.004285	secs
+./logs/DGX1_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Init time: 	0.000030	secs
+./logs/DGX1_32_33554432_0.00390625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.005634	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000158	secs
+./logs/DGX1_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.001734	secs
+./logs/DGX1_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.005725	secs
+./logs/DGX1_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX1_32_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.007792	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000191	secs
+./logs/DGX1_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.001715	secs
+./logs/DGX1_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.005852	secs
+./logs/DGX1_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX1_32_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.007781	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000187	secs
+./logs/DGX1_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001723	secs
+./logs/DGX1_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.005841	secs
+./logs/DGX1_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000010	secs
+./logs/DGX1_32_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.007757	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000181	secs
+./logs/DGX1_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.001721	secs
+./logs/DGX1_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.005813	secs
+./logs/DGX1_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX1_32_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.007776	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000254	secs
+./logs/DGX1_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.001718	secs
+./logs/DGX1_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.005826	secs
+./logs/DGX1_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_32_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.007850	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000197	secs
+./logs/DGX1_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001726	secs
+./logs/DGX1_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.005894	secs
+./logs/DGX1_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX1_32_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.007810	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000166	secs
+./logs/DGX1_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001725	secs
+./logs/DGX1_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.005796	secs
+./logs/DGX1_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX1_32_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.007789	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000182	secs
+./logs/DGX1_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.001716	secs
+./logs/DGX1_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.005853	secs
+./logs/DGX1_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX1_32_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.007751	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000238	secs
+./logs/DGX1_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001714	secs
+./logs/DGX1_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.005837	secs
+./logs/DGX1_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000025	secs
+./logs/DGX1_32_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.007843	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000172	secs
+./logs/DGX1_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001716	secs
+./logs/DGX1_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.005841	secs
+./logs/DGX1_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_32_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.007752	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Compute time: 	0.000261	secs
+./logs/DGX1_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Intra time: 	0.002565	secs
+./logs/DGX1_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Inter time: 	0.008630	secs
+./logs/DGX1_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Init time: 	0.000007	secs
+./logs/DGX1_32_33554432_0.015625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.011412	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Compute time: 	0.000377	secs
+./logs/DGX1_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Intra time: 	0.002584	secs
+./logs/DGX1_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Inter time: 	0.008205	secs
+./logs/DGX1_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_33554432_0.015625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.011423	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Compute time: 	0.000295	secs
+./logs/DGX1_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Intra time: 	0.002571	secs
+./logs/DGX1_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Inter time: 	0.008625	secs
+./logs/DGX1_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_33554432_0.015625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.011501	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Compute time: 	0.000272	secs
+./logs/DGX1_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Intra time: 	0.002702	secs
+./logs/DGX1_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Inter time: 	0.008208	secs
+./logs/DGX1_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_33554432_0.015625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.011385	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Compute time: 	0.000334	secs
+./logs/DGX1_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Intra time: 	0.002565	secs
+./logs/DGX1_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Inter time: 	0.008693	secs
+./logs/DGX1_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_33554432_0.015625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.011513	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Compute time: 	0.000265	secs
+./logs/DGX1_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Intra time: 	0.002564	secs
+./logs/DGX1_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Inter time: 	0.008640	secs
+./logs/DGX1_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_33554432_0.015625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.011396	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Compute time: 	0.000371	secs
+./logs/DGX1_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Intra time: 	0.002766	secs
+./logs/DGX1_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Inter time: 	0.008227	secs
+./logs/DGX1_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX1_32_33554432_0.015625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.011430	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Compute time: 	0.000292	secs
+./logs/DGX1_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Intra time: 	0.002565	secs
+./logs/DGX1_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Inter time: 	0.008640	secs
+./logs/DGX1_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Init time: 	0.000007	secs
+./logs/DGX1_32_33554432_0.015625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.011460	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Compute time: 	0.000368	secs
+./logs/DGX1_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Intra time: 	0.002600	secs
+./logs/DGX1_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Inter time: 	0.008565	secs
+./logs/DGX1_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX1_32_33554432_0.015625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.011472	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Compute time: 	0.000368	secs
+./logs/DGX1_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Intra time: 	0.002701	secs
+./logs/DGX1_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Inter time: 	0.008271	secs
+./logs/DGX1_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_33554432_0.015625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.011423	secs - Dense: False
+
+./logs/DGX1_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Compute time: 	0.000479	secs
+./logs/DGX1_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Intra time: 	0.003254	secs
+./logs/DGX1_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Inter time: 	0.010799	secs
+./logs/DGX1_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_33554432_0.03125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.014868	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Compute time: 	0.000481	secs
+./logs/DGX1_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Intra time: 	0.003168	secs
+./logs/DGX1_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Inter time: 	0.011187	secs
+./logs/DGX1_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/DGX1_32_33554432_0.03125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.014794	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Compute time: 	0.000688	secs
+./logs/DGX1_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Intra time: 	0.003164	secs
+./logs/DGX1_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Inter time: 	0.011304	secs
+./logs/DGX1_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_33554432_0.03125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.015150	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Compute time: 	0.000496	secs
+./logs/DGX1_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Intra time: 	0.003151	secs
+./logs/DGX1_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Inter time: 	0.010849	secs
+./logs/DGX1_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_33554432_0.03125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.014898	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Compute time: 	0.000580	secs
+./logs/DGX1_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Intra time: 	0.003167	secs
+./logs/DGX1_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Inter time: 	0.011344	secs
+./logs/DGX1_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/DGX1_32_33554432_0.03125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.015076	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Compute time: 	0.000494	secs
+./logs/DGX1_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Intra time: 	0.003155	secs
+./logs/DGX1_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Inter time: 	0.011299	secs
+./logs/DGX1_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_33554432_0.03125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.014926	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Compute time: 	0.000488	secs
+./logs/DGX1_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Intra time: 	0.003198	secs
+./logs/DGX1_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Inter time: 	0.010686	secs
+./logs/DGX1_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_33554432_0.03125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.014722	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Compute time: 	0.000476	secs
+./logs/DGX1_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Intra time: 	0.003205	secs
+./logs/DGX1_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Inter time: 	0.010581	secs
+./logs/DGX1_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_33554432_0.03125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.014856	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Compute time: 	0.000534	secs
+./logs/DGX1_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Intra time: 	0.003206	secs
+./logs/DGX1_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Inter time: 	0.011021	secs
+./logs/DGX1_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX1_32_33554432_0.03125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.014868	secs - Dense: True
+./logs/DGX1_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Compute time: 	0.000529	secs
+./logs/DGX1_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Intra time: 	0.003194	secs
+./logs/DGX1_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Inter time: 	0.010867	secs
+./logs/DGX1_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX1_32_33554432_0.03125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.014910	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Compute time: 	0.000595	secs
+./logs/DGX1_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Intra time: 	0.003503	secs
+./logs/DGX1_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Inter time: 	0.012234	secs
+./logs/DGX1_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Init time: 	0.000033	secs
+./logs/DGX1_32_33554432_0.0625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.016170	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Compute time: 	0.000563	secs
+./logs/DGX1_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Intra time: 	0.003505	secs
+./logs/DGX1_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Inter time: 	0.011686	secs
+./logs/DGX1_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX1_32_33554432_0.0625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.016111	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Compute time: 	0.000579	secs
+./logs/DGX1_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Intra time: 	0.003478	secs
+./logs/DGX1_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Inter time: 	0.012247	secs
+./logs/DGX1_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/DGX1_32_33554432_0.0625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.016156	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Compute time: 	0.000558	secs
+./logs/DGX1_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Intra time: 	0.003474	secs
+./logs/DGX1_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Inter time: 	0.011757	secs
+./logs/DGX1_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Init time: 	0.000036	secs
+./logs/DGX1_32_33554432_0.0625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.016165	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Compute time: 	0.000582	secs
+./logs/DGX1_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Intra time: 	0.003474	secs
+./logs/DGX1_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Inter time: 	0.012204	secs
+./logs/DGX1_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/DGX1_32_33554432_0.0625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.016102	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Compute time: 	0.000550	secs
+./logs/DGX1_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Intra time: 	0.003510	secs
+./logs/DGX1_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Inter time: 	0.012189	secs
+./logs/DGX1_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX1_32_33554432_0.0625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.016089	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Compute time: 	0.000578	secs
+./logs/DGX1_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Intra time: 	0.003480	secs
+./logs/DGX1_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Inter time: 	0.012230	secs
+./logs/DGX1_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX1_32_33554432_0.0625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.016139	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Compute time: 	0.000685	secs
+./logs/DGX1_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Intra time: 	0.003484	secs
+./logs/DGX1_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Inter time: 	0.012222	secs
+./logs/DGX1_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Init time: 	0.000041	secs
+./logs/DGX1_32_33554432_0.0625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.016220	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Compute time: 	0.000574	secs
+./logs/DGX1_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Intra time: 	0.003669	secs
+./logs/DGX1_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Inter time: 	0.011583	secs
+./logs/DGX1_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/DGX1_32_33554432_0.0625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.016119	secs - Dense: True
+./logs/DGX1_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Compute time: 	0.000549	secs
+./logs/DGX1_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Intra time: 	0.003853	secs
+./logs/DGX1_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Inter time: 	0.011313	secs
+./logs/DGX1_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX1_32_33554432_0.0625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.015662	secs - Dense: True
+./logs/DGX1_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000027	secs
+./logs/DGX1_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000819	secs
+./logs/DGX1_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.002758	secs
+./logs/DGX1_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.003610	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000020	secs
+./logs/DGX1_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000770	secs
+./logs/DGX1_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.002757	secs
+./logs/DGX1_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.003540	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000019	secs
+./logs/DGX1_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.000848	secs
+./logs/DGX1_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.002760	secs
+./logs/DGX1_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.003622	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000023	secs
+./logs/DGX1_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000916	secs
+./logs/DGX1_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.002729	secs
+./logs/DGX1_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.003664	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000019	secs
+./logs/DGX1_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.000770	secs
+./logs/DGX1_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.002752	secs
+./logs/DGX1_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.003535	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000030	secs
+./logs/DGX1_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.000769	secs
+./logs/DGX1_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.002756	secs
+./logs/DGX1_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000003	secs
+./logs/DGX1_32_4194304_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.003549	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000018	secs
+./logs/DGX1_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.000850	secs
+./logs/DGX1_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.002758	secs
+./logs/DGX1_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.003621	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000018	secs
+./logs/DGX1_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000804	secs
+./logs/DGX1_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.002787	secs
+./logs/DGX1_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.003629	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000021	secs
+./logs/DGX1_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.000770	secs
+./logs/DGX1_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.002754	secs
+./logs/DGX1_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.003537	secs - Dense: False
+
+./logs/DGX1_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000026	secs
+./logs/DGX1_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.000769	secs
+./logs/DGX1_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.002757	secs
+./logs/DGX1_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX1_32_4194304_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.003545	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000306	secs
+./logs/DGX1_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.002931	secs
+./logs/DGX1_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.008790	secs
+./logs/DGX1_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_67108864_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.012268	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000310	secs
+./logs/DGX1_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.002825	secs
+./logs/DGX1_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.009024	secs
+./logs/DGX1_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_67108864_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.012341	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000649	secs
+./logs/DGX1_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.002827	secs
+./logs/DGX1_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.008699	secs
+./logs/DGX1_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000010	secs
+./logs/DGX1_32_67108864_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.012977	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000405	secs
+./logs/DGX1_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.002844	secs
+./logs/DGX1_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.009164	secs
+./logs/DGX1_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX1_32_67108864_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.012366	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000513	secs
+./logs/DGX1_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.002838	secs
+./logs/DGX1_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.009015	secs
+./logs/DGX1_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX1_32_67108864_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.012382	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000425	secs
+./logs/DGX1_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.002843	secs
+./logs/DGX1_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.009001	secs
+./logs/DGX1_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_32_67108864_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.012344	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000312	secs
+./logs/DGX1_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.002834	secs
+./logs/DGX1_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.008739	secs
+./logs/DGX1_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX1_32_67108864_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.012487	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000312	secs
+./logs/DGX1_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.002963	secs
+./logs/DGX1_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.008759	secs
+./logs/DGX1_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX1_32_67108864_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.012252	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000341	secs
+./logs/DGX1_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.002784	secs
+./logs/DGX1_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.008834	secs
+./logs/DGX1_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX1_32_67108864_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.012387	secs - Dense: False
+
+./logs/DGX1_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000300	secs
+./logs/DGX1_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.002817	secs
+./logs/DGX1_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.009050	secs
+./logs/DGX1_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX1_32_67108864_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.012122	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000043	secs
+./logs/DGX1_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000902	secs
+./logs/DGX1_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.003301	secs
+./logs/DGX1_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX1_32_8388608_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.004285	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000047	secs
+./logs/DGX1_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000914	secs
+./logs/DGX1_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.003271	secs
+./logs/DGX1_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.004241	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000042	secs
+./logs/DGX1_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.001170	secs
+./logs/DGX1_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.003026	secs
+./logs/DGX1_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.004299	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000042	secs
+./logs/DGX1_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000905	secs
+./logs/DGX1_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.003359	secs
+./logs/DGX1_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.004336	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000042	secs
+./logs/DGX1_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.000907	secs
+./logs/DGX1_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.003330	secs
+./logs/DGX1_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.004304	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/DGX1_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.000917	secs
+./logs/DGX1_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.003293	secs
+./logs/DGX1_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.004292	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/DGX1_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.001147	secs
+./logs/DGX1_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.003053	secs
+./logs/DGX1_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.004271	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/DGX1_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000904	secs
+./logs/DGX1_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.003362	secs
+./logs/DGX1_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.004327	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000046	secs
+./logs/DGX1_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.000942	secs
+./logs/DGX1_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.003278	secs
+./logs/DGX1_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.004277	secs - Dense: False
+
+./logs/DGX1_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000046	secs
+./logs/DGX1_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001179	secs
+./logs/DGX1_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.003058	secs
+./logs/DGX1_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX1_32_8388608_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.004308	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000596	secs
+./logs/DGX1_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.002483	secs
+./logs/DGX1_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.012091	secs
+./logs/DGX1_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_64_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.015283	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000302	secs
+./logs/DGX1_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.002509	secs
+./logs/DGX1_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.011927	secs
+./logs/DGX1_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000032	secs
+./logs/DGX1_64_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.014797	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000281	secs
+./logs/DGX1_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.002483	secs
+./logs/DGX1_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.011919	secs
+./logs/DGX1_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX1_64_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.014833	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000284	secs
+./logs/DGX1_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.002493	secs
+./logs/DGX1_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.011979	secs
+./logs/DGX1_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX1_64_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.014775	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000362	secs
+./logs/DGX1_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.002481	secs
+./logs/DGX1_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.011969	secs
+./logs/DGX1_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX1_64_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.014891	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000367	secs
+./logs/DGX1_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.002482	secs
+./logs/DGX1_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.012069	secs
+./logs/DGX1_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/DGX1_64_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.014961	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000494	secs
+./logs/DGX1_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.002528	secs
+./logs/DGX1_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.011848	secs
+./logs/DGX1_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000043	secs
+./logs/DGX1_64_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.014929	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000339	secs
+./logs/DGX1_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.002479	secs
+./logs/DGX1_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.011884	secs
+./logs/DGX1_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX1_64_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.014766	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000377	secs
+./logs/DGX1_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.002485	secs
+./logs/DGX1_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.012057	secs
+./logs/DGX1_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000011	secs
+./logs/DGX1_64_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.014904	secs - Dense: False
+
+./logs/DGX1_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000295	secs
+./logs/DGX1_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.002476	secs
+./logs/DGX1_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.012035	secs
+./logs/DGX1_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX1_64_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.014913	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000075	secs
+./logs/DGX1_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.000996	secs
+./logs/DGX1_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.000707	secs
+./logs/DGX1_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_8_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.001766	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000081	secs
+./logs/DGX1_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.000998	secs
+./logs/DGX1_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.000696	secs
+./logs/DGX1_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000038	secs
+./logs/DGX1_8_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.001781	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000079	secs
+./logs/DGX1_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.000997	secs
+./logs/DGX1_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.000707	secs
+./logs/DGX1_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX1_8_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.001774	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000075	secs
+./logs/DGX1_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.000994	secs
+./logs/DGX1_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.000716	secs
+./logs/DGX1_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX1_8_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.001773	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000082	secs
+./logs/DGX1_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.001002	secs
+./logs/DGX1_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.000703	secs
+./logs/DGX1_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX1_8_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.001775	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000090	secs
+./logs/DGX1_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.001003	secs
+./logs/DGX1_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.000710	secs
+./logs/DGX1_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000024	secs
+./logs/DGX1_8_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.001786	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000090	secs
+./logs/DGX1_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.000998	secs
+./logs/DGX1_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.000716	secs
+./logs/DGX1_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX1_8_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.001797	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000086	secs
+./logs/DGX1_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.000999	secs
+./logs/DGX1_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.000704	secs
+./logs/DGX1_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000032	secs
+./logs/DGX1_8_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.001783	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000092	secs
+./logs/DGX1_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.001018	secs
+./logs/DGX1_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.000701	secs
+./logs/DGX1_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX1_8_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.001791	secs - Dense: False
+
+./logs/DGX1_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000076	secs
+./logs/DGX1_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.001001	secs
+./logs/DGX1_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.000711	secs
+./logs/DGX1_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX1_8_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.001773	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000099	secs
+./logs/DGX2_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.010128	secs
+./logs/DGX2_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.006675	secs
+./logs/DGX2_16_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX2_16_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.016868	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX2_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.009640	secs
+./logs/DGX2_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.007135	secs
+./logs/DGX2_16_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX2_16_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.016839	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000106	secs
+./logs/DGX2_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.010298	secs
+./logs/DGX2_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.006201	secs
+./logs/DGX2_16_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX2_16_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.016599	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000110	secs
+./logs/DGX2_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.010165	secs
+./logs/DGX2_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.006713	secs
+./logs/DGX2_16_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX2_16_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.016950	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000109	secs
+./logs/DGX2_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.010282	secs
+./logs/DGX2_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.006387	secs
+./logs/DGX2_16_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX2_16_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.016738	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000146	secs
+./logs/DGX2_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.010163	secs
+./logs/DGX2_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.006802	secs
+./logs/DGX2_16_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX2_16_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.017081	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000143	secs
+./logs/DGX2_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.009959	secs
+./logs/DGX2_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.006688	secs
+./logs/DGX2_16_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX2_16_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.016867	secs - Dense: False
+
+./logs/DGX2_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000106	secs
+./logs/DGX2_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.010627	secs
+./logs/DGX2_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.005715	secs
+./logs/DGX2_16_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000005	secs
+./logs/DGX2_16_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.016407	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000728	secs
+./logs/DGX2_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.069203	secs
+./logs/DGX2_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.037399	secs
+./logs/DGX2_32_134217728_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_32_134217728_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.107278	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000700	secs
+./logs/DGX2_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.069211	secs
+./logs/DGX2_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.037416	secs
+./logs/DGX2_32_134217728_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000025	secs
+./logs/DGX2_32_134217728_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.107299	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000697	secs
+./logs/DGX2_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.069206	secs
+./logs/DGX2_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.037393	secs
+./logs/DGX2_32_134217728_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX2_32_134217728_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.107505	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.001205	secs
+./logs/DGX2_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.069172	secs
+./logs/DGX2_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.037495	secs
+./logs/DGX2_32_134217728_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_134217728_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.107681	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000789	secs
+./logs/DGX2_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.069094	secs
+./logs/DGX2_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.037403	secs
+./logs/DGX2_32_134217728_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_134217728_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.107234	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000829	secs
+./logs/DGX2_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.069099	secs
+./logs/DGX2_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.037537	secs
+./logs/DGX2_32_134217728_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000053	secs
+./logs/DGX2_32_134217728_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.107698	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000697	secs
+./logs/DGX2_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.069204	secs
+./logs/DGX2_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.037486	secs
+./logs/DGX2_32_134217728_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX2_32_134217728_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.107543	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000706	secs
+./logs/DGX2_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.069230	secs
+./logs/DGX2_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.037445	secs
+./logs/DGX2_32_134217728_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_134217728_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.107515	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000925	secs
+./logs/DGX2_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.069218	secs
+./logs/DGX2_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.037442	secs
+./logs/DGX2_32_134217728_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_134217728_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.108019	secs - Dense: False
+
+./logs/DGX2_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.001036	secs
+./logs/DGX2_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.069231	secs
+./logs/DGX2_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.037403	secs
+./logs/DGX2_32_134217728_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_134217728_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.107556	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000093	secs
+./logs/DGX2_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.009204	secs
+./logs/DGX2_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.007063	secs
+./logs/DGX2_32_16777216_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_16777216_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.016671	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000091	secs
+./logs/DGX2_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.009239	secs
+./logs/DGX2_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.007415	secs
+./logs/DGX2_32_16777216_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX2_32_16777216_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.016798	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000106	secs
+./logs/DGX2_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.009626	secs
+./logs/DGX2_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.007169	secs
+./logs/DGX2_32_16777216_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000030	secs
+./logs/DGX2_32_16777216_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.016978	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000094	secs
+./logs/DGX2_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.009276	secs
+./logs/DGX2_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.007590	secs
+./logs/DGX2_32_16777216_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_16777216_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.016967	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000093	secs
+./logs/DGX2_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.008941	secs
+./logs/DGX2_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.006749	secs
+./logs/DGX2_32_16777216_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_16777216_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.016849	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000105	secs
+./logs/DGX2_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.009177	secs
+./logs/DGX2_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.007894	secs
+./logs/DGX2_32_16777216_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_16777216_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.017189	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000096	secs
+./logs/DGX2_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.008780	secs
+./logs/DGX2_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.007126	secs
+./logs/DGX2_32_16777216_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_16777216_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.016534	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000100	secs
+./logs/DGX2_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.009225	secs
+./logs/DGX2_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.007566	secs
+./logs/DGX2_32_16777216_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_16777216_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.017236	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX2_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.008764	secs
+./logs/DGX2_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.007066	secs
+./logs/DGX2_32_16777216_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_16777216_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.016725	secs - Dense: False
+
+./logs/DGX2_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX2_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.009764	secs
+./logs/DGX2_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.006672	secs
+./logs/DGX2_32_16777216_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX2_32_16777216_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.016771	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Compute time: 	0.000061	secs
+./logs/DGX2_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Intra time: 	0.004915	secs
+./logs/DGX2_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Inter time: 	0.005062	secs
+./logs/DGX2_32_33554432_0.001953125_0_0.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_33554432_0.001953125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.010786	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Compute time: 	0.000060	secs
+./logs/DGX2_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Intra time: 	0.005453	secs
+./logs/DGX2_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Inter time: 	0.004726	secs
+./logs/DGX2_32_33554432_0.001953125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_33554432_0.001953125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.010312	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Compute time: 	0.000060	secs
+./logs/DGX2_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Intra time: 	0.004904	secs
+./logs/DGX2_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Inter time: 	0.004948	secs
+./logs/DGX2_32_33554432_0.001953125_0_2.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_33554432_0.001953125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.010268	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Compute time: 	0.000058	secs
+./logs/DGX2_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Intra time: 	0.005624	secs
+./logs/DGX2_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Inter time: 	0.004783	secs
+./logs/DGX2_32_33554432_0.001953125_0_3.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_33554432_0.001953125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.010502	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Compute time: 	0.000062	secs
+./logs/DGX2_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Intra time: 	0.005500	secs
+./logs/DGX2_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Inter time: 	0.004775	secs
+./logs/DGX2_32_33554432_0.001953125_0_4.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_33554432_0.001953125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.010618	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Compute time: 	0.000058	secs
+./logs/DGX2_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Intra time: 	0.005011	secs
+./logs/DGX2_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Inter time: 	0.005072	secs
+./logs/DGX2_32_33554432_0.001953125_0_5.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.001953125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.011153	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Compute time: 	0.000056	secs
+./logs/DGX2_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Intra time: 	0.004909	secs
+./logs/DGX2_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Inter time: 	0.004774	secs
+./logs/DGX2_32_33554432_0.001953125_0_6.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_33554432_0.001953125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.010370	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Compute time: 	0.000062	secs
+./logs/DGX2_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Intra time: 	0.005528	secs
+./logs/DGX2_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Inter time: 	0.005260	secs
+./logs/DGX2_32_33554432_0.001953125_0_7.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_32_33554432_0.001953125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.010967	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Compute time: 	0.000058	secs
+./logs/DGX2_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Intra time: 	0.005584	secs
+./logs/DGX2_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Inter time: 	0.004631	secs
+./logs/DGX2_32_33554432_0.001953125_0_8.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX2_32_33554432_0.001953125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.010268	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Compute time: 	0.000061	secs
+./logs/DGX2_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Intra time: 	0.005754	secs
+./logs/DGX2_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Inter time: 	0.005087	secs
+./logs/DGX2_32_33554432_0.001953125_0_9.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_33554432_0.001953125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.010913	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX2_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Intra time: 	0.010322	secs
+./logs/DGX2_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Inter time: 	0.007074	secs
+./logs/DGX2_32_33554432_0.00390625_0_0.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.017525	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Compute time: 	0.000098	secs
+./logs/DGX2_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Intra time: 	0.010104	secs
+./logs/DGX2_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Inter time: 	0.006787	secs
+./logs/DGX2_32_33554432_0.00390625_0_1.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.017258	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Compute time: 	0.000096	secs
+./logs/DGX2_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Intra time: 	0.009557	secs
+./logs/DGX2_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Inter time: 	0.006716	secs
+./logs/DGX2_32_33554432_0.00390625_0_2.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.016862	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Compute time: 	0.000100	secs
+./logs/DGX2_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Intra time: 	0.010100	secs
+./logs/DGX2_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Inter time: 	0.007106	secs
+./logs/DGX2_32_33554432_0.00390625_0_3.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_32_33554432_0.00390625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.017310	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Compute time: 	0.000100	secs
+./logs/DGX2_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Intra time: 	0.010114	secs
+./logs/DGX2_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Inter time: 	0.007272	secs
+./logs/DGX2_32_33554432_0.00390625_0_4.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.017499	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Compute time: 	0.000116	secs
+./logs/DGX2_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Intra time: 	0.009737	secs
+./logs/DGX2_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Inter time: 	0.008070	secs
+./logs/DGX2_32_33554432_0.00390625_0_5.log:		Sparse Ring Ring Init time: 	0.000030	secs
+./logs/DGX2_32_33554432_0.00390625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.017918	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Compute time: 	0.000113	secs
+./logs/DGX2_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Intra time: 	0.009987	secs
+./logs/DGX2_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Inter time: 	0.007184	secs
+./logs/DGX2_32_33554432_0.00390625_0_6.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.017351	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Compute time: 	0.000115	secs
+./logs/DGX2_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Intra time: 	0.008880	secs
+./logs/DGX2_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Inter time: 	0.007468	secs
+./logs/DGX2_32_33554432_0.00390625_0_7.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.017619	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Compute time: 	0.000134	secs
+./logs/DGX2_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Intra time: 	0.010174	secs
+./logs/DGX2_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Inter time: 	0.007309	secs
+./logs/DGX2_32_33554432_0.00390625_0_8.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.017622	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Compute time: 	0.000106	secs
+./logs/DGX2_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Intra time: 	0.010178	secs
+./logs/DGX2_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Inter time: 	0.007314	secs
+./logs/DGX2_32_33554432_0.00390625_0_9.log:		Sparse Ring Ring Init time: 	0.000019	secs
+./logs/DGX2_32_33554432_0.00390625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.017598	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000215	secs
+./logs/DGX2_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.018050	secs
+./logs/DGX2_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.011168	secs
+./logs/DGX2_32_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000032	secs
+./logs/DGX2_32_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.029434	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000202	secs
+./logs/DGX2_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.017997	secs
+./logs/DGX2_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.011062	secs
+./logs/DGX2_32_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX2_32_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.029286	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000195	secs
+./logs/DGX2_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.018034	secs
+./logs/DGX2_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.010663	secs
+./logs/DGX2_32_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX2_32_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.029414	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000180	secs
+./logs/DGX2_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.018000	secs
+./logs/DGX2_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.010942	secs
+./logs/DGX2_32_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000004	secs
+./logs/DGX2_32_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.029164	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000190	secs
+./logs/DGX2_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.018015	secs
+./logs/DGX2_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.011099	secs
+./logs/DGX2_32_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX2_32_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.029282	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000184	secs
+./logs/DGX2_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.016953	secs
+./logs/DGX2_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.011325	secs
+./logs/DGX2_32_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX2_32_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.029244	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000181	secs
+./logs/DGX2_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.017798	secs
+./logs/DGX2_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.010822	secs
+./logs/DGX2_32_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX2_32_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.029286	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000181	secs
+./logs/DGX2_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.017397	secs
+./logs/DGX2_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.011240	secs
+./logs/DGX2_32_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000029	secs
+./logs/DGX2_32_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.029282	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000188	secs
+./logs/DGX2_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.018019	secs
+./logs/DGX2_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.011033	secs
+./logs/DGX2_32_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX2_32_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.029217	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000212	secs
+./logs/DGX2_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.016891	secs
+./logs/DGX2_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.011389	secs
+./logs/DGX2_32_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_32_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.029234	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Compute time: 	0.000286	secs
+./logs/DGX2_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Intra time: 	0.031501	secs
+./logs/DGX2_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Inter time: 	0.018117	secs
+./logs/DGX2_32_33554432_0.015625_0_0.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/DGX2_32_33554432_0.015625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.049819	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Compute time: 	0.000264	secs
+./logs/DGX2_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Intra time: 	0.031575	secs
+./logs/DGX2_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Inter time: 	0.018142	secs
+./logs/DGX2_32_33554432_0.015625_0_1.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.049950	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Compute time: 	0.000267	secs
+./logs/DGX2_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Intra time: 	0.031443	secs
+./logs/DGX2_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Inter time: 	0.018064	secs
+./logs/DGX2_32_33554432_0.015625_0_2.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.049743	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Compute time: 	0.000262	secs
+./logs/DGX2_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Intra time: 	0.031804	secs
+./logs/DGX2_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Inter time: 	0.017835	secs
+./logs/DGX2_32_33554432_0.015625_0_3.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.050240	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Compute time: 	0.000271	secs
+./logs/DGX2_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Intra time: 	0.031488	secs
+./logs/DGX2_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Inter time: 	0.018117	secs
+./logs/DGX2_32_33554432_0.015625_0_4.log:		Sparse Ring Ring Init time: 	0.000013	secs
+./logs/DGX2_32_33554432_0.015625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.049799	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Compute time: 	0.000304	secs
+./logs/DGX2_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Intra time: 	0.031500	secs
+./logs/DGX2_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Inter time: 	0.018134	secs
+./logs/DGX2_32_33554432_0.015625_0_5.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.050012	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Compute time: 	0.000249	secs
+./logs/DGX2_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Intra time: 	0.031661	secs
+./logs/DGX2_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Inter time: 	0.018230	secs
+./logs/DGX2_32_33554432_0.015625_0_6.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.050065	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Compute time: 	0.000262	secs
+./logs/DGX2_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Intra time: 	0.031496	secs
+./logs/DGX2_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Inter time: 	0.018143	secs
+./logs/DGX2_32_33554432_0.015625_0_7.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.049820	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Compute time: 	0.000260	secs
+./logs/DGX2_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Intra time: 	0.031601	secs
+./logs/DGX2_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Inter time: 	0.018157	secs
+./logs/DGX2_32_33554432_0.015625_0_8.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_33554432_0.015625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.049938	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Compute time: 	0.000295	secs
+./logs/DGX2_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Intra time: 	0.031440	secs
+./logs/DGX2_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Inter time: 	0.018124	secs
+./logs/DGX2_32_33554432_0.015625_0_9.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX2_32_33554432_0.015625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.050068	secs - Dense: False
+
+./logs/DGX2_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Compute time: 	0.000716	secs
+./logs/DGX2_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Intra time: 	0.041266	secs
+./logs/DGX2_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Inter time: 	0.024995	secs
+./logs/DGX2_32_33554432_0.03125_0_0.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_33554432_0.03125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.066892	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Compute time: 	0.000483	secs
+./logs/DGX2_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Intra time: 	0.041340	secs
+./logs/DGX2_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Inter time: 	0.025023	secs
+./logs/DGX2_32_33554432_0.03125_0_1.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX2_32_33554432_0.03125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.066757	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Compute time: 	0.000605	secs
+./logs/DGX2_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Intra time: 	0.039572	secs
+./logs/DGX2_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Inter time: 	0.026925	secs
+./logs/DGX2_32_33554432_0.03125_0_2.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX2_32_33554432_0.03125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.066990	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Compute time: 	0.000554	secs
+./logs/DGX2_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Intra time: 	0.040264	secs
+./logs/DGX2_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Inter time: 	0.025642	secs
+./logs/DGX2_32_33554432_0.03125_0_3.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_33554432_0.03125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.066943	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Compute time: 	0.000561	secs
+./logs/DGX2_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Intra time: 	0.040351	secs
+./logs/DGX2_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Inter time: 	0.025547	secs
+./logs/DGX2_32_33554432_0.03125_0_4.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_33554432_0.03125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.067110	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Compute time: 	0.000492	secs
+./logs/DGX2_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Intra time: 	0.041432	secs
+./logs/DGX2_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Inter time: 	0.025083	secs
+./logs/DGX2_32_33554432_0.03125_0_5.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX2_32_33554432_0.03125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.066899	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Compute time: 	0.000497	secs
+./logs/DGX2_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Intra time: 	0.041408	secs
+./logs/DGX2_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Inter time: 	0.025025	secs
+./logs/DGX2_32_33554432_0.03125_0_6.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/DGX2_32_33554432_0.03125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.066808	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Compute time: 	0.000493	secs
+./logs/DGX2_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Intra time: 	0.041430	secs
+./logs/DGX2_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Inter time: 	0.024803	secs
+./logs/DGX2_32_33554432_0.03125_0_7.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/DGX2_32_33554432_0.03125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.066837	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Compute time: 	0.000485	secs
+./logs/DGX2_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Intra time: 	0.041287	secs
+./logs/DGX2_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Inter time: 	0.024985	secs
+./logs/DGX2_32_33554432_0.03125_0_8.log:		Sparse Ring Ring Init time: 	0.000015	secs
+./logs/DGX2_32_33554432_0.03125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.066649	secs - Dense: True
+./logs/DGX2_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Compute time: 	0.000698	secs
+./logs/DGX2_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Intra time: 	0.039301	secs
+./logs/DGX2_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Inter time: 	0.025391	secs
+./logs/DGX2_32_33554432_0.03125_0_9.log:		Sparse Ring Ring Init time: 	0.000014	secs
+./logs/DGX2_32_33554432_0.03125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.067068	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Compute time: 	0.000602	secs
+./logs/DGX2_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Intra time: 	0.043826	secs
+./logs/DGX2_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Inter time: 	0.027411	secs
+./logs/DGX2_32_33554432_0.0625_0_0.log:		Sparse Ring Ring Init time: 	0.000036	secs
+./logs/DGX2_32_33554432_0.0625_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.073237	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Compute time: 	0.000562	secs
+./logs/DGX2_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Intra time: 	0.043924	secs
+./logs/DGX2_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Inter time: 	0.027581	secs
+./logs/DGX2_32_33554432_0.0625_0_1.log:		Sparse Ring Ring Init time: 	0.000034	secs
+./logs/DGX2_32_33554432_0.0625_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.072942	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Compute time: 	0.000619	secs
+./logs/DGX2_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Intra time: 	0.043215	secs
+./logs/DGX2_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Inter time: 	0.027868	secs
+./logs/DGX2_32_33554432_0.0625_0_2.log:		Sparse Ring Ring Init time: 	0.000045	secs
+./logs/DGX2_32_33554432_0.0625_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.073244	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Compute time: 	0.000567	secs
+./logs/DGX2_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Intra time: 	0.044310	secs
+./logs/DGX2_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Inter time: 	0.027281	secs
+./logs/DGX2_32_33554432_0.0625_0_3.log:		Sparse Ring Ring Init time: 	0.000037	secs
+./logs/DGX2_32_33554432_0.0625_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.073408	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Compute time: 	0.000596	secs
+./logs/DGX2_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Intra time: 	0.045551	secs
+./logs/DGX2_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Inter time: 	0.027345	secs
+./logs/DGX2_32_33554432_0.0625_0_4.log:		Sparse Ring Ring Init time: 	0.000038	secs
+./logs/DGX2_32_33554432_0.0625_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.073336	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Compute time: 	0.000599	secs
+./logs/DGX2_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Intra time: 	0.043818	secs
+./logs/DGX2_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Inter time: 	0.027455	secs
+./logs/DGX2_32_33554432_0.0625_0_5.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX2_32_33554432_0.0625_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.073183	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Compute time: 	0.000600	secs
+./logs/DGX2_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Intra time: 	0.043451	secs
+./logs/DGX2_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Inter time: 	0.027808	secs
+./logs/DGX2_32_33554432_0.0625_0_6.log:		Sparse Ring Ring Init time: 	0.000037	secs
+./logs/DGX2_32_33554432_0.0625_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.073477	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Compute time: 	0.000924	secs
+./logs/DGX2_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Intra time: 	0.043728	secs
+./logs/DGX2_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Inter time: 	0.029305	secs
+./logs/DGX2_32_33554432_0.0625_0_7.log:		Sparse Ring Ring Init time: 	0.000043	secs
+./logs/DGX2_32_33554432_0.0625_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.073776	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Compute time: 	0.000638	secs
+./logs/DGX2_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Intra time: 	0.043882	secs
+./logs/DGX2_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Inter time: 	0.028439	secs
+./logs/DGX2_32_33554432_0.0625_0_8.log:		Sparse Ring Ring Init time: 	0.000041	secs
+./logs/DGX2_32_33554432_0.0625_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.073038	secs - Dense: True
+./logs/DGX2_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Compute time: 	0.000610	secs
+./logs/DGX2_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Intra time: 	0.045502	secs
+./logs/DGX2_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Inter time: 	0.027407	secs
+./logs/DGX2_32_33554432_0.0625_0_9.log:		Sparse Ring Ring Init time: 	0.000037	secs
+./logs/DGX2_32_33554432_0.0625_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.073347	secs - Dense: True
+./logs/DGX2_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000025	secs
+./logs/DGX2_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.003052	secs
+./logs/DGX2_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.003956	secs
+./logs/DGX2_32_4194304_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.007171	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000026	secs
+./logs/DGX2_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.003576	secs
+./logs/DGX2_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.003583	secs
+./logs/DGX2_32_4194304_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.007178	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000018	secs
+./logs/DGX2_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.003526	secs
+./logs/DGX2_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.003596	secs
+./logs/DGX2_32_4194304_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.007159	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000018	secs
+./logs/DGX2_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.003081	secs
+./logs/DGX2_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.003776	secs
+./logs/DGX2_32_4194304_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.006945	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000021	secs
+./logs/DGX2_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.003053	secs
+./logs/DGX2_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.004023	secs
+./logs/DGX2_32_4194304_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.007309	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000019	secs
+./logs/DGX2_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.003274	secs
+./logs/DGX2_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.004024	secs
+./logs/DGX2_32_4194304_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.007312	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000026	secs
+./logs/DGX2_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.003085	secs
+./logs/DGX2_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.004069	secs
+./logs/DGX2_32_4194304_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.007263	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000019	secs
+./logs/DGX2_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.003255	secs
+./logs/DGX2_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.003978	secs
+./logs/DGX2_32_4194304_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.007247	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000021	secs
+./logs/DGX2_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.003251	secs
+./logs/DGX2_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.003919	secs
+./logs/DGX2_32_4194304_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.007183	secs - Dense: False
+
+./logs/DGX2_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000020	secs
+./logs/DGX2_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.002968	secs
+./logs/DGX2_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.003748	secs
+./logs/DGX2_32_4194304_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000001	secs
+./logs/DGX2_32_4194304_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.006922	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000341	secs
+./logs/DGX2_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.034842	secs
+./logs/DGX2_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.019641	secs
+./logs/DGX2_32_67108864_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_67108864_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.054843	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000298	secs
+./logs/DGX2_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.034868	secs
+./logs/DGX2_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.019567	secs
+./logs/DGX2_32_67108864_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_67108864_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.054725	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000543	secs
+./logs/DGX2_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.034882	secs
+./logs/DGX2_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.019586	secs
+./logs/DGX2_32_67108864_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX2_32_67108864_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.055104	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000380	secs
+./logs/DGX2_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.034370	secs
+./logs/DGX2_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.020190	secs
+./logs/DGX2_32_67108864_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000016	secs
+./logs/DGX2_32_67108864_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.055388	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000380	secs
+./logs/DGX2_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.034907	secs
+./logs/DGX2_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.019542	secs
+./logs/DGX2_32_67108864_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000009	secs
+./logs/DGX2_32_67108864_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.054926	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000311	secs
+./logs/DGX2_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.033475	secs
+./logs/DGX2_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.019584	secs
+./logs/DGX2_32_67108864_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000010	secs
+./logs/DGX2_32_67108864_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.054583	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000324	secs
+./logs/DGX2_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.034885	secs
+./logs/DGX2_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.019625	secs
+./logs/DGX2_32_67108864_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_67108864_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.054766	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000343	secs
+./logs/DGX2_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.034854	secs
+./logs/DGX2_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.019645	secs
+./logs/DGX2_32_67108864_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_67108864_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.054857	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000353	secs
+./logs/DGX2_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.034854	secs
+./logs/DGX2_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.019614	secs
+./logs/DGX2_32_67108864_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_67108864_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.054854	secs - Dense: False
+
+./logs/DGX2_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000327	secs
+./logs/DGX2_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.034838	secs
+./logs/DGX2_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.019656	secs
+./logs/DGX2_32_67108864_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000008	secs
+./logs/DGX2_32_67108864_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.054876	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000047	secs
+./logs/DGX2_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.004812	secs
+./logs/DGX2_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.005202	secs
+./logs/DGX2_32_8388608_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_8388608_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.010563	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/DGX2_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.004989	secs
+./logs/DGX2_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.004992	secs
+./logs/DGX2_32_8388608_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_8388608_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.010176	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000044	secs
+./logs/DGX2_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.004689	secs
+./logs/DGX2_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.004822	secs
+./logs/DGX2_32_8388608_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_8388608_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.009994	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000051	secs
+./logs/DGX2_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.004673	secs
+./logs/DGX2_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.004815	secs
+./logs/DGX2_32_8388608_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_8388608_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.009894	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000049	secs
+./logs/DGX2_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.005028	secs
+./logs/DGX2_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.004673	secs
+./logs/DGX2_32_8388608_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_8388608_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.009921	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000046	secs
+./logs/DGX2_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.005149	secs
+./logs/DGX2_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.005183	secs
+./logs/DGX2_32_8388608_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000018	secs
+./logs/DGX2_32_8388608_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.010388	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000049	secs
+./logs/DGX2_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.004553	secs
+./logs/DGX2_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.004453	secs
+./logs/DGX2_32_8388608_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_8388608_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.009784	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000048	secs
+./logs/DGX2_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.004554	secs
+./logs/DGX2_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.004604	secs
+./logs/DGX2_32_8388608_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_8388608_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.009713	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000045	secs
+./logs/DGX2_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.005248	secs
+./logs/DGX2_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.005236	secs
+./logs/DGX2_32_8388608_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_8388608_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.010539	secs - Dense: False
+
+./logs/DGX2_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000048	secs
+./logs/DGX2_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.005111	secs
+./logs/DGX2_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.004823	secs
+./logs/DGX2_32_8388608_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000017	secs
+./logs/DGX2_32_8388608_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.010044	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000369	secs
+./logs/DGX2_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.029060	secs
+./logs/DGX2_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.020732	secs
+./logs/DGX2_64_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000037	secs
+./logs/DGX2_64_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.051310	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000283	secs
+./logs/DGX2_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.029877	secs
+./logs/DGX2_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.021714	secs
+./logs/DGX2_64_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX2_64_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.051895	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000314	secs
+./logs/DGX2_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.029834	secs
+./logs/DGX2_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.021668	secs
+./logs/DGX2_64_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/DGX2_64_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.051908	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000352	secs
+./logs/DGX2_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.029625	secs
+./logs/DGX2_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.021380	secs
+./logs/DGX2_64_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000010	secs
+./logs/DGX2_64_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.052485	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000380	secs
+./logs/DGX2_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.029429	secs
+./logs/DGX2_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.021654	secs
+./logs/DGX2_64_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX2_64_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.051541	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000302	secs
+./logs/DGX2_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.029618	secs
+./logs/DGX2_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.022074	secs
+./logs/DGX2_64_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX2_64_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.052716	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000281	secs
+./logs/DGX2_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.029961	secs
+./logs/DGX2_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.021410	secs
+./logs/DGX2_64_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX2_64_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.052910	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000651	secs
+./logs/DGX2_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.028968	secs
+./logs/DGX2_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.021676	secs
+./logs/DGX2_64_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000021	secs
+./logs/DGX2_64_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.053130	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000275	secs
+./logs/DGX2_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.029272	secs
+./logs/DGX2_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.020717	secs
+./logs/DGX2_64_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000029	secs
+./logs/DGX2_64_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.052603	secs - Dense: False
+
+./logs/DGX2_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000305	secs
+./logs/DGX2_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.028660	secs
+./logs/DGX2_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.021615	secs
+./logs/DGX2_64_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_64_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.052258	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Compute time: 	0.000077	secs
+./logs/DGX2_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Intra time: 	0.004088	secs
+./logs/DGX2_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Inter time: 	0.001535	secs
+./logs/DGX2_8_33554432_0.0078125_0_0.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX2_8_33554432_0.0078125_0_0.log:Sparse Ring Ring AllReduce finished [8]:	0.005688	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Compute time: 	0.000083	secs
+./logs/DGX2_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Intra time: 	0.004109	secs
+./logs/DGX2_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Inter time: 	0.001529	secs
+./logs/DGX2_8_33554432_0.0078125_0_1.log:		Sparse Ring Ring Init time: 	0.000012	secs
+./logs/DGX2_8_33554432_0.0078125_0_1.log:Sparse Ring Ring AllReduce finished [8]:	0.005773	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Compute time: 	0.000075	secs
+./logs/DGX2_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Intra time: 	0.004061	secs
+./logs/DGX2_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Inter time: 	0.001537	secs
+./logs/DGX2_8_33554432_0.0078125_0_2.log:		Sparse Ring Ring Init time: 	0.000022	secs
+./logs/DGX2_8_33554432_0.0078125_0_2.log:Sparse Ring Ring AllReduce finished [8]:	0.005663	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Compute time: 	0.000089	secs
+./logs/DGX2_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Intra time: 	0.004082	secs
+./logs/DGX2_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Inter time: 	0.001554	secs
+./logs/DGX2_8_33554432_0.0078125_0_3.log:		Sparse Ring Ring Init time: 	0.000036	secs
+./logs/DGX2_8_33554432_0.0078125_0_3.log:Sparse Ring Ring AllReduce finished [8]:	0.005726	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Compute time: 	0.000084	secs
+./logs/DGX2_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Intra time: 	0.004100	secs
+./logs/DGX2_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Inter time: 	0.001539	secs
+./logs/DGX2_8_33554432_0.0078125_0_4.log:		Sparse Ring Ring Init time: 	0.000035	secs
+./logs/DGX2_8_33554432_0.0078125_0_4.log:Sparse Ring Ring AllReduce finished [8]:	0.005729	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Compute time: 	0.000084	secs
+./logs/DGX2_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Intra time: 	0.004108	secs
+./logs/DGX2_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Inter time: 	0.001516	secs
+./logs/DGX2_8_33554432_0.0078125_0_5.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_8_33554432_0.0078125_0_5.log:Sparse Ring Ring AllReduce finished [8]:	0.005695	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Compute time: 	0.000090	secs
+./logs/DGX2_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Intra time: 	0.004090	secs
+./logs/DGX2_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Inter time: 	0.001541	secs
+./logs/DGX2_8_33554432_0.0078125_0_6.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_8_33554432_0.0078125_0_6.log:Sparse Ring Ring AllReduce finished [8]:	0.005700	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Compute time: 	0.000090	secs
+./logs/DGX2_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Intra time: 	0.004094	secs
+./logs/DGX2_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Inter time: 	0.001536	secs
+./logs/DGX2_8_33554432_0.0078125_0_7.log:		Sparse Ring Ring Init time: 	0.000023	secs
+./logs/DGX2_8_33554432_0.0078125_0_7.log:Sparse Ring Ring AllReduce finished [8]:	0.005702	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Compute time: 	0.000081	secs
+./logs/DGX2_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Intra time: 	0.004103	secs
+./logs/DGX2_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Inter time: 	0.001532	secs
+./logs/DGX2_8_33554432_0.0078125_0_8.log:		Sparse Ring Ring Init time: 	0.000025	secs
+./logs/DGX2_8_33554432_0.0078125_0_8.log:Sparse Ring Ring AllReduce finished [8]:	0.005703	secs - Dense: False
+
+./logs/DGX2_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Compute time: 	0.000063	secs
+./logs/DGX2_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Intra time: 	0.004101	secs
+./logs/DGX2_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Inter time: 	0.001525	secs
+./logs/DGX2_8_33554432_0.0078125_0_9.log:		Sparse Ring Ring Init time: 	0.000020	secs
+./logs/DGX2_8_33554432_0.0078125_0_9.log:Sparse Ring Ring AllReduce finished [8]:	0.005682	secs - Dense: False
+

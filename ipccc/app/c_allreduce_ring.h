@@ -164,7 +164,7 @@ template<class IdxType, class ValType> int c_allreduce_ring(const struct stream 
     if(r == 0) {
 		printf("\t\tSparse Ring Compute time: \t%f\tsecs\n", computeTime);
 		printf("\t\tSparse Ring Inter time: \t%f\tsecs\n", interTime);
-		printf("\t\tSparse Ring Ring Init time: \t%f\tsecs\n", initTime);
+		printf("\t\tSparse Ring Init time: \t%f\tsecs\n", initTime);
 	}
   return MPI_SUCCESS;
 }

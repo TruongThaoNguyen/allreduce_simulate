@@ -28,10 +28,9 @@ def main():
 	if len(sys.argv) >= 3:
 		layoutFileName = str(sys.argv[2])		
 		
-	# 3. Parameter for ABCI (https://portal.abci.ai/docs/en/01/)
-	# - 1088 computing node; 34 computing nodes are mounted on a rack. There are 32 racks 
+	# 3. Parameter for NV-Cluster with GDX-1 as 1 node. (Houston Deep Learning production and Scale)
 	HOST_SPEED = 7.8E12 # double precision flop for NVIDIA Tesla V100 for NVLINK (https://www.nvidia.com/en-us/data-center/tesla-v100/)
-	HOST_PER_NODE = 4
+	HOST_PER_NODE = 8
 	# ENERGY_WATT_OFF = 10		#Watts
 	# ENERGY_WATT_SLEEP = 93		#Watts
 	# ENERGY_WATT_PEAK = 170		#Watts
@@ -62,19 +61,21 @@ def main():
 	ENERGY_LINK_PCIe_PEAK = 4/4.0 #1W/link
 	ENERGY_LINK_PCIe_IDLE = ENERGY_LINK_PCIe_PEAK * IDLE_PERCENT
 	
-	# Internode parameter: (https://www.ssken.gr.jp/MAINSITE/event/2018/20181025-sci/lecture-03/SSKEN_sci2018_TakanoRyousei_presentation.pdf)
-	# 3 level (SPINE - FBB - LEAF - (nodes)
+	# Internode parameter:
+	# 2 level
+	
 	INTER_LINK_BW = 12.5E9 # Bype per second  # InfiniBand EDR (12.5 GB/s)
-	INTER_SWITCH_LAT_LEAF = 90E-9 #second # 90ns for InfiniBand Switch using cut through switching (http://www.mellanox.com/related-docs/prod_ib_switch_systems/pb_sb7890.pdf)
-	INTER_SWITCH_LAT_FBB = INTER_SWITCH_LAT_LEAF
-	INTER_SWITCH_LAT_SPINE = 400E-9 #second # 400ns (http://www.mellanox.com/related-docs/prod_ib_switch_systems/pb_cs7500.pdf)
+	INTER_SWITCH_LAT_LEAF = 90E-9 #second # 90ns for InfiniBand Switch using cut through switching (http://www.mellanox.com/related-docs/prod_ib_switch_systems/pb_sb7800.pdf)
+	INTER_SWITCH_LAT_SPINE = 400E-9 #second # 400ns 
+	# (648 ports:http://www.mellanox.com/related-docs/prod_ib_switch_systems/pb_cs7500.pdf)
+	#  324 ports: http://www.mellanox.com/related-docs/prod_ib_switch_systems/PB_CS7510.pdf
+	# 216 ports:http://www.mellanox.com/related-docs/prod_ib_switch_systems/pb_cs7520.pdf
+	# only 90ns if 36 ports.
 	CABLE_LENGTH = 5.0 # meter
 	CALBE_LAT = CABLE_LENGTH * 5.2E-9 #Speed of light in glass= 190000km/sec ==> 1/19.000.000.000 = 5.2E-9 s/m
 	
 	IB_ENERGY_LEAF_PEAK = 122 #W(up 36 port / optical - SB7890 model - Max Power)
-	IB_ENERGY_FBB_PEAK = IB_ENERGY_LEAF_PEAK
 	IB_ENERGY_LEAF_IDLE = 122 #W(up 36 port / optical - Typical Power)
-	IB_ENERGY_FBB_IDLE = IB_ENERGY_LEAF_IDLE
 	ENERGY_LINK_IB_PEAK = IB_ENERGY_LEAF_PEAK / 36.0 #3.389 W/link
 	ENERGY_LINK_IB_IDLE = IB_ENERGY_LEAF_IDLE / 36.0 #3.389 W/link
 	
@@ -83,17 +84,8 @@ def main():
 	ENERGY_LINK_IB_SPINE_PEAK = IB_SPINE_ENERGY/648 #20.881 W/port 
 	ENERGY_LINK_IB_SPINE_IDLE = IB_SPINE_ENERGY_IDLE/648 #9.8 W/port 
 	
-	#Note that the total energy of 1 link = energy out + energy in...
-	
-	
-	#TODO: Generate platform by rack
-	NODE_PER_RACK = 34
-	numberOfRack = int(math.ceil(1.0*totalNode/NODE_PER_RACK))
-	actualTotalNode = numberOfRack * NODE_PER_RACK
-	print 'NOTE: Generate ' + str(numberOfRack) + ' with ' + str(actualTotalNode) + 'nodes'
-		
 	#4. Generte xml file 
-	ARCHITECTURE = "ABCI"
+	ARCHITECTURE = "DGX1Cluster"
 	pathFileName = ARCHITECTURE + "_" + str(totalNode) + '.xml'
 	print 'Write paths into ' + pathFileName
 	fo = open(pathFileName, "w")
@@ -120,7 +112,7 @@ def main():
 '''
 	fo.writelines(header)
 	fo.writelines("<!--  Generate node -->\r\n") 
-	for nodeIdx in range(0,actualTotalNode):
+	for nodeIdx in range(0,totalNode):
 		# 4.2 Node generate
 		#fo.writelines("\r\n") 
 		#fo.writelines("<!--  Generate node "+ str(nodeIdx) + " -->\r\n") 
@@ -129,11 +121,11 @@ def main():
 			line = '''	<host id="n''' + str(nodeIdx*HOST_PER_NODE + hostIdx) +'''"'''
 			line += '''speed="''' + str(HOST_SPEED) + '''f"'''
 			line += "core=\"1\" />\r\n"
-			#line += "core=\"1\" >\r\n"
-			#line += '''		<prop id="watt_per_state" value="''' + str(ENERGY_WATT_SLEEP) + ":" + str(ENERGY_WATT_PEAK) + '''" />'''
-			#line += '''
-		#<prop id="watt_off" value="''' + str(ENERGY_WATT_OFF) + '''" />
-	#</host>\r\n'''
+			# line += "core=\"1\" >\r\n"
+			# line += '''		<prop id="watt_per_state" value="''' + str(ENERGY_WATT_SLEEP) + ":" + str(ENERGY_WATT_PEAK) + '''" />'''
+			# line += '''
+		# <prop id="watt_off" value="''' + str(ENERGY_WATT_OFF) + '''" />
+	# </host>\r\n'''
 	
 			fo.writelines(line)
 		
@@ -147,75 +139,54 @@ def main():
 		
 	# 4.2.3. IB Switch generate
 	#TODO: Should load inter-node network from file ??
-	# In this example, generate the topology like ABCI. 
-	# 	+ 1:3 oversubscription FBB-SPINE (4 links each...)
-	#	+ 1:1 oversubcription LEAR-FBB (18 up, 18 down)
-	#	+ ~1:1 LEAF-node (18 up, 17 down)
-	#	+ 2 SPINE for all. Each rack has 3 FBB, 4 LEAF, 
-	#	+ Each 2 nodes = 1 group. 1 group has 4 IB links that connect to 4 LEAFs
-	#	Down link of LEAF connect to CPU then PLX and then GPU... (assume that ignore CPU)...
+	# In this example, generate the topology like NV_Cluster.
+	#	+ 1:1 oversubscription, LEAF-SPINE (12 links each LEAF (6nodes), 72 links each pods)
+	# 	+ 2:1 oversubscription, 36-ports (24:12)
 	
-	# SPINE switch (defaut = 2; support up to 648/(4link * 3FBB) = 54 rack; up to 1836 nodes = 7344 GPUs).
-	#fo.writelines("\r\n")
-	SPINE_SWITCH_NUMBER = 2
+	L1_SWITCH_UP = 12
+	L1_SWITCH_DOWN = 24
+	print L1_SWITCH_DOWN, HOST_PER_NODE, (HOST_PER_NODE/2)
+	nodePerL1Switch = L1_SWITCH_DOWN/(HOST_PER_NODE/2) #4 Plx switch per nodes; 6 nodes per L1 switch	
+	print totalNode,nodePerL1Switch
+	totalL1Switch = int(math.ceil(1.0*totalNode/nodePerL1Switch))
+	#print totalL1Switch,totalNode
 	SPINE_BW = 130E12/8 #130 Tbps
-	FBB_BW = 7.2E12/8 #7.2 Tbps
-	LEAF_BW = FBB_BW
-	# LEAF_SWITCH_UP = 18
-	# LEAF_SWITCH_DOWN = 17
-	# FBB_SWITCH_UP =8
-	# FBB_SWITCH_DOWN=24
-	LEAF_PER_RACK = 4
-	FBB_PER_RACK = 3
-	fo.writelines("<!--  Generate switch -->\r\n") 
-	for switchIdx in range(0,SPINE_SWITCH_NUMBER,1):
-		line = '''	<router id="root''' + str(switchIdx) + '''"/>\r\n'''
+	LEAF_BW = 7.2E12/8 #7.2 Tbps
+	#L2 switch
+	#fo.writelines("\r\n")
+	line = '''	<router id="sroot"/>\r\n'''
+	fo.writelines(line)
+	#L2 switch latency
+	line = '''	<link id="ls_root"''' 
+	line += '''bandwidth="''' + str(SPINE_BW) + '''Bps" '''
+	line += '''latency="''' +  str(INTER_SWITCH_LAT_SPINE) +'''s"/>\r\n''' 
+	fo.writelines(line)
+	
+	#L1-switch and latency
+	for switchIdx in range(0,totalL1Switch):
+		line = '''	<router id="s''' + str(switchIdx) + '''"/>\r\n'''
 		fo.writelines(line)
 		#switch latency
-		line = '''	<link id="lroot''' + str(switchIdx) + '''"''' 
-		line += '''bandwidth="''' + str(SPINE_BW) + '''Bps" '''
-		line += '''latency="''' +  str(INTER_SWITCH_LAT_SPINE) +'''s"/>\r\n''' 
-		fo.writelines(line)
-	
-	#FBB
-	for rackIdx in range(0,numberOfRack):
-		for fbbswitchIdx in range(0,FBB_PER_RACK):
-			fbbswitchId = rackIdx * FBB_PER_RACK + fbbswitchIdx
-			line = '''	<router id="fbb''' + str(fbbswitchId) + '''"/>\r\n'''
-			fo.writelines(line)
-			#switch latency
-			line = '''	<link id="lfbb''' + str(fbbswitchId) + '''" ''' 
-			line += '''bandwidth="''' + str(FBB_BW) + '''Bps" '''
-			line += '''latency="''' +  str(INTER_SWITCH_LAT_FBB) +'''s"/>\r\n''' 
-			fo.writelines(line)
+		line = '''	<link id="ls''' + str(switchIdx) + '''" ''' 
+		line += '''bandwidth="''' + str(LEAF_BW) + '''Bps" '''
+		line += '''latency="''' +  str(INTER_SWITCH_LAT_LEAF) +'''s"/>\r\n''' 
+		fo.writelines(line)	
 		
-	#LEAF
-	for rackIdx in range(0,numberOfRack):
-		for leafswitchIdx in range(0,LEAF_PER_RACK):
-			leafswitchId = rackIdx * LEAF_PER_RACK + leafswitchIdx
-			line = '''	<router id="leaf''' + str(leafswitchId) + '''"/>\r\n'''
-			fo.writelines(line)
-			#switch latency
-			line = '''	<link id="lleaf''' + str(leafswitchId) + '''" ''' 
-			line += '''bandwidth="''' + str(LEAF_BW) + '''Bps" '''
-			line += '''latency="''' +  str(INTER_SWITCH_LAT_LEAF) +'''s"/>\r\n''' 
-			fo.writelines(line)	
-				
 	#4.3. Link generate 
 	#4.3.1. Intra-link generate (NVLINK)
-	# This is only for 4 nodes.
+	# This is only for 8 nodes.
 	fo.writelines("<!--  Generate intra-links -->\r\n")
-	#linkList = [(0,1,1),(0,2,1),(0,3,2),(1,2,2),(1,3,1),(2,3,1)]  # (src, dst, weight) degree-4
-	linkList = [(0,1,2),(0,2,2),(0,3,2),(1,2,2),(1,3,2),(2,3,2)]  # (src, dst, weight) degree-6 with V100
-	for nodeIdx in range(0,actualTotalNode):
+	linkList = [(0,1,1),(0,2,1),(0,3,2),(1,2,2),(1,3,1),(2,3,2),(0,4,2),(1,5,2),(2,6,1),(3,7,1),(4,5,1),(4,6,1),(4,7,2),(5,6,2),(5,7,1),(6,7,2)]
+		
+	for nodeIdx in range(0,totalNode):
 		for linkIdx in range (0,len(linkList)):
 			src = str(get_host_Id(nodeIdx,linkList[linkIdx][0],HOST_PER_NODE))
 			dst = str(get_host_Id(nodeIdx,linkList[linkIdx][1],HOST_PER_NODE))
 			line = '''	<link id="ln''' + src + '''_n''' + dst + '''" ''' 
-			line += '''bandwidth="''' + str(INTRA_LINK_BW * linkList[linkIdx][2])  + '''Bps" '''
+			line += '''bandwidth="''' + str(INTRA_LINK_BW * linkList[linkIdx][2]) + '''Bps" '''
 			line += '''latency="''' +  str(INTRA_CALBE_LAT) +'''s">'''
-			line += '''<prop id="watt_range" value="''' + str(GPU_ENERGY_LINK_NVLINK_IDLE*2)
-			line += ''':''' + str(GPU_ENERGY_LINK_NVLINK_PEAK*2* linkList[linkIdx][2]) +'''" />'''
+			line += '''<prop id="watt_range" value="''' + str(GPU_ENERGY_LINK_NVLINK_IDLE*2 * linkList[linkIdx][2])
+			line += ''':''' + str(GPU_ENERGY_LINK_NVLINK_PEAK*2 * linkList[linkIdx][2]) +'''" />'''
 			line += '''</link>\r\n'''
 			fo.writelines(line)
 	
@@ -237,53 +208,30 @@ def main():
 			fo.writelines(line)
 
 	fo.writelines("<!--  Generate inter-links -->\r\n")
-	NODE_TO_LEAF_WEIGHT = 1
-	LEAF_TO_FBB_WEIGHT = 6
-	FBB_TO_SPINE_WEIGHT = 4
-	
-	#4.3.3. FBB to SPINE
-	for rackIdx in range(0,numberOfRack):
-		for switchIdx in range(0,SPINE_SWITCH_NUMBER):
-			for fbbswitchIdx in range(0,FBB_PER_RACK):
-				fbbswitchId = rackIdx * FBB_PER_RACK + fbbswitchIdx			
-				line = '''	<link id="lfbb''' + str(fbbswitchId) + '''_root''' + str(switchIdx) + '''" ''' 
-				line += '''bandwidth="''' + str(INTER_LINK_BW*FBB_TO_SPINE_WEIGHT) + '''Bps" '''
-				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
-				line += '''<prop id="watt_range" value="''' + str((ENERGY_LINK_IB_SPINE_IDLE + ENERGY_LINK_IB_IDLE)*FBB_TO_SPINE_WEIGHT)
-				line += ''':''' + str((ENERGY_LINK_IB_SPINE_PEAK + ENERGY_LINK_IB_PEAK)*FBB_TO_SPINE_WEIGHT) +'''" />'''
-				line += '''</link>\r\n'''
-				fo.writelines(line)
-	#4.3.4 LEAF to FBB
-	for rackIdx in range(0,numberOfRack):
-		for fbbswitchIdx in range(0,FBB_PER_RACK):
-			fbbswitchId = rackIdx * FBB_PER_RACK + fbbswitchIdx	
-			for leafswitchIdx in range(0,LEAF_PER_RACK):
-				leafswitchId = rackIdx * LEAF_PER_RACK + leafswitchIdx
-				line = '''	<link id="lleaf''' + str(leafswitchId) + '''_fbb''' + str(fbbswitchId) +'''" ''' 
-				line += '''bandwidth="''' + str(INTER_LINK_BW*LEAF_TO_FBB_WEIGHT) + '''Bps" '''
-				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
-				line += '''<prop id="watt_range" value="''' + str((ENERGY_LINK_IB_IDLE + ENERGY_LINK_IB_IDLE)*LEAF_TO_FBB_WEIGHT)
-				line += ''':''' + str((ENERGY_LINK_IB_PEAK + ENERGY_LINK_IB_PEAK)*LEAF_TO_FBB_WEIGHT) +'''" />'''
-				line += '''</link>\r\n'''
-				fo.writelines(line)		
-	
-	#4.3.5 NODE (PLX TO LEAF) 
-	PLX_PER_RACK = NODE_PER_RACK * HOST_PER_NODE /2
-	PLX_PER_GROUP = 2* HOST_PER_NODE /2 #per 2 nodes (a group)
-	for rackIdx in range(0,numberOfRack):
-		for plxIdx in range(0, PLX_PER_RACK*2, PLX_PER_GROUP*2): #Idx of Plx is even number
-			plxId = rackIdx * PLX_PER_RACK*2 + plxIdx
-			for leafswitchIdx in range(0,LEAF_PER_RACK,1):
-				leafswitchId = rackIdx * LEAF_PER_RACK + leafswitchIdx
-				#print 'rackIdx: ' + str(rackIdx) + ' plxIdx: ' + str(plxIdx) + ' plxId: ' + str(plxId) + '-' + str(plxId+2*leafswitchIdx)
-				line = '''	<link id="lplx''' + str(plxId + 2*leafswitchIdx) + '''_leaf''' + str(leafswitchId) +'''" ''' 
-				line += '''bandwidth="''' + str(INTER_LINK_BW*NODE_TO_LEAF_WEIGHT) + '''Bps" '''
+	#4.3.3. LEAF to SPINE
+	for switchIdx in range(0,totalL1Switch):
+		#up link
+		line = '''	<link id="ls''' + str(switchIdx) + '''_root" ''' 
+		line += '''bandwidth="''' + str(INTER_LINK_BW*L1_SWITCH_UP) + '''Bps" '''
+		line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
+		line += '''<prop id="watt_range" value="''' + str((ENERGY_LINK_IB_IDLE + ENERGY_LINK_IB_SPINE_IDLE)*L1_SWITCH_UP)
+		line += ''':''' + str((ENERGY_LINK_IB_PEAK + ENERGY_LINK_IB_SPINE_PEAK)*L1_SWITCH_UP) +'''" />'''
+		line += '''</link>\r\n'''
+		fo.writelines(line)
+
+		for plxId in range(0,nodePerL1Switch*HOST_PER_NODE,2):
+			src = switchIdx*nodePerL1Switch*HOST_PER_NODE + plxId
+			if src < totalNode * HOST_PER_NODE:
+				src = str(src)
+				#down link
+				line = '''	<link id="lplx''' + src + '''_s''' + str(switchIdx) +'''" ''' 
+				line += '''bandwidth="''' + str(INTER_LINK_BW) + '''Bps" '''
 				line += '''latency="''' +  str(CALBE_LAT) +'''s">'''
 				line += '''<prop id="watt_range" value="''' + str(ENERGY_LINK_IB_IDLE + ENERGY_LINK_PCIe_IDLE)
 				line += ''':''' + str(ENERGY_LINK_IB_PEAK + ENERGY_LINK_PCIe_PEAK) +'''" />'''
 				line += '''</link>\r\n'''
 				fo.writelines(line)
-					
+
 	# 4.4 Generate route
 	#4.4.1. Intra-route (via NVLINK)
 	fo.writelines("<!--  Generate intra-route -->\r\n") 
@@ -308,43 +256,25 @@ def main():
 			fo.writelines(line) 
 			
 	fo.writelines("<!--  Generate inter-route -->\r\n")
-	#4.3.3. FBB to SPINE
-	for rackIdx in range(0,numberOfRack):
-		for switchIdx in range(0,SPINE_SWITCH_NUMBER):
-			for fbbswitchIdx in range(0,FBB_PER_RACK):
-				fbbswitchId = rackIdx * FBB_PER_RACK + fbbswitchIdx
-				line = '''	<route src="fbb''' + str(fbbswitchId) + '''" dst="root''' + str(switchIdx) +'''">
-		<link_ctn id="lfbb''' + str(fbbswitchId) + '''_root''' + str(switchIdx) + '''"/>
-		<link_ctn id="lroot''' + str(switchIdx) +'''"/>
+	for switchIdx in range(0,totalL1Switch):	
+		#4.4.3. Route to L2
+		line = '''	<route src="s''' + str(switchIdx) + '''" dst="sroot">
+		<link_ctn id="ls''' + str(switchIdx) + '''_root"/>
+		<link_ctn id="ls_root"/>
 	</route>\r\n'''
-				fo.writelines(line) 
+		fo.writelines(line) 
 	
-	#4.3.4 LEAF to FBB
-	for rackIdx in range(0,numberOfRack):
-		for fbbswitchIdx in range(0,FBB_PER_RACK):
-			fbbswitchId = rackIdx * FBB_PER_RACK + fbbswitchIdx	
-			for leafswitchIdx in range(0,LEAF_PER_RACK):
-				leafswitchId = rackIdx * LEAF_PER_RACK + leafswitchIdx
-				line = '''	<route src="leaf''' + str(leafswitchId) + '''" dst="fbb''' + str(fbbswitchId) +'''">
-		<link_ctn id="lleaf''' + str(leafswitchId) + '''_fbb''' + str(fbbswitchId) +'''"/>
-		<link_ctn id="lfbb''' + str(fbbswitchId) +'''"/>
+		for plxId in range(0,nodePerL1Switch*HOST_PER_NODE,2):
+			src = switchIdx*nodePerL1Switch*HOST_PER_NODE + plxId
+			if src < totalNode * HOST_PER_NODE:
+				src = str(src)
+				#4.4.4. Route to L1
+				line = '''	<route src="plx''' + src + '''" dst="s''' + str(switchIdx) + '''">
+		<link_ctn id="lplx''' + src + '''_s''' + str(switchIdx) +'''"/>
+		<link_ctn id="ls''' + str(switchIdx) + '''"/>
 	</route>\r\n'''
-				fo.writelines(line) 
-	
-	#4.3.5 NODE (PLX TO LEAF) 
-	PLX_PER_RACK = NODE_PER_RACK * HOST_PER_NODE /2
-	PLX_PER_GROUP = 2* HOST_PER_NODE /2 #per 2 nodes (a group)
-	for rackIdx in range(0,numberOfRack):
-		for plxIdx in range(0, PLX_PER_RACK*2, PLX_PER_GROUP*2): #Idx of Plx is even number
-			plxId = rackIdx * PLX_PER_RACK*2 + plxIdx
-			for leafswitchIdx in range(0,LEAF_PER_RACK,1):
-				leafswitchId = rackIdx * LEAF_PER_RACK + leafswitchIdx
-				line = '''	<route src="plx''' + str(plxId + 2*leafswitchIdx) + '''" dst="leaf''' + str(leafswitchId) +'''">
-		<link_ctn id="lplx''' + str(plxId + 2*leafswitchIdx) + '''_leaf''' + str(leafswitchId) +'''"/>
-		<link_ctn id="lleaf''' + str(leafswitchId) +'''"/>
-	</route>\r\n'''
-				fo.writelines(line) 
-				
+				fo.writelines(line) 	
+
 	# 4.5 File Footer
 	footer = '''</zone>
 </platform>
@@ -353,7 +283,7 @@ def main():
 	fo.close()
 
 	#5. Generate deploy file 	
-	pathFileName = ARCHITECTURE + "_" + str(actualTotalNode) + '.deploy.xml'
+	pathFileName = ARCHITECTURE + "_" + str(totalNode) + '.deploy.xml'
 	print 'Write paths into ' + pathFileName
 	fo = open(pathFileName, "w")
 	header = '''<?xml version='1.0'?> 
@@ -362,7 +292,7 @@ def main():
 '''
 	fo.writelines(header)
 	
-	for nodeIdx in range(0,actualTotalNode):
+	for nodeIdx in range(0,totalNode):
 		for hostIdx in range(0,HOST_PER_NODE):
 			idx = nodeIdx*HOST_PER_NODE + hostIdx
 			if idx == 0:
@@ -375,10 +305,10 @@ def main():
 	fo.close()
 	
 	#6. Generate txt file 	
-	pathFileName = ARCHITECTURE + "_" + str(actualTotalNode) + '.txt'
+	pathFileName = ARCHITECTURE + "_" + str(totalNode) + '.txt'
 	print 'Write paths into ' + pathFileName
 	fo = open(pathFileName, "w")
-	for nodeIdx in range(0,actualTotalNode):
+	for nodeIdx in range(0,totalNode):
 		for hostIdx in range(0,HOST_PER_NODE):
 			idx = nodeIdx*HOST_PER_NODE + hostIdx
 			line = "n" + str(idx) + ":1\r\n"
@@ -387,9 +317,6 @@ def main():
 	
 def get_host_Id(nodeIdx,hostIdx,hostPerNode):
 	return nodeIdx*hostPerNode + hostIdx
-
-def get_node_Id(rackIdx,nodeIdx,nodePerRack):
-	return rackIdx*nodePerRack + nodeIdx
 	
 main()
 

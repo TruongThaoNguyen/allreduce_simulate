@@ -7,7 +7,7 @@
  */
 template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct stream *sendbuf, struct stream *recvbuf, unsigned dim, MPI_Comm comm, int intraSize) {
 	int tag = 1000000;
-	int size, rank, intra_count, inter_count, i,j;
+	int size, rank, i,j;
 	int intra_size = intraSize; //number of GPU per node
 	MPI_Status status;
 	MPI_Comm_size(comm, &size);; // number of node
@@ -43,6 +43,7 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 	segsize = rcount/size; // size of the segments 
 	int maxsegsize = rcount - ((size-1)*segsize);
 	int k;
+
 	for (i =0; i <intra_size; i++){
 		intra_segsizes[i] = 0;
 		for (j = 0; j < inter_size; j++){
@@ -50,10 +51,10 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 			segsizes[k] = segsize;
 			intra_segsizes[i] += segsizes[k];
 		}
+		
 	}
 	segsizes[size-1] = maxsegsize;
 	intra_segsizes[intra_size -1] = intra_segsizes[intra_size -1] - segsize + maxsegsize;
-	
 	//Prepare for split stream
 	char *intra_buf = (char *) malloc(intra_size * (sizeof(unsigned) + (inter_size * maxsegsize * sizeof(ValType))));
 	struct stream* intra_splits[intra_size];
@@ -73,14 +74,14 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 		intra_splits[i] = (struct stream *)(intra_buf + i * (sizeof(unsigned) + (inter_size * maxsegsize * sizeof(ValType))));
 	}
 	split_stream<IdxType, ValType>(sendbuf, intra_splits, rcount, intra_size);
-		
+
 	for(i = 0; i < inter_size; ++i) {
 		inter_splits[i] = (struct stream *)(inter_buf + i * (sizeof(unsigned) + maxsegsize * sizeof(ValType)));
 	}
 		
 	// size of each point-to-point communication is equal to the size of the whole message divided by number of processes
-	inter_count = rcount / size;
-	intra_count = inter_count * intra_size;  //rcount / intra_size;
+	//inter_count = rcount / size;
+	//intra_count = inter_count * intra_size;  //rcount / intra_size;
 	//printf("[NNNN] [%d] rcount=%d intra_rank = %d, inter_rank = %d, intra_size=%d, inter_size=%d, intra_count=%d, inter_count=%d, nofitems=%d\n", rank,rcount, intra_rank, inter_rank,intra_size,inter_size,intra_count,inter_count, sendbuf->nofitems);
 
 	t_mpi += MPI_Wtime();
@@ -92,7 +93,7 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 	int send_element, recv_element, send_segIdx, recv_segIdx;
 	int src, dst;
 	struct stream* tmpptr = NULL;
-	
+
  	//1.2. reduce-scatter
 	src = ((intra_rank + intra_size - 1) % intra_size) + inter_rank * intra_size;
 	dst = ((intra_rank + 1) % intra_size) + inter_rank * intra_size;
@@ -121,11 +122,11 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 	t_mpi += MPI_Wtime();
 	intraTime += t_mpi;
 	t_mpi1 = -MPI_Wtime();
-	
-	//SPLIT stream for inter communication
-	//printf("recv_element: %d",recv_element);
-	split_stream<IdxType, ValType>(intra_splits[recv_element], inter_splits, intra_segsizes[recv_element], inter_size);
-		
+
+	//2.1. SPLIT stream for inter communication
+	int reduced_element = recv_element;
+	split_stream<IdxType, ValType>(intra_splits[reduced_element], inter_splits, intra_segsizes[reduced_element], inter_size);
+
 	t_mpi1 += MPI_Wtime();
 	computeTime += t_mpi1;	
 	t_mpi = -MPI_Wtime();
@@ -163,72 +164,9 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 	interTime += t_mpi;
 	t_mpi = -MPI_Wtime();
 	
-	/*3+4. Allgather with dense format.*/
-	// Add into received buffer
-	t_mpi1 = -MPI_Wtime();
-	unsigned overall = 0;
-	
-	
-  for(i = 0; i < size; ++i) {
-    overall += splits[i]->nofitems;
-  }
-
-  if (overall * (sizeof(IdxType) + sizeof(ValType)) >= dim * sizeof(ValType)) {
-    recvbuf->nofitems = dim;
-    ValType * result = (ValType *)recvbuf->items;
-#pragma omp simd 
-    for(size_t i = 0; i < dim; ++i) {
-      result[i] = 0.0;
-    }
-    unsigned offset = 0;
-    for(i = 0; i < size; ++i) {
-      if((int)splits[i]->nofitems == segsizes[i]) {
-        // Dense
-        for(int j = 0; j < segsizes[i]; ++j) {
-          result[offset + j] = ((ValType *)splits[i]->items)[j];
-        }
-      } else {
-        // Sparse
-        const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)splits[i]->items;
-        for(unsigned j = 0; j < splits[i]->nofitems; ++j) {
-          result[offset + values[j].idx] = values[j].val;
-        }
-      }
-      offset += segsize;
-    }
-  } else {
-    recvbuf->nofitems = overall;
-    struct s_item<IdxType, ValType> *result = (struct s_item<IdxType, ValType> *)recvbuf->items;
-    int idx = 0;
-    unsigned offset = 0;
-    for(i = 0; i < size; ++i) {
-      if((int)splits[i]->nofitems == segsizes[i]) {
-        // Dense
-        for(j = 0; j < segsizes[i]; ++j) {
-          result[idx].idx = j + offset;
-          result[idx].val = ((ValType *)splits[i]->items)[j];
-          idx++;
-        }
-      } else {
-        // Sparse
-        const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)splits[i]->items;
-        for(unsigned j = 0; j < splits[i]->nofitems; ++j) {
-          result[idx].idx = values[j].idx + offset;
-          result[idx].val = values[j].val;
-          idx++;
-        }
-      }
-      offset += segsize;
-    }
-  }
- 	t_mpi1 += MPI_Wtime();
-	computeTime += t_mpi1;
-	
-	
-	
 	/*3. allgather - inter between root of each SMP node*/
 	/**************************************************/
-/*  	//if (rank ==0){printf("[NNNN] [%d] inter lr allgather",rank);}
+  	//if (rank ==0){printf("[NNNN] [%d] inter lr allgather",rank);}
 	src = intra_rank + ((inter_rank + inter_size - 1)% inter_size)* intra_size;
 	dst = intra_rank + ((inter_rank + 1)% inter_size)* intra_size;
 	for (i = 0; i < (inter_size - 1); i++) {
@@ -240,88 +178,151 @@ template<class IdxType, class ValType> int c_allreduce_ring_ring(const struct st
 		
 		MPI_Sendrecv(inter_splits[send_element], countBytes<IdxType, ValType>(inter_splits[send_element], segsizes[send_segIdx]), MPI_BYTE, dst, tag + i, 
 			inter_splits[recv_element], sizeof(ValType) * maxsegsize + sizeof(unsigned), MPI_BYTE,src, tag + i, comm, &status);	   	
-	} 
+	}
 	t_mpi += MPI_Wtime();
 	interTime += t_mpi;
-	t_mpi = -MPI_Wtime(); */
+	t_mpi1 = -MPI_Wtime();
+	
+	/*4.0 Copy to intra_splits from inter_splits*/
+	bool is_dense = false;
+	unsigned maxsize = 0;
+	unsigned tmp_cnt = 0;
+	for (i = 0; i < inter_size; i++) {
+		tmp_cnt += inter_splits[i]->nofitems;
+		maxsize += segsizes[reduced_element*inter_size+i];
+	}
+	intra_splits[reduced_element]->nofitems = tmp_cnt;
+
+	
+	//Check output is dense or not
+	if (tmp_cnt *(sizeof(IdxType) + sizeof(ValType)) >= maxsize * sizeof(ValType)){
+		is_dense = true;
+	}
+	
+	if (is_dense){ //output is dense format
+		ValType * result = (ValType *)intra_splits[reduced_element]->items;
+		for(size_t j = 0; j < intra_segsizes[reduced_element]; ++j) {
+			result[j] = 0.0;
+		}
+		unsigned offset = 0;
+		for (i = 0; i < inter_size; i++) {
+			if(inter_splits[i]->nofitems == segsizes[reduced_element*inter_size+i]) { //input in dense format
+				const ValType *values = (const ValType *)inter_splits[i]->items;
+				for(size_t j = 0; j < inter_splits[i]->nofitems; ++j) {
+					result[offset + j] = values[j];
+				}
+			}
+			else {//intput in sparse format. Note that in sparse format, item.idx is relative idx of its partitions...
+				const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)inter_splits[i]->items;
+				for(size_t j = 0; j < inter_splits[i]->nofitems; ++j) {
+					result[values[j].idx + offset] = values[j].val;
+				}
+			}
+			offset += segsizes[reduced_element*inter_size+i];
+		}
+	}
+	else{ //output is sparse
+	    struct s_item<IdxType, ValType> *result = (struct s_item<IdxType, ValType> *)intra_splits[reduced_element]->items;
+		size_t output_idx = 0;
+		unsigned offset = 0;
+		for (i = 0; i < inter_size; i++) {
+			if(inter_splits[i]->nofitems == segsizes[reduced_element*inter_size+i]) { //input in dense format
+				const ValType *values = (const ValType *)inter_splits[i]->items;
+				for(size_t j = 0; j < segsizes[reduced_element*inter_size+i]; ++j) {
+					result[output_idx].idx = offset + j;
+					result[output_idx].val = values[j];
+					output_idx++;
+				}
+			}
+			else{ //intput in sparse format. item.idx is relative idx of its partitions...
+				const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)inter_splits[i]->items;
+				for(size_t j = 0; j < inter_splits[i]->nofitems; ++j) {
+					result[output_idx].idx = values[j].idx + offset;
+					result[output_idx].val = values[j].val;
+					output_idx++;
+				}
+			}
+			offset += segsizes[reduced_element*inter_size+i];
+		}
+	}
+	t_mpi1 += MPI_Wtime();
+	computeTime += t_mpi1;	
+	t_mpi = -MPI_Wtime();
 	
 	/*4. allgather - inside each group */
 	/**************************************************/
-/*  	//if (rank ==0){printf("[NNNN] [%d] intra lr allgather",rank);}
+ 	//if (rank ==0){printf("[NNNN] [%d] intra lr allgather",rank);}
 	src = ((intra_rank + intra_size - 1) % intra_size) + inter_rank * intra_size;
 	dst = ((intra_rank + 1) % intra_size) + inter_rank * intra_size;
 	
 	for (i = 0; i < (intra_size - 1); i++) {
-		for (j=0; j < inter_size; j++){
-			send_element = ((intra_rank - i + 2 * intra_size) % intra_size) * (size/intra_size) + j ;// * extent;
-			recv_element = ((intra_rank - 1 - i + 2 * intra_size) % intra_size) * (size/intra_size) + j;// * extent;		
-			//printf("[NNNN] [%d] src=%d dst=%d, step=%d-%d, send_element=%d, recv_element=%d\n",rank,src,dst,i,j,send_element,recv_element);
-		
-			MPI_Sendrecv(splits[send_element], countBytes<IdxType, ValType>(splits[send_element], segsizes[send_element]), MPI_BYTE, dst, tag + i, 
-				splits[recv_element], sizeof(ValType) * maxsegsize + sizeof(unsigned), MPI_BYTE,src, tag + i, comm, &status);	   	
-		}
+		send_element = ((intra_rank - i + 2 * intra_size) % intra_size) ;// * extent;
+		recv_element = ((intra_rank - 1 - i + 2 * intra_size) % intra_size);// * extent;
+		//printf("[NNNN] [%d] src=%d dst=%d, step=%d, send_element=%d, recv_element=%d\n",rank,src,dst,i,send_element,recv_element);
+		//printf("[NNNN] [%d] #eLement:%d , NumberOfByte: %d",intra_splits[send_element]->nofitems,countBytes<IdxType, ValType>(intra_splits[send_element], intra_segsizes[send_element]));
+		MPI_Sendrecv(intra_splits[send_element], countBytes<IdxType, ValType>(intra_splits[send_element], intra_segsizes[send_element]), MPI_BYTE, dst, tag + i, 
+			intra_splits[recv_element], sizeof(unsigned) + (inter_size * maxsegsize * sizeof(ValType)), MPI_BYTE,src, tag + i, comm, &status);	   	
 	} 
 	t_mpi += MPI_Wtime();
-	intraTime += t_mpi; */
+	intraTime += t_mpi;
 	
- /* // Add into received buffer
+	// Add into received buffer
 	t_mpi1 = -MPI_Wtime();
-  unsigned overall = 0;
-  for(i = 0; i < size; ++i) {
-    overall += splits[i]->nofitems;
-  }
+	unsigned overall = 0;
+	for(i = 0; i < intra_size; ++i) {
+		overall += intra_splits[i]->nofitems;
+	}
 
   if (overall * (sizeof(IdxType) + sizeof(ValType)) >= dim * sizeof(ValType)) {
     recvbuf->nofitems = dim;
     ValType * result = (ValType *)recvbuf->items;
-#pragma omp simd 
     for(size_t i = 0; i < dim; ++i) {
       result[i] = 0.0;
     }
     unsigned offset = 0;
-    for(i = 0; i < size; ++i) {
-      if((int)splits[i]->nofitems == segsizes[i]) {
+    for(i = 0; i < intra_size; ++i) {
+      if((int)intra_splits[i]->nofitems == intra_segsizes[i]) {
         // Dense
-        for(int j = 0; j < segsizes[i]; ++j) {
-          result[offset + j] = ((ValType *)splits[i]->items)[j];
+        for(int j1 = 0; j1 < intra_segsizes[i]; ++j1) {
+          result[offset + j1] = ((ValType *)intra_splits[i]->items)[j1];
         }
       } else {
         // Sparse
-        const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)splits[i]->items;
-        for(unsigned j = 0; j < splits[i]->nofitems; ++j) {
-          result[offset + values[j].idx] = values[j].val;
+        const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)intra_splits[i]->items;
+        for(unsigned j1 = 0; j1 < intra_splits[i]->nofitems; ++j1) {
+          result[offset + values[j1].idx] = values[j1].val;
         }
       }
-      offset += segsize;
+      offset += intra_segsizes[i];
     }
   } else {
     recvbuf->nofitems = overall;
     struct s_item<IdxType, ValType> *result = (struct s_item<IdxType, ValType> *)recvbuf->items;
     int idx = 0;
     unsigned offset = 0;
-    for(i = 0; i < size; ++i) {
-      if((int)splits[i]->nofitems == segsizes[i]) {
+    for(i = 0; i < intra_size; ++i) {
+      if((int)intra_splits[i]->nofitems == intra_segsizes[i]) {
         // Dense
-        for(j = 0; j < segsizes[i]; ++j) {
-          result[idx].idx = j + offset;
-          result[idx].val = ((ValType *)splits[i]->items)[j];
+        for(int j1 = 0; j1 < intra_segsizes[i]; ++j1) {
+          result[idx].idx = j1 + offset;
+          result[idx].val = ((ValType *)intra_splits[i]->items)[j1];
           idx++;
         }
       } else {
         // Sparse
-        const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)splits[i]->items;
-        for(unsigned j = 0; j < splits[i]->nofitems; ++j) {
-          result[idx].idx = values[j].idx + offset;
-          result[idx].val = values[j].val;
+        const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)intra_splits[i]->items;
+        for(unsigned j1 = 0; j1 < intra_splits[i]->nofitems; ++j1) {
+          result[idx].idx = values[j1].idx + offset;
+          result[idx].val = values[j1].val;
           idx++;
         }
       }
-      offset += segsize;
+      offset += intra_segsizes[i];
     }
-  }
+  } 
  	t_mpi1 += MPI_Wtime();
 	computeTime += t_mpi1;
-*/	
+	
 	
 	free(inter_buf);
 	free(intra_buf);

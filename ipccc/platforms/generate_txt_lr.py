@@ -41,7 +41,9 @@ def main():
 	if len(sys.argv) >= 4:
 		hostPerNode = int(sys.argv[3])
 
-	architecture = "Tsubame3"
+	#ABCI, DGX1Cluster, DGX2Cluster, PizDitant
+	architecture = "ABCI"
+	
 	if len(sys.argv) >= 5:
 		architecture = str(sys.argv[4])
 			
@@ -50,8 +52,7 @@ def main():
 	ARCHITECTURE = architecture
 	
 	pathFileName = ARCHITECTURE + "_" + str(totalNode) + '.' + deployType + '.txt'
-	if (ARCHITECTURE == "NVCluster"):
-		pathFileName = ARCHITECTURE + "_" + str(hostPerNode) + "_" + str(totalNode) + '.' + deployType + '.txt'
+
 	print 'Write paths into ' + pathFileName
 	fo = open(pathFileName, "w")
 	for nodeIdx in range(0,totalNode):
@@ -61,13 +62,13 @@ def main():
 				line = "n" + str(idx) + ":1\r\n"
 				fo.writelines(line)
 		if (deployType == "lr"):
-			mapping_order = [0,1,2,7,4,5,6,3]
+			mapping_order = [0,3,2,1,5,6,7,4]
 			if ( HOST_PER_NODE == 4):
 				mapping_order = [0,1,2,3]
 			if ( HOST_PER_NODE == 2):
 				mapping_order = [0,1]
 			if ( HOST_PER_NODE == 16):
-				mapping_order = [0,1,2,7,4,5,6,11,8,9,10,15,12,13,14,3]
+				mapping_order = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 				
 			for hostIdx in mapping_order:
 				idx = nodeIdx*HOST_PER_NODE + hostIdx

@@ -26,7 +26,7 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 	
 	int intra_rank = rank % intra_size; 
 	int inter_rank = rank / intra_size; // nodeIdx
-	
+	assert(sendbuf->nofitems == dim);
 	int rcount = dim;
 	int remainder, remainder_flag, remainder_offset;
 	if (rcount % size != 0) {
@@ -43,6 +43,7 @@ template<class IdxType, class ValType> int c_allreduce_dense_ring_ring(const str
 	
 	ValType *snd = (ValType*)sendbuf->items;
 	ValType *rcv = (ValType*)recvbuf->items;
+	recvbuf->nofitems = dim;
 	t_mpi += MPI_Wtime();
 	initTime += t_mpi;
 	t_mpi = -MPI_Wtime();
