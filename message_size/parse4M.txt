@@ -1,355 +1,1006 @@
 file	ALGORITHM	#CORE_NUMBER	BUF_SIZE	ITERATION	SIMULATE_TIME	DETAIL
-./logs4M/allreduce4M_lr_256.log	lr	4	4194304	1000	
-./logs4M/allreduce4M_lr_256.log	0.000028	Begin	0.000028	Start	0.000028	Inter-1			0.001312	Inter-2			0.002597	Finish
-./logs4M/allreduce4M_lr_256.log	0.002597	Begin	0.002597	Start	0.002597	Inter-1			0.003883	Inter-2			0.005168	Finish
-./logs4M/allreduce4M_lr_256.log	0.005168	Begin	0.005168	Start	0.005168	Inter-1			0.006454	Inter-2			0.007740	Finish
-./logs4M/allreduce4M_lr_256.log	0.007740	Begin	0.007740	Start	0.007740	Inter-1			0.009025	Inter-2			0.010311	Finish
-./logs4M/allreduce4M_lr_256.log	0.010311	Begin	0.010311	Start	0.010311	Inter-1			0.011596	Inter-2			0.012882	Finish
-./logs4M/allreduce4M_lr_256.log	0.012882	Begin	0.012882	Start	0.012882	Inter-1			0.014168	Inter-2			0.015453	Finish
-./logs4M/allreduce4M_lr_256.log	0.015453	Begin	0.015453	Start	0.015453	Inter-1			0.016739	Inter-2			0.018024	Finish
-./logs4M/allreduce4M_lr_256.log	0.018024	Begin	0.018024	Start	0.018024	Inter-1			0.019310	Inter-2			0.020595	Finish
-./logs4M/allreduce4M_lr_256.log	0.020596	Begin	0.020596	Start	0.020596	Inter-1			0.021881	Inter-2			0.023167	Finish
-./logs4M/allreduce4M_lr_256.log	0.023167	Begin	0.023167	Start	0.023167	Inter-1			0.024452	Inter-2			0.025738	Finish
-./logs4M/allreduce4M_lr_256.log	0.025738	Begin	0.025738	Start	0.025738	Inter-1			0.027023	Inter-2			0.028309	Finish
-./logs4M/allreduce4M_lr_256.log	0.028309	Begin	0.028309	Start	0.028309	Inter-1			0.029595	Inter-2			0.030880	Finish
-./logs4M/allreduce4M_lr_256.log	0.030880	Begin	0.030880	Start	0.030880	Inter-1			0.032166	Inter-2			0.033451	Finish
-./logs4M/allreduce4M_lr_256.log	0.033451	Begin	0.033451	Start	0.033451	Inter-1			0.034737	Inter-2			0.036022	Finish
-./logs4M/allreduce4M_lr_256.log	0.036022	Begin	0.036022	Start	0.036022	Inter-1			0.037308	Inter-2			0.038594	Finish
-./logs4M/allreduce4M_lr_256.log	0.038594	Begin	0.038594	Start	0.038594	Inter-1			0.039879	Inter-2			0.041165	Finish
-./logs4M/allreduce4M_lr_256.log	0.041165	Begin	0.041165	Start	0.041165	Inter-1			0.042450	Inter-2			0.043736	Finish
-./logs4M/allreduce4M_lr_256.log	0.043736	Begin	0.043736	Start	0.043736	Inter-1			0.045022	Inter-2			0.046307	Finish
-./logs4M/allreduce4M_lr_256.log	0.046307	Begin	0.046307	Start	0.046307	Inter-1			0.047593	Inter-2			0.048878	Finish
-./logs4M/allreduce4M_lr_256.log	0.048878	Begin	0.048878	Start	0.048878	Inter-1			0.050164	Inter-2			0.051449	Finish
-./logs4M/allreduce4M_lr_256.log	0.051449	Begin	0.051449	Start	0.051449	Inter-1			0.052735	Inter-2			0.054021	Finish
-./logs4M/allreduce4M_lr_256.log	0.054021	Begin	0.054021	Start	0.054021	Inter-1			0.055306	Inter-2			0.056592	Finish
-./logs4M/allreduce4M_lr_256.log	0.056592	Begin	0.056592	Start	0.056592	Inter-1			0.057877	Inter-2			0.059163	Finish
-./logs4M/allreduce4M_lr_256.log	0.059163	Begin	0.059163	Start	0.059163	Inter-1			0.060448	Inter-2			0.061734	Finish
-./logs4M/allreduce4M_lr_256.log	0.061734	Begin	0.061734	Start	0.061734	Inter-1			0.063020	Inter-2			0.064305	Finish
-./logs4M/allreduce4M_lr_256.log	0.064305	Begin	0.064305	Start	0.064305	Inter-1			0.065591	Inter-2			0.066876	Finish
-./logs4M/allreduce4M_lr_256.log	0.066876	Begin	0.066876	Start	0.066876	Inter-1			0.068162	Inter-2			0.069448	Finish
-./logs4M/allreduce4M_lr_256.log	0.069448	Begin	0.069448	Start	0.069448	Inter-1			0.070733	Inter-2			0.072019	Finish
-./logs4M/allreduce4M_lr_256.log	0.072019	Begin	0.072019	Start	0.072019	Inter-1			0.073304	Inter-2			0.074590	Finish
-./logs4M/allreduce4M_lr_256.log	0.074590	Begin	0.074590	Start	0.074590	Inter-1			0.075875	Inter-2			0.077161	Finish
-./logs4M/allreduce4M_lr_256.log	0.077161	Begin	0.077161	Start	0.077161	Inter-1			0.078447	Inter-2			0.079732	Finish
-./logs4M/allreduce4M_lr_256.log	0.079732	Begin	0.079732	Start	0.079732	Inter-1			0.081018	Inter-2			0.082303	Finish
-./logs4M/allreduce4M_lr_256.log	0.082303	Begin	0.082303	Start	0.082303	Inter-1			0.083589	Inter-2			0.084875	Finish
-./logs4M/allreduce4M_lr_256.log	0.084875	Begin	0.084875	Start	0.084875	Inter-1			0.086160	Inter-2			0.087446	Finish
-./logs4M/allreduce4M_lr_256.log	0.087446	Begin	0.087446	Start	0.087446	Inter-1			0.088731	Inter-2			0.090017	Finish
-./logs4M/allreduce4M_lr_256.log	0.090017	Begin	0.090017	Start	0.090017	Inter-1			0.091302	Inter-2			0.092588	Finish
-./logs4M/allreduce4M_lr_256.log	0.092588	Begin	0.092588	Start	0.092588	Inter-1			0.093874	Inter-2			0.095159	Finish
-./logs4M/allreduce4M_lr_256.log	0.095159	Begin	0.095159	Start	0.095159	Inter-1			0.096445	Inter-2			0.097730	Finish
-./logs4M/allreduce4M_lr_256.log	0.097730	Begin	0.097730	Start	0.097730	Inter-1			0.099016	Inter-2			0.100302	Finish
-./logs4M/allreduce4M_lr_256.log	0.100302	Begin	0.100302	Start	0.100302	Inter-1			0.101587	Inter-2			0.102873	Finish
-./logs4M/allreduce4M_lr_256.log	0.102873	Begin	0.102873	Start	0.102873	Inter-1			0.104158	Inter-2			0.105444	Finish
-./logs4M/allreduce4M_lr_256.log	0.105444	Begin	0.105444	Start	0.105444	Inter-1			0.106729	Inter-2			0.108015	Finish
-./logs4M/allreduce4M_lr_256.log	0.108015	Begin	0.108015	Start	0.108015	Inter-1			0.109301	Inter-2			0.110586	Finish
-./logs4M/allreduce4M_lr_256.log	0.110586	Begin	0.110586	Start	0.110586	Inter-1			0.111872	Inter-2			0.113157	Finish
-./logs4M/allreduce4M_lr_256.log	0.113157	Begin	0.113157	Start	0.113157	Inter-1			0.114443	Inter-2			0.115729	Finish
-./logs4M/allreduce4M_lr_256.log	0.115729	Begin	0.115729	Start	0.115729	Inter-1			0.117014	Inter-2			0.118300	Finish
-./logs4M/allreduce4M_lr_256.log	0.118300	Begin	0.118300	Start	0.118300	Inter-1			0.119585	Inter-2			0.120871	Finish
-./logs4M/allreduce4M_lr_256.log	0.120871	Begin	0.120871	Start	0.120871	Inter-1			0.122156	Inter-2			0.123442	Finish
-./logs4M/allreduce4M_lr_256.log	0.123442	Begin	0.123442	Start	0.123442	Inter-1			0.124728	Inter-2			0.126013	Finish
-./logs4M/allreduce4M_lr_256.log	0.126013	Begin	0.126013	Start	0.126013	Inter-1			0.127299	Inter-2			0.128584	Finish
-./logs4M/allreduce4M_lr_256.log	0.128584	Begin	0.128584	Start	0.128584	Inter-1			0.129870	Inter-2			0.131155	Finish
-./logs4M/allreduce4M_lr_256.log	0.131156	Begin	0.131156	Start	0.131156	Inter-1			0.132441	Inter-2			0.133727	Finish
-./logs4M/allreduce4M_lr_256.log	0.133727	Begin	0.133727	Start	0.133727	Inter-1			0.135012	Inter-2			0.136298	Finish
-./logs4M/allreduce4M_lr_256.log	0.136298	Begin	0.136298	Start	0.136298	Inter-1			0.137583	Inter-2			0.138869	Finish
-./logs4M/allreduce4M_lr_256.log	0.138869	Begin	0.138869	Start	0.138869	Inter-1			0.140155	Inter-2			0.141440	Finish
-./logs4M/allreduce4M_lr_256.log	0.141440	Begin	0.141440	Start	0.141440	Inter-1			0.142726	Inter-2			0.144011	Finish
-./logs4M/allreduce4M_lr_256.log	0.144011	Begin	0.144011	Start	0.144011	Inter-1			0.145297	Inter-2			0.146582	Finish
-./logs4M/allreduce4M_lr_256.log	0.146582	Begin	0.146582	Start	0.146582	Inter-1			0.147868	Inter-2			0.149154	Finish
-./logs4M/allreduce4M_lr_256.log	0.149154	Begin	0.149154	Start	0.149154	Inter-1			0.150439	Inter-2			0.151725	Finish
-./logs4M/allreduce4M_lr_256.log	0.151725	Begin	0.151725	Start	0.151725	Inter-1			0.153010	Inter-2			0.154296	Finish
-./logs4M/allreduce4M_lr_256.log	0.154296	Begin	0.154296	Start	0.154296	Inter-1			0.155582	Inter-2			0.156867	Finish
-./logs4M/allreduce4M_lr_256.log	0.156867	Begin	0.156867	Start	0.156867	Inter-1			0.158153	Inter-2			0.159438	Finish
-./logs4M/allreduce4M_lr_256.log	0.159438	Begin	0.159438	Start	0.159438	Inter-1			0.160724	Inter-2			0.162009	Finish
-./logs4M/allreduce4M_lr_256.log	0.162009	Begin	0.162009	Start	0.162009	Inter-1			0.163295	Inter-2			0.164581	Finish
-./logs4M/allreduce4M_lr_256.log	0.164581	Begin	0.164581	Start	0.164581	Inter-1			0.165866	Inter-2			0.167152	Finish
-./logs4M/allreduce4M_lr_256.log	0.167152	Begin	0.167152	Start	0.167152	Inter-1			0.168437	Inter-2			0.169723	Finish
-./logs4M/allreduce4M_lr_256.log	0.169723	Begin	0.169723	Start	0.169723	Inter-1			0.171009	Inter-2			0.172294	Finish
-./logs4M/allreduce4M_lr_256.log	0.172294	Begin	0.172294	Start	0.172294	Inter-1			0.173580	Inter-2			0.174865	Finish
-./logs4M/allreduce4M_lr_256.log	0.174865	Begin	0.174865	Start	0.174865	Inter-1			0.176151	Inter-2			0.177436	Finish
-./logs4M/allreduce4M_lr_256.log	0.177436	Begin	0.177436	Start	0.177436	Inter-1			0.178722	Inter-2			0.180008	Finish
-./logs4M/allreduce4M_lr_256.log	0.180008	Begin	0.180008	Start	0.180008	Inter-1			0.181293	Inter-2			0.182579	Finish
-./logs4M/allreduce4M_lr_256.log	0.182579	Begin	0.182579	Start	0.182579	Inter-1			0.183864	Inter-2			0.185150	Finish
-./logs4M/allreduce4M_lr_256.log	0.185150	Begin	0.185150	Start	0.185150	Inter-1			0.186435	Inter-2			0.187721	Finish
-./logs4M/allreduce4M_lr_256.log	0.187721	Begin	0.187721	Start	0.187721	Inter-1			0.189007	Inter-2			0.190292	Finish
-./logs4M/allreduce4M_lr_256.log	0.190292	Begin	0.190292	Start	0.190292	Inter-1			0.191578	Inter-2			0.192863	Finish
-./logs4M/allreduce4M_lr_256.log	0.192863	Begin	0.192863	Start	0.192863	Inter-1			0.194149	Inter-2			0.195435	Finish
-./logs4M/allreduce4M_lr_256.log	0.195435	Begin	0.195435	Start	0.195435	Inter-1			0.196720	Inter-2			0.198006	Finish
-./logs4M/allreduce4M_lr_256.log	0.198006	Begin	0.198006	Start	0.198006	Inter-1			0.199291	Inter-2			0.200577	Finish
-./logs4M/allreduce4M_lr_256.log	0.200577	Begin	0.200577	Start	0.200577	Inter-1			0.201862	Inter-2			0.203148	Finish
-./logs4M/allreduce4M_lr_256.log	0.203148	Begin	0.203148	Start	0.203148	Inter-1			0.204434	Inter-2			0.205719	Finish
-./logs4M/allreduce4M_lr_256.log	0.205719	Begin	0.205719	Start	0.205719	Inter-1			0.207005	Inter-2			0.208290	Finish
-./logs4M/allreduce4M_lr_256.log	0.208290	Begin	0.208290	Start	0.208290	Inter-1			0.209576	Inter-2			0.210861	Finish
-./logs4M/allreduce4M_lr_256.log	0.210861	Begin	0.210861	Start	0.210861	Inter-1			0.212147	Inter-2			0.213433	Finish
-./logs4M/allreduce4M_lr_256.log	0.213433	Begin	0.213433	Start	0.213433	Inter-1			0.214718	Inter-2			0.216004	Finish
-./logs4M/allreduce4M_lr_256.log	0.216004	Begin	0.216004	Start	0.216004	Inter-1			0.217289	Inter-2			0.218575	Finish
-./logs4M/allreduce4M_lr_256.log	0.218575	Begin	0.218575	Start	0.218575	Inter-1			0.219861	Inter-2			0.221146	Finish
-./logs4M/allreduce4M_lr_256.log	0.221146	Begin	0.221146	Start	0.221146	Inter-1			0.222432	Inter-2			0.223717	Finish
-./logs4M/allreduce4M_lr_256.log	0.223717	Begin	0.223717	Start	0.223717	Inter-1			0.225003	Inter-2			0.226288	Finish
-./logs4M/allreduce4M_lr_256.log	0.226288	Begin	0.226288	Start	0.226288	Inter-1			0.227574	Inter-2			0.228860	Finish
-./logs4M/allreduce4M_lr_256.log	0.228860	Begin	0.228860	Start	0.228860	Inter-1			0.230145	Inter-2			0.231431	Finish
-./logs4M/allreduce4M_lr_256.log	0.231431	Begin	0.231431	Start	0.231431	Inter-1			0.232716	Inter-2			0.234002	Finish
-./logs4M/allreduce4M_lr_256.log	0.234002	Begin	0.234002	Start	0.234002	Inter-1			0.235288	Inter-2			0.236573	Finish
-./logs4M/allreduce4M_lr_256.log	0.236573	Begin	0.236573	Start	0.236573	Inter-1			0.237859	Inter-2			0.239144	Finish
-./logs4M/allreduce4M_lr_256.log	0.239144	Begin	0.239144	Start	0.239144	Inter-1			0.240430	Inter-2			0.241715	Finish
-./logs4M/allreduce4M_lr_256.log	0.241715	Begin	0.241715	Start	0.241715	Inter-1			0.243001	Inter-2			0.244287	Finish
-./logs4M/allreduce4M_lr_256.log	0.244287	Begin	0.244287	Start	0.244287	Inter-1			0.245572	Inter-2			0.246858	Finish
-./logs4M/allreduce4M_lr_256.log	0.246858	Begin	0.246858	Start	0.246858	Inter-1			0.248143	Inter-2			0.249429	Finish
-./logs4M/allreduce4M_lr_256.log	0.249429	Begin	0.249429	Start	0.249429	Inter-1			0.250714	Inter-2			0.252000	Finish
-./logs4M/allreduce4M_lr_256.log	0.252000	Begin	0.252000	Start	0.252000	Inter-1			0.253286	Inter-2			0.254571	Finish
-./logs4M/allreduce4M_lr_256.log	0.254571	Begin	0.254571	Start	0.254571	Inter-1			0.255857	Inter-2			0.257142	Finish
-./logs4M/allreduce4M_lr_256.log	0.257142	Begin	0.257142	Start	0.257142	Inter-1			0.258428	Inter-2			0.259714	Finish
-./logs4M/allreduce4M_lr_256.log	0.259714	Begin	0.259714	Start	0.259714	Inter-1			0.260999	Inter-2			0.262285	Finish
-./logs4M/allreduce4M_lr_256.log	0.262285	Begin	0.262285	Start	0.262285	Inter-1			0.263570	Inter-2			0.264856	Finish
-./logs4M/allreduce4M_lr_256.log	0.264856	Begin	0.264856	Start	0.264856	Inter-1			0.266141	Inter-2			0.267427	Finish
-./logs4M/allreduce4M_lr_256.log	0.267427	Begin	0.267427	Start	0.267427	Inter-1			0.268713	Inter-2			0.269998	Finish
-./logs4M/allreduce4M_lr_256.log	0.269998	Begin	0.269998	Start	0.269998	Inter-1			0.271284	Inter-2			0.272569	Finish
-./logs4M/allreduce4M_lr_256.log	0.272569	Begin	0.272569	Start	0.272569	Inter-1			0.273855	Inter-2			0.275141	Finish
-./logs4M/allreduce4M_lr_256.log	0.275141	Begin	0.275141	Start	0.275141	Inter-1			0.276426	Inter-2			0.277712	Finish
-./logs4M/allreduce4M_lr_256.log	0.277712	Begin	0.277712	Start	0.277712	Inter-1			0.278997	Inter-2			0.280283	Finish
-./logs4M/allreduce4M_lr_256.log	0.280283	Begin	0.280283	Start	0.280283	Inter-1			0.281569	Inter-2			0.282854	Finish
-./logs4M/allreduce4M_lr_256.log	0.282854	Begin	0.282854	Start	0.282854	Inter-1			0.284140	Inter-2			0.285425	Finish
-./logs4M/allreduce4M_lr_256.log	0.285425	Begin	0.285425	Start	0.285425	Inter-1			0.286711	Inter-2			0.287996	Finish
-./logs4M/allreduce4M_lr_256.log	0.287996	Begin	0.287996	Start	0.287996	Inter-1			0.289282	Inter-2			0.290568	Finish
-./logs4M/allreduce4M_lr_256.log	0.290568	Begin	0.290568	Start	0.290568	Inter-1			0.291853	Inter-2			0.293139	Finish
-./logs4M/allreduce4M_lr_256.log	0.293139	Begin	0.293139	Start	0.293139	Inter-1			0.294424	Inter-2			0.295710	Finish
-./logs4M/allreduce4M_lr_256.log	0.295710	Begin	0.295710	Start	0.295710	Inter-1			0.296996	Inter-2			0.298281	Finish
-./logs4M/allreduce4M_lr_256.log	0.298281	Begin	0.298281	Start	0.298281	Inter-1			0.299567	Inter-2			0.300852	Finish
-./logs4M/allreduce4M_lr_256.log	0.300852	Begin	0.300852	Start	0.300852	Inter-1			0.302138	Inter-2			0.303423	Finish
-./logs4M/allreduce4M_lr_256.log	0.303423	Begin	0.303423	Start	0.303423	Inter-1			0.304709	Inter-2			0.305995	Finish
-./logs4M/allreduce4M_lr_256.log	0.305995	Begin	0.305995	Start	0.305995	Inter-1			0.307280	Inter-2			0.308566	Finish
-./logs4M/allreduce4M_lr_256.log	0.308566	Begin	0.308566	Start	0.308566	Inter-1			0.309851	Inter-2			0.311137	Finish
-./logs4M/allreduce4M_lr_256.log	0.311137	Begin	0.311137	Start	0.311137	Inter-1			0.312422	Inter-2			0.313708	Finish
-./logs4M/allreduce4M_lr_256.log	0.313708	Begin	0.313708	Start	0.313708	Inter-1			0.314994	Inter-2			0.316279	Finish
-./logs4M/allreduce4M_lr_256.log	0.316279	Begin	0.316279	Start	0.316279	Inter-1			0.317565	Inter-2			0.318850	Finish
-./logs4M/allreduce4M_lr_256.log	0.318850	Begin	0.318850	Start	0.318850	Inter-1			0.320136	Inter-2			0.321422	Finish
-./logs4M/allreduce4M_lr_256.log	0.321422	Begin	0.321422	Start	0.321422	Inter-1			0.322707	Inter-2			0.323993	Finish
-./logs4M/allreduce4M_lr_256.log	0.323993	Begin	0.323993	Start	0.323993	Inter-1			0.325278	Inter-2			0.326564	Finish
-./logs4M/allreduce4M_lr_256.log	0.326564	Begin	0.326564	Start	0.326564	Inter-1			0.327849	Inter-2			0.329135	Finish
-./logs4M/allreduce4M_lr_256.log	0.329135	Begin	0.329135	Start	0.329135	Inter-1			0.330421	Inter-2			0.331706	Finish
-./logs4M/allreduce4M_lr_256.log	0.331706	Begin	0.331706	Start	0.331706	Inter-1			0.332992	Inter-2			0.334277	Finish
-./logs4M/allreduce4M_lr_256.log	0.334277	Begin	0.334277	Start	0.334277	Inter-1			0.335563	Inter-2			0.336849	Finish
-./logs4M/allreduce4M_lr_256.log	0.336849	Begin	0.336849	Start	0.336849	Inter-1			0.338134	Inter-2			0.339420	Finish
-./logs4M/allreduce4M_lr_256.log	0.339420	Begin	0.339420	Start	0.339420	Inter-1			0.340705	Inter-2			0.341991	Finish
-./logs4M/allreduce4M_lr_256.log	0.341991	Begin	0.341991	Start	0.341991	Inter-1			0.343276	Inter-2			0.344562	Finish
-./logs4M/allreduce4M_lr_256.log	0.344562	Begin	0.344562	Start	0.344562	Inter-1			0.345848	Inter-2			0.347133	Finish
-./logs4M/allreduce4M_lr_256.log	0.347133	Begin	0.347133	Start	0.347133	Inter-1			0.348419	Inter-2			0.349704	Finish
-./logs4M/allreduce4M_lr_256.log	0.349704	Begin	0.349704	Start	0.349704	Inter-1			0.350990	Inter-2			0.352275	Finish
-./logs4M/allreduce4M_lr_256.log	0.352275	Begin	0.352275	Start	0.352275	Inter-1			0.353561	Inter-2			0.354847	Finish
-./logs4M/allreduce4M_lr_256.log	0.354847	Begin	0.354847	Start	0.354847	Inter-1			0.356132	Inter-2			0.357418	Finish
-./logs4M/allreduce4M_lr_256.log	0.357418	Begin	0.357418	Start	0.357418	Inter-1			0.358703	Inter-2			0.359989	Finish
-./logs4M/allreduce4M_lr_256.log	0.359989	Begin	0.359989	Start	0.359989	Inter-1			0.361275	Inter-2			0.362560	Finish
-./logs4M/allreduce4M_lr_256.log	0.362560	Begin	0.362560	Start	0.362560	Inter-1			0.363846	Inter-2			0.365131	Finish
-./logs4M/allreduce4M_lr_256.log	0.365131	Begin	0.365131	Start	0.365131	Inter-1			0.366417	Inter-2			0.367702	Finish
-./logs4M/allreduce4M_lr_256.log	0.367702	Begin	0.367702	Start	0.367702	Inter-1			0.368988	Inter-2			0.370274	Finish
-./logs4M/allreduce4M_lr_256.log	0.370274	Begin	0.370274	Start	0.370274	Inter-1			0.371559	Inter-2			0.372845	Finish
-./logs4M/allreduce4M_lr_256.log	0.372845	Begin	0.372845	Start	0.372845	Inter-1			0.374130	Inter-2			0.375416	Finish
-./logs4M/allreduce4M_lr_256.log	0.375416	Begin	0.375416	Start	0.375416	Inter-1			0.376701	Inter-2			0.377987	Finish
-./logs4M/allreduce4M_lr_256.log	0.377987	Begin	0.377987	Start	0.377987	Inter-1			0.379273	Inter-2			0.380558	Finish
-./logs4M/allreduce4M_lr_256.log	0.380558	Begin	0.380558	Start	0.380558	Inter-1			0.381844	Inter-2			0.383129	Finish
-./logs4M/allreduce4M_lr_256.log	0.383129	Begin	0.383129	Start	0.383129	Inter-1			0.384415	Inter-2			0.385701	Finish
-./logs4M/allreduce4M_lr_256.log	0.385701	Begin	0.385701	Start	0.385701	Inter-1			0.386986	Inter-2			0.388272	Finish
-./logs4M/allreduce4M_lr_256.log	0.388272	Begin	0.388272	Start	0.388272	Inter-1			0.389557	Inter-2			0.390843	Finish
-./logs4M/allreduce4M_lr_256.log	0.390843	Begin	0.390843	Start	0.390843	Inter-1			0.392128	Inter-2			0.393414	Finish
-./logs4M/allreduce4M_lr_256.log	0.393414	Begin	0.393414	Start	0.393414	Inter-1			0.394700	Inter-2			0.395985	Finish
-./logs4M/allreduce4M_lr_256.log	0.395985	Begin	0.395985	Start	0.395985	Inter-1			0.397271	Inter-2			0.398556	Finish
-./logs4M/allreduce4M_lr_256.log	0.398556	Begin	0.398556	Start	0.398556	Inter-1			0.399842	Inter-2			0.401128	Finish
-./logs4M/allreduce4M_lr_256.log	0.401128	Begin	0.401128	Start	0.401128	Inter-1			0.402413	Inter-2			0.403699	Finish
-./logs4M/allreduce4M_lr_256.log	0.403699	Begin	0.403699	Start	0.403699	Inter-1			0.404984	Inter-2			0.406270	Finish
-./logs4M/allreduce4M_lr_256.log	0.406270	Begin	0.406270	Start	0.406270	Inter-1			0.407555	Inter-2			0.408841	Finish
-./logs4M/allreduce4M_lr_256.log	0.408841	Begin	0.408841	Start	0.408841	Inter-1			0.410127	Inter-2			0.411412	Finish
-./logs4M/allreduce4M_lr_256.log	0.411412	Begin	0.411412	Start	0.411412	Inter-1			0.412698	Inter-2			0.413983	Finish
-./logs4M/allreduce4M_lr_256.log	0.413983	Begin	0.413983	Start	0.413983	Inter-1			0.415269	Inter-2			0.416554	Finish
-./logs4M/allreduce4M_lr_256.log	0.416554	Begin	0.416554	Start	0.416554	Inter-1			0.417840	Inter-2			0.419126	Finish
-./logs4M/allreduce4M_lr_256.log	0.419126	Begin	0.419126	Start	0.419126	Inter-1			0.420411	Inter-2			0.421697	Finish
-./logs4M/allreduce4M_lr_256.log	0.421697	Begin	0.421697	Start	0.421697	Inter-1			0.422982	Inter-2			0.424268	Finish
-./logs4M/allreduce4M_lr_256.log	0.424268	Begin	0.424268	Start	0.424268	Inter-1			0.425554	Inter-2			0.426839	Finish
-./logs4M/allreduce4M_lr_256.log	0.426839	Begin	0.426839	Start	0.426839	Inter-1			0.428125	Inter-2			0.429410	Finish
-./logs4M/allreduce4M_lr_256.log	0.429410	Begin	0.429410	Start	0.429410	Inter-1			0.430696	Inter-2			0.431981	Finish
-./logs4M/allreduce4M_lr_256.log	0.431981	Begin	0.431981	Start	0.431981	Inter-1			0.433267	Inter-2			0.434553	Finish
-./logs4M/allreduce4M_lr_256.log	0.434553	Begin	0.434553	Start	0.434553	Inter-1			0.435838	Inter-2			0.437124	Finish
-./logs4M/allreduce4M_lr_256.log	0.437124	Begin	0.437124	Start	0.437124	Inter-1			0.438409	Inter-2			0.439695	Finish
-./logs4M/allreduce4M_lr_256.log	0.439695	Begin	0.439695	Start	0.439695	Inter-1			0.440981	Inter-2			0.442266	Finish
-./logs4M/allreduce4M_lr_256.log	0.442266	Begin	0.442266	Start	0.442266	Inter-1			0.443552	Inter-2			0.444837	Finish
-./logs4M/allreduce4M_lr_256.log	0.444837	Begin	0.444837	Start	0.444837	Inter-1			0.446123	Inter-2			0.447408	Finish
-./logs4M/allreduce4M_lr_256.log	0.447408	Begin	0.447408	Start	0.447408	Inter-1			0.448694	Inter-2			0.449980	Finish
-./logs4M/allreduce4M_lr_256.log	0.449980	Begin	0.449980	Start	0.449980	Inter-1			0.451265	Inter-2			0.452551	Finish
-./logs4M/allreduce4M_lr_256.log	0.452551	Begin	0.452551	Start	0.452551	Inter-1			0.453836	Inter-2			0.455122	Finish
-./logs4M/allreduce4M_lr_256.log	0.455122	Begin	0.455122	Start	0.455122	Inter-1			0.456407	Inter-2			0.457693	Finish
-./logs4M/allreduce4M_lr_256.log	0.457693	Begin	0.457693	Start	0.457693	Inter-1			0.458979	Inter-2			0.460264	Finish
-./logs4M/allreduce4M_lr_256.log	0.460264	Begin	0.460264	Start	0.460264	Inter-1			0.461550	Inter-2			0.462835	Finish
-./logs4M/allreduce4M_lr_256.log	0.462835	Begin	0.462835	Start	0.462835	Inter-1			0.464121	Inter-2			0.465407	Finish
-./logs4M/allreduce4M_lr_256.log	0.465407	Begin	0.465407	Start	0.465407	Inter-1			0.466692	Inter-2			0.467978	Finish
-./logs4M/allreduce4M_lr_256.log	0.467978	Begin	0.467978	Start	0.467978	Inter-1			0.469263	Inter-2			0.470549	Finish
-./logs4M/allreduce4M_lr_256.log	0.470549	Begin	0.470549	Start	0.470549	Inter-1			0.471834	Inter-2			0.473120	Finish
-./logs4M/allreduce4M_lr_256.log	0.473120	Begin	0.473120	Start	0.473120	Inter-1			0.474406	Inter-2			0.475691	Finish
-./logs4M/allreduce4M_lr_256.log	0.475691	Begin	0.475691	Start	0.475691	Inter-1			0.476977	Inter-2			0.478262	Finish
-./logs4M/allreduce4M_lr_256.log	0.478262	Begin	0.478262	Start	0.478262	Inter-1			0.479548	Inter-2			0.480833	Finish
-./logs4M/allreduce4M_lr_256.log	0.480833	Begin	0.480833	Start	0.480833	Inter-1			0.482119	Inter-2			0.483405	Finish
-./logs4M/allreduce4M_lr_256.log	0.483405	Begin	0.483405	Start	0.483405	Inter-1			0.484690	Inter-2			0.485976	Finish
-./logs4M/allreduce4M_lr_256.log	0.485976	Begin	0.485976	Start	0.485976	Inter-1			0.487261	Inter-2			0.488547	Finish
-./logs4M/allreduce4M_lr_256.log	0.488547	Begin	0.488547	Start	0.488547	Inter-1			0.489833	Inter-2			0.491118	Finish
-./logs4M/allreduce4M_lr_256.log	0.491118	Begin	0.491118	Start	0.491118	Inter-1			0.492404	Inter-2			0.493689	Finish
-./logs4M/allreduce4M_lr_256.log	0.493689	Begin	0.493689	Start	0.493689	Inter-1			0.494975	Inter-2			0.496260	Finish
-./logs4M/allreduce4M_lr_256.log	0.496260	Begin	0.496260	Start	0.496260	Inter-1			0.497546	Inter-2			0.498832	Finish
-./logs4M/allreduce4M_lr_256.log	0.498832	Begin	0.498832	Start	0.498832	Inter-1			0.500117	Inter-2			0.501403	Finish
-./logs4M/allreduce4M_lr_256.log	0.501403	Begin	0.501403	Start	0.501403	Inter-1			0.502688	Inter-2			0.503974	Finish
-./logs4M/allreduce4M_lr_256.log	0.503974	Begin	0.503974	Start	0.503974	Inter-1			0.505260	Inter-2			0.506545	Finish
-./logs4M/allreduce4M_lr_256.log	0.506545	Begin	0.506545	Start	0.506545	Inter-1			0.507831	Inter-2			0.509116	Finish
-./logs4M/allreduce4M_lr_256.log	0.509116	Begin	0.509116	Start	0.509116	Inter-1			0.510402	Inter-2			0.511687	Finish
-./logs4M/allreduce4M_lr_256.log	0.511687	Begin	0.511687	Start	0.511687	Inter-1			0.512973	Inter-2			0.514259	Finish
-./logs4M/allreduce4M_lr_256.log	0.514259	Begin	0.514259	Start	0.514259	Inter-1			0.515544	Inter-2			0.516830	Finish
-./logs4M/allreduce4M_lr_256.log	0.516830	Begin	0.516830	Start	0.516830	Inter-1			0.518115	Inter-2			0.519401	Finish
-./logs4M/allreduce4M_lr_256.log	0.519401	Begin	0.519401	Start	0.519401	Inter-1			0.520686	Inter-2			0.521972	Finish
-./logs4M/allreduce4M_lr_256.log	0.521972	Begin	0.521972	Start	0.521972	Inter-1			0.523258	Inter-2			0.524543	Finish
-./logs4M/allreduce4M_lr_256.log	0.524543	Begin	0.524543	Start	0.524543	Inter-1			0.525829	Inter-2			0.527114	Finish
-./logs4M/allreduce4M_lr_256.log	0.527114	Begin	0.527114	Start	0.527114	Inter-1			0.528400	Inter-2			0.529686	Finish
-./logs4M/allreduce4M_lr_256.log	0.529686	Begin	0.529686	Start	0.529686	Inter-1			0.530971	Inter-2			0.532257	Finish
-./logs4M/allreduce4M_lr_256.log	0.532257	Begin	0.532257	Start	0.532257	Inter-1			0.533542	Inter-2			0.534828	Finish
-./logs4M/allreduce4M_lr_256.log	0.534828	Begin	0.534828	Start	0.534828	Inter-1			0.536114	Inter-2			0.537399	Finish
-./logs4M/allreduce4M_lr_256.log	0.537399	Begin	0.537399	Start	0.537399	Inter-1			0.538685	Inter-2			0.539970	Finish
-./logs4M/allreduce4M_lr_256.log	0.539970	Begin	0.539970	Start	0.539970	Inter-1			0.541256	Inter-2			0.542541	Finish
-./logs4M/allreduce4M_lr_256.log	0.542541	Begin	0.542541	Start	0.542541	Inter-1			0.543827	Inter-2			0.545113	Finish
-./logs4M/allreduce4M_lr_256.log	0.545113	Begin	0.545113	Start	0.545113	Inter-1			0.546398	Inter-2			0.547684	Finish
-./logs4M/allreduce4M_lr_256.log	0.547684	Begin	0.547684	Start	0.547684	Inter-1			0.548969	Inter-2			0.550255	Finish
-./logs4M/allreduce4M_lr_256.log	0.550255	Begin	0.550255	Start	0.550255	Inter-1			0.551541	Inter-2			0.552826	Finish
-./logs4M/allreduce4M_lr_256.log	0.552826	Begin	0.552826	Start	0.552826	Inter-1			0.554112	Inter-2			0.555397	Finish
-./logs4M/allreduce4M_lr_256.log	0.555397	Begin	0.555397	Start	0.555397	Inter-1			0.556683	Inter-2			0.557969	Finish
-./logs4M/allreduce4M_lr_256.log	0.557969	Begin	0.557969	Start	0.557969	Inter-1			0.559254	Inter-2			0.560540	Finish
-./logs4M/allreduce4M_lr_256.log	0.560540	Begin	0.560540	Start	0.560540	Inter-1			0.561825	Inter-2			0.563111	Finish
-./logs4M/allreduce4M_lr_256.log	0.563111	Begin	0.563111	Start	0.563111	Inter-1			0.564396	Inter-2			0.565682	Finish
-./logs4M/allreduce4M_lr_256.log	0.565682	Begin	0.565682	Start	0.565682	Inter-1			0.566968	Inter-2			0.568253	Finish
-./logs4M/allreduce4M_lr_256.log	0.568253	Begin	0.568253	Start	0.568253	Inter-1			0.569539	Inter-2			0.570824	Finish
-./logs4M/allreduce4M_lr_256.log	0.570824	Begin	0.570824	Start	0.570824	Inter-1			0.572110	Inter-2			0.573395	Finish
-./logs4M/allreduce4M_lr_256.log	0.573395	Begin	0.573395	Start	0.573395	Inter-1			0.574681	Inter-2			0.575967	Finish
-./logs4M/allreduce4M_lr_256.log	0.575967	Begin	0.575967	Start	0.575967	Inter-1			0.577252	Inter-2			0.578538	Finish
-./logs4M/allreduce4M_lr_256.log	0.578538	Begin	0.578538	Start	0.578538	Inter-1			0.579823	Inter-2			0.581109	Finish
-./logs4M/allreduce4M_lr_256.log	0.581109	Begin	0.581109	Start	0.581109	Inter-1			0.582395	Inter-2			0.583680	Finish
-./logs4M/allreduce4M_lr_256.log	0.583680	Begin	0.583680	Start	0.583680	Inter-1			0.584966	Inter-2			0.586251	Finish
-./logs4M/allreduce4M_lr_256.log	0.586251	Begin	0.586251	Start	0.586251	Inter-1			0.587537	Inter-2			0.588822	Finish
-./logs4M/allreduce4M_lr_256.log	0.588822	Begin	0.588822	Start	0.588822	Inter-1			0.590108	Inter-2			0.591394	Finish
-./logs4M/allreduce4M_lr_256.log	0.591394	Begin	0.591394	Start	0.591394	Inter-1			0.592679	Inter-2			0.593965	Finish
-./logs4M/allreduce4M_lr_256.log	0.593965	Begin	0.593965	Start	0.593965	Inter-1			0.595250	Inter-2			0.596536	Finish
-./logs4M/allreduce4M_lr_256.log	0.596536	Begin	0.596536	Start	0.596536	Inter-1			0.597822	Inter-2			0.599107	Finish
-./logs4M/allreduce4M_lr_256.log	0.599107	Begin	0.599107	Start	0.599107	Inter-1			0.600393	Inter-2			0.601678	Finish
-./logs4M/allreduce4M_lr_256.log	0.601678	Begin	0.601678	Start	0.601678	Inter-1			0.602964	Inter-2			0.604249	Finish
-./logs4M/allreduce4M_lr_256.log	0.604249	Begin	0.604249	Start	0.604249	Inter-1			0.605535	Inter-2			0.606821	Finish
-./logs4M/allreduce4M_lr_256.log	0.606821	Begin	0.606821	Start	0.606821	Inter-1			0.608106	Inter-2			0.609392	Finish
-./logs4M/allreduce4M_lr_256.log	0.609392	Begin	0.609392	Start	0.609392	Inter-1			0.610677	Inter-2			0.611963	Finish
-./logs4M/allreduce4M_lr_256.log	0.611963	Begin	0.611963	Start	0.611963	Inter-1			0.613248	Inter-2			0.614534	Finish
-./logs4M/allreduce4M_lr_256.log	0.614534	Begin	0.614534	Start	0.614534	Inter-1			0.615820	Inter-2			0.617105	Finish
-./logs4M/allreduce4M_lr_256.log	0.617105	Begin	0.617105	Start	0.617105	Inter-1			0.618391	Inter-2			0.619676	Finish
-./logs4M/allreduce4M_lr_256.log	0.619676	Begin	0.619676	Start	0.619676	Inter-1			0.620962	Inter-2			0.622248	Finish
-./logs4M/allreduce4M_lr_256.log	0.622248	Begin	0.622248	Start	0.622248	Inter-1			0.623533	Inter-2			0.624819	Finish
-./logs4M/allreduce4M_lr_256.log	0.624819	Begin	0.624819	Start	0.624819	Inter-1			0.626104	Inter-2			0.627390	Finish
-./logs4M/allreduce4M_lr_256.log	0.627390	Begin	0.627390	Start	0.627390	Inter-1			0.628675	Inter-2			0.629961	Finish
-./logs4M/allreduce4M_lr_256.log	0.629961	Begin	0.629961	Start	0.629961	Inter-1			0.631247	Inter-2			0.632532	Finish
-./logs4M/allreduce4M_lr_256.log	0.632532	Begin	0.632532	Start	0.632532	Inter-1			0.633818	Inter-2			0.635103	Finish
-./logs4M/allreduce4M_lr_256.log	0.635103	Begin	0.635103	Start	0.635103	Inter-1			0.636389	Inter-2			0.637674	Finish
-./logs4M/allreduce4M_lr_256.log	0.637675	Begin	0.637675	Start	0.637675	Inter-1			0.638960	Inter-2			0.640246	Finish
-./logs4M/allreduce4M_lr_256.log	0.640246	Begin	0.640246	Start	0.640246	Inter-1			0.641531	Inter-2			0.642817	Finish
-./logs4M/allreduce4M_lr_256.log	0.642817	Begin	0.642817	Start	0.642817	Inter-1			0.644102	Inter-2			0.645388	Finish
-./logs4M/allreduce4M_lr_256.log	0.645388	Begin	0.645388	Start	0.645388	Inter-1			0.646674	Inter-2			0.647959	Finish
-./logs4M/allreduce4M_lr_256.log	0.647959	Begin	0.647959	Start	0.647959	Inter-1			0.649245	Inter-2			0.650530	Finish
-./logs4M/allreduce4M_lr_256.log	0.650530	Begin	0.650530	Start	0.650530	Inter-1			0.651816	Inter-2			0.653101	Finish
-./logs4M/allreduce4M_lr_256.log	0.653101	Begin	0.653101	Start	0.653101	Inter-1			0.654387	Inter-2			0.655673	Finish
-./logs4M/allreduce4M_lr_256.log	0.655673	Begin	0.655673	Start	0.655673	Inter-1			0.656958	Inter-2			0.658244	Finish
-./logs4M/allreduce4M_lr_256.log	0.658244	Begin	0.658244	Start	0.658244	Inter-1			0.659529	Inter-2			0.660815	Finish
-./logs4M/allreduce4M_lr_256.log	0.660815	Begin	0.660815	Start	0.660815	Inter-1			0.662101	Inter-2			0.663386	Finish
-./logs4M/allreduce4M_lr_256.log	0.663386	Begin	0.663386	Start	0.663386	Inter-1			0.664672	Inter-2			0.665957	Finish
-./logs4M/allreduce4M_lr_256.log	0.665957	Begin	0.665957	Start	0.665957	Inter-1			0.667243	Inter-2			0.668528	Finish
-./logs4M/allreduce4M_lr_256.log	0.668528	Begin	0.668528	Start	0.668528	Inter-1			0.669814	Inter-2			0.671100	Finish
-./logs4M/allreduce4M_lr_256.log	0.671100	Begin	0.671100	Start	0.671100	Inter-1			0.672385	Inter-2			0.673671	Finish
-./logs4M/allreduce4M_lr_256.log	0.673671	Begin	0.673671	Start	0.673671	Inter-1			0.674956	Inter-2			0.676242	Finish
-./logs4M/allreduce4M_lr_256.log	0.676242	Begin	0.676242	Start	0.676242	Inter-1			0.677527	Inter-2			0.678813	Finish
-./logs4M/allreduce4M_lr_256.log	0.678813	Begin	0.678813	Start	0.678813	Inter-1			0.680099	Inter-2			0.681384	Finish
-./logs4M/allreduce4M_lr_256.log	0.681384	Begin	0.681384	Start	0.681384	Inter-1			0.682670	Inter-2			0.683955	Finish
-./logs4M/allreduce4M_lr_256.log	0.683955	Begin	0.683955	Start	0.683955	Inter-1			0.685241	Inter-2			0.686527	Finish
-./logs4M/allreduce4M_lr_256.log	0.686527	Begin	0.686527	Start	0.686527	Inter-1			0.687812	Inter-2			0.689098	Finish
-./logs4M/allreduce4M_lr_256.log	0.689098	Begin	0.689098	Start	0.689098	Inter-1			0.690383	Inter-2			0.691669	Finish
-./logs4M/allreduce4M_lr_256.log	0.691669	Begin	0.691669	Start	0.691669	Inter-1			0.692954	Inter-2			0.694240	Finish
-./logs4M/allreduce4M_lr_256.log	0.694240	Begin	0.694240	Start	0.694240	Inter-1			0.695526	Inter-2			0.696811	Finish
-./logs4M/allreduce4M_lr_256.log	0.696811	Begin	0.696811	Start	0.696811	Inter-1			0.698097	Inter-2			0.699382	Finish
-./logs4M/allreduce4M_lr_256.log	0.699382	Begin	0.699382	Start	0.699382	Inter-1			0.700668	Inter-2			0.701953	Finish
-./logs4M/allreduce4M_lr_256.log	0.701954	Begin	0.701954	Start	0.701954	Inter-1			0.703239	Inter-2			0.704525	Finish
-./logs4M/allreduce4M_lr_256.log	0.704525	Begin	0.704525	Start	0.704525	Inter-1			0.705810	Inter-2			0.707096	Finish
-./logs4M/allreduce4M_lr_256.log	0.707096	Begin	0.707096	Start	0.707096	Inter-1			0.708381	Inter-2			0.709667	Finish
-./logs4M/allreduce4M_lr_256.log	0.709667	Begin	0.709667	Start	0.709667	Inter-1			0.710953	Inter-2			0.712238	Finish
-./logs4M/allreduce4M_lr_256.log	0.712238	Begin	0.712238	Start	0.712238	Inter-1			0.713524	Inter-2			0.714809	Finish
-./logs4M/allreduce4M_lr_256.log	0.714809	Begin	0.714809	Start	0.714809	Inter-1			0.716095	Inter-2			0.717380	Finish
-./logs4M/allreduce4M_lr_256.log	0.717380	Begin	0.717380	Start	0.717380	Inter-1			0.718666	Inter-2			0.719952	Finish
-./logs4M/allreduce4M_lr_256.log	0.719952	Begin	0.719952	Start	0.719952	Inter-1			0.721237	Inter-2			0.722523	Finish
-./logs4M/allreduce4M_lr_256.log	0.722523	Begin	0.722523	Start	0.722523	Inter-1			0.723808	Inter-2			0.725094	Finish
-./logs4M/allreduce4M_lr_256.log	0.725094	Begin	0.725094	Start	0.725094	Inter-1			0.726380	Inter-2			0.727665	Finish
-./logs4M/allreduce4M_lr_256.log	0.727665	Begin	0.727665	Start	0.727665	Inter-1			0.728951	Inter-2			0.730236	Finish
-./logs4M/allreduce4M_lr_256.log	0.730236	Begin	0.730236	Start	0.730236	Inter-1			0.731522	Inter-2			0.732807	Finish
-./logs4M/allreduce4M_lr_256.log	0.732807	Begin	0.732807	Start	0.732807	Inter-1			0.734093	Inter-2			0.735379	Finish
-./logs4M/allreduce4M_lr_256.log	0.735379	Begin	0.735379	Start	0.735379	Inter-1			0.736664	Inter-2			0.737950	Finish
-./logs4M/allreduce4M_lr_256.log	0.737950	Begin	0.737950	Start	0.737950	Inter-1			0.739235	Inter-2			0.740521	Finish
-./logs4M/allreduce4M_lr_256.log	0.740521	Begin	0.740521	Start	0.740521	Inter-1			0.741807	Inter-2			0.743092	Finish
-./logs4M/allreduce4M_lr_256.log	0.743092	Begin	0.743092	Start	0.743092	Inter-1			0.744378	Inter-2			0.745663	Finish
-./logs4M/allreduce4M_lr_256.log	0.745663	Begin	0.745663	Start	0.745663	Inter-1			0.746949	Inter-2			0.748234	Finish
-./logs4M/allreduce4M_lr_256.log	0.748234	Begin	0.748234	Start	0.748234	Inter-1			0.749520	Inter-2			0.750806	Finish
-./logs4M/allreduce4M_lr_256.log	0.750806	Begin	0.750806	Start	0.750806	Inter-1			0.752091	Inter-2			0.753377	Finish
-./logs4M/allreduce4M_lr_256.log	0.753377	Begin	0.753377	Start	0.753377	Inter-1			0.754662	Inter-2			0.755948	Finish
-./logs4M/allreduce4M_lr_256.log	0.755948	Begin	0.755948	Start	0.755948	Inter-1			0.757233	Inter-2			0.758519	Finish
-./logs4M/allreduce4M_lr_256.log	0.758519	Begin	0.758519	Start	0.758519	Inter-1			0.759805	Inter-2			0.761090	Finish
-./logs4M/allreduce4M_lr_256.log	0.761090	Begin	0.761090	Start	0.761090	Inter-1			0.762376	Inter-2			0.763661	Finish
-./logs4M/allreduce4M_lr_256.log	0.763661	Begin	0.763661	Start	0.763661	Inter-1			0.764947	Inter-2			0.766233	Finish
-./logs4M/allreduce4M_lr_256.log	0.766233	Begin	0.766233	Start	0.766233	Inter-1			0.767518	Inter-2			0.768804	Finish
-./logs4M/allreduce4M_lr_256.log	0.768804	Begin	0.768804	Start	0.768804	Inter-1			0.770089	Inter-2			0.771375	Finish
-./logs4M/allreduce4M_lr_256.log	0.771375	Begin	0.771375	Start	0.771375	Inter-1			0.772660	Inter-2			0.773946	Finish
-./logs4M/allreduce4M_lr_256.log	0.773946	Begin	0.773946	Start	0.773946	Inter-1			0.775232	Inter-2			0.776517	Finish
-./logs4M/allreduce4M_lr_256.log	0.776517	Begin	0.776517	Start	0.776517	Inter-1			0.777803	Inter-2			0.779088	Finish
-./logs4M/allreduce4M_lr_256.log	0.779088	Begin	0.779088	Start	0.779088	Inter-1			0.780374	Inter-2			0.781659	Finish
-./logs4M/allreduce4M_lr_256.log	0.781659	Begin	0.781659	Start	0.781659	Inter-1			0.782945	Inter-2			0.784231	Finish
-./logs4M/allreduce4M_lr_256.log	0.784231	Begin	0.784231	Start	0.784231	Inter-1			0.785516	Inter-2			0.786802	Finish
-./logs4M/allreduce4M_lr_256.log	0.786802	Begin	0.786802	Start	0.786802	Inter-1			0.788087	Inter-2			0.789373	Finish
-./logs4M/allreduce4M_lr_256.log	0.789373	Begin	0.789373	Start	0.789373	Inter-1			0.790659	Inter-2			0.791944	Finish
-./logs4M/allreduce4M_lr_256.log	0.791944	Begin	0.791944	Start	0.791944	Inter-1			0.793230	Inter-2			0.794515	Finish
-./logs4M/allreduce4M_lr_256.log	0.794515	Begin	0.794515	Start	0.794515	Inter-1			0.795801	Inter-2			0.797086	Finish
-./logs4M/allreduce4M_lr_256.log	0.797086	Begin	0.797086	Start	0.797086	Inter-1			0.798372	Inter-2			0.799658	Finish
-./logs4M/allreduce4M_lr_256.log	0.799658	Begin	0.799658	Start	0.799658	Inter-1			0.800943	Inter-2			0.802229	Finish
-./logs4M/allreduce4M_lr_256.log	0.802229	Begin	0.802229	Start	0.802229	Inter-1			0.803514	Inter-2			0.804800	Finish
-./logs4M/allreduce4M_lr_256.log	0.804800	Begin	0.804800	Start	0.804800	Inter-1			0.806086	Inter-2			0.807371	Finish
-./logs4M/allreduce4M_lr_256.log	0.807371	Begin	0.807371	Start	0.807371	Inter-1			0.808657	Inter-2			0.809942	Finish
-./logs4M/allreduce4M_lr_256.log	0.809942	Begin	0.809942	Start	0.809942	Inter-1			0.811228	Inter-2			0.812513	Finish
-./logs4M/allreduce4M_lr_256.log	0.812513	Begin	0.812513	Start	0.812513	Inter-1			0.813799	Inter-2			0.815085	Finish
-./logs4M/allreduce4M_lr_256.log	0.815085	Begin	0.815085	Start	0.815085	Inter-1			0.816370	Inter-2			0.817656	Finish
-./logs4M/allreduce4M_lr_256.log	0.817656	Begin	0.817656	Start	0.817656	Inter-1			0.818941	Inter-2			0.820227	Finish
-./logs4M/allreduce4M_lr_256.log	0.820227	Begin	0.820227	Start	0.820227	Inter-1			0.821512	Inter-2			0.822798	Finish
-./logs4M/allreduce4M_lr_256.log	0.822798	Begin	0.822798	Start	0.822798	Inter-1			0.824084	Inter-2			0.825369	Finish
-./logs4M/allreduce4M_lr_256.log	0.825369	Begin	0.825369	Start	0.825369	Inter-1			0.826655	Inter-2			0.827940	Finish
-./logs4M/allreduce4M_lr_256.log	0.827940	Begin	0.827940	Start	0.827940	Inter-1			0.829226	Inter-2			0.830512	Finish
-./logs4M/allreduce4M_lr_256.log	0.830512	Begin	0.830512	Start	0.830512	Inter-1			0.831797	Inter-2			0.833083	Finish
-./logs4M/allreduce4M_lr_256.log	0.833083	Begin	0.833083	Start	0.833083	Inter-1			0.834368	Inter-2			0.835654	Finish
-./logs4M/allreduce4M_lr_256.log	0.835654	Begin	0.835654	Start	0.835654	Inter-1			0.836939	Inter-2			0.838225	Finish
-./logs4M/allreduce4M_lr_256.log	0.838225	Begin	0.838225	Start	0.838225	Inter-1			0.839511	Inter-2			0.840796	Finish
-./logs4M/allreduce4M_lr_256.log	0.840796	Begin	0.840796	Start	0.840796	Inter-1			0.842082	Inter-2			0.843367	Finish
-./logs4M/allreduce4M_lr_256.log	0.843367	Begin	0.843367	Start	0.843367	Inter-1			0.844653	Inter-2			0.845938	Finish
-./logs4M/allreduce4M_lr_256.log	0.845939	Begin	0.845939	Start	0.845939	Inter-1			0.847224	Inter-2			0.848510	Finish
-./logs4M/allreduce4M_lr_256.log	0.848510	Begin	0.848510	Start	0.848510	Inter-1			0.849795	Inter-2			0.851081	Finish
-./logs4M/allreduce4M_lr_256.log	0.851081	Begin	0.851081	Start	0.851081	Inter-1			0.852366	Inter-2			0.853652	Finish
-./logs4M/allreduce4M_lr_256.log	0.853652	Begin	0.853652	Start	0.853652	Inter-1			0.854938	Inter-2			0.856223	Finish
-./logs4M/allreduce4M_lr_256.log	0.856223	Begin	0.856223	Start	0.856223	Inter-1			0.857509	Inter-2			0.858794	Finish
-./logs4M/allreduce4M_lr_256.log	0.858794	Begin	0.858794	Start	0.858794	Inter-1			0.860080	Inter-2			0.861365	Finish
-./logs4M/allreduce4M_lr_256.log	0.861365	Begin	0.861365	Start	0.861365	Inter-1			0.862651	Inter-2			0.863937	Finish
-./logs4M/allreduce4M_lr_256.log	0.863937	Begin	0.863937	Start	0.863937	Inter-1			0.865222	Inter-2			0.866508	Finish
-./logs4M/allreduce4M_lr_256.log	0.866508	Begin	0.866508	Start	0.866508	Inter-1			0.867793	Inter-2			0.869079	Finish
-./logs4M/allreduce4M_lr_256.log	0.869079	Begin	0.869079	Start	0.869079	Inter-1			0.870365	Inter-2			0.871650	Finish
-./logs4M/allreduce4M_lr_256.log	0.871650	Begin	0.871650	Start	0.871650	Inter-1			0.872936	Inter-2			0.874221	Finish
-./logs4M/allreduce4M_lr_256.log	0.874221	Begin	0.874221	Start	0.874221	Inter-1			0.875507	Inter-2			0.876792	Finish
-./logs4M/allreduce4M_lr_256.log	0.876792	Begin	0.876792	Start	0.876792	Inter-1			0.878078	Inter-2			0.879364	Finish
-./logs4M/allreduce4M_lr_256.log	0.879364	Begin	0.879364	Start	0.879364	Inter-1			0.880649	Inter-2			0.881935	Finish
-./logs4M/allreduce4M_lr_256.log	0.881935	Begin	0.881935	Start	0.881935	Inter-1			0.883220	Inter-2			0.884506	Finish
-./logs4M/allreduce4M_lr_256.log	0.884506	Begin	0.884506	Start	0.884506	Inter-1			0.885792	Inter-2			0.887077	Finish
-./logs4M/allreduce4M_lr_256.log	0.887077	Begin	0.887077	Start	0.887077	Inter-1			0.888363	Inter-2			0.889648	Finish
-./logs4M/allreduce4M_lr_256.log	0.889648	Begin	0.889648	Start	0.889648	Inter-1			0.890934	Inter-2			0.892219	Finish
-./logs4M/allreduce4M_lr_256.log	0.892219	Begin	0.892219	Start	0.892219	Inter-1			0.893505	Inter-2			0.894791	Finish
-./logs4M/allreduce4M_lr_256.log	0.894791	Begin	0.894791	Start	0.894791	Inter-1			0.896076	Inter-2			0.897362	Finish
-./logs4M/allreduce4M_lr_256.log	0.897362	Begin	0.897362	Start	0.897362	Inter-1			
+./logs4M/allreduce4M_lr_256.log	lr	4	4194304	1000	2.57118
+./logs4M/allreduce4M_lr_256.log	0.000028	Begin	0.000028	Start	0.000028	Inter-1			0.001309	Inter-2			0.002595	Finish
+./logs4M/allreduce4M_lr_256.log	0.002595	Begin	0.002595	Start	0.002595	Inter-1			0.003881	Inter-2			0.005166	Finish
+./logs4M/allreduce4M_lr_256.log	0.005166	Begin	0.005166	Start	0.005166	Inter-1			0.006452	Inter-2			0.007737	Finish
+./logs4M/allreduce4M_lr_256.log	0.007737	Begin	0.007737	Start	0.007737	Inter-1			0.009023	Inter-2			0.010308	Finish
+./logs4M/allreduce4M_lr_256.log	0.010308	Begin	0.010308	Start	0.010308	Inter-1			0.011594	Inter-2			0.012880	Finish
+./logs4M/allreduce4M_lr_256.log	0.012880	Begin	0.012880	Start	0.012880	Inter-1			0.014165	Inter-2			0.015451	Finish
+./logs4M/allreduce4M_lr_256.log	0.015451	Begin	0.015451	Start	0.015451	Inter-1			0.016736	Inter-2			0.018022	Finish
+./logs4M/allreduce4M_lr_256.log	0.018022	Begin	0.018022	Start	0.018022	Inter-1			0.019307	Inter-2			0.020593	Finish
+./logs4M/allreduce4M_lr_256.log	0.020593	Begin	0.020593	Start	0.020593	Inter-1			0.021879	Inter-2			0.023164	Finish
+./logs4M/allreduce4M_lr_256.log	0.023164	Begin	0.023164	Start	0.023164	Inter-1			0.024450	Inter-2			0.025735	Finish
+./logs4M/allreduce4M_lr_256.log	0.025735	Begin	0.025735	Start	0.025735	Inter-1			0.027021	Inter-2			0.028307	Finish
+./logs4M/allreduce4M_lr_256.log	0.028307	Begin	0.028307	Start	0.028307	Inter-1			0.029592	Inter-2			0.030878	Finish
+./logs4M/allreduce4M_lr_256.log	0.030878	Begin	0.030878	Start	0.030878	Inter-1			0.032163	Inter-2			0.033449	Finish
+./logs4M/allreduce4M_lr_256.log	0.033449	Begin	0.033449	Start	0.033449	Inter-1			0.034734	Inter-2			0.036020	Finish
+./logs4M/allreduce4M_lr_256.log	0.036020	Begin	0.036020	Start	0.036020	Inter-1			0.037306	Inter-2			0.038591	Finish
+./logs4M/allreduce4M_lr_256.log	0.038591	Begin	0.038591	Start	0.038591	Inter-1			0.039877	Inter-2			0.041162	Finish
+./logs4M/allreduce4M_lr_256.log	0.041162	Begin	0.041162	Start	0.041162	Inter-1			0.042448	Inter-2			0.043733	Finish
+./logs4M/allreduce4M_lr_256.log	0.043733	Begin	0.043733	Start	0.043733	Inter-1			0.045019	Inter-2			0.046305	Finish
+./logs4M/allreduce4M_lr_256.log	0.046305	Begin	0.046305	Start	0.046305	Inter-1			0.047590	Inter-2			0.048876	Finish
+./logs4M/allreduce4M_lr_256.log	0.048876	Begin	0.048876	Start	0.048876	Inter-1			0.050161	Inter-2			0.051447	Finish
+./logs4M/allreduce4M_lr_256.log	0.051447	Begin	0.051447	Start	0.051447	Inter-1			0.052733	Inter-2			0.054018	Finish
+./logs4M/allreduce4M_lr_256.log	0.054018	Begin	0.054018	Start	0.054018	Inter-1			0.055304	Inter-2			0.056589	Finish
+./logs4M/allreduce4M_lr_256.log	0.056589	Begin	0.056589	Start	0.056589	Inter-1			0.057875	Inter-2			0.059160	Finish
+./logs4M/allreduce4M_lr_256.log	0.059160	Begin	0.059160	Start	0.059160	Inter-1			0.060446	Inter-2			0.061732	Finish
+./logs4M/allreduce4M_lr_256.log	0.061732	Begin	0.061732	Start	0.061732	Inter-1			0.063017	Inter-2			0.064303	Finish
+./logs4M/allreduce4M_lr_256.log	0.064303	Begin	0.064303	Start	0.064303	Inter-1			0.065588	Inter-2			0.066874	Finish
+./logs4M/allreduce4M_lr_256.log	0.066874	Begin	0.066874	Start	0.066874	Inter-1			0.068159	Inter-2			0.069445	Finish
+./logs4M/allreduce4M_lr_256.log	0.069445	Begin	0.069445	Start	0.069445	Inter-1			0.070731	Inter-2			0.072016	Finish
+./logs4M/allreduce4M_lr_256.log	0.072016	Begin	0.072016	Start	0.072016	Inter-1			0.073302	Inter-2			0.074587	Finish
+./logs4M/allreduce4M_lr_256.log	0.074587	Begin	0.074587	Start	0.074587	Inter-1			0.075873	Inter-2			0.077159	Finish
+./logs4M/allreduce4M_lr_256.log	0.077159	Begin	0.077159	Start	0.077159	Inter-1			0.078444	Inter-2			0.079730	Finish
+./logs4M/allreduce4M_lr_256.log	0.079730	Begin	0.079730	Start	0.079730	Inter-1			0.081015	Inter-2			0.082301	Finish
+./logs4M/allreduce4M_lr_256.log	0.082301	Begin	0.082301	Start	0.082301	Inter-1			0.083586	Inter-2			0.084872	Finish
+./logs4M/allreduce4M_lr_256.log	0.084872	Begin	0.084872	Start	0.084872	Inter-1			0.086158	Inter-2			0.087443	Finish
+./logs4M/allreduce4M_lr_256.log	0.087443	Begin	0.087443	Start	0.087443	Inter-1			0.088729	Inter-2			0.090014	Finish
+./logs4M/allreduce4M_lr_256.log	0.090014	Begin	0.090014	Start	0.090014	Inter-1			0.091300	Inter-2			0.092585	Finish
+./logs4M/allreduce4M_lr_256.log	0.092585	Begin	0.092585	Start	0.092585	Inter-1			0.093871	Inter-2			0.095157	Finish
+./logs4M/allreduce4M_lr_256.log	0.095157	Begin	0.095157	Start	0.095157	Inter-1			0.096442	Inter-2			0.097728	Finish
+./logs4M/allreduce4M_lr_256.log	0.097728	Begin	0.097728	Start	0.097728	Inter-1			0.099013	Inter-2			0.100299	Finish
+./logs4M/allreduce4M_lr_256.log	0.100299	Begin	0.100299	Start	0.100299	Inter-1			0.101585	Inter-2			0.102870	Finish
+./logs4M/allreduce4M_lr_256.log	0.102870	Begin	0.102870	Start	0.102870	Inter-1			0.104156	Inter-2			0.105441	Finish
+./logs4M/allreduce4M_lr_256.log	0.105441	Begin	0.105441	Start	0.105441	Inter-1			0.106727	Inter-2			0.108012	Finish
+./logs4M/allreduce4M_lr_256.log	0.108012	Begin	0.108012	Start	0.108012	Inter-1			0.109298	Inter-2			0.110584	Finish
+./logs4M/allreduce4M_lr_256.log	0.110584	Begin	0.110584	Start	0.110584	Inter-1			0.111869	Inter-2			0.113155	Finish
+./logs4M/allreduce4M_lr_256.log	0.113155	Begin	0.113155	Start	0.113155	Inter-1			0.114440	Inter-2			0.115726	Finish
+./logs4M/allreduce4M_lr_256.log	0.115726	Begin	0.115726	Start	0.115726	Inter-1			0.117011	Inter-2			0.118297	Finish
+./logs4M/allreduce4M_lr_256.log	0.118297	Begin	0.118297	Start	0.118297	Inter-1			0.119583	Inter-2			0.120868	Finish
+./logs4M/allreduce4M_lr_256.log	0.120868	Begin	0.120868	Start	0.120868	Inter-1			0.122154	Inter-2			0.123439	Finish
+./logs4M/allreduce4M_lr_256.log	0.123439	Begin	0.123439	Start	0.123439	Inter-1			0.124725	Inter-2			0.126011	Finish
+./logs4M/allreduce4M_lr_256.log	0.126011	Begin	0.126011	Start	0.126011	Inter-1			0.127296	Inter-2			0.128582	Finish
+./logs4M/allreduce4M_lr_256.log	0.128582	Begin	0.128582	Start	0.128582	Inter-1			0.129867	Inter-2			0.131153	Finish
+./logs4M/allreduce4M_lr_256.log	0.131153	Begin	0.131153	Start	0.131153	Inter-1			0.132438	Inter-2			0.133724	Finish
+./logs4M/allreduce4M_lr_256.log	0.133724	Begin	0.133724	Start	0.133724	Inter-1			0.135010	Inter-2			0.136295	Finish
+./logs4M/allreduce4M_lr_256.log	0.136295	Begin	0.136295	Start	0.136295	Inter-1			0.137581	Inter-2			0.138866	Finish
+./logs4M/allreduce4M_lr_256.log	0.138866	Begin	0.138866	Start	0.138866	Inter-1			0.140152	Inter-2			0.141438	Finish
+./logs4M/allreduce4M_lr_256.log	0.141438	Begin	0.141438	Start	0.141438	Inter-1			0.142723	Inter-2			0.144009	Finish
+./logs4M/allreduce4M_lr_256.log	0.144009	Begin	0.144009	Start	0.144009	Inter-1			0.145294	Inter-2			0.146580	Finish
+./logs4M/allreduce4M_lr_256.log	0.146580	Begin	0.146580	Start	0.146580	Inter-1			0.147865	Inter-2			0.149151	Finish
+./logs4M/allreduce4M_lr_256.log	0.149151	Begin	0.149151	Start	0.149151	Inter-1			0.150437	Inter-2			0.151722	Finish
+./logs4M/allreduce4M_lr_256.log	0.151722	Begin	0.151722	Start	0.151722	Inter-1			0.153008	Inter-2			0.154293	Finish
+./logs4M/allreduce4M_lr_256.log	0.154293	Begin	0.154293	Start	0.154293	Inter-1			0.155579	Inter-2			0.156864	Finish
+./logs4M/allreduce4M_lr_256.log	0.156864	Begin	0.156864	Start	0.156864	Inter-1			0.158150	Inter-2			0.159436	Finish
+./logs4M/allreduce4M_lr_256.log	0.159436	Begin	0.159436	Start	0.159436	Inter-1			0.160721	Inter-2			0.162007	Finish
+./logs4M/allreduce4M_lr_256.log	0.162007	Begin	0.162007	Start	0.162007	Inter-1			0.163292	Inter-2			0.164578	Finish
+./logs4M/allreduce4M_lr_256.log	0.164578	Begin	0.164578	Start	0.164578	Inter-1			0.165864	Inter-2			0.167149	Finish
+./logs4M/allreduce4M_lr_256.log	0.167149	Begin	0.167149	Start	0.167149	Inter-1			0.168435	Inter-2			0.169720	Finish
+./logs4M/allreduce4M_lr_256.log	0.169720	Begin	0.169720	Start	0.169720	Inter-1			0.171006	Inter-2			0.172291	Finish
+./logs4M/allreduce4M_lr_256.log	0.172291	Begin	0.172291	Start	0.172291	Inter-1			0.173577	Inter-2			0.174863	Finish
+./logs4M/allreduce4M_lr_256.log	0.174863	Begin	0.174863	Start	0.174863	Inter-1			0.176148	Inter-2			0.177434	Finish
+./logs4M/allreduce4M_lr_256.log	0.177434	Begin	0.177434	Start	0.177434	Inter-1			0.178719	Inter-2			0.180005	Finish
+./logs4M/allreduce4M_lr_256.log	0.180005	Begin	0.180005	Start	0.180005	Inter-1			0.181290	Inter-2			0.182576	Finish
+./logs4M/allreduce4M_lr_256.log	0.182576	Begin	0.182576	Start	0.182576	Inter-1			0.183862	Inter-2			0.185147	Finish
+./logs4M/allreduce4M_lr_256.log	0.185147	Begin	0.185147	Start	0.185147	Inter-1			0.186433	Inter-2			0.187718	Finish
+./logs4M/allreduce4M_lr_256.log	0.187718	Begin	0.187718	Start	0.187718	Inter-1			0.189004	Inter-2			0.190289	Finish
+./logs4M/allreduce4M_lr_256.log	0.190290	Begin	0.190290	Start	0.190290	Inter-1			0.191575	Inter-2			0.192861	Finish
+./logs4M/allreduce4M_lr_256.log	0.192861	Begin	0.192861	Start	0.192861	Inter-1			0.194146	Inter-2			0.195432	Finish
+./logs4M/allreduce4M_lr_256.log	0.195432	Begin	0.195432	Start	0.195432	Inter-1			0.196717	Inter-2			0.198003	Finish
+./logs4M/allreduce4M_lr_256.log	0.198003	Begin	0.198003	Start	0.198003	Inter-1			0.199289	Inter-2			0.200574	Finish
+./logs4M/allreduce4M_lr_256.log	0.200574	Begin	0.200574	Start	0.200574	Inter-1			0.201860	Inter-2			0.203145	Finish
+./logs4M/allreduce4M_lr_256.log	0.203145	Begin	0.203145	Start	0.203145	Inter-1			0.204431	Inter-2			0.205717	Finish
+./logs4M/allreduce4M_lr_256.log	0.205717	Begin	0.205717	Start	0.205717	Inter-1			0.207002	Inter-2			0.208288	Finish
+./logs4M/allreduce4M_lr_256.log	0.208288	Begin	0.208288	Start	0.208288	Inter-1			0.209573	Inter-2			0.210859	Finish
+./logs4M/allreduce4M_lr_256.log	0.210859	Begin	0.210859	Start	0.210859	Inter-1			0.212144	Inter-2			0.213430	Finish
+./logs4M/allreduce4M_lr_256.log	0.213430	Begin	0.213430	Start	0.213430	Inter-1			0.214716	Inter-2			0.216001	Finish
+./logs4M/allreduce4M_lr_256.log	0.216001	Begin	0.216001	Start	0.216001	Inter-1			0.217287	Inter-2			0.218572	Finish
+./logs4M/allreduce4M_lr_256.log	0.218572	Begin	0.218572	Start	0.218572	Inter-1			0.219858	Inter-2			0.221143	Finish
+./logs4M/allreduce4M_lr_256.log	0.221143	Begin	0.221143	Start	0.221143	Inter-1			0.222429	Inter-2			0.223715	Finish
+./logs4M/allreduce4M_lr_256.log	0.223715	Begin	0.223715	Start	0.223715	Inter-1			0.225000	Inter-2			0.226286	Finish
+./logs4M/allreduce4M_lr_256.log	0.226286	Begin	0.226286	Start	0.226286	Inter-1			0.227571	Inter-2			0.228857	Finish
+./logs4M/allreduce4M_lr_256.log	0.228857	Begin	0.228857	Start	0.228857	Inter-1			0.230143	Inter-2			0.231428	Finish
+./logs4M/allreduce4M_lr_256.log	0.231428	Begin	0.231428	Start	0.231428	Inter-1			0.232714	Inter-2			0.233999	Finish
+./logs4M/allreduce4M_lr_256.log	0.233999	Begin	0.233999	Start	0.233999	Inter-1			0.235285	Inter-2			0.236570	Finish
+./logs4M/allreduce4M_lr_256.log	0.236570	Begin	0.236570	Start	0.236570	Inter-1			0.237856	Inter-2			0.239142	Finish
+./logs4M/allreduce4M_lr_256.log	0.239142	Begin	0.239142	Start	0.239142	Inter-1			0.240427	Inter-2			0.241713	Finish
+./logs4M/allreduce4M_lr_256.log	0.241713	Begin	0.241713	Start	0.241713	Inter-1			0.242998	Inter-2			0.244284	Finish
+./logs4M/allreduce4M_lr_256.log	0.244284	Begin	0.244284	Start	0.244284	Inter-1			0.245570	Inter-2			0.246855	Finish
+./logs4M/allreduce4M_lr_256.log	0.246855	Begin	0.246855	Start	0.246855	Inter-1			0.248141	Inter-2			0.249426	Finish
+./logs4M/allreduce4M_lr_256.log	0.249426	Begin	0.249426	Start	0.249426	Inter-1			0.250712	Inter-2			0.251997	Finish
+./logs4M/allreduce4M_lr_256.log	0.251997	Begin	0.251997	Start	0.251997	Inter-1			0.253283	Inter-2			0.254569	Finish
+./logs4M/allreduce4M_lr_256.log	0.254569	Begin	0.254569	Start	0.254569	Inter-1			0.255854	Inter-2			0.257140	Finish
+./logs4M/allreduce4M_lr_256.log	0.257140	Begin	0.257140	Start	0.257140	Inter-1			0.258425	Inter-2			0.259711	Finish
+./logs4M/allreduce4M_lr_256.log	0.259711	Begin	0.259711	Start	0.259711	Inter-1			0.260997	Inter-2			0.262282	Finish
+./logs4M/allreduce4M_lr_256.log	0.262282	Begin	0.262282	Start	0.262282	Inter-1			0.263568	Inter-2			0.264853	Finish
+./logs4M/allreduce4M_lr_256.log	0.264853	Begin	0.264853	Start	0.264853	Inter-1			0.266139	Inter-2			0.267424	Finish
+./logs4M/allreduce4M_lr_256.log	0.267424	Begin	0.267424	Start	0.267424	Inter-1			0.268710	Inter-2			0.269996	Finish
+./logs4M/allreduce4M_lr_256.log	0.269996	Begin	0.269996	Start	0.269996	Inter-1			0.271281	Inter-2			0.272567	Finish
+./logs4M/allreduce4M_lr_256.log	0.272567	Begin	0.272567	Start	0.272567	Inter-1			0.273852	Inter-2			0.275138	Finish
+./logs4M/allreduce4M_lr_256.log	0.275138	Begin	0.275138	Start	0.275138	Inter-1			0.276423	Inter-2			0.277709	Finish
+./logs4M/allreduce4M_lr_256.log	0.277709	Begin	0.277709	Start	0.277709	Inter-1			0.278995	Inter-2			0.280280	Finish
+./logs4M/allreduce4M_lr_256.log	0.280280	Begin	0.280280	Start	0.280280	Inter-1			0.281566	Inter-2			0.282851	Finish
+./logs4M/allreduce4M_lr_256.log	0.282851	Begin	0.282851	Start	0.282851	Inter-1			0.284137	Inter-2			0.285422	Finish
+./logs4M/allreduce4M_lr_256.log	0.285423	Begin	0.285423	Start	0.285423	Inter-1			0.286708	Inter-2			0.287994	Finish
+./logs4M/allreduce4M_lr_256.log	0.287994	Begin	0.287994	Start	0.287994	Inter-1			0.289279	Inter-2			0.290565	Finish
+./logs4M/allreduce4M_lr_256.log	0.290565	Begin	0.290565	Start	0.290565	Inter-1			0.291850	Inter-2			0.293136	Finish
+./logs4M/allreduce4M_lr_256.log	0.293136	Begin	0.293136	Start	0.293136	Inter-1			0.294422	Inter-2			0.295707	Finish
+./logs4M/allreduce4M_lr_256.log	0.295707	Begin	0.295707	Start	0.295707	Inter-1			0.296993	Inter-2			0.298278	Finish
+./logs4M/allreduce4M_lr_256.log	0.298278	Begin	0.298278	Start	0.298278	Inter-1			0.299564	Inter-2			0.300849	Finish
+./logs4M/allreduce4M_lr_256.log	0.300849	Begin	0.300849	Start	0.300849	Inter-1			0.302135	Inter-2			0.303421	Finish
+./logs4M/allreduce4M_lr_256.log	0.303421	Begin	0.303421	Start	0.303421	Inter-1			0.304706	Inter-2			0.305992	Finish
+./logs4M/allreduce4M_lr_256.log	0.305992	Begin	0.305992	Start	0.305992	Inter-1			0.307277	Inter-2			0.308563	Finish
+./logs4M/allreduce4M_lr_256.log	0.308563	Begin	0.308563	Start	0.308563	Inter-1			0.309848	Inter-2			0.311134	Finish
+./logs4M/allreduce4M_lr_256.log	0.311134	Begin	0.311134	Start	0.311134	Inter-1			0.312420	Inter-2			0.313705	Finish
+./logs4M/allreduce4M_lr_256.log	0.313705	Begin	0.313705	Start	0.313705	Inter-1			0.314991	Inter-2			0.316276	Finish
+./logs4M/allreduce4M_lr_256.log	0.316276	Begin	0.316276	Start	0.316276	Inter-1			0.317562	Inter-2			0.318848	Finish
+./logs4M/allreduce4M_lr_256.log	0.318848	Begin	0.318848	Start	0.318848	Inter-1			0.320133	Inter-2			0.321419	Finish
+./logs4M/allreduce4M_lr_256.log	0.321419	Begin	0.321419	Start	0.321419	Inter-1			0.322704	Inter-2			0.323990	Finish
+./logs4M/allreduce4M_lr_256.log	0.323990	Begin	0.323990	Start	0.323990	Inter-1			0.325275	Inter-2			0.326561	Finish
+./logs4M/allreduce4M_lr_256.log	0.326561	Begin	0.326561	Start	0.326561	Inter-1			0.327847	Inter-2			0.329132	Finish
+./logs4M/allreduce4M_lr_256.log	0.329132	Begin	0.329132	Start	0.329132	Inter-1			0.330418	Inter-2			0.331703	Finish
+./logs4M/allreduce4M_lr_256.log	0.331703	Begin	0.331703	Start	0.331703	Inter-1			0.332989	Inter-2			0.334274	Finish
+./logs4M/allreduce4M_lr_256.log	0.334274	Begin	0.334274	Start	0.334274	Inter-1			0.335560	Inter-2			0.336846	Finish
+./logs4M/allreduce4M_lr_256.log	0.336846	Begin	0.336846	Start	0.336846	Inter-1			0.338131	Inter-2			0.339417	Finish
+./logs4M/allreduce4M_lr_256.log	0.339417	Begin	0.339417	Start	0.339417	Inter-1			0.340702	Inter-2			0.341988	Finish
+./logs4M/allreduce4M_lr_256.log	0.341988	Begin	0.341988	Start	0.341988	Inter-1			0.343274	Inter-2			0.344559	Finish
+./logs4M/allreduce4M_lr_256.log	0.344559	Begin	0.344559	Start	0.344559	Inter-1			0.345845	Inter-2			0.347130	Finish
+./logs4M/allreduce4M_lr_256.log	0.347130	Begin	0.347130	Start	0.347130	Inter-1			0.348416	Inter-2			0.349701	Finish
+./logs4M/allreduce4M_lr_256.log	0.349701	Begin	0.349701	Start	0.349701	Inter-1			0.350987	Inter-2			0.352273	Finish
+./logs4M/allreduce4M_lr_256.log	0.352273	Begin	0.352273	Start	0.352273	Inter-1			0.353558	Inter-2			0.354844	Finish
+./logs4M/allreduce4M_lr_256.log	0.354844	Begin	0.354844	Start	0.354844	Inter-1			0.356129	Inter-2			0.357415	Finish
+./logs4M/allreduce4M_lr_256.log	0.357415	Begin	0.357415	Start	0.357415	Inter-1			0.358700	Inter-2			0.359986	Finish
+./logs4M/allreduce4M_lr_256.log	0.359986	Begin	0.359986	Start	0.359986	Inter-1			0.361272	Inter-2			0.362557	Finish
+./logs4M/allreduce4M_lr_256.log	0.362557	Begin	0.362557	Start	0.362557	Inter-1			0.363843	Inter-2			0.365128	Finish
+./logs4M/allreduce4M_lr_256.log	0.365128	Begin	0.365128	Start	0.365128	Inter-1			0.366414	Inter-2			0.367699	Finish
+./logs4M/allreduce4M_lr_256.log	0.367699	Begin	0.367699	Start	0.367699	Inter-1			0.368985	Inter-2			0.370271	Finish
+./logs4M/allreduce4M_lr_256.log	0.370271	Begin	0.370271	Start	0.370271	Inter-1			0.371556	Inter-2			0.372842	Finish
+./logs4M/allreduce4M_lr_256.log	0.372842	Begin	0.372842	Start	0.372842	Inter-1			0.374127	Inter-2			0.375413	Finish
+./logs4M/allreduce4M_lr_256.log	0.375413	Begin	0.375413	Start	0.375413	Inter-1			0.376699	Inter-2			0.377984	Finish
+./logs4M/allreduce4M_lr_256.log	0.377984	Begin	0.377984	Start	0.377984	Inter-1			0.379270	Inter-2			0.380555	Finish
+./logs4M/allreduce4M_lr_256.log	0.380555	Begin	0.380555	Start	0.380555	Inter-1			0.381841	Inter-2			0.383126	Finish
+./logs4M/allreduce4M_lr_256.log	0.383126	Begin	0.383126	Start	0.383126	Inter-1			0.384412	Inter-2			0.385698	Finish
+./logs4M/allreduce4M_lr_256.log	0.385698	Begin	0.385698	Start	0.385698	Inter-1			0.386983	Inter-2			0.388269	Finish
+./logs4M/allreduce4M_lr_256.log	0.388269	Begin	0.388269	Start	0.388269	Inter-1			0.389554	Inter-2			0.390840	Finish
+./logs4M/allreduce4M_lr_256.log	0.390840	Begin	0.390840	Start	0.390840	Inter-1			0.392125	Inter-2			0.393411	Finish
+./logs4M/allreduce4M_lr_256.log	0.393411	Begin	0.393411	Start	0.393411	Inter-1			0.394697	Inter-2			0.395982	Finish
+./logs4M/allreduce4M_lr_256.log	0.395982	Begin	0.395982	Start	0.395982	Inter-1			0.397268	Inter-2			0.398553	Finish
+./logs4M/allreduce4M_lr_256.log	0.398553	Begin	0.398553	Start	0.398553	Inter-1			0.399839	Inter-2			0.401125	Finish
+./logs4M/allreduce4M_lr_256.log	0.401125	Begin	0.401125	Start	0.401125	Inter-1			0.402410	Inter-2			0.403696	Finish
+./logs4M/allreduce4M_lr_256.log	0.403696	Begin	0.403696	Start	0.403696	Inter-1			0.404981	Inter-2			0.406267	Finish
+./logs4M/allreduce4M_lr_256.log	0.406267	Begin	0.406267	Start	0.406267	Inter-1			0.407552	Inter-2			0.408838	Finish
+./logs4M/allreduce4M_lr_256.log	0.408838	Begin	0.408838	Start	0.408838	Inter-1			0.410124	Inter-2			0.411409	Finish
+./logs4M/allreduce4M_lr_256.log	0.411409	Begin	0.411409	Start	0.411409	Inter-1			0.412695	Inter-2			0.413980	Finish
+./logs4M/allreduce4M_lr_256.log	0.413980	Begin	0.413980	Start	0.413980	Inter-1			0.415266	Inter-2			0.416551	Finish
+./logs4M/allreduce4M_lr_256.log	0.416551	Begin	0.416551	Start	0.416551	Inter-1			0.417837	Inter-2			0.419123	Finish
+./logs4M/allreduce4M_lr_256.log	0.419123	Begin	0.419123	Start	0.419123	Inter-1			0.420408	Inter-2			0.421694	Finish
+./logs4M/allreduce4M_lr_256.log	0.421694	Begin	0.421694	Start	0.421694	Inter-1			0.422979	Inter-2			0.424265	Finish
+./logs4M/allreduce4M_lr_256.log	0.424265	Begin	0.424265	Start	0.424265	Inter-1			0.425551	Inter-2			0.426836	Finish
+./logs4M/allreduce4M_lr_256.log	0.426836	Begin	0.426836	Start	0.426836	Inter-1			0.428122	Inter-2			0.429407	Finish
+./logs4M/allreduce4M_lr_256.log	0.429407	Begin	0.429407	Start	0.429407	Inter-1			0.430693	Inter-2			0.431978	Finish
+./logs4M/allreduce4M_lr_256.log	0.431978	Begin	0.431978	Start	0.431978	Inter-1			0.433264	Inter-2			0.434550	Finish
+./logs4M/allreduce4M_lr_256.log	0.434550	Begin	0.434550	Start	0.434550	Inter-1			0.435835	Inter-2			0.437121	Finish
+./logs4M/allreduce4M_lr_256.log	0.437121	Begin	0.437121	Start	0.437121	Inter-1			0.438406	Inter-2			0.439692	Finish
+./logs4M/allreduce4M_lr_256.log	0.439692	Begin	0.439692	Start	0.439692	Inter-1			0.440978	Inter-2			0.442263	Finish
+./logs4M/allreduce4M_lr_256.log	0.442263	Begin	0.442263	Start	0.442263	Inter-1			0.443549	Inter-2			0.444834	Finish
+./logs4M/allreduce4M_lr_256.log	0.444834	Begin	0.444834	Start	0.444834	Inter-1			0.446120	Inter-2			0.447405	Finish
+./logs4M/allreduce4M_lr_256.log	0.447405	Begin	0.447405	Start	0.447405	Inter-1			0.448691	Inter-2			0.449977	Finish
+./logs4M/allreduce4M_lr_256.log	0.449977	Begin	0.449977	Start	0.449977	Inter-1			0.451262	Inter-2			0.452548	Finish
+./logs4M/allreduce4M_lr_256.log	0.452548	Begin	0.452548	Start	0.452548	Inter-1			0.453833	Inter-2			0.455119	Finish
+./logs4M/allreduce4M_lr_256.log	0.455119	Begin	0.455119	Start	0.455119	Inter-1			0.456404	Inter-2			0.457690	Finish
+./logs4M/allreduce4M_lr_256.log	0.457690	Begin	0.457690	Start	0.457690	Inter-1			0.458976	Inter-2			0.460261	Finish
+./logs4M/allreduce4M_lr_256.log	0.460261	Begin	0.460261	Start	0.460261	Inter-1			0.461547	Inter-2			0.462832	Finish
+./logs4M/allreduce4M_lr_256.log	0.462832	Begin	0.462832	Start	0.462832	Inter-1			0.464118	Inter-2			0.465404	Finish
+./logs4M/allreduce4M_lr_256.log	0.465404	Begin	0.465404	Start	0.465404	Inter-1			0.466689	Inter-2			0.467975	Finish
+./logs4M/allreduce4M_lr_256.log	0.467975	Begin	0.467975	Start	0.467975	Inter-1			0.469260	Inter-2			0.470546	Finish
+./logs4M/allreduce4M_lr_256.log	0.470546	Begin	0.470546	Start	0.470546	Inter-1			0.471831	Inter-2			0.473117	Finish
+./logs4M/allreduce4M_lr_256.log	0.473117	Begin	0.473117	Start	0.473117	Inter-1			0.474403	Inter-2			0.475688	Finish
+./logs4M/allreduce4M_lr_256.log	0.475688	Begin	0.475688	Start	0.475688	Inter-1			0.476974	Inter-2			0.478259	Finish
+./logs4M/allreduce4M_lr_256.log	0.478259	Begin	0.478259	Start	0.478259	Inter-1			0.479545	Inter-2			0.480830	Finish
+./logs4M/allreduce4M_lr_256.log	0.480830	Begin	0.480830	Start	0.480830	Inter-1			0.482116	Inter-2			0.483402	Finish
+./logs4M/allreduce4M_lr_256.log	0.483402	Begin	0.483402	Start	0.483402	Inter-1			0.484687	Inter-2			0.485973	Finish
+./logs4M/allreduce4M_lr_256.log	0.485973	Begin	0.485973	Start	0.485973	Inter-1			0.487258	Inter-2			0.488544	Finish
+./logs4M/allreduce4M_lr_256.log	0.488544	Begin	0.488544	Start	0.488544	Inter-1			0.489830	Inter-2			0.491115	Finish
+./logs4M/allreduce4M_lr_256.log	0.491115	Begin	0.491115	Start	0.491115	Inter-1			0.492401	Inter-2			0.493686	Finish
+./logs4M/allreduce4M_lr_256.log	0.493686	Begin	0.493686	Start	0.493686	Inter-1			0.494972	Inter-2			0.496257	Finish
+./logs4M/allreduce4M_lr_256.log	0.496257	Begin	0.496257	Start	0.496257	Inter-1			0.497543	Inter-2			0.498829	Finish
+./logs4M/allreduce4M_lr_256.log	0.498829	Begin	0.498829	Start	0.498829	Inter-1			0.500114	Inter-2			0.501400	Finish
+./logs4M/allreduce4M_lr_256.log	0.501400	Begin	0.501400	Start	0.501400	Inter-1			0.502685	Inter-2			0.503971	Finish
+./logs4M/allreduce4M_lr_256.log	0.503971	Begin	0.503971	Start	0.503971	Inter-1			0.505256	Inter-2			0.506542	Finish
+./logs4M/allreduce4M_lr_256.log	0.506542	Begin	0.506542	Start	0.506542	Inter-1			0.507828	Inter-2			0.509113	Finish
+./logs4M/allreduce4M_lr_256.log	0.509113	Begin	0.509113	Start	0.509113	Inter-1			0.510399	Inter-2			0.511684	Finish
+./logs4M/allreduce4M_lr_256.log	0.511684	Begin	0.511684	Start	0.511684	Inter-1			0.512970	Inter-2			0.514256	Finish
+./logs4M/allreduce4M_lr_256.log	0.514256	Begin	0.514256	Start	0.514256	Inter-1			0.515541	Inter-2			0.516827	Finish
+./logs4M/allreduce4M_lr_256.log	0.516827	Begin	0.516827	Start	0.516827	Inter-1			0.518112	Inter-2			0.519398	Finish
+./logs4M/allreduce4M_lr_256.log	0.519398	Begin	0.519398	Start	0.519398	Inter-1			0.520683	Inter-2			0.521969	Finish
+./logs4M/allreduce4M_lr_256.log	0.521969	Begin	0.521969	Start	0.521969	Inter-1			0.523255	Inter-2			0.524540	Finish
+./logs4M/allreduce4M_lr_256.log	0.524540	Begin	0.524540	Start	0.524540	Inter-1			0.525826	Inter-2			0.527111	Finish
+./logs4M/allreduce4M_lr_256.log	0.527111	Begin	0.527111	Start	0.527111	Inter-1			0.528397	Inter-2			0.529682	Finish
+./logs4M/allreduce4M_lr_256.log	0.529682	Begin	0.529682	Start	0.529682	Inter-1			0.530968	Inter-2			0.532254	Finish
+./logs4M/allreduce4M_lr_256.log	0.532254	Begin	0.532254	Start	0.532254	Inter-1			0.533539	Inter-2			0.534825	Finish
+./logs4M/allreduce4M_lr_256.log	0.534825	Begin	0.534825	Start	0.534825	Inter-1			0.536110	Inter-2			0.537396	Finish
+./logs4M/allreduce4M_lr_256.log	0.537396	Begin	0.537396	Start	0.537396	Inter-1			0.538682	Inter-2			0.539967	Finish
+./logs4M/allreduce4M_lr_256.log	0.539967	Begin	0.539967	Start	0.539967	Inter-1			0.541253	Inter-2			0.542538	Finish
+./logs4M/allreduce4M_lr_256.log	0.542538	Begin	0.542538	Start	0.542538	Inter-1			0.543824	Inter-2			0.545109	Finish
+./logs4M/allreduce4M_lr_256.log	0.545109	Begin	0.545109	Start	0.545109	Inter-1			0.546395	Inter-2			0.547681	Finish
+./logs4M/allreduce4M_lr_256.log	0.547681	Begin	0.547681	Start	0.547681	Inter-1			0.548966	Inter-2			0.550252	Finish
+./logs4M/allreduce4M_lr_256.log	0.550252	Begin	0.550252	Start	0.550252	Inter-1			0.551537	Inter-2			0.552823	Finish
+./logs4M/allreduce4M_lr_256.log	0.552823	Begin	0.552823	Start	0.552823	Inter-1			0.554108	Inter-2			0.555394	Finish
+./logs4M/allreduce4M_lr_256.log	0.555394	Begin	0.555394	Start	0.555394	Inter-1			0.556680	Inter-2			0.557965	Finish
+./logs4M/allreduce4M_lr_256.log	0.557965	Begin	0.557965	Start	0.557965	Inter-1			0.559251	Inter-2			0.560536	Finish
+./logs4M/allreduce4M_lr_256.log	0.560536	Begin	0.560536	Start	0.560536	Inter-1			0.561822	Inter-2			0.563108	Finish
+./logs4M/allreduce4M_lr_256.log	0.563108	Begin	0.563108	Start	0.563108	Inter-1			0.564393	Inter-2			0.565679	Finish
+./logs4M/allreduce4M_lr_256.log	0.565679	Begin	0.565679	Start	0.565679	Inter-1			0.566964	Inter-2			0.568250	Finish
+./logs4M/allreduce4M_lr_256.log	0.568250	Begin	0.568250	Start	0.568250	Inter-1			0.569535	Inter-2			0.570821	Finish
+./logs4M/allreduce4M_lr_256.log	0.570821	Begin	0.570821	Start	0.570821	Inter-1			0.572107	Inter-2			0.573392	Finish
+./logs4M/allreduce4M_lr_256.log	0.573392	Begin	0.573392	Start	0.573392	Inter-1			0.574678	Inter-2			0.575963	Finish
+./logs4M/allreduce4M_lr_256.log	0.575963	Begin	0.575963	Start	0.575963	Inter-1			0.577249	Inter-2			0.578534	Finish
+./logs4M/allreduce4M_lr_256.log	0.578535	Begin	0.578535	Start	0.578535	Inter-1			0.579820	Inter-2			0.581106	Finish
+./logs4M/allreduce4M_lr_256.log	0.581106	Begin	0.581106	Start	0.581106	Inter-1			0.582391	Inter-2			0.583677	Finish
+./logs4M/allreduce4M_lr_256.log	0.583677	Begin	0.583677	Start	0.583677	Inter-1			0.584962	Inter-2			0.586248	Finish
+./logs4M/allreduce4M_lr_256.log	0.586248	Begin	0.586248	Start	0.586248	Inter-1			0.587534	Inter-2			0.588819	Finish
+./logs4M/allreduce4M_lr_256.log	0.588819	Begin	0.588819	Start	0.588819	Inter-1			0.590105	Inter-2			0.591390	Finish
+./logs4M/allreduce4M_lr_256.log	0.591390	Begin	0.591390	Start	0.591390	Inter-1			0.592676	Inter-2			0.593961	Finish
+./logs4M/allreduce4M_lr_256.log	0.593961	Begin	0.593961	Start	0.593961	Inter-1			0.595247	Inter-2			0.596533	Finish
+./logs4M/allreduce4M_lr_256.log	0.596533	Begin	0.596533	Start	0.596533	Inter-1			0.597818	Inter-2			0.599104	Finish
+./logs4M/allreduce4M_lr_256.log	0.599104	Begin	0.599104	Start	0.599104	Inter-1			0.600389	Inter-2			0.601675	Finish
+./logs4M/allreduce4M_lr_256.log	0.601675	Begin	0.601675	Start	0.601675	Inter-1			0.602961	Inter-2			0.604246	Finish
+./logs4M/allreduce4M_lr_256.log	0.604246	Begin	0.604246	Start	0.604246	Inter-1			0.605532	Inter-2			0.606817	Finish
+./logs4M/allreduce4M_lr_256.log	0.606817	Begin	0.606817	Start	0.606817	Inter-1			0.608103	Inter-2			0.609388	Finish
+./logs4M/allreduce4M_lr_256.log	0.609388	Begin	0.609388	Start	0.609388	Inter-1			0.610674	Inter-2			0.611960	Finish
+./logs4M/allreduce4M_lr_256.log	0.611960	Begin	0.611960	Start	0.611960	Inter-1			0.613245	Inter-2			0.614531	Finish
+./logs4M/allreduce4M_lr_256.log	0.614531	Begin	0.614531	Start	0.614531	Inter-1			0.615816	Inter-2			0.617102	Finish
+./logs4M/allreduce4M_lr_256.log	0.617102	Begin	0.617102	Start	0.617102	Inter-1			0.618387	Inter-2			0.619673	Finish
+./logs4M/allreduce4M_lr_256.log	0.619673	Begin	0.619673	Start	0.619673	Inter-1			0.620959	Inter-2			0.622244	Finish
+./logs4M/allreduce4M_lr_256.log	0.622244	Begin	0.622244	Start	0.622244	Inter-1			0.623530	Inter-2			0.624815	Finish
+./logs4M/allreduce4M_lr_256.log	0.624815	Begin	0.624815	Start	0.624815	Inter-1			0.626101	Inter-2			0.627387	Finish
+./logs4M/allreduce4M_lr_256.log	0.627387	Begin	0.627387	Start	0.627387	Inter-1			0.628672	Inter-2			0.629958	Finish
+./logs4M/allreduce4M_lr_256.log	0.629958	Begin	0.629958	Start	0.629958	Inter-1			0.631243	Inter-2			0.632529	Finish
+./logs4M/allreduce4M_lr_256.log	0.632529	Begin	0.632529	Start	0.632529	Inter-1			0.633814	Inter-2			0.635100	Finish
+./logs4M/allreduce4M_lr_256.log	0.635100	Begin	0.635100	Start	0.635100	Inter-1			0.636386	Inter-2			0.637671	Finish
+./logs4M/allreduce4M_lr_256.log	0.637671	Begin	0.637671	Start	0.637671	Inter-1			0.638957	Inter-2			0.640242	Finish
+./logs4M/allreduce4M_lr_256.log	0.640242	Begin	0.640242	Start	0.640242	Inter-1			0.641528	Inter-2			0.642813	Finish
+./logs4M/allreduce4M_lr_256.log	0.642813	Begin	0.642813	Start	0.642813	Inter-1			0.644099	Inter-2			0.645385	Finish
+./logs4M/allreduce4M_lr_256.log	0.645385	Begin	0.645385	Start	0.645385	Inter-1			0.646670	Inter-2			0.647956	Finish
+./logs4M/allreduce4M_lr_256.log	0.647956	Begin	0.647956	Start	0.647956	Inter-1			0.649241	Inter-2			0.650527	Finish
+./logs4M/allreduce4M_lr_256.log	0.650527	Begin	0.650527	Start	0.650527	Inter-1			0.651813	Inter-2			0.653098	Finish
+./logs4M/allreduce4M_lr_256.log	0.653098	Begin	0.653098	Start	0.653098	Inter-1			0.654384	Inter-2			0.655669	Finish
+./logs4M/allreduce4M_lr_256.log	0.655669	Begin	0.655669	Start	0.655669	Inter-1			0.656955	Inter-2			0.658240	Finish
+./logs4M/allreduce4M_lr_256.log	0.658240	Begin	0.658240	Start	0.658240	Inter-1			0.659526	Inter-2			0.660812	Finish
+./logs4M/allreduce4M_lr_256.log	0.660812	Begin	0.660812	Start	0.660812	Inter-1			0.662097	Inter-2			0.663383	Finish
+./logs4M/allreduce4M_lr_256.log	0.663383	Begin	0.663383	Start	0.663383	Inter-1			0.664668	Inter-2			0.665954	Finish
+./logs4M/allreduce4M_lr_256.log	0.665954	Begin	0.665954	Start	0.665954	Inter-1			0.667239	Inter-2			0.668525	Finish
+./logs4M/allreduce4M_lr_256.log	0.668525	Begin	0.668525	Start	0.668525	Inter-1			0.669811	Inter-2			0.671096	Finish
+./logs4M/allreduce4M_lr_256.log	0.671096	Begin	0.671096	Start	0.671096	Inter-1			0.672382	Inter-2			0.673667	Finish
+./logs4M/allreduce4M_lr_256.log	0.673667	Begin	0.673667	Start	0.673667	Inter-1			0.674953	Inter-2			0.676239	Finish
+./logs4M/allreduce4M_lr_256.log	0.676239	Begin	0.676239	Start	0.676239	Inter-1			0.677524	Inter-2			0.678810	Finish
+./logs4M/allreduce4M_lr_256.log	0.678810	Begin	0.678810	Start	0.678810	Inter-1			0.680095	Inter-2			0.681381	Finish
+./logs4M/allreduce4M_lr_256.log	0.681381	Begin	0.681381	Start	0.681381	Inter-1			0.682666	Inter-2			0.683952	Finish
+./logs4M/allreduce4M_lr_256.log	0.683952	Begin	0.683952	Start	0.683952	Inter-1			0.685238	Inter-2			0.686523	Finish
+./logs4M/allreduce4M_lr_256.log	0.686523	Begin	0.686523	Start	0.686523	Inter-1			0.687809	Inter-2			0.689094	Finish
+./logs4M/allreduce4M_lr_256.log	0.689094	Begin	0.689094	Start	0.689094	Inter-1			0.690380	Inter-2			0.691665	Finish
+./logs4M/allreduce4M_lr_256.log	0.691666	Begin	0.691666	Start	0.691666	Inter-1			0.692951	Inter-2			0.694237	Finish
+./logs4M/allreduce4M_lr_256.log	0.694237	Begin	0.694237	Start	0.694237	Inter-1			0.695522	Inter-2			0.696808	Finish
+./logs4M/allreduce4M_lr_256.log	0.696808	Begin	0.696808	Start	0.696808	Inter-1			0.698093	Inter-2			0.699379	Finish
+./logs4M/allreduce4M_lr_256.log	0.699379	Begin	0.699379	Start	0.699379	Inter-1			0.700665	Inter-2			0.701950	Finish
+./logs4M/allreduce4M_lr_256.log	0.701950	Begin	0.701950	Start	0.701950	Inter-1			0.703236	Inter-2			0.704521	Finish
+./logs4M/allreduce4M_lr_256.log	0.704521	Begin	0.704521	Start	0.704521	Inter-1			0.705807	Inter-2			0.707092	Finish
+./logs4M/allreduce4M_lr_256.log	0.707092	Begin	0.707092	Start	0.707092	Inter-1			0.708378	Inter-2			0.709664	Finish
+./logs4M/allreduce4M_lr_256.log	0.709664	Begin	0.709664	Start	0.709664	Inter-1			0.710949	Inter-2			0.712235	Finish
+./logs4M/allreduce4M_lr_256.log	0.712235	Begin	0.712235	Start	0.712235	Inter-1			0.713520	Inter-2			0.714806	Finish
+./logs4M/allreduce4M_lr_256.log	0.714806	Begin	0.714806	Start	0.714806	Inter-1			0.716091	Inter-2			0.717377	Finish
+./logs4M/allreduce4M_lr_256.log	0.717377	Begin	0.717377	Start	0.717377	Inter-1			0.718663	Inter-2			0.719948	Finish
+./logs4M/allreduce4M_lr_256.log	0.719948	Begin	0.719948	Start	0.719948	Inter-1			0.721234	Inter-2			0.722519	Finish
+./logs4M/allreduce4M_lr_256.log	0.722519	Begin	0.722519	Start	0.722519	Inter-1			0.723805	Inter-2			0.725091	Finish
+./logs4M/allreduce4M_lr_256.log	0.725091	Begin	0.725091	Start	0.725091	Inter-1			0.726376	Inter-2			0.727662	Finish
+./logs4M/allreduce4M_lr_256.log	0.727662	Begin	0.727662	Start	0.727662	Inter-1			0.728947	Inter-2			0.730233	Finish
+./logs4M/allreduce4M_lr_256.log	0.730233	Begin	0.730233	Start	0.730233	Inter-1			0.731518	Inter-2			0.732804	Finish
+./logs4M/allreduce4M_lr_256.log	0.732804	Begin	0.732804	Start	0.732804	Inter-1			0.734090	Inter-2			0.735375	Finish
+./logs4M/allreduce4M_lr_256.log	0.735375	Begin	0.735375	Start	0.735375	Inter-1			0.736661	Inter-2			0.737946	Finish
+./logs4M/allreduce4M_lr_256.log	0.737946	Begin	0.737946	Start	0.737946	Inter-1			0.739232	Inter-2			0.740517	Finish
+./logs4M/allreduce4M_lr_256.log	0.740518	Begin	0.740518	Start	0.740518	Inter-1			0.741803	Inter-2			0.743089	Finish
+./logs4M/allreduce4M_lr_256.log	0.743089	Begin	0.743089	Start	0.743089	Inter-1			0.744374	Inter-2			0.745660	Finish
+./logs4M/allreduce4M_lr_256.log	0.745660	Begin	0.745660	Start	0.745660	Inter-1			0.746945	Inter-2			0.748231	Finish
+./logs4M/allreduce4M_lr_256.log	0.748231	Begin	0.748231	Start	0.748231	Inter-1			0.749517	Inter-2			0.750802	Finish
+./logs4M/allreduce4M_lr_256.log	0.750802	Begin	0.750802	Start	0.750802	Inter-1			0.752088	Inter-2			0.753373	Finish
+./logs4M/allreduce4M_lr_256.log	0.753373	Begin	0.753373	Start	0.753373	Inter-1			0.754659	Inter-2			0.755944	Finish
+./logs4M/allreduce4M_lr_256.log	0.755944	Begin	0.755944	Start	0.755944	Inter-1			0.757230	Inter-2			0.758516	Finish
+./logs4M/allreduce4M_lr_256.log	0.758516	Begin	0.758516	Start	0.758516	Inter-1			0.759801	Inter-2			0.761087	Finish
+./logs4M/allreduce4M_lr_256.log	0.761087	Begin	0.761087	Start	0.761087	Inter-1			0.762372	Inter-2			0.763658	Finish
+./logs4M/allreduce4M_lr_256.log	0.763658	Begin	0.763658	Start	0.763658	Inter-1			0.764944	Inter-2			0.766229	Finish
+./logs4M/allreduce4M_lr_256.log	0.766229	Begin	0.766229	Start	0.766229	Inter-1			0.767515	Inter-2			0.768800	Finish
+./logs4M/allreduce4M_lr_256.log	0.768800	Begin	0.768800	Start	0.768800	Inter-1			0.770086	Inter-2			0.771371	Finish
+./logs4M/allreduce4M_lr_256.log	0.771371	Begin	0.771371	Start	0.771371	Inter-1			0.772657	Inter-2			0.773943	Finish
+./logs4M/allreduce4M_lr_256.log	0.773943	Begin	0.773943	Start	0.773943	Inter-1			0.775228	Inter-2			0.776514	Finish
+./logs4M/allreduce4M_lr_256.log	0.776514	Begin	0.776514	Start	0.776514	Inter-1			0.777799	Inter-2			0.779085	Finish
+./logs4M/allreduce4M_lr_256.log	0.779085	Begin	0.779085	Start	0.779085	Inter-1			0.780371	Inter-2			0.781656	Finish
+./logs4M/allreduce4M_lr_256.log	0.781656	Begin	0.781656	Start	0.781656	Inter-1			0.782942	Inter-2			0.784227	Finish
+./logs4M/allreduce4M_lr_256.log	0.784227	Begin	0.784227	Start	0.784227	Inter-1			0.785513	Inter-2			0.786798	Finish
+./logs4M/allreduce4M_lr_256.log	0.786798	Begin	0.786798	Start	0.786798	Inter-1			0.788084	Inter-2			0.789370	Finish
+./logs4M/allreduce4M_lr_256.log	0.789370	Begin	0.789370	Start	0.789370	Inter-1			0.790655	Inter-2			0.791941	Finish
+./logs4M/allreduce4M_lr_256.log	0.791941	Begin	0.791941	Start	0.791941	Inter-1			0.793226	Inter-2			0.794512	Finish
+./logs4M/allreduce4M_lr_256.log	0.794512	Begin	0.794512	Start	0.794512	Inter-1			0.795797	Inter-2			0.797083	Finish
+./logs4M/allreduce4M_lr_256.log	0.797083	Begin	0.797083	Start	0.797083	Inter-1			0.798369	Inter-2			0.799654	Finish
+./logs4M/allreduce4M_lr_256.log	0.799654	Begin	0.799654	Start	0.799654	Inter-1			0.800940	Inter-2			0.802225	Finish
+./logs4M/allreduce4M_lr_256.log	0.802225	Begin	0.802225	Start	0.802225	Inter-1			0.803511	Inter-2			0.804797	Finish
+./logs4M/allreduce4M_lr_256.log	0.804797	Begin	0.804797	Start	0.804797	Inter-1			0.806082	Inter-2			0.807368	Finish
+./logs4M/allreduce4M_lr_256.log	0.807368	Begin	0.807368	Start	0.807368	Inter-1			0.808653	Inter-2			0.809939	Finish
+./logs4M/allreduce4M_lr_256.log	0.809939	Begin	0.809939	Start	0.809939	Inter-1			0.811224	Inter-2			0.812510	Finish
+./logs4M/allreduce4M_lr_256.log	0.812510	Begin	0.812510	Start	0.812510	Inter-1			0.813796	Inter-2			0.815081	Finish
+./logs4M/allreduce4M_lr_256.log	0.815081	Begin	0.815081	Start	0.815081	Inter-1			0.816367	Inter-2			0.817652	Finish
+./logs4M/allreduce4M_lr_256.log	0.817652	Begin	0.817652	Start	0.817652	Inter-1			0.818938	Inter-2			0.820223	Finish
+./logs4M/allreduce4M_lr_256.log	0.820223	Begin	0.820223	Start	0.820223	Inter-1			0.821509	Inter-2			0.822795	Finish
+./logs4M/allreduce4M_lr_256.log	0.822795	Begin	0.822795	Start	0.822795	Inter-1			0.824080	Inter-2			0.825366	Finish
+./logs4M/allreduce4M_lr_256.log	0.825366	Begin	0.825366	Start	0.825366	Inter-1			0.826651	Inter-2			0.827937	Finish
+./logs4M/allreduce4M_lr_256.log	0.827937	Begin	0.827937	Start	0.827937	Inter-1			0.829223	Inter-2			0.830508	Finish
+./logs4M/allreduce4M_lr_256.log	0.830508	Begin	0.830508	Start	0.830508	Inter-1			0.831794	Inter-2			0.833079	Finish
+./logs4M/allreduce4M_lr_256.log	0.833079	Begin	0.833079	Start	0.833079	Inter-1			0.834365	Inter-2			0.835650	Finish
+./logs4M/allreduce4M_lr_256.log	0.835650	Begin	0.835650	Start	0.835650	Inter-1			0.836936	Inter-2			0.838222	Finish
+./logs4M/allreduce4M_lr_256.log	0.838222	Begin	0.838222	Start	0.838222	Inter-1			0.839507	Inter-2			0.840793	Finish
+./logs4M/allreduce4M_lr_256.log	0.840793	Begin	0.840793	Start	0.840793	Inter-1			0.842078	Inter-2			0.843364	Finish
+./logs4M/allreduce4M_lr_256.log	0.843364	Begin	0.843364	Start	0.843364	Inter-1			0.844649	Inter-2			0.845935	Finish
+./logs4M/allreduce4M_lr_256.log	0.845935	Begin	0.845935	Start	0.845935	Inter-1			0.847221	Inter-2			0.848506	Finish
+./logs4M/allreduce4M_lr_256.log	0.848506	Begin	0.848506	Start	0.848506	Inter-1			0.849792	Inter-2			0.851077	Finish
+./logs4M/allreduce4M_lr_256.log	0.851077	Begin	0.851077	Start	0.851077	Inter-1			0.852363	Inter-2			0.853649	Finish
+./logs4M/allreduce4M_lr_256.log	0.853649	Begin	0.853649	Start	0.853649	Inter-1			0.854934	Inter-2			0.856220	Finish
+./logs4M/allreduce4M_lr_256.log	0.856220	Begin	0.856220	Start	0.856220	Inter-1			0.857505	Inter-2			0.858791	Finish
+./logs4M/allreduce4M_lr_256.log	0.858791	Begin	0.858791	Start	0.858791	Inter-1			0.860076	Inter-2			0.861362	Finish
+./logs4M/allreduce4M_lr_256.log	0.861362	Begin	0.861362	Start	0.861362	Inter-1			0.862648	Inter-2			0.863933	Finish
+./logs4M/allreduce4M_lr_256.log	0.863933	Begin	0.863933	Start	0.863933	Inter-1			0.865219	Inter-2			0.866504	Finish
+./logs4M/allreduce4M_lr_256.log	0.866504	Begin	0.866504	Start	0.866504	Inter-1			0.867790	Inter-2			0.869075	Finish
+./logs4M/allreduce4M_lr_256.log	0.869075	Begin	0.869075	Start	0.869075	Inter-1			0.870361	Inter-2			0.871647	Finish
+./logs4M/allreduce4M_lr_256.log	0.871647	Begin	0.871647	Start	0.871647	Inter-1			0.872932	Inter-2			0.874218	Finish
+./logs4M/allreduce4M_lr_256.log	0.874218	Begin	0.874218	Start	0.874218	Inter-1			0.875503	Inter-2			0.876789	Finish
+./logs4M/allreduce4M_lr_256.log	0.876789	Begin	0.876789	Start	0.876789	Inter-1			0.878075	Inter-2			0.879360	Finish
+./logs4M/allreduce4M_lr_256.log	0.879360	Begin	0.879360	Start	0.879360	Inter-1			0.880646	Inter-2			0.881931	Finish
+./logs4M/allreduce4M_lr_256.log	0.881931	Begin	0.881931	Start	0.881931	Inter-1			0.883217	Inter-2			0.884502	Finish
+./logs4M/allreduce4M_lr_256.log	0.884502	Begin	0.884502	Start	0.884502	Inter-1			0.885788	Inter-2			0.887074	Finish
+./logs4M/allreduce4M_lr_256.log	0.887074	Begin	0.887074	Start	0.887074	Inter-1			0.888359	Inter-2			0.889645	Finish
+./logs4M/allreduce4M_lr_256.log	0.889645	Begin	0.889645	Start	0.889645	Inter-1			0.890930	Inter-2			0.892216	Finish
+./logs4M/allreduce4M_lr_256.log	0.892216	Begin	0.892216	Start	0.892216	Inter-1			0.893501	Inter-2			0.894787	Finish
+./logs4M/allreduce4M_lr_256.log	0.894787	Begin	0.894787	Start	0.894787	Inter-1			0.896073	Inter-2			0.897358	Finish
+./logs4M/allreduce4M_lr_256.log	0.897358	Begin	0.897358	Start	0.897358	Inter-1			0.898644	Inter-2			0.899929	Finish
+./logs4M/allreduce4M_lr_256.log	0.899929	Begin	0.899929	Start	0.899929	Inter-1			0.901215	Inter-2			0.902501	Finish
+./logs4M/allreduce4M_lr_256.log	0.902501	Begin	0.902501	Start	0.902501	Inter-1			0.903786	Inter-2			0.905072	Finish
+./logs4M/allreduce4M_lr_256.log	0.905072	Begin	0.905072	Start	0.905072	Inter-1			0.906357	Inter-2			0.907643	Finish
+./logs4M/allreduce4M_lr_256.log	0.907643	Begin	0.907643	Start	0.907643	Inter-1			0.908928	Inter-2			0.910214	Finish
+./logs4M/allreduce4M_lr_256.log	0.910214	Begin	0.910214	Start	0.910214	Inter-1			0.911500	Inter-2			0.912785	Finish
+./logs4M/allreduce4M_lr_256.log	0.912785	Begin	0.912785	Start	0.912785	Inter-1			0.914071	Inter-2			0.915356	Finish
+./logs4M/allreduce4M_lr_256.log	0.915356	Begin	0.915356	Start	0.915356	Inter-1			0.916642	Inter-2			0.917927	Finish
+./logs4M/allreduce4M_lr_256.log	0.917927	Begin	0.917927	Start	0.917927	Inter-1			0.919213	Inter-2			0.920499	Finish
+./logs4M/allreduce4M_lr_256.log	0.920499	Begin	0.920499	Start	0.920499	Inter-1			0.921784	Inter-2			0.923070	Finish
+./logs4M/allreduce4M_lr_256.log	0.923070	Begin	0.923070	Start	0.923070	Inter-1			0.924355	Inter-2			0.925641	Finish
+./logs4M/allreduce4M_lr_256.log	0.925641	Begin	0.925641	Start	0.925641	Inter-1			0.926927	Inter-2			0.928212	Finish
+./logs4M/allreduce4M_lr_256.log	0.928212	Begin	0.928212	Start	0.928212	Inter-1			0.929498	Inter-2			0.930783	Finish
+./logs4M/allreduce4M_lr_256.log	0.930783	Begin	0.930783	Start	0.930783	Inter-1			0.932069	Inter-2			0.933354	Finish
+./logs4M/allreduce4M_lr_256.log	0.933354	Begin	0.933354	Start	0.933354	Inter-1			0.934640	Inter-2			0.935926	Finish
+./logs4M/allreduce4M_lr_256.log	0.935926	Begin	0.935926	Start	0.935926	Inter-1			0.937211	Inter-2			0.938497	Finish
+./logs4M/allreduce4M_lr_256.log	0.938497	Begin	0.938497	Start	0.938497	Inter-1			0.939782	Inter-2			0.941068	Finish
+./logs4M/allreduce4M_lr_256.log	0.941068	Begin	0.941068	Start	0.941068	Inter-1			0.942353	Inter-2			0.943639	Finish
+./logs4M/allreduce4M_lr_256.log	0.943639	Begin	0.943639	Start	0.943639	Inter-1			0.944925	Inter-2			0.946210	Finish
+./logs4M/allreduce4M_lr_256.log	0.946210	Begin	0.946210	Start	0.946210	Inter-1			0.947496	Inter-2			0.948781	Finish
+./logs4M/allreduce4M_lr_256.log	0.948781	Begin	0.948781	Start	0.948781	Inter-1			0.950067	Inter-2			0.951353	Finish
+./logs4M/allreduce4M_lr_256.log	0.951353	Begin	0.951353	Start	0.951353	Inter-1			0.952638	Inter-2			0.953924	Finish
+./logs4M/allreduce4M_lr_256.log	0.953924	Begin	0.953924	Start	0.953924	Inter-1			0.955209	Inter-2			0.956495	Finish
+./logs4M/allreduce4M_lr_256.log	0.956495	Begin	0.956495	Start	0.956495	Inter-1			0.957780	Inter-2			0.959066	Finish
+./logs4M/allreduce4M_lr_256.log	0.959066	Begin	0.959066	Start	0.959066	Inter-1			0.960352	Inter-2			0.961637	Finish
+./logs4M/allreduce4M_lr_256.log	0.961637	Begin	0.961637	Start	0.961637	Inter-1			0.962923	Inter-2			0.964208	Finish
+./logs4M/allreduce4M_lr_256.log	0.964208	Begin	0.964208	Start	0.964208	Inter-1			0.965494	Inter-2			0.966779	Finish
+./logs4M/allreduce4M_lr_256.log	0.966779	Begin	0.966779	Start	0.966779	Inter-1			0.968065	Inter-2			0.969351	Finish
+./logs4M/allreduce4M_lr_256.log	0.969351	Begin	0.969351	Start	0.969351	Inter-1			0.970636	Inter-2			0.971922	Finish
+./logs4M/allreduce4M_lr_256.log	0.971922	Begin	0.971922	Start	0.971922	Inter-1			0.973207	Inter-2			0.974493	Finish
+./logs4M/allreduce4M_lr_256.log	0.974493	Begin	0.974493	Start	0.974493	Inter-1			0.975778	Inter-2			0.977064	Finish
+./logs4M/allreduce4M_lr_256.log	0.977064	Begin	0.977064	Start	0.977064	Inter-1			0.978350	Inter-2			0.979635	Finish
+./logs4M/allreduce4M_lr_256.log	0.979635	Begin	0.979635	Start	0.979635	Inter-1			0.980921	Inter-2			0.982206	Finish
+./logs4M/allreduce4M_lr_256.log	0.982206	Begin	0.982206	Start	0.982206	Inter-1			0.983492	Inter-2			0.984778	Finish
+./logs4M/allreduce4M_lr_256.log	0.984778	Begin	0.984778	Start	0.984778	Inter-1			0.986063	Inter-2			0.987349	Finish
+./logs4M/allreduce4M_lr_256.log	0.987349	Begin	0.987349	Start	0.987349	Inter-1			0.988634	Inter-2			0.989920	Finish
+./logs4M/allreduce4M_lr_256.log	0.989920	Begin	0.989920	Start	0.989920	Inter-1			0.991205	Inter-2			0.992491	Finish
+./logs4M/allreduce4M_lr_256.log	0.992491	Begin	0.992491	Start	0.992491	Inter-1			0.993777	Inter-2			0.995062	Finish
+./logs4M/allreduce4M_lr_256.log	0.995062	Begin	0.995062	Start	0.995062	Inter-1			0.996348	Inter-2			0.997633	Finish
+./logs4M/allreduce4M_lr_256.log	0.997633	Begin	0.997633	Start	0.997633	Inter-1			0.998919	Inter-2			1.000205	Finish
+./logs4M/allreduce4M_lr_256.log	1.000205	Begin	1.000205	Start	1.000205	Inter-1			1.001490	Inter-2			1.002776	Finish
+./logs4M/allreduce4M_lr_256.log	1.002776	Begin	1.002776	Start	1.002776	Inter-1			1.004061	Inter-2			1.005347	Finish
+./logs4M/allreduce4M_lr_256.log	1.005347	Begin	1.005347	Start	1.005347	Inter-1			1.006633	Inter-2			1.007918	Finish
+./logs4M/allreduce4M_lr_256.log	1.007918	Begin	1.007918	Start	1.007918	Inter-1			1.009204	Inter-2			1.010489	Finish
+./logs4M/allreduce4M_lr_256.log	1.010489	Begin	1.010489	Start	1.010489	Inter-1			1.011775	Inter-2			1.013060	Finish
+./logs4M/allreduce4M_lr_256.log	1.013060	Begin	1.013060	Start	1.013060	Inter-1			1.014346	Inter-2			1.015632	Finish
+./logs4M/allreduce4M_lr_256.log	1.015632	Begin	1.015632	Start	1.015632	Inter-1			1.016917	Inter-2			1.018203	Finish
+./logs4M/allreduce4M_lr_256.log	1.018203	Begin	1.018203	Start	1.018203	Inter-1			1.019488	Inter-2			1.020774	Finish
+./logs4M/allreduce4M_lr_256.log	1.020774	Begin	1.020774	Start	1.020774	Inter-1			1.022059	Inter-2			1.023345	Finish
+./logs4M/allreduce4M_lr_256.log	1.023345	Begin	1.023345	Start	1.023345	Inter-1			1.024631	Inter-2			1.025916	Finish
+./logs4M/allreduce4M_lr_256.log	1.025916	Begin	1.025916	Start	1.025916	Inter-1			1.027202	Inter-2			1.028487	Finish
+./logs4M/allreduce4M_lr_256.log	1.028487	Begin	1.028487	Start	1.028487	Inter-1			1.029773	Inter-2			1.031059	Finish
+./logs4M/allreduce4M_lr_256.log	1.031059	Begin	1.031059	Start	1.031059	Inter-1			1.032344	Inter-2			1.033630	Finish
+./logs4M/allreduce4M_lr_256.log	1.033630	Begin	1.033630	Start	1.033630	Inter-1			1.034915	Inter-2			1.036201	Finish
+./logs4M/allreduce4M_lr_256.log	1.036201	Begin	1.036201	Start	1.036201	Inter-1			1.037486	Inter-2			1.038772	Finish
+./logs4M/allreduce4M_lr_256.log	1.038772	Begin	1.038772	Start	1.038772	Inter-1			1.040058	Inter-2			1.041343	Finish
+./logs4M/allreduce4M_lr_256.log	1.041343	Begin	1.041343	Start	1.041343	Inter-1			1.042629	Inter-2			1.043914	Finish
+./logs4M/allreduce4M_lr_256.log	1.043914	Begin	1.043914	Start	1.043914	Inter-1			1.045200	Inter-2			1.046485	Finish
+./logs4M/allreduce4M_lr_256.log	1.046485	Begin	1.046485	Start	1.046485	Inter-1			1.047771	Inter-2			1.049057	Finish
+./logs4M/allreduce4M_lr_256.log	1.049057	Begin	1.049057	Start	1.049057	Inter-1			1.050342	Inter-2			1.051628	Finish
+./logs4M/allreduce4M_lr_256.log	1.051628	Begin	1.051628	Start	1.051628	Inter-1			1.052913	Inter-2			1.054199	Finish
+./logs4M/allreduce4M_lr_256.log	1.054199	Begin	1.054199	Start	1.054199	Inter-1			1.055485	Inter-2			1.056770	Finish
+./logs4M/allreduce4M_lr_256.log	1.056770	Begin	1.056770	Start	1.056770	Inter-1			1.058056	Inter-2			1.059341	Finish
+./logs4M/allreduce4M_lr_256.log	1.059341	Begin	1.059341	Start	1.059341	Inter-1			1.060627	Inter-2			1.061912	Finish
+./logs4M/allreduce4M_lr_256.log	1.061912	Begin	1.061912	Start	1.061912	Inter-1			1.063198	Inter-2			1.064484	Finish
+./logs4M/allreduce4M_lr_256.log	1.064484	Begin	1.064484	Start	1.064484	Inter-1			1.065769	Inter-2			1.067055	Finish
+./logs4M/allreduce4M_lr_256.log	1.067055	Begin	1.067055	Start	1.067055	Inter-1			1.068340	Inter-2			1.069626	Finish
+./logs4M/allreduce4M_lr_256.log	1.069626	Begin	1.069626	Start	1.069626	Inter-1			1.070911	Inter-2			1.072197	Finish
+./logs4M/allreduce4M_lr_256.log	1.072197	Begin	1.072197	Start	1.072197	Inter-1			1.073483	Inter-2			1.074768	Finish
+./logs4M/allreduce4M_lr_256.log	1.074768	Begin	1.074768	Start	1.074768	Inter-1			1.076054	Inter-2			1.077339	Finish
+./logs4M/allreduce4M_lr_256.log	1.077339	Begin	1.077339	Start	1.077339	Inter-1			1.078625	Inter-2			1.079911	Finish
+./logs4M/allreduce4M_lr_256.log	1.079911	Begin	1.079911	Start	1.079911	Inter-1			1.081196	Inter-2			1.082482	Finish
+./logs4M/allreduce4M_lr_256.log	1.082482	Begin	1.082482	Start	1.082482	Inter-1			1.083767	Inter-2			1.085053	Finish
+./logs4M/allreduce4M_lr_256.log	1.085053	Begin	1.085053	Start	1.085053	Inter-1			1.086338	Inter-2			1.087624	Finish
+./logs4M/allreduce4M_lr_256.log	1.087624	Begin	1.087624	Start	1.087624	Inter-1			1.088910	Inter-2			1.090195	Finish
+./logs4M/allreduce4M_lr_256.log	1.090195	Begin	1.090195	Start	1.090195	Inter-1			1.091481	Inter-2			1.092766	Finish
+./logs4M/allreduce4M_lr_256.log	1.092766	Begin	1.092766	Start	1.092766	Inter-1			1.094052	Inter-2			1.095337	Finish
+./logs4M/allreduce4M_lr_256.log	1.095337	Begin	1.095337	Start	1.095337	Inter-1			1.096623	Inter-2			1.097909	Finish
+./logs4M/allreduce4M_lr_256.log	1.097909	Begin	1.097909	Start	1.097909	Inter-1			1.099194	Inter-2			1.100480	Finish
+./logs4M/allreduce4M_lr_256.log	1.100480	Begin	1.100480	Start	1.100480	Inter-1			1.101765	Inter-2			1.103051	Finish
+./logs4M/allreduce4M_lr_256.log	1.103051	Begin	1.103051	Start	1.103051	Inter-1			1.104337	Inter-2			1.105622	Finish
+./logs4M/allreduce4M_lr_256.log	1.105622	Begin	1.105622	Start	1.105622	Inter-1			1.106908	Inter-2			1.108193	Finish
+./logs4M/allreduce4M_lr_256.log	1.108193	Begin	1.108193	Start	1.108193	Inter-1			1.109479	Inter-2			1.110764	Finish
+./logs4M/allreduce4M_lr_256.log	1.110764	Begin	1.110764	Start	1.110764	Inter-1			1.112050	Inter-2			1.113336	Finish
+./logs4M/allreduce4M_lr_256.log	1.113336	Begin	1.113336	Start	1.113336	Inter-1			1.114621	Inter-2			1.115907	Finish
+./logs4M/allreduce4M_lr_256.log	1.115907	Begin	1.115907	Start	1.115907	Inter-1			1.117192	Inter-2			1.118478	Finish
+./logs4M/allreduce4M_lr_256.log	1.118478	Begin	1.118478	Start	1.118478	Inter-1			1.119763	Inter-2			1.121049	Finish
+./logs4M/allreduce4M_lr_256.log	1.121049	Begin	1.121049	Start	1.121049	Inter-1			1.122335	Inter-2			1.123620	Finish
+./logs4M/allreduce4M_lr_256.log	1.123620	Begin	1.123620	Start	1.123620	Inter-1			1.124906	Inter-2			1.126191	Finish
+./logs4M/allreduce4M_lr_256.log	1.126191	Begin	1.126191	Start	1.126191	Inter-1			1.127477	Inter-2			1.128762	Finish
+./logs4M/allreduce4M_lr_256.log	1.128762	Begin	1.128762	Start	1.128762	Inter-1			1.130048	Inter-2			1.131334	Finish
+./logs4M/allreduce4M_lr_256.log	1.131334	Begin	1.131334	Start	1.131334	Inter-1			1.132619	Inter-2			1.133905	Finish
+./logs4M/allreduce4M_lr_256.log	1.133905	Begin	1.133905	Start	1.133905	Inter-1			1.135190	Inter-2			1.136476	Finish
+./logs4M/allreduce4M_lr_256.log	1.136476	Begin	1.136476	Start	1.136476	Inter-1			1.137762	Inter-2			1.139047	Finish
+./logs4M/allreduce4M_lr_256.log	1.139047	Begin	1.139047	Start	1.139047	Inter-1			1.140333	Inter-2			1.141618	Finish
+./logs4M/allreduce4M_lr_256.log	1.141618	Begin	1.141618	Start	1.141618	Inter-1			1.142904	Inter-2			1.144189	Finish
+./logs4M/allreduce4M_lr_256.log	1.144189	Begin	1.144189	Start	1.144189	Inter-1			1.145475	Inter-2			1.146761	Finish
+./logs4M/allreduce4M_lr_256.log	1.146761	Begin	1.146761	Start	1.146761	Inter-1			1.148046	Inter-2			1.149332	Finish
+./logs4M/allreduce4M_lr_256.log	1.149332	Begin	1.149332	Start	1.149332	Inter-1			1.150617	Inter-2			1.151903	Finish
+./logs4M/allreduce4M_lr_256.log	1.151903	Begin	1.151903	Start	1.151903	Inter-1			1.153188	Inter-2			1.154474	Finish
+./logs4M/allreduce4M_lr_256.log	1.154474	Begin	1.154474	Start	1.154474	Inter-1			1.155760	Inter-2			1.157045	Finish
+./logs4M/allreduce4M_lr_256.log	1.157045	Begin	1.157045	Start	1.157045	Inter-1			1.158331	Inter-2			1.159616	Finish
+./logs4M/allreduce4M_lr_256.log	1.159616	Begin	1.159616	Start	1.159616	Inter-1			1.160902	Inter-2			1.162188	Finish
+./logs4M/allreduce4M_lr_256.log	1.162188	Begin	1.162188	Start	1.162188	Inter-1			1.163473	Inter-2			1.164759	Finish
+./logs4M/allreduce4M_lr_256.log	1.164759	Begin	1.164759	Start	1.164759	Inter-1			1.166044	Inter-2			1.167330	Finish
+./logs4M/allreduce4M_lr_256.log	1.167330	Begin	1.167330	Start	1.167330	Inter-1			1.168615	Inter-2			1.169901	Finish
+./logs4M/allreduce4M_lr_256.log	1.169901	Begin	1.169901	Start	1.169901	Inter-1			1.171187	Inter-2			1.172472	Finish
+./logs4M/allreduce4M_lr_256.log	1.172472	Begin	1.172472	Start	1.172472	Inter-1			1.173758	Inter-2			1.175043	Finish
+./logs4M/allreduce4M_lr_256.log	1.175043	Begin	1.175043	Start	1.175043	Inter-1			1.176329	Inter-2			1.177614	Finish
+./logs4M/allreduce4M_lr_256.log	1.177614	Begin	1.177614	Start	1.177614	Inter-1			1.178900	Inter-2			1.180186	Finish
+./logs4M/allreduce4M_lr_256.log	1.180186	Begin	1.180186	Start	1.180186	Inter-1			1.181471	Inter-2			1.182757	Finish
+./logs4M/allreduce4M_lr_256.log	1.182757	Begin	1.182757	Start	1.182757	Inter-1			1.184042	Inter-2			1.185328	Finish
+./logs4M/allreduce4M_lr_256.log	1.185328	Begin	1.185328	Start	1.185328	Inter-1			1.186614	Inter-2			1.187899	Finish
+./logs4M/allreduce4M_lr_256.log	1.187899	Begin	1.187899	Start	1.187899	Inter-1			1.189185	Inter-2			1.190470	Finish
+./logs4M/allreduce4M_lr_256.log	1.190470	Begin	1.190470	Start	1.190470	Inter-1			1.191756	Inter-2			1.193041	Finish
+./logs4M/allreduce4M_lr_256.log	1.193041	Begin	1.193041	Start	1.193041	Inter-1			1.194327	Inter-2			1.195613	Finish
+./logs4M/allreduce4M_lr_256.log	1.195613	Begin	1.195613	Start	1.195613	Inter-1			1.196898	Inter-2			1.198184	Finish
+./logs4M/allreduce4M_lr_256.log	1.198184	Begin	1.198184	Start	1.198184	Inter-1			1.199469	Inter-2			1.200755	Finish
+./logs4M/allreduce4M_lr_256.log	1.200755	Begin	1.200755	Start	1.200755	Inter-1			1.202040	Inter-2			1.203326	Finish
+./logs4M/allreduce4M_lr_256.log	1.203326	Begin	1.203326	Start	1.203326	Inter-1			1.204612	Inter-2			1.205897	Finish
+./logs4M/allreduce4M_lr_256.log	1.205897	Begin	1.205897	Start	1.205897	Inter-1			1.207183	Inter-2			1.208468	Finish
+./logs4M/allreduce4M_lr_256.log	1.208468	Begin	1.208468	Start	1.208468	Inter-1			1.209754	Inter-2			1.211039	Finish
+./logs4M/allreduce4M_lr_256.log	1.211039	Begin	1.211039	Start	1.211039	Inter-1			1.212325	Inter-2			1.213611	Finish
+./logs4M/allreduce4M_lr_256.log	1.213611	Begin	1.213611	Start	1.213611	Inter-1			1.214896	Inter-2			1.216182	Finish
+./logs4M/allreduce4M_lr_256.log	1.216182	Begin	1.216182	Start	1.216182	Inter-1			1.217467	Inter-2			1.218753	Finish
+./logs4M/allreduce4M_lr_256.log	1.218753	Begin	1.218753	Start	1.218753	Inter-1			1.220039	Inter-2			1.221324	Finish
+./logs4M/allreduce4M_lr_256.log	1.221324	Begin	1.221324	Start	1.221324	Inter-1			1.222610	Inter-2			1.223895	Finish
+./logs4M/allreduce4M_lr_256.log	1.223895	Begin	1.223895	Start	1.223895	Inter-1			1.225181	Inter-2			1.226466	Finish
+./logs4M/allreduce4M_lr_256.log	1.226466	Begin	1.226466	Start	1.226466	Inter-1			1.227752	Inter-2			1.229038	Finish
+./logs4M/allreduce4M_lr_256.log	1.229038	Begin	1.229038	Start	1.229038	Inter-1			1.230323	Inter-2			1.231609	Finish
+./logs4M/allreduce4M_lr_256.log	1.231609	Begin	1.231609	Start	1.231609	Inter-1			1.232894	Inter-2			1.234180	Finish
+./logs4M/allreduce4M_lr_256.log	1.234180	Begin	1.234180	Start	1.234180	Inter-1			1.235466	Inter-2			1.236751	Finish
+./logs4M/allreduce4M_lr_256.log	1.236751	Begin	1.236751	Start	1.236751	Inter-1			1.238037	Inter-2			1.239322	Finish
+./logs4M/allreduce4M_lr_256.log	1.239322	Begin	1.239322	Start	1.239322	Inter-1			1.240608	Inter-2			1.241893	Finish
+./logs4M/allreduce4M_lr_256.log	1.241893	Begin	1.241893	Start	1.241893	Inter-1			1.243179	Inter-2			1.244465	Finish
+./logs4M/allreduce4M_lr_256.log	1.244465	Begin	1.244465	Start	1.244465	Inter-1			1.245750	Inter-2			1.247036	Finish
+./logs4M/allreduce4M_lr_256.log	1.247036	Begin	1.247036	Start	1.247036	Inter-1			1.248321	Inter-2			1.249607	Finish
+./logs4M/allreduce4M_lr_256.log	1.249607	Begin	1.249607	Start	1.249607	Inter-1			1.250892	Inter-2			1.252178	Finish
+./logs4M/allreduce4M_lr_256.log	1.252178	Begin	1.252178	Start	1.252178	Inter-1			1.253464	Inter-2			1.254749	Finish
+./logs4M/allreduce4M_lr_256.log	1.254749	Begin	1.254749	Start	1.254749	Inter-1			1.256035	Inter-2			1.257320	Finish
+./logs4M/allreduce4M_lr_256.log	1.257320	Begin	1.257320	Start	1.257320	Inter-1			1.258606	Inter-2			1.259891	Finish
+./logs4M/allreduce4M_lr_256.log	1.259891	Begin	1.259891	Start	1.259891	Inter-1			1.261177	Inter-2			1.262463	Finish
+./logs4M/allreduce4M_lr_256.log	1.262463	Begin	1.262463	Start	1.262463	Inter-1			1.263748	Inter-2			1.265034	Finish
+./logs4M/allreduce4M_lr_256.log	1.265034	Begin	1.265034	Start	1.265034	Inter-1			1.266319	Inter-2			1.267605	Finish
+./logs4M/allreduce4M_lr_256.log	1.267605	Begin	1.267605	Start	1.267605	Inter-1			1.268891	Inter-2			1.270176	Finish
+./logs4M/allreduce4M_lr_256.log	1.270176	Begin	1.270176	Start	1.270176	Inter-1			1.271462	Inter-2			1.272747	Finish
+./logs4M/allreduce4M_lr_256.log	1.272747	Begin	1.272747	Start	1.272747	Inter-1			1.274033	Inter-2			1.275318	Finish
+./logs4M/allreduce4M_lr_256.log	1.275318	Begin	1.275318	Start	1.275318	Inter-1			1.276604	Inter-2			1.277890	Finish
+./logs4M/allreduce4M_lr_256.log	1.277890	Begin	1.277890	Start	1.277890	Inter-1			1.279175	Inter-2			1.280461	Finish
+./logs4M/allreduce4M_lr_256.log	1.280461	Begin	1.280461	Start	1.280461	Inter-1			1.281746	Inter-2			1.283032	Finish
+./logs4M/allreduce4M_lr_256.log	1.283032	Begin	1.283032	Start	1.283032	Inter-1			1.284317	Inter-2			1.285603	Finish
+./logs4M/allreduce4M_lr_256.log	1.285603	Begin	1.285603	Start	1.285603	Inter-1			1.286889	Inter-2			1.288174	Finish
+./logs4M/allreduce4M_lr_256.log	1.288174	Begin	1.288174	Start	1.288174	Inter-1			1.289460	Inter-2			1.290745	Finish
+./logs4M/allreduce4M_lr_256.log	1.290745	Begin	1.290745	Start	1.290745	Inter-1			1.292031	Inter-2			1.293316	Finish
+./logs4M/allreduce4M_lr_256.log	1.293316	Begin	1.293316	Start	1.293316	Inter-1			1.294602	Inter-2			1.295888	Finish
+./logs4M/allreduce4M_lr_256.log	1.295888	Begin	1.295888	Start	1.295888	Inter-1			1.297173	Inter-2			1.298459	Finish
+./logs4M/allreduce4M_lr_256.log	1.298459	Begin	1.298459	Start	1.298459	Inter-1			1.299744	Inter-2			1.301030	Finish
+./logs4M/allreduce4M_lr_256.log	1.301030	Begin	1.301030	Start	1.301030	Inter-1			1.302316	Inter-2			1.303601	Finish
+./logs4M/allreduce4M_lr_256.log	1.303601	Begin	1.303601	Start	1.303601	Inter-1			1.304887	Inter-2			1.306172	Finish
+./logs4M/allreduce4M_lr_256.log	1.306172	Begin	1.306172	Start	1.306172	Inter-1			1.307458	Inter-2			1.308743	Finish
+./logs4M/allreduce4M_lr_256.log	1.308743	Begin	1.308743	Start	1.308743	Inter-1			1.310029	Inter-2			1.311315	Finish
+./logs4M/allreduce4M_lr_256.log	1.311315	Begin	1.311315	Start	1.311315	Inter-1			1.312600	Inter-2			1.313886	Finish
+./logs4M/allreduce4M_lr_256.log	1.313886	Begin	1.313886	Start	1.313886	Inter-1			1.315171	Inter-2			1.316457	Finish
+./logs4M/allreduce4M_lr_256.log	1.316457	Begin	1.316457	Start	1.316457	Inter-1			1.317742	Inter-2			1.319028	Finish
+./logs4M/allreduce4M_lr_256.log	1.319028	Begin	1.319028	Start	1.319028	Inter-1			1.320314	Inter-2			1.321599	Finish
+./logs4M/allreduce4M_lr_256.log	1.321599	Begin	1.321599	Start	1.321599	Inter-1			1.322885	Inter-2			1.324170	Finish
+./logs4M/allreduce4M_lr_256.log	1.324170	Begin	1.324170	Start	1.324170	Inter-1			1.325456	Inter-2			1.326742	Finish
+./logs4M/allreduce4M_lr_256.log	1.326742	Begin	1.326742	Start	1.326742	Inter-1			1.328027	Inter-2			1.329313	Finish
+./logs4M/allreduce4M_lr_256.log	1.329313	Begin	1.329313	Start	1.329313	Inter-1			1.330598	Inter-2			1.331884	Finish
+./logs4M/allreduce4M_lr_256.log	1.331884	Begin	1.331884	Start	1.331884	Inter-1			1.333169	Inter-2			1.334455	Finish
+./logs4M/allreduce4M_lr_256.log	1.334455	Begin	1.334455	Start	1.334455	Inter-1			1.335741	Inter-2			1.337026	Finish
+./logs4M/allreduce4M_lr_256.log	1.337026	Begin	1.337026	Start	1.337026	Inter-1			1.338312	Inter-2			1.339597	Finish
+./logs4M/allreduce4M_lr_256.log	1.339597	Begin	1.339597	Start	1.339597	Inter-1			1.340883	Inter-2			1.342168	Finish
+./logs4M/allreduce4M_lr_256.log	1.342168	Begin	1.342168	Start	1.342168	Inter-1			1.343454	Inter-2			1.344740	Finish
+./logs4M/allreduce4M_lr_256.log	1.344740	Begin	1.344740	Start	1.344740	Inter-1			1.346025	Inter-2			1.347311	Finish
+./logs4M/allreduce4M_lr_256.log	1.347311	Begin	1.347311	Start	1.347311	Inter-1			1.348596	Inter-2			1.349882	Finish
+./logs4M/allreduce4M_lr_256.log	1.349882	Begin	1.349882	Start	1.349882	Inter-1			1.351168	Inter-2			1.352453	Finish
+./logs4M/allreduce4M_lr_256.log	1.352453	Begin	1.352453	Start	1.352453	Inter-1			1.353739	Inter-2			1.355024	Finish
+./logs4M/allreduce4M_lr_256.log	1.355024	Begin	1.355024	Start	1.355024	Inter-1			1.356310	Inter-2			1.357595	Finish
+./logs4M/allreduce4M_lr_256.log	1.357595	Begin	1.357595	Start	1.357595	Inter-1			1.358881	Inter-2			1.360167	Finish
+./logs4M/allreduce4M_lr_256.log	1.360167	Begin	1.360167	Start	1.360167	Inter-1			1.361452	Inter-2			1.362738	Finish
+./logs4M/allreduce4M_lr_256.log	1.362738	Begin	1.362738	Start	1.362738	Inter-1			1.364023	Inter-2			1.365309	Finish
+./logs4M/allreduce4M_lr_256.log	1.365309	Begin	1.365309	Start	1.365309	Inter-1			1.366595	Inter-2			1.367880	Finish
+./logs4M/allreduce4M_lr_256.log	1.367880	Begin	1.367880	Start	1.367880	Inter-1			1.369166	Inter-2			1.370451	Finish
+./logs4M/allreduce4M_lr_256.log	1.370451	Begin	1.370451	Start	1.370451	Inter-1			1.371737	Inter-2			1.373022	Finish
+./logs4M/allreduce4M_lr_256.log	1.373022	Begin	1.373022	Start	1.373022	Inter-1			1.374308	Inter-2			1.375594	Finish
+./logs4M/allreduce4M_lr_256.log	1.375594	Begin	1.375594	Start	1.375594	Inter-1			1.376879	Inter-2			1.378165	Finish
+./logs4M/allreduce4M_lr_256.log	1.378165	Begin	1.378165	Start	1.378165	Inter-1			1.379450	Inter-2			1.380736	Finish
+./logs4M/allreduce4M_lr_256.log	1.380736	Begin	1.380736	Start	1.380736	Inter-1			1.382021	Inter-2			1.383307	Finish
+./logs4M/allreduce4M_lr_256.log	1.383307	Begin	1.383307	Start	1.383307	Inter-1			1.384593	Inter-2			1.385878	Finish
+./logs4M/allreduce4M_lr_256.log	1.385878	Begin	1.385878	Start	1.385878	Inter-1			1.387164	Inter-2			1.388449	Finish
+./logs4M/allreduce4M_lr_256.log	1.388449	Begin	1.388449	Start	1.388449	Inter-1			1.389735	Inter-2			1.391021	Finish
+./logs4M/allreduce4M_lr_256.log	1.391021	Begin	1.391021	Start	1.391021	Inter-1			1.392306	Inter-2			1.393592	Finish
+./logs4M/allreduce4M_lr_256.log	1.393592	Begin	1.393592	Start	1.393592	Inter-1			1.394877	Inter-2			1.396163	Finish
+./logs4M/allreduce4M_lr_256.log	1.396163	Begin	1.396163	Start	1.396163	Inter-1			1.397448	Inter-2			1.398734	Finish
+./logs4M/allreduce4M_lr_256.log	1.398734	Begin	1.398734	Start	1.398734	Inter-1			1.400020	Inter-2			1.401305	Finish
+./logs4M/allreduce4M_lr_256.log	1.401305	Begin	1.401305	Start	1.401305	Inter-1			1.402591	Inter-2			1.403876	Finish
+./logs4M/allreduce4M_lr_256.log	1.403876	Begin	1.403876	Start	1.403876	Inter-1			1.405162	Inter-2			1.406447	Finish
+./logs4M/allreduce4M_lr_256.log	1.406447	Begin	1.406447	Start	1.406447	Inter-1			1.407733	Inter-2			1.409019	Finish
+./logs4M/allreduce4M_lr_256.log	1.409019	Begin	1.409019	Start	1.409019	Inter-1			1.410304	Inter-2			1.411590	Finish
+./logs4M/allreduce4M_lr_256.log	1.411590	Begin	1.411590	Start	1.411590	Inter-1			1.412875	Inter-2			1.414161	Finish
+./logs4M/allreduce4M_lr_256.log	1.414161	Begin	1.414161	Start	1.414161	Inter-1			1.415447	Inter-2			1.416732	Finish
+./logs4M/allreduce4M_lr_256.log	1.416732	Begin	1.416732	Start	1.416732	Inter-1			1.418018	Inter-2			1.419303	Finish
+./logs4M/allreduce4M_lr_256.log	1.419303	Begin	1.419303	Start	1.419303	Inter-1			1.420589	Inter-2			1.421874	Finish
+./logs4M/allreduce4M_lr_256.log	1.421874	Begin	1.421874	Start	1.421874	Inter-1			1.423160	Inter-2			1.424446	Finish
+./logs4M/allreduce4M_lr_256.log	1.424446	Begin	1.424446	Start	1.424446	Inter-1			1.425731	Inter-2			1.427017	Finish
+./logs4M/allreduce4M_lr_256.log	1.427017	Begin	1.427017	Start	1.427017	Inter-1			1.428302	Inter-2			1.429588	Finish
+./logs4M/allreduce4M_lr_256.log	1.429588	Begin	1.429588	Start	1.429588	Inter-1			1.430874	Inter-2			1.432159	Finish
+./logs4M/allreduce4M_lr_256.log	1.432159	Begin	1.432159	Start	1.432159	Inter-1			1.433445	Inter-2			1.434730	Finish
+./logs4M/allreduce4M_lr_256.log	1.434730	Begin	1.434730	Start	1.434730	Inter-1			1.436016	Inter-2			1.437301	Finish
+./logs4M/allreduce4M_lr_256.log	1.437301	Begin	1.437301	Start	1.437301	Inter-1			1.438587	Inter-2			1.439873	Finish
+./logs4M/allreduce4M_lr_256.log	1.439873	Begin	1.439873	Start	1.439873	Inter-1			1.441158	Inter-2			1.442444	Finish
+./logs4M/allreduce4M_lr_256.log	1.442444	Begin	1.442444	Start	1.442444	Inter-1			1.443729	Inter-2			1.445015	Finish
+./logs4M/allreduce4M_lr_256.log	1.445015	Begin	1.445015	Start	1.445015	Inter-1			1.446300	Inter-2			1.447586	Finish
+./logs4M/allreduce4M_lr_256.log	1.447586	Begin	1.447586	Start	1.447586	Inter-1			1.448872	Inter-2			1.450157	Finish
+./logs4M/allreduce4M_lr_256.log	1.450157	Begin	1.450157	Start	1.450157	Inter-1			1.451443	Inter-2			1.452728	Finish
+./logs4M/allreduce4M_lr_256.log	1.452728	Begin	1.452728	Start	1.452728	Inter-1			1.454014	Inter-2			1.455299	Finish
+./logs4M/allreduce4M_lr_256.log	1.455300	Begin	1.455300	Start	1.455300	Inter-1			1.456585	Inter-2			1.457871	Finish
+./logs4M/allreduce4M_lr_256.log	1.457871	Begin	1.457871	Start	1.457871	Inter-1			1.459156	Inter-2			1.460442	Finish
+./logs4M/allreduce4M_lr_256.log	1.460442	Begin	1.460442	Start	1.460442	Inter-1			1.461727	Inter-2			1.463013	Finish
+./logs4M/allreduce4M_lr_256.log	1.463013	Begin	1.463013	Start	1.463013	Inter-1			1.464299	Inter-2			1.465584	Finish
+./logs4M/allreduce4M_lr_256.log	1.465584	Begin	1.465584	Start	1.465584	Inter-1			1.466870	Inter-2			1.468155	Finish
+./logs4M/allreduce4M_lr_256.log	1.468155	Begin	1.468155	Start	1.468155	Inter-1			1.469441	Inter-2			1.470726	Finish
+./logs4M/allreduce4M_lr_256.log	1.470726	Begin	1.470726	Start	1.470726	Inter-1			1.472012	Inter-2			1.473298	Finish
+./logs4M/allreduce4M_lr_256.log	1.473298	Begin	1.473298	Start	1.473298	Inter-1			1.474583	Inter-2			1.475869	Finish
+./logs4M/allreduce4M_lr_256.log	1.475869	Begin	1.475869	Start	1.475869	Inter-1			1.477154	Inter-2			1.478440	Finish
+./logs4M/allreduce4M_lr_256.log	1.478440	Begin	1.478440	Start	1.478440	Inter-1			1.479726	Inter-2			1.481011	Finish
+./logs4M/allreduce4M_lr_256.log	1.481011	Begin	1.481011	Start	1.481011	Inter-1			1.482297	Inter-2			1.483582	Finish
+./logs4M/allreduce4M_lr_256.log	1.483582	Begin	1.483582	Start	1.483582	Inter-1			1.484868	Inter-2			1.486153	Finish
+./logs4M/allreduce4M_lr_256.log	1.486153	Begin	1.486153	Start	1.486153	Inter-1			1.487439	Inter-2			1.488725	Finish
+./logs4M/allreduce4M_lr_256.log	1.488725	Begin	1.488725	Start	1.488725	Inter-1			1.490010	Inter-2			1.491296	Finish
+./logs4M/allreduce4M_lr_256.log	1.491296	Begin	1.491296	Start	1.491296	Inter-1			1.492581	Inter-2			1.493867	Finish
+./logs4M/allreduce4M_lr_256.log	1.493867	Begin	1.493867	Start	1.493867	Inter-1			1.495152	Inter-2			1.496438	Finish
+./logs4M/allreduce4M_lr_256.log	1.496438	Begin	1.496438	Start	1.496438	Inter-1			1.497724	Inter-2			1.499009	Finish
+./logs4M/allreduce4M_lr_256.log	1.499009	Begin	1.499009	Start	1.499009	Inter-1			1.500295	Inter-2			1.501580	Finish
+./logs4M/allreduce4M_lr_256.log	1.501580	Begin	1.501580	Start	1.501580	Inter-1			1.502866	Inter-2			1.504151	Finish
+./logs4M/allreduce4M_lr_256.log	1.504151	Begin	1.504151	Start	1.504151	Inter-1			1.505437	Inter-2			1.506723	Finish
+./logs4M/allreduce4M_lr_256.log	1.506723	Begin	1.506723	Start	1.506723	Inter-1			1.508008	Inter-2			1.509294	Finish
+./logs4M/allreduce4M_lr_256.log	1.509294	Begin	1.509294	Start	1.509294	Inter-1			1.510579	Inter-2			1.511865	Finish
+./logs4M/allreduce4M_lr_256.log	1.511865	Begin	1.511865	Start	1.511865	Inter-1			1.513151	Inter-2			1.514436	Finish
+./logs4M/allreduce4M_lr_256.log	1.514436	Begin	1.514436	Start	1.514436	Inter-1			1.515722	Inter-2			1.517007	Finish
+./logs4M/allreduce4M_lr_256.log	1.517007	Begin	1.517007	Start	1.517007	Inter-1			1.518293	Inter-2			1.519578	Finish
+./logs4M/allreduce4M_lr_256.log	1.519578	Begin	1.519578	Start	1.519578	Inter-1			1.520864	Inter-2			1.522150	Finish
+./logs4M/allreduce4M_lr_256.log	1.522150	Begin	1.522150	Start	1.522150	Inter-1			1.523435	Inter-2			1.524721	Finish
+./logs4M/allreduce4M_lr_256.log	1.524721	Begin	1.524721	Start	1.524721	Inter-1			1.526006	Inter-2			1.527292	Finish
+./logs4M/allreduce4M_lr_256.log	1.527292	Begin	1.527292	Start	1.527292	Inter-1			1.528578	Inter-2			1.529863	Finish
+./logs4M/allreduce4M_lr_256.log	1.529863	Begin	1.529863	Start	1.529863	Inter-1			1.531149	Inter-2			1.532434	Finish
+./logs4M/allreduce4M_lr_256.log	1.532434	Begin	1.532434	Start	1.532434	Inter-1			1.533720	Inter-2			1.535005	Finish
+./logs4M/allreduce4M_lr_256.log	1.535005	Begin	1.535005	Start	1.535005	Inter-1			1.536291	Inter-2			1.537577	Finish
+./logs4M/allreduce4M_lr_256.log	1.537577	Begin	1.537577	Start	1.537577	Inter-1			1.538862	Inter-2			1.540148	Finish
+./logs4M/allreduce4M_lr_256.log	1.540148	Begin	1.540148	Start	1.540148	Inter-1			1.541433	Inter-2			1.542719	Finish
+./logs4M/allreduce4M_lr_256.log	1.542719	Begin	1.542719	Start	1.542719	Inter-1			1.544004	Inter-2			1.545290	Finish
+./logs4M/allreduce4M_lr_256.log	1.545290	Begin	1.545290	Start	1.545290	Inter-1			1.546576	Inter-2			1.547861	Finish
+./logs4M/allreduce4M_lr_256.log	1.547861	Begin	1.547861	Start	1.547861	Inter-1			1.549147	Inter-2			1.550432	Finish
+./logs4M/allreduce4M_lr_256.log	1.550432	Begin	1.550432	Start	1.550432	Inter-1			1.551718	Inter-2			1.553004	Finish
+./logs4M/allreduce4M_lr_256.log	1.553004	Begin	1.553004	Start	1.553004	Inter-1			1.554289	Inter-2			1.555575	Finish
+./logs4M/allreduce4M_lr_256.log	1.555575	Begin	1.555575	Start	1.555575	Inter-1			1.556860	Inter-2			1.558146	Finish
+./logs4M/allreduce4M_lr_256.log	1.558146	Begin	1.558146	Start	1.558146	Inter-1			1.559431	Inter-2			1.560717	Finish
+./logs4M/allreduce4M_lr_256.log	1.560717	Begin	1.560717	Start	1.560717	Inter-1			1.562003	Inter-2			1.563288	Finish
+./logs4M/allreduce4M_lr_256.log	1.563288	Begin	1.563288	Start	1.563288	Inter-1			1.564574	Inter-2			1.565859	Finish
+./logs4M/allreduce4M_lr_256.log	1.565859	Begin	1.565859	Start	1.565859	Inter-1			1.567145	Inter-2			1.568430	Finish
+./logs4M/allreduce4M_lr_256.log	1.568430	Begin	1.568430	Start	1.568430	Inter-1			1.569716	Inter-2			1.571002	Finish
+./logs4M/allreduce4M_lr_256.log	1.571002	Begin	1.571002	Start	1.571002	Inter-1			1.572287	Inter-2			1.573573	Finish
+./logs4M/allreduce4M_lr_256.log	1.573573	Begin	1.573573	Start	1.573573	Inter-1			1.574858	Inter-2			1.576144	Finish
+./logs4M/allreduce4M_lr_256.log	1.576144	Begin	1.576144	Start	1.576144	Inter-1			1.577430	Inter-2			1.578715	Finish
+./logs4M/allreduce4M_lr_256.log	1.578715	Begin	1.578715	Start	1.578715	Inter-1			1.580001	Inter-2			1.581286	Finish
+./logs4M/allreduce4M_lr_256.log	1.581286	Begin	1.581286	Start	1.581286	Inter-1			1.582572	Inter-2			1.583857	Finish
+./logs4M/allreduce4M_lr_256.log	1.583857	Begin	1.583857	Start	1.583857	Inter-1			1.585143	Inter-2			1.586429	Finish
+./logs4M/allreduce4M_lr_256.log	1.586429	Begin	1.586429	Start	1.586429	Inter-1			1.587714	Inter-2			1.589000	Finish
+./logs4M/allreduce4M_lr_256.log	1.589000	Begin	1.589000	Start	1.589000	Inter-1			1.590285	Inter-2			1.591571	Finish
+./logs4M/allreduce4M_lr_256.log	1.591571	Begin	1.591571	Start	1.591571	Inter-1			1.592856	Inter-2			1.594142	Finish
+./logs4M/allreduce4M_lr_256.log	1.594142	Begin	1.594142	Start	1.594142	Inter-1			1.595428	Inter-2			1.596713	Finish
+./logs4M/allreduce4M_lr_256.log	1.596713	Begin	1.596713	Start	1.596713	Inter-1			1.597999	Inter-2			1.599284	Finish
+./logs4M/allreduce4M_lr_256.log	1.599284	Begin	1.599284	Start	1.599284	Inter-1			1.600570	Inter-2			1.601856	Finish
+./logs4M/allreduce4M_lr_256.log	1.601856	Begin	1.601856	Start	1.601856	Inter-1			1.603141	Inter-2			1.604427	Finish
+./logs4M/allreduce4M_lr_256.log	1.604427	Begin	1.604427	Start	1.604427	Inter-1			1.605712	Inter-2			1.606998	Finish
+./logs4M/allreduce4M_lr_256.log	1.606998	Begin	1.606998	Start	1.606998	Inter-1			1.608283	Inter-2			1.609569	Finish
+./logs4M/allreduce4M_lr_256.log	1.609569	Begin	1.609569	Start	1.609569	Inter-1			1.610855	Inter-2			1.612140	Finish
+./logs4M/allreduce4M_lr_256.log	1.612140	Begin	1.612140	Start	1.612140	Inter-1			1.613426	Inter-2			1.614711	Finish
+./logs4M/allreduce4M_lr_256.log	1.614711	Begin	1.614711	Start	1.614711	Inter-1			1.615997	Inter-2			1.617282	Finish
+./logs4M/allreduce4M_lr_256.log	1.617282	Begin	1.617282	Start	1.617282	Inter-1			1.618568	Inter-2			1.619854	Finish
+./logs4M/allreduce4M_lr_256.log	1.619854	Begin	1.619854	Start	1.619854	Inter-1			1.621139	Inter-2			1.622425	Finish
+./logs4M/allreduce4M_lr_256.log	1.622425	Begin	1.622425	Start	1.622425	Inter-1			1.623710	Inter-2			1.624996	Finish
+./logs4M/allreduce4M_lr_256.log	1.624996	Begin	1.624996	Start	1.624996	Inter-1			1.626282	Inter-2			1.627567	Finish
+./logs4M/allreduce4M_lr_256.log	1.627567	Begin	1.627567	Start	1.627567	Inter-1			1.628853	Inter-2			1.630138	Finish
+./logs4M/allreduce4M_lr_256.log	1.630138	Begin	1.630138	Start	1.630138	Inter-1			1.631424	Inter-2			1.632709	Finish
+./logs4M/allreduce4M_lr_256.log	1.632709	Begin	1.632709	Start	1.632709	Inter-1			1.633995	Inter-2			1.635281	Finish
+./logs4M/allreduce4M_lr_256.log	1.635281	Begin	1.635281	Start	1.635281	Inter-1			1.636566	Inter-2			1.637852	Finish
+./logs4M/allreduce4M_lr_256.log	1.637852	Begin	1.637852	Start	1.637852	Inter-1			1.639137	Inter-2			1.640423	Finish
+./logs4M/allreduce4M_lr_256.log	1.640423	Begin	1.640423	Start	1.640423	Inter-1			1.641708	Inter-2			1.642994	Finish
+./logs4M/allreduce4M_lr_256.log	1.642994	Begin	1.642994	Start	1.642994	Inter-1			1.644280	Inter-2			1.645565	Finish
+./logs4M/allreduce4M_lr_256.log	1.645565	Begin	1.645565	Start	1.645565	Inter-1			1.646851	Inter-2			1.648136	Finish
+./logs4M/allreduce4M_lr_256.log	1.648136	Begin	1.648136	Start	1.648136	Inter-1			1.649422	Inter-2			1.650708	Finish
+./logs4M/allreduce4M_lr_256.log	1.650708	Begin	1.650708	Start	1.650708	Inter-1			1.651993	Inter-2			1.653279	Finish
+./logs4M/allreduce4M_lr_256.log	1.653279	Begin	1.653279	Start	1.653279	Inter-1			1.654564	Inter-2			1.655850	Finish
+./logs4M/allreduce4M_lr_256.log	1.655850	Begin	1.655850	Start	1.655850	Inter-1			1.657135	Inter-2			1.658421	Finish
+./logs4M/allreduce4M_lr_256.log	1.658421	Begin	1.658421	Start	1.658421	Inter-1			1.659707	Inter-2			1.660992	Finish
+./logs4M/allreduce4M_lr_256.log	1.660992	Begin	1.660992	Start	1.660992	Inter-1			1.662278	Inter-2			1.663563	Finish
+./logs4M/allreduce4M_lr_256.log	1.663563	Begin	1.663563	Start	1.663563	Inter-1			1.664849	Inter-2			1.666134	Finish
+./logs4M/allreduce4M_lr_256.log	1.666134	Begin	1.666134	Start	1.666134	Inter-1			1.667420	Inter-2			1.668706	Finish
+./logs4M/allreduce4M_lr_256.log	1.668706	Begin	1.668706	Start	1.668706	Inter-1			1.669991	Inter-2			1.671277	Finish
+./logs4M/allreduce4M_lr_256.log	1.671277	Begin	1.671277	Start	1.671277	Inter-1			1.672562	Inter-2			1.673848	Finish
+./logs4M/allreduce4M_lr_256.log	1.673848	Begin	1.673848	Start	1.673848	Inter-1			1.675134	Inter-2			1.676419	Finish
+./logs4M/allreduce4M_lr_256.log	1.676419	Begin	1.676419	Start	1.676419	Inter-1			1.677705	Inter-2			1.678990	Finish
+./logs4M/allreduce4M_lr_256.log	1.678990	Begin	1.678990	Start	1.678990	Inter-1			1.680276	Inter-2			1.681561	Finish
+./logs4M/allreduce4M_lr_256.log	1.681561	Begin	1.681561	Start	1.681561	Inter-1			1.682847	Inter-2			1.684133	Finish
+./logs4M/allreduce4M_lr_256.log	1.684133	Begin	1.684133	Start	1.684133	Inter-1			1.685418	Inter-2			1.686704	Finish
+./logs4M/allreduce4M_lr_256.log	1.686704	Begin	1.686704	Start	1.686704	Inter-1			1.687989	Inter-2			1.689275	Finish
+./logs4M/allreduce4M_lr_256.log	1.689275	Begin	1.689275	Start	1.689275	Inter-1			1.690560	Inter-2			1.691846	Finish
+./logs4M/allreduce4M_lr_256.log	1.691846	Begin	1.691846	Start	1.691846	Inter-1			1.693132	Inter-2			1.694417	Finish
+./logs4M/allreduce4M_lr_256.log	1.694417	Begin	1.694417	Start	1.694417	Inter-1			1.695703	Inter-2			1.696988	Finish
+./logs4M/allreduce4M_lr_256.log	1.696988	Begin	1.696988	Start	1.696988	Inter-1			1.698274	Inter-2			1.699560	Finish
+./logs4M/allreduce4M_lr_256.log	1.699560	Begin	1.699560	Start	1.699560	Inter-1			1.700845	Inter-2			1.702131	Finish
+./logs4M/allreduce4M_lr_256.log	1.702131	Begin	1.702131	Start	1.702131	Inter-1			1.703416	Inter-2			1.704702	Finish
+./logs4M/allreduce4M_lr_256.log	1.704702	Begin	1.704702	Start	1.704702	Inter-1			1.705987	Inter-2			1.707273	Finish
+./logs4M/allreduce4M_lr_256.log	1.707273	Begin	1.707273	Start	1.707273	Inter-1			1.708559	Inter-2			1.709844	Finish
+./logs4M/allreduce4M_lr_256.log	1.709844	Begin	1.709844	Start	1.709844	Inter-1			1.711130	Inter-2			1.712415	Finish
+./logs4M/allreduce4M_lr_256.log	1.712415	Begin	1.712415	Start	1.712415	Inter-1			1.713701	Inter-2			1.714986	Finish
+./logs4M/allreduce4M_lr_256.log	1.714986	Begin	1.714986	Start	1.714986	Inter-1			1.716272	Inter-2			1.717558	Finish
+./logs4M/allreduce4M_lr_256.log	1.717558	Begin	1.717558	Start	1.717558	Inter-1			1.718843	Inter-2			1.720129	Finish
+./logs4M/allreduce4M_lr_256.log	1.720129	Begin	1.720129	Start	1.720129	Inter-1			1.721414	Inter-2			1.722700	Finish
+./logs4M/allreduce4M_lr_256.log	1.722700	Begin	1.722700	Start	1.722700	Inter-1			1.723986	Inter-2			1.725271	Finish
+./logs4M/allreduce4M_lr_256.log	1.725271	Begin	1.725271	Start	1.725271	Inter-1			1.726557	Inter-2			1.727842	Finish
+./logs4M/allreduce4M_lr_256.log	1.727842	Begin	1.727842	Start	1.727842	Inter-1			1.729128	Inter-2			1.730413	Finish
+./logs4M/allreduce4M_lr_256.log	1.730413	Begin	1.730413	Start	1.730413	Inter-1			1.731699	Inter-2			1.732985	Finish
+./logs4M/allreduce4M_lr_256.log	1.732985	Begin	1.732985	Start	1.732985	Inter-1			1.734270	Inter-2			1.735556	Finish
+./logs4M/allreduce4M_lr_256.log	1.735556	Begin	1.735556	Start	1.735556	Inter-1			1.736841	Inter-2			1.738127	Finish
+./logs4M/allreduce4M_lr_256.log	1.738127	Begin	1.738127	Start	1.738127	Inter-1			1.739413	Inter-2			1.740698	Finish
+./logs4M/allreduce4M_lr_256.log	1.740698	Begin	1.740698	Start	1.740698	Inter-1			1.741984	Inter-2			1.743269	Finish
+./logs4M/allreduce4M_lr_256.log	1.743269	Begin	1.743269	Start	1.743269	Inter-1			1.744555	Inter-2			1.745840	Finish
+./logs4M/allreduce4M_lr_256.log	1.745840	Begin	1.745840	Start	1.745840	Inter-1			1.747126	Inter-2			1.748412	Finish
+./logs4M/allreduce4M_lr_256.log	1.748412	Begin	1.748412	Start	1.748412	Inter-1			1.749697	Inter-2			1.750983	Finish
+./logs4M/allreduce4M_lr_256.log	1.750983	Begin	1.750983	Start	1.750983	Inter-1			1.752268	Inter-2			1.753554	Finish
+./logs4M/allreduce4M_lr_256.log	1.753554	Begin	1.753554	Start	1.753554	Inter-1			1.754839	Inter-2			1.756125	Finish
+./logs4M/allreduce4M_lr_256.log	1.756125	Begin	1.756125	Start	1.756125	Inter-1			1.757411	Inter-2			1.758696	Finish
+./logs4M/allreduce4M_lr_256.log	1.758696	Begin	1.758696	Start	1.758696	Inter-1			1.759982	Inter-2			1.761267	Finish
+./logs4M/allreduce4M_lr_256.log	1.761267	Begin	1.761267	Start	1.761267	Inter-1			1.762553	Inter-2			1.763838	Finish
+./logs4M/allreduce4M_lr_256.log	1.763839	Begin	1.763839	Start	1.763839	Inter-1			1.765124	Inter-2			1.766410	Finish
+./logs4M/allreduce4M_lr_256.log	1.766410	Begin	1.766410	Start	1.766410	Inter-1			1.767695	Inter-2			1.768981	Finish
+./logs4M/allreduce4M_lr_256.log	1.768981	Begin	1.768981	Start	1.768981	Inter-1			1.770266	Inter-2			1.771552	Finish
+./logs4M/allreduce4M_lr_256.log	1.771552	Begin	1.771552	Start	1.771552	Inter-1			1.772838	Inter-2			1.774123	Finish
+./logs4M/allreduce4M_lr_256.log	1.774123	Begin	1.774123	Start	1.774123	Inter-1			1.775409	Inter-2			1.776694	Finish
+./logs4M/allreduce4M_lr_256.log	1.776694	Begin	1.776694	Start	1.776694	Inter-1			1.777980	Inter-2			1.779265	Finish
+./logs4M/allreduce4M_lr_256.log	1.779265	Begin	1.779265	Start	1.779265	Inter-1			1.780551	Inter-2			1.781837	Finish
+./logs4M/allreduce4M_lr_256.log	1.781837	Begin	1.781837	Start	1.781837	Inter-1			1.783122	Inter-2			1.784408	Finish
+./logs4M/allreduce4M_lr_256.log	1.784408	Begin	1.784408	Start	1.784408	Inter-1			1.785693	Inter-2			1.786979	Finish
+./logs4M/allreduce4M_lr_256.log	1.786979	Begin	1.786979	Start	1.786979	Inter-1			1.788264	Inter-2			1.789550	Finish
+./logs4M/allreduce4M_lr_256.log	1.789550	Begin	1.789550	Start	1.789550	Inter-1			1.790836	Inter-2			1.792121	Finish
+./logs4M/allreduce4M_lr_256.log	1.792121	Begin	1.792121	Start	1.792121	Inter-1			1.793407	Inter-2			1.794692	Finish
+./logs4M/allreduce4M_lr_256.log	1.794692	Begin	1.794692	Start	1.794692	Inter-1			1.795978	Inter-2			1.797263	Finish
+./logs4M/allreduce4M_lr_256.log	1.797263	Begin	1.797263	Start	1.797263	Inter-1			1.798549	Inter-2			1.799835	Finish
+./logs4M/allreduce4M_lr_256.log	1.799835	Begin	1.799835	Start	1.799835	Inter-1			1.801120	Inter-2			1.802406	Finish
+./logs4M/allreduce4M_lr_256.log	1.802406	Begin	1.802406	Start	1.802406	Inter-1			1.803691	Inter-2			1.804977	Finish
+./logs4M/allreduce4M_lr_256.log	1.804977	Begin	1.804977	Start	1.804977	Inter-1			1.806263	Inter-2			1.807548	Finish
+./logs4M/allreduce4M_lr_256.log	1.807548	Begin	1.807548	Start	1.807548	Inter-1			1.808834	Inter-2			1.810119	Finish
+./logs4M/allreduce4M_lr_256.log	1.810119	Begin	1.810119	Start	1.810119	Inter-1			1.811405	Inter-2			1.812690	Finish
+./logs4M/allreduce4M_lr_256.log	1.812690	Begin	1.812690	Start	1.812690	Inter-1			1.813976	Inter-2			1.815262	Finish
+./logs4M/allreduce4M_lr_256.log	1.815262	Begin	1.815262	Start	1.815262	Inter-1			1.816547	Inter-2			1.817833	Finish
+./logs4M/allreduce4M_lr_256.log	1.817833	Begin	1.817833	Start	1.817833	Inter-1			1.819118	Inter-2			1.820404	Finish
+./logs4M/allreduce4M_lr_256.log	1.820404	Begin	1.820404	Start	1.820404	Inter-1			1.821689	Inter-2			1.822975	Finish
+./logs4M/allreduce4M_lr_256.log	1.822975	Begin	1.822975	Start	1.822975	Inter-1			1.824261	Inter-2			1.825546	Finish
+./logs4M/allreduce4M_lr_256.log	1.825546	Begin	1.825546	Start	1.825546	Inter-1			1.826832	Inter-2			1.828117	Finish
+./logs4M/allreduce4M_lr_256.log	1.828117	Begin	1.828117	Start	1.828117	Inter-1			1.829403	Inter-2			1.830689	Finish
+./logs4M/allreduce4M_lr_256.log	1.830689	Begin	1.830689	Start	1.830689	Inter-1			1.831974	Inter-2			1.833260	Finish
+./logs4M/allreduce4M_lr_256.log	1.833260	Begin	1.833260	Start	1.833260	Inter-1			1.834545	Inter-2			1.835831	Finish
+./logs4M/allreduce4M_lr_256.log	1.835831	Begin	1.835831	Start	1.835831	Inter-1			1.837116	Inter-2			1.838402	Finish
+./logs4M/allreduce4M_lr_256.log	1.838402	Begin	1.838402	Start	1.838402	Inter-1			1.839688	Inter-2			1.840973	Finish
+./logs4M/allreduce4M_lr_256.log	1.840973	Begin	1.840973	Start	1.840973	Inter-1			1.842259	Inter-2			1.843544	Finish
+./logs4M/allreduce4M_lr_256.log	1.843544	Begin	1.843544	Start	1.843544	Inter-1			1.844830	Inter-2			1.846116	Finish
+./logs4M/allreduce4M_lr_256.log	1.846116	Begin	1.846116	Start	1.846116	Inter-1			1.847401	Inter-2			1.848687	Finish
+./logs4M/allreduce4M_lr_256.log	1.848687	Begin	1.848687	Start	1.848687	Inter-1			1.849972	Inter-2			1.851258	Finish
+./logs4M/allreduce4M_lr_256.log	1.851258	Begin	1.851258	Start	1.851258	Inter-1			1.852543	Inter-2			1.853829	Finish
+./logs4M/allreduce4M_lr_256.log	1.853829	Begin	1.853829	Start	1.853829	Inter-1			1.855115	Inter-2			1.856400	Finish
+./logs4M/allreduce4M_lr_256.log	1.856400	Begin	1.856400	Start	1.856400	Inter-1			1.857686	Inter-2			1.858971	Finish
+./logs4M/allreduce4M_lr_256.log	1.858971	Begin	1.858971	Start	1.858971	Inter-1			1.860257	Inter-2			1.861542	Finish
+./logs4M/allreduce4M_lr_256.log	1.861542	Begin	1.861542	Start	1.861542	Inter-1			1.862828	Inter-2			1.864114	Finish
+./logs4M/allreduce4M_lr_256.log	1.864114	Begin	1.864114	Start	1.864114	Inter-1			1.865399	Inter-2			1.866685	Finish
+./logs4M/allreduce4M_lr_256.log	1.866685	Begin	1.866685	Start	1.866685	Inter-1			1.867970	Inter-2			1.869256	Finish
+./logs4M/allreduce4M_lr_256.log	1.869256	Begin	1.869256	Start	1.869256	Inter-1			1.870542	Inter-2			1.871827	Finish
+./logs4M/allreduce4M_lr_256.log	1.871827	Begin	1.871827	Start	1.871827	Inter-1			1.873113	Inter-2			1.874398	Finish
+./logs4M/allreduce4M_lr_256.log	1.874398	Begin	1.874398	Start	1.874398	Inter-1			1.875684	Inter-2			1.876969	Finish
+./logs4M/allreduce4M_lr_256.log	1.876969	Begin	1.876969	Start	1.876969	Inter-1			1.878255	Inter-2			1.879541	Finish
+./logs4M/allreduce4M_lr_256.log	1.879541	Begin	1.879541	Start	1.879541	Inter-1			1.880826	Inter-2			1.882112	Finish
+./logs4M/allreduce4M_lr_256.log	1.882112	Begin	1.882112	Start	1.882112	Inter-1			1.883397	Inter-2			1.884683	Finish
+./logs4M/allreduce4M_lr_256.log	1.884683	Begin	1.884683	Start	1.884683	Inter-1			1.885969	Inter-2			1.887254	Finish
+./logs4M/allreduce4M_lr_256.log	1.887254	Begin	1.887254	Start	1.887254	Inter-1			1.888540	Inter-2			1.889825	Finish
+./logs4M/allreduce4M_lr_256.log	1.889825	Begin	1.889825	Start	1.889825	Inter-1			1.891111	Inter-2			1.892396	Finish
+./logs4M/allreduce4M_lr_256.log	1.892396	Begin	1.892396	Start	1.892396	Inter-1			1.893682	Inter-2			1.894968	Finish
+./logs4M/allreduce4M_lr_256.log	1.894968	Begin	1.894968	Start	1.894968	Inter-1			1.896253	Inter-2			1.897539	Finish
+./logs4M/allreduce4M_lr_256.log	1.897539	Begin	1.897539	Start	1.897539	Inter-1			1.898824	Inter-2			1.900110	Finish
+./logs4M/allreduce4M_lr_256.log	1.900110	Begin	1.900110	Start	1.900110	Inter-1			1.901395	Inter-2			1.902681	Finish
+./logs4M/allreduce4M_lr_256.log	1.902681	Begin	1.902681	Start	1.902681	Inter-1			1.903967	Inter-2			1.905252	Finish
+./logs4M/allreduce4M_lr_256.log	1.905252	Begin	1.905252	Start	1.905252	Inter-1			1.906538	Inter-2			1.907823	Finish
+./logs4M/allreduce4M_lr_256.log	1.907823	Begin	1.907823	Start	1.907823	Inter-1			1.909109	Inter-2			1.910395	Finish
+./logs4M/allreduce4M_lr_256.log	1.910395	Begin	1.910395	Start	1.910395	Inter-1			1.911680	Inter-2			1.912966	Finish
+./logs4M/allreduce4M_lr_256.log	1.912966	Begin	1.912966	Start	1.912966	Inter-1			1.914251	Inter-2			1.915537	Finish
+./logs4M/allreduce4M_lr_256.log	1.915537	Begin	1.915537	Start	1.915537	Inter-1			1.916822	Inter-2			1.918108	Finish
+./logs4M/allreduce4M_lr_256.log	1.918108	Begin	1.918108	Start	1.918108	Inter-1			1.919394	Inter-2			1.920679	Finish
+./logs4M/allreduce4M_lr_256.log	1.920679	Begin	1.920679	Start	1.920679	Inter-1			1.921965	Inter-2			1.923250	Finish
+./logs4M/allreduce4M_lr_256.log	1.923250	Begin	1.923250	Start	1.923250	Inter-1			1.924536	Inter-2			1.925821	Finish
+./logs4M/allreduce4M_lr_256.log	1.925822	Begin	1.925822	Start	1.925822	Inter-1			1.927107	Inter-2			1.928393	Finish
+./logs4M/allreduce4M_lr_256.log	1.928393	Begin	1.928393	Start	1.928393	Inter-1			1.929678	Inter-2			1.930964	Finish
+./logs4M/allreduce4M_lr_256.log	1.930964	Begin	1.930964	Start	1.930964	Inter-1			1.932249	Inter-2			1.933535	Finish
+./logs4M/allreduce4M_lr_256.log	1.933535	Begin	1.933535	Start	1.933535	Inter-1			1.934821	Inter-2			1.936106	Finish
+./logs4M/allreduce4M_lr_256.log	1.936106	Begin	1.936106	Start	1.936106	Inter-1			1.937392	Inter-2			1.938677	Finish
+./logs4M/allreduce4M_lr_256.log	1.938677	Begin	1.938677	Start	1.938677	Inter-1			1.939963	Inter-2			1.941248	Finish
+./logs4M/allreduce4M_lr_256.log	1.941248	Begin	1.941248	Start	1.941248	Inter-1			1.942534	Inter-2			1.943820	Finish
+./logs4M/allreduce4M_lr_256.log	1.943820	Begin	1.943820	Start	1.943820	Inter-1			1.945105	Inter-2			1.946391	Finish
+./logs4M/allreduce4M_lr_256.log	1.946391	Begin	1.946391	Start	1.946391	Inter-1			1.947676	Inter-2			1.948962	Finish
+./logs4M/allreduce4M_lr_256.log	1.948962	Begin	1.948962	Start	1.948962	Inter-1			1.950247	Inter-2			1.951533	Finish
+./logs4M/allreduce4M_lr_256.log	1.951533	Begin	1.951533	Start	1.951533	Inter-1			1.952819	Inter-2			1.954104	Finish
+./logs4M/allreduce4M_lr_256.log	1.954104	Begin	1.954104	Start	1.954104	Inter-1			1.955390	Inter-2			1.956675	Finish
+./logs4M/allreduce4M_lr_256.log	1.956675	Begin	1.956675	Start	1.956675	Inter-1			1.957961	Inter-2			1.959247	Finish
+./logs4M/allreduce4M_lr_256.log	1.959247	Begin	1.959247	Start	1.959247	Inter-1			1.960532	Inter-2			1.961818	Finish
+./logs4M/allreduce4M_lr_256.log	1.961818	Begin	1.961818	Start	1.961818	Inter-1			1.963103	Inter-2			1.964389	Finish
+./logs4M/allreduce4M_lr_256.log	1.964389	Begin	1.964389	Start	1.964389	Inter-1			1.965674	Inter-2			1.966960	Finish
+./logs4M/allreduce4M_lr_256.log	1.966960	Begin	1.966960	Start	1.966960	Inter-1			1.968246	Inter-2			1.969531	Finish
+./logs4M/allreduce4M_lr_256.log	1.969531	Begin	1.969531	Start	1.969531	Inter-1			1.970817	Inter-2			1.972102	Finish
+./logs4M/allreduce4M_lr_256.log	1.972102	Begin	1.972102	Start	1.972102	Inter-1			1.973388	Inter-2			1.974673	Finish
+./logs4M/allreduce4M_lr_256.log	1.974673	Begin	1.974673	Start	1.974673	Inter-1			1.975959	Inter-2			1.977245	Finish
+./logs4M/allreduce4M_lr_256.log	1.977245	Begin	1.977245	Start	1.977245	Inter-1			1.978530	Inter-2			1.979816	Finish
+./logs4M/allreduce4M_lr_256.log	1.979816	Begin	1.979816	Start	1.979816	Inter-1			1.981101	Inter-2			1.982387	Finish
+./logs4M/allreduce4M_lr_256.log	1.982387	Begin	1.982387	Start	1.982387	Inter-1			1.983673	Inter-2			1.984958	Finish
+./logs4M/allreduce4M_lr_256.log	1.984958	Begin	1.984958	Start	1.984958	Inter-1			1.986244	Inter-2			1.987529	Finish
+./logs4M/allreduce4M_lr_256.log	1.987529	Begin	1.987529	Start	1.987529	Inter-1			1.988815	Inter-2			1.990100	Finish
+./logs4M/allreduce4M_lr_256.log	1.990100	Begin	1.990100	Start	1.990100	Inter-1			1.991386	Inter-2			1.992672	Finish
+./logs4M/allreduce4M_lr_256.log	1.992672	Begin	1.992672	Start	1.992672	Inter-1			1.993957	Inter-2			1.995243	Finish
+./logs4M/allreduce4M_lr_256.log	1.995243	Begin	1.995243	Start	1.995243	Inter-1			1.996528	Inter-2			1.997814	Finish
+./logs4M/allreduce4M_lr_256.log	1.997814	Begin	1.997814	Start	1.997814	Inter-1			1.999099	Inter-2			2.000385	Finish
+./logs4M/allreduce4M_lr_256.log	2.000385	Begin	2.000385	Start	2.000385	Inter-1			2.001671	Inter-2			2.002956	Finish
+./logs4M/allreduce4M_lr_256.log	2.002956	Begin	2.002956	Start	2.002956	Inter-1			2.004242	Inter-2			2.005527	Finish
+./logs4M/allreduce4M_lr_256.log	2.005527	Begin	2.005527	Start	2.005527	Inter-1			2.006813	Inter-2			2.008099	Finish
+./logs4M/allreduce4M_lr_256.log	2.008099	Begin	2.008099	Start	2.008099	Inter-1			2.009384	Inter-2			2.010670	Finish
+./logs4M/allreduce4M_lr_256.log	2.010670	Begin	2.010670	Start	2.010670	Inter-1			2.011955	Inter-2			2.013241	Finish
+./logs4M/allreduce4M_lr_256.log	2.013241	Begin	2.013241	Start	2.013241	Inter-1			2.014526	Inter-2			2.015812	Finish
+./logs4M/allreduce4M_lr_256.log	2.015812	Begin	2.015812	Start	2.015812	Inter-1			2.017098	Inter-2			2.018383	Finish
+./logs4M/allreduce4M_lr_256.log	2.018383	Begin	2.018383	Start	2.018383	Inter-1			2.019669	Inter-2			2.020954	Finish
+./logs4M/allreduce4M_lr_256.log	2.020954	Begin	2.020954	Start	2.020954	Inter-1			2.022240	Inter-2			2.023525	Finish
+./logs4M/allreduce4M_lr_256.log	2.023525	Begin	2.023525	Start	2.023525	Inter-1			2.024811	Inter-2			2.026097	Finish
+./logs4M/allreduce4M_lr_256.log	2.026097	Begin	2.026097	Start	2.026097	Inter-1			2.027382	Inter-2			2.028668	Finish
+./logs4M/allreduce4M_lr_256.log	2.028668	Begin	2.028668	Start	2.028668	Inter-1			2.029953	Inter-2			2.031239	Finish
+./logs4M/allreduce4M_lr_256.log	2.031239	Begin	2.031239	Start	2.031239	Inter-1			2.032525	Inter-2			2.033810	Finish
+./logs4M/allreduce4M_lr_256.log	2.033810	Begin	2.033810	Start	2.033810	Inter-1			2.035096	Inter-2			2.036381	Finish
+./logs4M/allreduce4M_lr_256.log	2.036381	Begin	2.036381	Start	2.036381	Inter-1			2.037667	Inter-2			2.038952	Finish
+./logs4M/allreduce4M_lr_256.log	2.038952	Begin	2.038952	Start	2.038952	Inter-1			2.040238	Inter-2			2.041524	Finish
+./logs4M/allreduce4M_lr_256.log	2.041524	Begin	2.041524	Start	2.041524	Inter-1			2.042809	Inter-2			2.044095	Finish
+./logs4M/allreduce4M_lr_256.log	2.044095	Begin	2.044095	Start	2.044095	Inter-1			2.045380	Inter-2			2.046666	Finish
+./logs4M/allreduce4M_lr_256.log	2.046666	Begin	2.046666	Start	2.046666	Inter-1			2.047951	Inter-2			2.049237	Finish
+./logs4M/allreduce4M_lr_256.log	2.049237	Begin	2.049237	Start	2.049237	Inter-1			2.050523	Inter-2			2.051808	Finish
+./logs4M/allreduce4M_lr_256.log	2.051808	Begin	2.051808	Start	2.051808	Inter-1			2.053094	Inter-2			2.054379	Finish
+./logs4M/allreduce4M_lr_256.log	2.054379	Begin	2.054379	Start	2.054379	Inter-1			2.055665	Inter-2			2.056951	Finish
+./logs4M/allreduce4M_lr_256.log	2.056951	Begin	2.056951	Start	2.056951	Inter-1			2.058236	Inter-2			2.059522	Finish
+./logs4M/allreduce4M_lr_256.log	2.059522	Begin	2.059522	Start	2.059522	Inter-1			2.060807	Inter-2			2.062093	Finish
+./logs4M/allreduce4M_lr_256.log	2.062093	Begin	2.062093	Start	2.062093	Inter-1			2.063378	Inter-2			2.064664	Finish
+./logs4M/allreduce4M_lr_256.log	2.064664	Begin	2.064664	Start	2.064664	Inter-1			2.065950	Inter-2			2.067235	Finish
+./logs4M/allreduce4M_lr_256.log	2.067235	Begin	2.067235	Start	2.067235	Inter-1			2.068521	Inter-2			2.069806	Finish
+./logs4M/allreduce4M_lr_256.log	2.069806	Begin	2.069806	Start	2.069806	Inter-1			2.071092	Inter-2			2.072377	Finish
+./logs4M/allreduce4M_lr_256.log	2.072377	Begin	2.072377	Start	2.072377	Inter-1			2.073663	Inter-2			2.074949	Finish
+./logs4M/allreduce4M_lr_256.log	2.074949	Begin	2.074949	Start	2.074949	Inter-1			2.076234	Inter-2			2.077520	Finish
+./logs4M/allreduce4M_lr_256.log	2.077520	Begin	2.077520	Start	2.077520	Inter-1			2.078805	Inter-2			2.080091	Finish
+./logs4M/allreduce4M_lr_256.log	2.080091	Begin	2.080091	Start	2.080091	Inter-1			2.081377	Inter-2			2.082662	Finish
+./logs4M/allreduce4M_lr_256.log	2.082662	Begin	2.082662	Start	2.082662	Inter-1			2.083948	Inter-2			2.085233	Finish
+./logs4M/allreduce4M_lr_256.log	2.085233	Begin	2.085233	Start	2.085233	Inter-1			2.086519	Inter-2			2.087804	Finish
+./logs4M/allreduce4M_lr_256.log	2.087804	Begin	2.087804	Start	2.087804	Inter-1			2.089090	Inter-2			2.090376	Finish
+./logs4M/allreduce4M_lr_256.log	2.090376	Begin	2.090376	Start	2.090376	Inter-1			2.091661	Inter-2			2.092947	Finish
+./logs4M/allreduce4M_lr_256.log	2.092947	Begin	2.092947	Start	2.092947	Inter-1			2.094232	Inter-2			2.095518	Finish
+./logs4M/allreduce4M_lr_256.log	2.095518	Begin	2.095518	Start	2.095518	Inter-1			2.096803	Inter-2			2.098089	Finish
+./logs4M/allreduce4M_lr_256.log	2.098089	Begin	2.098089	Start	2.098089	Inter-1			2.099375	Inter-2			2.100660	Finish
+./logs4M/allreduce4M_lr_256.log	2.100660	Begin	2.100660	Start	2.100660	Inter-1			2.101946	Inter-2			2.103231	Finish
+./logs4M/allreduce4M_lr_256.log	2.103231	Begin	2.103231	Start	2.103231	Inter-1			2.104517	Inter-2			2.105803	Finish
+./logs4M/allreduce4M_lr_256.log	2.105803	Begin	2.105803	Start	2.105803	Inter-1			2.107088	Inter-2			2.108374	Finish
+./logs4M/allreduce4M_lr_256.log	2.108374	Begin	2.108374	Start	2.108374	Inter-1			2.109659	Inter-2			2.110945	Finish
+./logs4M/allreduce4M_lr_256.log	2.110945	Begin	2.110945	Start	2.110945	Inter-1			2.112230	Inter-2			2.113516	Finish
+./logs4M/allreduce4M_lr_256.log	2.113516	Begin	2.113516	Start	2.113516	Inter-1			2.114802	Inter-2			2.116087	Finish
+./logs4M/allreduce4M_lr_256.log	2.116087	Begin	2.116087	Start	2.116087	Inter-1			2.117373	Inter-2			2.118658	Finish
+./logs4M/allreduce4M_lr_256.log	2.118658	Begin	2.118658	Start	2.118658	Inter-1			2.119944	Inter-2			2.121229	Finish
+./logs4M/allreduce4M_lr_256.log	2.121229	Begin	2.121229	Start	2.121229	Inter-1			2.122515	Inter-2			2.123801	Finish
+./logs4M/allreduce4M_lr_256.log	2.123801	Begin	2.123801	Start	2.123801	Inter-1			2.125086	Inter-2			2.126372	Finish
+./logs4M/allreduce4M_lr_256.log	2.126372	Begin	2.126372	Start	2.126372	Inter-1			2.127657	Inter-2			2.128943	Finish
+./logs4M/allreduce4M_lr_256.log	2.128943	Begin	2.128943	Start	2.128943	Inter-1			2.130229	Inter-2			2.131514	Finish
+./logs4M/allreduce4M_lr_256.log	2.131514	Begin	2.131514	Start	2.131514	Inter-1			2.132800	Inter-2			2.134085	Finish
+./logs4M/allreduce4M_lr_256.log	2.134085	Begin	2.134085	Start	2.134085	Inter-1			2.135371	Inter-2			2.136656	Finish
+./logs4M/allreduce4M_lr_256.log	2.136656	Begin	2.136656	Start	2.136656	Inter-1			2.137942	Inter-2			2.139228	Finish
+./logs4M/allreduce4M_lr_256.log	2.139228	Begin	2.139228	Start	2.139228	Inter-1			2.140513	Inter-2			2.141799	Finish
+./logs4M/allreduce4M_lr_256.log	2.141799	Begin	2.141799	Start	2.141799	Inter-1			2.143084	Inter-2			2.144370	Finish
+./logs4M/allreduce4M_lr_256.log	2.144370	Begin	2.144370	Start	2.144370	Inter-1			2.145655	Inter-2			2.146941	Finish
+./logs4M/allreduce4M_lr_256.log	2.146941	Begin	2.146941	Start	2.146941	Inter-1			2.148227	Inter-2			2.149512	Finish
+./logs4M/allreduce4M_lr_256.log	2.149512	Begin	2.149512	Start	2.149512	Inter-1			2.150798	Inter-2			2.152083	Finish
+./logs4M/allreduce4M_lr_256.log	2.152083	Begin	2.152083	Start	2.152083	Inter-1			2.153369	Inter-2			2.154654	Finish
+./logs4M/allreduce4M_lr_256.log	2.154654	Begin	2.154654	Start	2.154654	Inter-1			2.155940	Inter-2			2.157226	Finish
+./logs4M/allreduce4M_lr_256.log	2.157226	Begin	2.157226	Start	2.157226	Inter-1			2.158511	Inter-2			2.159797	Finish
+./logs4M/allreduce4M_lr_256.log	2.159797	Begin	2.159797	Start	2.159797	Inter-1			2.161082	Inter-2			2.162368	Finish
+./logs4M/allreduce4M_lr_256.log	2.162368	Begin	2.162368	Start	2.162368	Inter-1			2.163654	Inter-2			2.164939	Finish
+./logs4M/allreduce4M_lr_256.log	2.164939	Begin	2.164939	Start	2.164939	Inter-1			2.166225	Inter-2			2.167510	Finish
+./logs4M/allreduce4M_lr_256.log	2.167510	Begin	2.167510	Start	2.167510	Inter-1			2.168796	Inter-2			2.170081	Finish
+./logs4M/allreduce4M_lr_256.log	2.170081	Begin	2.170081	Start	2.170081	Inter-1			2.171367	Inter-2			2.172653	Finish
+./logs4M/allreduce4M_lr_256.log	2.172653	Begin	2.172653	Start	2.172653	Inter-1			2.173938	Inter-2			2.175224	Finish
+./logs4M/allreduce4M_lr_256.log	2.175224	Begin	2.175224	Start	2.175224	Inter-1			2.176509	Inter-2			2.177795	Finish
+./logs4M/allreduce4M_lr_256.log	2.177795	Begin	2.177795	Start	2.177795	Inter-1			2.179080	Inter-2			2.180366	Finish
+./logs4M/allreduce4M_lr_256.log	2.180366	Begin	2.180366	Start	2.180366	Inter-1			2.181652	Inter-2			2.182937	Finish
+./logs4M/allreduce4M_lr_256.log	2.182937	Begin	2.182937	Start	2.182937	Inter-1			2.184223	Inter-2			2.185508	Finish
+./logs4M/allreduce4M_lr_256.log	2.185508	Begin	2.185508	Start	2.185508	Inter-1			2.186794	Inter-2			2.188080	Finish
+./logs4M/allreduce4M_lr_256.log	2.188080	Begin	2.188080	Start	2.188080	Inter-1			2.189365	Inter-2			2.190651	Finish
+./logs4M/allreduce4M_lr_256.log	2.190651	Begin	2.190651	Start	2.190651	Inter-1			2.191936	Inter-2			2.193222	Finish
+./logs4M/allreduce4M_lr_256.log	2.193222	Begin	2.193222	Start	2.193222	Inter-1			2.194507	Inter-2			2.195793	Finish
+./logs4M/allreduce4M_lr_256.log	2.195793	Begin	2.195793	Start	2.195793	Inter-1			2.197079	Inter-2			2.198364	Finish
+./logs4M/allreduce4M_lr_256.log	2.198364	Begin	2.198364	Start	2.198364	Inter-1			2.199650	Inter-2			2.200935	Finish
+./logs4M/allreduce4M_lr_256.log	2.200935	Begin	2.200935	Start	2.200935	Inter-1			2.202221	Inter-2			2.203506	Finish
+./logs4M/allreduce4M_lr_256.log	2.203506	Begin	2.203506	Start	2.203506	Inter-1			2.204792	Inter-2			2.206078	Finish
+./logs4M/allreduce4M_lr_256.log	2.206078	Begin	2.206078	Start	2.206078	Inter-1			2.207363	Inter-2			2.208649	Finish
+./logs4M/allreduce4M_lr_256.log	2.208649	Begin	2.208649	Start	2.208649	Inter-1			2.209934	Inter-2			2.211220	Finish
+./logs4M/allreduce4M_lr_256.log	2.211220	Begin	2.211220	Start	2.211220	Inter-1			2.212506	Inter-2			2.213791	Finish
+./logs4M/allreduce4M_lr_256.log	2.213791	Begin	2.213791	Start	2.213791	Inter-1			2.215077	Inter-2			2.216362	Finish
+./logs4M/allreduce4M_lr_256.log	2.216362	Begin	2.216362	Start	2.216362	Inter-1			2.217648	Inter-2			2.218933	Finish
+./logs4M/allreduce4M_lr_256.log	2.218933	Begin	2.218933	Start	2.218933	Inter-1			2.220219	Inter-2			2.221505	Finish
+./logs4M/allreduce4M_lr_256.log	2.221505	Begin	2.221505	Start	2.221505	Inter-1			2.222790	Inter-2			2.224076	Finish
+./logs4M/allreduce4M_lr_256.log	2.224076	Begin	2.224076	Start	2.224076	Inter-1			2.225361	Inter-2			2.226647	Finish
+./logs4M/allreduce4M_lr_256.log	2.226647	Begin	2.226647	Start	2.226647	Inter-1			2.227933	Inter-2			2.229218	Finish
+./logs4M/allreduce4M_lr_256.log	2.229218	Begin	2.229218	Start	2.229218	Inter-1			2.230504	Inter-2			2.231789	Finish
+./logs4M/allreduce4M_lr_256.log	2.231789	Begin	2.231789	Start	2.231789	Inter-1			2.233075	Inter-2			2.234360	Finish
+./logs4M/allreduce4M_lr_256.log	2.234360	Begin	2.234360	Start	2.234360	Inter-1			2.235646	Inter-2			2.236932	Finish
+./logs4M/allreduce4M_lr_256.log	2.236932	Begin	2.236932	Start	2.236932	Inter-1			2.238217	Inter-2			2.239503	Finish
+./logs4M/allreduce4M_lr_256.log	2.239503	Begin	2.239503	Start	2.239503	Inter-1			2.240788	Inter-2			2.242074	Finish
+./logs4M/allreduce4M_lr_256.log	2.242074	Begin	2.242074	Start	2.242074	Inter-1			2.243359	Inter-2			2.244645	Finish
+./logs4M/allreduce4M_lr_256.log	2.244645	Begin	2.244645	Start	2.244645	Inter-1			2.245931	Inter-2			2.247216	Finish
+./logs4M/allreduce4M_lr_256.log	2.247216	Begin	2.247216	Start	2.247216	Inter-1			2.248502	Inter-2			2.249787	Finish
+./logs4M/allreduce4M_lr_256.log	2.249787	Begin	2.249787	Start	2.249787	Inter-1			2.251073	Inter-2			2.252359	Finish
+./logs4M/allreduce4M_lr_256.log	2.252359	Begin	2.252359	Start	2.252359	Inter-1			2.253644	Inter-2			2.254930	Finish
+./logs4M/allreduce4M_lr_256.log	2.254930	Begin	2.254930	Start	2.254930	Inter-1			2.256215	Inter-2			2.257501	Finish
+./logs4M/allreduce4M_lr_256.log	2.257501	Begin	2.257501	Start	2.257501	Inter-1			2.258786	Inter-2			2.260072	Finish
+./logs4M/allreduce4M_lr_256.log	2.260072	Begin	2.260072	Start	2.260072	Inter-1			2.261358	Inter-2			2.262643	Finish
+./logs4M/allreduce4M_lr_256.log	2.262643	Begin	2.262643	Start	2.262643	Inter-1			2.263929	Inter-2			2.265214	Finish
+./logs4M/allreduce4M_lr_256.log	2.265214	Begin	2.265214	Start	2.265214	Inter-1			2.266500	Inter-2			2.267785	Finish
+./logs4M/allreduce4M_lr_256.log	2.267785	Begin	2.267785	Start	2.267785	Inter-1			2.269071	Inter-2			2.270357	Finish
+./logs4M/allreduce4M_lr_256.log	2.270357	Begin	2.270357	Start	2.270357	Inter-1			2.271642	Inter-2			2.272928	Finish
+./logs4M/allreduce4M_lr_256.log	2.272928	Begin	2.272928	Start	2.272928	Inter-1			2.274213	Inter-2			2.275499	Finish
+./logs4M/allreduce4M_lr_256.log	2.275499	Begin	2.275499	Start	2.275499	Inter-1			2.276785	Inter-2			2.278070	Finish
+./logs4M/allreduce4M_lr_256.log	2.278070	Begin	2.278070	Start	2.278070	Inter-1			2.279356	Inter-2			2.280641	Finish
+./logs4M/allreduce4M_lr_256.log	2.280641	Begin	2.280641	Start	2.280641	Inter-1			2.281927	Inter-2			2.283212	Finish
+./logs4M/allreduce4M_lr_256.log	2.283212	Begin	2.283212	Start	2.283212	Inter-1			2.284498	Inter-2			2.285784	Finish
+./logs4M/allreduce4M_lr_256.log	2.285784	Begin	2.285784	Start	2.285784	Inter-1			2.287069	Inter-2			2.288355	Finish
+./logs4M/allreduce4M_lr_256.log	2.288355	Begin	2.288355	Start	2.288355	Inter-1			2.289640	Inter-2			2.290926	Finish
+./logs4M/allreduce4M_lr_256.log	2.290926	Begin	2.290926	Start	2.290926	Inter-1			2.292211	Inter-2			2.293497	Finish
+./logs4M/allreduce4M_lr_256.log	2.293497	Begin	2.293497	Start	2.293497	Inter-1			2.294783	Inter-2			2.296068	Finish
+./logs4M/allreduce4M_lr_256.log	2.296068	Begin	2.296068	Start	2.296068	Inter-1			2.297354	Inter-2			2.298639	Finish
+./logs4M/allreduce4M_lr_256.log	2.298639	Begin	2.298639	Start	2.298639	Inter-1			2.299925	Inter-2			2.301211	Finish
+./logs4M/allreduce4M_lr_256.log	2.301211	Begin	2.301211	Start	2.301211	Inter-1			2.302496	Inter-2			2.303782	Finish
+./logs4M/allreduce4M_lr_256.log	2.303782	Begin	2.303782	Start	2.303782	Inter-1			2.305067	Inter-2			2.306353	Finish
+./logs4M/allreduce4M_lr_256.log	2.306353	Begin	2.306353	Start	2.306353	Inter-1			2.307638	Inter-2			2.308924	Finish
+./logs4M/allreduce4M_lr_256.log	2.308924	Begin	2.308924	Start	2.308924	Inter-1			2.310210	Inter-2			2.311495	Finish
+./logs4M/allreduce4M_lr_256.log	2.311495	Begin	2.311495	Start	2.311495	Inter-1			2.312781	Inter-2			2.314066	Finish
+./logs4M/allreduce4M_lr_256.log	2.314066	Begin	2.314066	Start	2.314066	Inter-1			2.315352	Inter-2			2.316637	Finish
+./logs4M/allreduce4M_lr_256.log	2.316637	Begin	2.316637	Start	2.316637	Inter-1			2.317923	Inter-2			2.319209	Finish
+./logs4M/allreduce4M_lr_256.log	2.319209	Begin	2.319209	Start	2.319209	Inter-1			2.320494	Inter-2			2.321780	Finish
+./logs4M/allreduce4M_lr_256.log	2.321780	Begin	2.321780	Start	2.321780	Inter-1			2.323065	Inter-2			2.324351	Finish
+./logs4M/allreduce4M_lr_256.log	2.324351	Begin	2.324351	Start	2.324351	Inter-1			2.325637	Inter-2			2.326922	Finish
+./logs4M/allreduce4M_lr_256.log	2.326922	Begin	2.326922	Start	2.326922	Inter-1			2.328208	Inter-2			2.329493	Finish
+./logs4M/allreduce4M_lr_256.log	2.329493	Begin	2.329493	Start	2.329493	Inter-1			2.330779	Inter-2			2.332064	Finish
+./logs4M/allreduce4M_lr_256.log	2.332064	Begin	2.332064	Start	2.332064	Inter-1			2.333350	Inter-2			2.334636	Finish
+./logs4M/allreduce4M_lr_256.log	2.334636	Begin	2.334636	Start	2.334636	Inter-1			2.335921	Inter-2			2.337207	Finish
+./logs4M/allreduce4M_lr_256.log	2.337207	Begin	2.337207	Start	2.337207	Inter-1			2.338492	Inter-2			2.339778	Finish
+./logs4M/allreduce4M_lr_256.log	2.339778	Begin	2.339778	Start	2.339778	Inter-1			2.341064	Inter-2			2.342349	Finish
+./logs4M/allreduce4M_lr_256.log	2.342349	Begin	2.342349	Start	2.342349	Inter-1			2.343635	Inter-2			2.344920	Finish
+./logs4M/allreduce4M_lr_256.log	2.344920	Begin	2.344920	Start	2.344920	Inter-1			2.346206	Inter-2			2.347491	Finish
+./logs4M/allreduce4M_lr_256.log	2.347491	Begin	2.347491	Start	2.347491	Inter-1			2.348777	Inter-2			2.350063	Finish
+./logs4M/allreduce4M_lr_256.log	2.350063	Begin	2.350063	Start	2.350063	Inter-1			2.351348	Inter-2			2.352634	Finish
+./logs4M/allreduce4M_lr_256.log	2.352634	Begin	2.352634	Start	2.352634	Inter-1			2.353919	Inter-2			2.355205	Finish
+./logs4M/allreduce4M_lr_256.log	2.355205	Begin	2.355205	Start	2.355205	Inter-1			2.356490	Inter-2			2.357776	Finish
+./logs4M/allreduce4M_lr_256.log	2.357776	Begin	2.357776	Start	2.357776	Inter-1			2.359062	Inter-2			2.360347	Finish
+./logs4M/allreduce4M_lr_256.log	2.360347	Begin	2.360347	Start	2.360347	Inter-1			2.361633	Inter-2			2.362918	Finish
+./logs4M/allreduce4M_lr_256.log	2.362918	Begin	2.362918	Start	2.362918	Inter-1			2.364204	Inter-2			2.365490	Finish
+./logs4M/allreduce4M_lr_256.log	2.365490	Begin	2.365490	Start	2.365490	Inter-1			2.366775	Inter-2			2.368061	Finish
+./logs4M/allreduce4M_lr_256.log	2.368061	Begin	2.368061	Start	2.368061	Inter-1			2.369346	Inter-2			2.370632	Finish
+./logs4M/allreduce4M_lr_256.log	2.370632	Begin	2.370632	Start	2.370632	Inter-1			2.371917	Inter-2			2.373203	Finish
+./logs4M/allreduce4M_lr_256.log	2.373203	Begin	2.373203	Start	2.373203	Inter-1			2.374489	Inter-2			2.375774	Finish
+./logs4M/allreduce4M_lr_256.log	2.375774	Begin	2.375774	Start	2.375774	Inter-1			2.377060	Inter-2			2.378345	Finish
+./logs4M/allreduce4M_lr_256.log	2.378345	Begin	2.378345	Start	2.378345	Inter-1			2.379631	Inter-2			2.380916	Finish
+./logs4M/allreduce4M_lr_256.log	2.380916	Begin	2.380916	Start	2.380916	Inter-1			2.382202	Inter-2			2.383488	Finish
+./logs4M/allreduce4M_lr_256.log	2.383488	Begin	2.383488	Start	2.383488	Inter-1			2.384773	Inter-2			2.386059	Finish
+./logs4M/allreduce4M_lr_256.log	2.386059	Begin	2.386059	Start	2.386059	Inter-1			2.387344	Inter-2			2.388630	Finish
+./logs4M/allreduce4M_lr_256.log	2.388630	Begin	2.388630	Start	2.388630	Inter-1			2.389916	Inter-2			2.391201	Finish
+./logs4M/allreduce4M_lr_256.log	2.391201	Begin	2.391201	Start	2.391201	Inter-1			2.392487	Inter-2			2.393772	Finish
+./logs4M/allreduce4M_lr_256.log	2.393772	Begin	2.393772	Start	2.393772	Inter-1			2.395058	Inter-2			2.396343	Finish
+./logs4M/allreduce4M_lr_256.log	2.396343	Begin	2.396343	Start	2.396343	Inter-1			2.397629	Inter-2			2.398915	Finish
+./logs4M/allreduce4M_lr_256.log	2.398915	Begin	2.398915	Start	2.398915	Inter-1			2.400200	Inter-2			2.401486	Finish
+./logs4M/allreduce4M_lr_256.log	2.401486	Begin	2.401486	Start	2.401486	Inter-1			2.402771	Inter-2			2.404057	Finish
+./logs4M/allreduce4M_lr_256.log	2.404057	Begin	2.404057	Start	2.404057	Inter-1			2.405342	Inter-2			2.406628	Finish
+./logs4M/allreduce4M_lr_256.log	2.406628	Begin	2.406628	Start	2.406628	Inter-1			2.407914	Inter-2			2.409199	Finish
+./logs4M/allreduce4M_lr_256.log	2.409199	Begin	2.409199	Start	2.409199	Inter-1			2.410485	Inter-2			2.411770	Finish
+./logs4M/allreduce4M_lr_256.log	2.411770	Begin	2.411770	Start	2.411770	Inter-1			2.413056	Inter-2			2.414342	Finish
+./logs4M/allreduce4M_lr_256.log	2.414342	Begin	2.414342	Start	2.414342	Inter-1			2.415627	Inter-2			2.416913	Finish
+./logs4M/allreduce4M_lr_256.log	2.416913	Begin	2.416913	Start	2.416913	Inter-1			2.418198	Inter-2			2.419484	Finish
+./logs4M/allreduce4M_lr_256.log	2.419484	Begin	2.419484	Start	2.419484	Inter-1			2.420769	Inter-2			2.422055	Finish
+./logs4M/allreduce4M_lr_256.log	2.422055	Begin	2.422055	Start	2.422055	Inter-1			2.423341	Inter-2			2.424626	Finish
+./logs4M/allreduce4M_lr_256.log	2.424626	Begin	2.424626	Start	2.424626	Inter-1			2.425912	Inter-2			2.427197	Finish
+./logs4M/allreduce4M_lr_256.log	2.427197	Begin	2.427197	Start	2.427197	Inter-1			2.428483	Inter-2			2.429768	Finish
+./logs4M/allreduce4M_lr_256.log	2.429769	Begin	2.429769	Start	2.429769	Inter-1			2.431054	Inter-2			2.432340	Finish
+./logs4M/allreduce4M_lr_256.log	2.432340	Begin	2.432340	Start	2.432340	Inter-1			2.433625	Inter-2			2.434911	Finish
+./logs4M/allreduce4M_lr_256.log	2.434911	Begin	2.434911	Start	2.434911	Inter-1			2.436196	Inter-2			2.437482	Finish
+./logs4M/allreduce4M_lr_256.log	2.437482	Begin	2.437482	Start	2.437482	Inter-1			2.438768	Inter-2			2.440053	Finish
+./logs4M/allreduce4M_lr_256.log	2.440053	Begin	2.440053	Start	2.440053	Inter-1			2.441339	Inter-2			2.442624	Finish
+./logs4M/allreduce4M_lr_256.log	2.442624	Begin	2.442624	Start	2.442624	Inter-1			2.443910	Inter-2			2.445195	Finish
+./logs4M/allreduce4M_lr_256.log	2.445195	Begin	2.445195	Start	2.445195	Inter-1			2.446481	Inter-2			2.447767	Finish
+./logs4M/allreduce4M_lr_256.log	2.447767	Begin	2.447767	Start	2.447767	Inter-1			2.449052	Inter-2			2.450338	Finish
+./logs4M/allreduce4M_lr_256.log	2.450338	Begin	2.450338	Start	2.450338	Inter-1			2.451623	Inter-2			2.452909	Finish
+./logs4M/allreduce4M_lr_256.log	2.452909	Begin	2.452909	Start	2.452909	Inter-1			2.454195	Inter-2			2.455480	Finish
+./logs4M/allreduce4M_lr_256.log	2.455480	Begin	2.455480	Start	2.455480	Inter-1			2.456766	Inter-2			2.458051	Finish
+./logs4M/allreduce4M_lr_256.log	2.458051	Begin	2.458051	Start	2.458051	Inter-1			2.459337	Inter-2			2.460622	Finish
+./logs4M/allreduce4M_lr_256.log	2.460622	Begin	2.460622	Start	2.460622	Inter-1			2.461908	Inter-2			2.463194	Finish
+./logs4M/allreduce4M_lr_256.log	2.463194	Begin	2.463194	Start	2.463194	Inter-1			2.464479	Inter-2			2.465765	Finish
+./logs4M/allreduce4M_lr_256.log	2.465765	Begin	2.465765	Start	2.465765	Inter-1			2.467050	Inter-2			2.468336	Finish
+./logs4M/allreduce4M_lr_256.log	2.468336	Begin	2.468336	Start	2.468336	Inter-1			2.469622	Inter-2			2.470907	Finish
+./logs4M/allreduce4M_lr_256.log	2.470907	Begin	2.470907	Start	2.470907	Inter-1			2.472193	Inter-2			2.473478	Finish
+./logs4M/allreduce4M_lr_256.log	2.473478	Begin	2.473478	Start	2.473478	Inter-1			2.474764	Inter-2			2.476049	Finish
+./logs4M/allreduce4M_lr_256.log	2.476049	Begin	2.476049	Start	2.476049	Inter-1			2.477335	Inter-2			2.478621	Finish
+./logs4M/allreduce4M_lr_256.log	2.478621	Begin	2.478621	Start	2.478621	Inter-1			2.479906	Inter-2			2.481192	Finish
+./logs4M/allreduce4M_lr_256.log	2.481192	Begin	2.481192	Start	2.481192	Inter-1			2.482477	Inter-2			2.483763	Finish
+./logs4M/allreduce4M_lr_256.log	2.483763	Begin	2.483763	Start	2.483763	Inter-1			2.485049	Inter-2			2.486334	Finish
+./logs4M/allreduce4M_lr_256.log	2.486334	Begin	2.486334	Start	2.486334	Inter-1			2.487620	Inter-2			2.488905	Finish
+./logs4M/allreduce4M_lr_256.log	2.488905	Begin	2.488905	Start	2.488905	Inter-1			2.490191	Inter-2			2.491476	Finish
+./logs4M/allreduce4M_lr_256.log	2.491476	Begin	2.491476	Start	2.491476	Inter-1			2.492762	Inter-2			2.494048	Finish
+./logs4M/allreduce4M_lr_256.log	2.494048	Begin	2.494048	Start	2.494048	Inter-1			2.495333	Inter-2			2.496619	Finish
+./logs4M/allreduce4M_lr_256.log	2.496619	Begin	2.496619	Start	2.496619	Inter-1			2.497904	Inter-2			2.499190	Finish
+./logs4M/allreduce4M_lr_256.log	2.499190	Begin	2.499190	Start	2.499190	Inter-1			2.500475	Inter-2			2.501761	Finish
+./logs4M/allreduce4M_lr_256.log	2.501761	Begin	2.501761	Start	2.501761	Inter-1			2.503047	Inter-2			2.504332	Finish
+./logs4M/allreduce4M_lr_256.log	2.504332	Begin	2.504332	Start	2.504332	Inter-1			2.505618	Inter-2			2.506903	Finish
+./logs4M/allreduce4M_lr_256.log	2.506903	Begin	2.506903	Start	2.506903	Inter-1			2.508189	Inter-2			2.509475	Finish
+./logs4M/allreduce4M_lr_256.log	2.509475	Begin	2.509475	Start	2.509475	Inter-1			2.510760	Inter-2			2.512046	Finish
+./logs4M/allreduce4M_lr_256.log	2.512046	Begin	2.512046	Start	2.512046	Inter-1			2.513331	Inter-2			2.514617	Finish
+./logs4M/allreduce4M_lr_256.log	2.514617	Begin	2.514617	Start	2.514617	Inter-1			2.515902	Inter-2			2.517188	Finish
+./logs4M/allreduce4M_lr_256.log	2.517188	Begin	2.517188	Start	2.517188	Inter-1			2.518474	Inter-2			2.519759	Finish
+./logs4M/allreduce4M_lr_256.log	2.519759	Begin	2.519759	Start	2.519759	Inter-1			2.521045	Inter-2			2.522330	Finish
+./logs4M/allreduce4M_lr_256.log	2.522330	Begin	2.522330	Start	2.522330	Inter-1			2.523616	Inter-2			2.524901	Finish
+./logs4M/allreduce4M_lr_256.log	2.524901	Begin	2.524901	Start	2.524901	Inter-1			2.526187	Inter-2			2.527473	Finish
+./logs4M/allreduce4M_lr_256.log	2.527473	Begin	2.527473	Start	2.527473	Inter-1			2.528758	Inter-2			2.530044	Finish
+./logs4M/allreduce4M_lr_256.log	2.530044	Begin	2.530044	Start	2.530044	Inter-1			2.531329	Inter-2			2.532615	Finish
+./logs4M/allreduce4M_lr_256.log	2.532615	Begin	2.532615	Start	2.532615	Inter-1			2.533901	Inter-2			2.535186	Finish
+./logs4M/allreduce4M_lr_256.log	2.535186	Begin	2.535186	Start	2.535186	Inter-1			2.536472	Inter-2			2.537757	Finish
+./logs4M/allreduce4M_lr_256.log	2.537757	Begin	2.537757	Start	2.537757	Inter-1			2.539043	Inter-2			2.540328	Finish
+./logs4M/allreduce4M_lr_256.log	2.540328	Begin	2.540328	Start	2.540328	Inter-1			2.541614	Inter-2			2.542900	Finish
+./logs4M/allreduce4M_lr_256.log	2.542900	Begin	2.542900	Start	2.542900	Inter-1			2.544185	Inter-2			2.545471	Finish
+./logs4M/allreduce4M_lr_256.log	2.545471	Begin	2.545471	Start	2.545471	Inter-1			2.546756	Inter-2			2.548042	Finish
+./logs4M/allreduce4M_lr_256.log	2.548042	Begin	2.548042	Start	2.548042	Inter-1			2.549327	Inter-2			2.550613	Finish
+./logs4M/allreduce4M_lr_256.log	2.550613	Begin	2.550613	Start	2.550613	Inter-1			2.551899	Inter-2			2.553184	Finish
+./logs4M/allreduce4M_lr_256.log	2.553184	Begin	2.553184	Start	2.553184	Inter-1			2.554470	Inter-2			2.555755	Finish
+./logs4M/allreduce4M_lr_256.log	2.555755	Begin	2.555755	Start	2.555755	Inter-1			2.557041	Inter-2			2.558327	Finish
+./logs4M/allreduce4M_lr_256.log	2.558327	Begin	2.558327	Start	2.558327	Inter-1			2.559612	Inter-2			2.560898	Finish
+./logs4M/allreduce4M_lr_256.log	2.560898	Begin	2.560898	Start	2.560898	Inter-1			2.562183	Inter-2			2.563469	Finish
+./logs4M/allreduce4M_lr_256.log	2.563469	Begin	2.563469	Start	2.563469	Inter-1			2.564754	Inter-2			2.566040	Finish
+./logs4M/allreduce4M_lr_256.log	2.566040	Begin	2.566040	Start	2.566040	Inter-1			2.567326	Inter-2			2.568611	Finish
+./logs4M/allreduce4M_lr_256.log	2.568611	Begin	2.568611	Start	2.568611	Inter-1			2.569897	Inter-2			2.571180	Finish
+./logs4M/allreduce4M_lr_256.log	
 ./logs4M/allreduce4M_ntt_binominal_lr_256.log	ntt_binominal_lr	4	4194304	1000	2.75589
 ./logs4M/allreduce4M_ntt_binominal_lr_256.log	0.000030	Begin	0.000030	Start	0.000030	Intra-1	0.000166	Inter-1	0.001408	Inter-2	0.002650	Intra-2	0.002786	Finish
 ./logs4M/allreduce4M_ntt_binominal_lr_256.log	0.002786	Begin	0.002786	Start	0.002786	Intra-1	0.002922	Inter-1	0.004164	Inter-2	0.005405	Intra-2	0.005542	Finish
@@ -5360,321 +6011,3 @@ file	ALGORITHM	#CORE_NUMBER	BUF_SIZE	ITERATION	SIMULATE_TIME	DETAIL
 ./logs4M/allreduce4M_ntt_smp_binominal_256.log	4.714158	Begin	4.714158	Start	4.714158	Intra-1	4.714294	Inter-1	4.716529	Inter-2	4.718746	Intra-2	4.718882	Finish
 ./logs4M/allreduce4M_ntt_smp_binominal_256.log	4.718882	Begin	4.718882	Start	4.718882	Intra-1	4.719018	Inter-1	4.721252	Inter-2	4.723469	Intra-2	4.723605	Finish
 ./logs4M/allreduce4M_ntt_smp_binominal_256.log	
-./logs4M/allreduce4M_rab_256.log	rab	4	4194304	1000	1.01755
-./logs4M/allreduce4M_rab_256.log	
-./logs4M/allreduce4M_rdb_256.log	rdb	4	4194304	1000	
-./logs4M/allreduce4M_rdb_256.log	0.000029	Begin	0.000029	Start	0.000029	Inter			0.009064	Finish
-./logs4M/allreduce4M_rdb_256.log	0.009064	Begin	0.009064	Start	0.009064	Inter			0.018103	Finish
-./logs4M/allreduce4M_rdb_256.log	0.018103	Begin	0.018103	Start	0.018103	Inter			0.027142	Finish
-./logs4M/allreduce4M_rdb_256.log	0.027142	Begin	0.027142	Start	0.027142	Inter			0.036181	Finish
-./logs4M/allreduce4M_rdb_256.log	0.036181	Begin	0.036181	Start	0.036181	Inter			0.045220	Finish
-./logs4M/allreduce4M_rdb_256.log	0.045220	Begin	0.045220	Start	0.045220	Inter			0.054259	Finish
-./logs4M/allreduce4M_rdb_256.log	0.054259	Begin	0.054259	Start	0.054259	Inter			0.063298	Finish
-./logs4M/allreduce4M_rdb_256.log	0.063298	Begin	0.063298	Start	0.063298	Inter			0.072336	Finish
-./logs4M/allreduce4M_rdb_256.log	0.072336	Begin	0.072336	Start	0.072336	Inter			0.081375	Finish
-./logs4M/allreduce4M_rdb_256.log	0.081375	Begin	0.081375	Start	0.081375	Inter			0.090414	Finish
-./logs4M/allreduce4M_rdb_256.log	0.090414	Begin	0.090414	Start	0.090414	Inter			0.099453	Finish
-./logs4M/allreduce4M_rdb_256.log	0.099453	Begin	0.099453	Start	0.099453	Inter			0.108492	Finish
-./logs4M/allreduce4M_rdb_256.log	0.108492	Begin	0.108492	Start	0.108492	Inter			0.117531	Finish
-./logs4M/allreduce4M_rdb_256.log	0.117531	Begin	0.117531	Start	0.117531	Inter			0.126570	Finish
-./logs4M/allreduce4M_rdb_256.log	0.126570	Begin	0.126570	Start	0.126570	Inter			0.135608	Finish
-./logs4M/allreduce4M_rdb_256.log	0.135608	Begin	0.135608	Start	0.135608	Inter			0.144647	Finish
-./logs4M/allreduce4M_rdb_256.log	0.144647	Begin	0.144647	Start	0.144647	Inter			0.153686	Finish
-./logs4M/allreduce4M_rdb_256.log	0.153686	Begin	0.153686	Start	0.153686	Inter			0.162725	Finish
-./logs4M/allreduce4M_rdb_256.log	0.162725	Begin	0.162725	Start	0.162725	Inter			0.171764	Finish
-./logs4M/allreduce4M_rdb_256.log	0.171764	Begin	0.171764	Start	0.171764	Inter			0.180803	Finish
-./logs4M/allreduce4M_rdb_256.log	0.180803	Begin	0.180803	Start	0.180803	Inter			0.189842	Finish
-./logs4M/allreduce4M_rdb_256.log	0.189842	Begin	0.189842	Start	0.189842	Inter			0.198880	Finish
-./logs4M/allreduce4M_rdb_256.log	0.198880	Begin	0.198880	Start	0.198880	Inter			0.207919	Finish
-./logs4M/allreduce4M_rdb_256.log	0.207919	Begin	0.207919	Start	0.207919	Inter			0.216958	Finish
-./logs4M/allreduce4M_rdb_256.log	0.216958	Begin	0.216958	Start	0.216958	Inter			0.225997	Finish
-./logs4M/allreduce4M_rdb_256.log	0.225997	Begin	0.225997	Start	0.225997	Inter			0.235036	Finish
-./logs4M/allreduce4M_rdb_256.log	0.235036	Begin	0.235036	Start	0.235036	Inter			0.244075	Finish
-./logs4M/allreduce4M_rdb_256.log	0.244075	Begin	0.244075	Start	0.244075	Inter			0.253114	Finish
-./logs4M/allreduce4M_rdb_256.log	0.253114	Begin	0.253114	Start	0.253114	Inter			0.262152	Finish
-./logs4M/allreduce4M_rdb_256.log	0.262152	Begin	0.262152	Start	0.262152	Inter			0.271191	Finish
-./logs4M/allreduce4M_rdb_256.log	0.271191	Begin	0.271191	Start	0.271191	Inter			0.280230	Finish
-./logs4M/allreduce4M_rdb_256.log	0.280230	Begin	0.280230	Start	0.280230	Inter			0.289269	Finish
-./logs4M/allreduce4M_rdb_256.log	0.289269	Begin	0.289269	Start	0.289269	Inter			0.298308	Finish
-./logs4M/allreduce4M_rdb_256.log	0.298308	Begin	0.298308	Start	0.298308	Inter			0.307347	Finish
-./logs4M/allreduce4M_rdb_256.log	0.307347	Begin	0.307347	Start	0.307347	Inter			0.316386	Finish
-./logs4M/allreduce4M_rdb_256.log	0.316386	Begin	0.316386	Start	0.316386	Inter			0.325424	Finish
-./logs4M/allreduce4M_rdb_256.log	0.325424	Begin	0.325424	Start	0.325424	Inter			0.334463	Finish
-./logs4M/allreduce4M_rdb_256.log	0.334463	Begin	0.334463	Start	0.334463	Inter			0.343502	Finish
-./logs4M/allreduce4M_rdb_256.log	0.343502	Begin	0.343502	Start	0.343502	Inter			0.352541	Finish
-./logs4M/allreduce4M_rdb_256.log	0.352541	Begin	0.352541	Start	0.352541	Inter			0.361580	Finish
-./logs4M/allreduce4M_rdb_256.log	0.361580	Begin	0.361580	Start	0.361580	Inter			0.370619	Finish
-./logs4M/allreduce4M_rdb_256.log	0.370619	Begin	0.370619	Start	0.370619	Inter			0.379657	Finish
-./logs4M/allreduce4M_rdb_256.log	0.379657	Begin	0.379657	Start	0.379657	Inter			0.388696	Finish
-./logs4M/allreduce4M_rdb_256.log	0.388696	Begin	0.388696	Start	0.388696	Inter			0.397735	Finish
-./logs4M/allreduce4M_rdb_256.log	0.397735	Begin	0.397735	Start	0.397735	Inter			0.406774	Finish
-./logs4M/allreduce4M_rdb_256.log	0.406774	Begin	0.406774	Start	0.406774	Inter			0.415813	Finish
-./logs4M/allreduce4M_rdb_256.log	0.415813	Begin	0.415813	Start	0.415813	Inter			0.424852	Finish
-./logs4M/allreduce4M_rdb_256.log	0.424852	Begin	0.424852	Start	0.424852	Inter			0.433891	Finish
-./logs4M/allreduce4M_rdb_256.log	0.433891	Begin	0.433891	Start	0.433891	Inter			0.442929	Finish
-./logs4M/allreduce4M_rdb_256.log	0.442929	Begin	0.442929	Start	0.442929	Inter			0.451968	Finish
-./logs4M/allreduce4M_rdb_256.log	0.451968	Begin	0.451968	Start	0.451968	Inter			0.461007	Finish
-./logs4M/allreduce4M_rdb_256.log	0.461007	Begin	0.461007	Start	0.461007	Inter			0.470046	Finish
-./logs4M/allreduce4M_rdb_256.log	0.470046	Begin	0.470046	Start	0.470046	Inter			0.479085	Finish
-./logs4M/allreduce4M_rdb_256.log	0.479085	Begin	0.479085	Start	0.479085	Inter			0.488124	Finish
-./logs4M/allreduce4M_rdb_256.log	0.488124	Begin	0.488124	Start	0.488124	Inter			0.497163	Finish
-./logs4M/allreduce4M_rdb_256.log	0.497163	Begin	0.497163	Start	0.497163	Inter			0.506201	Finish
-./logs4M/allreduce4M_rdb_256.log	0.506201	Begin	0.506201	Start	0.506201	Inter			0.515240	Finish
-./logs4M/allreduce4M_rdb_256.log	0.515240	Begin	0.515240	Start	0.515240	Inter			0.524279	Finish
-./logs4M/allreduce4M_rdb_256.log	0.524279	Begin	0.524279	Start	0.524279	Inter			0.533318	Finish
-./logs4M/allreduce4M_rdb_256.log	0.533318	Begin	0.533318	Start	0.533318	Inter			0.542357	Finish
-./logs4M/allreduce4M_rdb_256.log	0.542357	Begin	0.542357	Start	0.542357	Inter			0.551396	Finish
-./logs4M/allreduce4M_rdb_256.log	0.551396	Begin	0.551396	Start	0.551396	Inter			0.560434	Finish
-./logs4M/allreduce4M_rdb_256.log	0.560435	Begin	0.560435	Start	0.560435	Inter			0.569473	Finish
-./logs4M/allreduce4M_rdb_256.log	0.569473	Begin	0.569473	Start	0.569473	Inter			0.578512	Finish
-./logs4M/allreduce4M_rdb_256.log	0.578512	Begin	0.578512	Start	0.578512	Inter			0.587551	Finish
-./logs4M/allreduce4M_rdb_256.log	0.587551	Begin	0.587551	Start	0.587551	Inter			0.596590	Finish
-./logs4M/allreduce4M_rdb_256.log	0.596590	Begin	0.596590	Start	0.596590	Inter			0.605629	Finish
-./logs4M/allreduce4M_rdb_256.log	0.605629	Begin	0.605629	Start	0.605629	Inter			0.614668	Finish
-./logs4M/allreduce4M_rdb_256.log	0.614668	Begin	0.614668	Start	0.614668	Inter			0.623707	Finish
-./logs4M/allreduce4M_rdb_256.log	0.623707	Begin	0.623707	Start	0.623707	Inter			0.632745	Finish
-./logs4M/allreduce4M_rdb_256.log	0.632745	Begin	0.632745	Start	0.632745	Inter			0.641784	Finish
-./logs4M/allreduce4M_rdb_256.log	0.641784	Begin	0.641784	Start	0.641784	Inter			0.650823	Finish
-./logs4M/allreduce4M_rdb_256.log	0.650823	Begin	0.650823	Start	0.650823	Inter			0.659862	Finish
-./logs4M/allreduce4M_rdb_256.log	0.659862	Begin	0.659862	Start	0.659862	Inter			0.668901	Finish
-./logs4M/allreduce4M_rdb_256.log	0.668901	Begin	0.668901	Start	0.668901	Inter			0.677940	Finish
-./logs4M/allreduce4M_rdb_256.log	0.677940	Begin	0.677940	Start	0.677940	Inter			0.686978	Finish
-./logs4M/allreduce4M_rdb_256.log	0.686978	Begin	0.686978	Start	0.686978	Inter			0.696017	Finish
-./logs4M/allreduce4M_rdb_256.log	0.696017	Begin	0.696017	Start	0.696017	Inter			0.705056	Finish
-./logs4M/allreduce4M_rdb_256.log	0.705056	Begin	0.705056	Start	0.705056	Inter			0.714095	Finish
-./logs4M/allreduce4M_rdb_256.log	0.714095	Begin	0.714095	Start	0.714095	Inter			0.723134	Finish
-./logs4M/allreduce4M_rdb_256.log	0.723134	Begin	0.723134	Start	0.723134	Inter			0.732173	Finish
-./logs4M/allreduce4M_rdb_256.log	0.732173	Begin	0.732173	Start	0.732173	Inter			0.741212	Finish
-./logs4M/allreduce4M_rdb_256.log	0.741212	Begin	0.741212	Start	0.741212	Inter			0.750250	Finish
-./logs4M/allreduce4M_rdb_256.log	0.750250	Begin	0.750250	Start	0.750250	Inter			0.759289	Finish
-./logs4M/allreduce4M_rdb_256.log	0.759289	Begin	0.759289	Start	0.759289	Inter			0.768328	Finish
-./logs4M/allreduce4M_rdb_256.log	0.768328	Begin	0.768328	Start	0.768328	Inter			0.777367	Finish
-./logs4M/allreduce4M_rdb_256.log	0.777367	Begin	0.777367	Start	0.777367	Inter			0.786406	Finish
-./logs4M/allreduce4M_rdb_256.log	0.786406	Begin	0.786406	Start	0.786406	Inter			0.795445	Finish
-./logs4M/allreduce4M_rdb_256.log	0.795445	Begin	0.795445	Start	0.795445	Inter			0.804484	Finish
-./logs4M/allreduce4M_rdb_256.log	0.804484	Begin	0.804484	Start	0.804484	Inter			0.813522	Finish
-./logs4M/allreduce4M_rdb_256.log	0.813522	Begin	0.813522	Start	0.813522	Inter			0.822561	Finish
-./logs4M/allreduce4M_rdb_256.log	0.822561	Begin	0.822561	Start	0.822561	Inter			0.831600	Finish
-./logs4M/allreduce4M_rdb_256.log	0.831600	Begin	0.831600	Start	0.831600	Inter			0.840639	Finish
-./logs4M/allreduce4M_rdb_256.log	0.840639	Begin	0.840639	Start	0.840639	Inter			0.849678	Finish
-./logs4M/allreduce4M_rdb_256.log	0.849678	Begin	0.849678	Start	0.849678	Inter			0.858717	Finish
-./logs4M/allreduce4M_rdb_256.log	0.858717	Begin	0.858717	Start	0.858717	Inter			0.867756	Finish
-./logs4M/allreduce4M_rdb_256.log	0.867756	Begin	0.867756	Start	0.867756	Inter			0.876794	Finish
-./logs4M/allreduce4M_rdb_256.log	0.876794	Begin	0.876794	Start	0.876794	Inter			0.885833	Finish
-./logs4M/allreduce4M_rdb_256.log	0.885833	Begin	0.885833	Start	0.885833	Inter			0.894872	Finish
-./logs4M/allreduce4M_rdb_256.log	0.894872	Begin	0.894872	Start	0.894872	Inter			0.903911	Finish
-./logs4M/allreduce4M_rdb_256.log	0.903911	Begin	0.903911	Start	0.903911	Inter			0.912950	Finish
-./logs4M/allreduce4M_rdb_256.log	0.912950	Begin	0.912950	Start	0.912950	Inter			0.921989	Finish
-./logs4M/allreduce4M_rdb_256.log	0.921989	Begin	0.921989	Start	0.921989	Inter			0.931028	Finish
-./logs4M/allreduce4M_rdb_256.log	0.931028	Begin	0.931028	Start	0.931028	Inter			0.940066	Finish
-./logs4M/allreduce4M_rdb_256.log	0.940066	Begin	0.940066	Start	0.940066	Inter			0.949105	Finish
-./logs4M/allreduce4M_rdb_256.log	0.949105	Begin	0.949105	Start	0.949105	Inter			0.958144	Finish
-./logs4M/allreduce4M_rdb_256.log	0.958144	Begin	0.958144	Start	0.958144	Inter			0.967183	Finish
-./logs4M/allreduce4M_rdb_256.log	0.967183	Begin	0.967183	Start	0.967183	Inter			0.976222	Finish
-./logs4M/allreduce4M_rdb_256.log	0.976222	Begin	0.976222	Start	0.976222	Inter			0.985261	Finish
-./logs4M/allreduce4M_rdb_256.log	0.985261	Begin	0.985261	Start	0.985261	Inter			0.994300	Finish
-./logs4M/allreduce4M_rdb_256.log	0.994300	Begin	0.994300	Start	0.994300	Inter			1.003339	Finish
-./logs4M/allreduce4M_rdb_256.log	1.003339	Begin	1.003339	Start	1.003339	Inter			1.012377	Finish
-./logs4M/allreduce4M_rdb_256.log	1.012377	Begin	1.012377	Start	1.012377	Inter			1.021416	Finish
-./logs4M/allreduce4M_rdb_256.log	1.021416	Begin	1.021416	Start	1.021416	Inter			1.030455	Finish
-./logs4M/allreduce4M_rdb_256.log	1.030455	Begin	1.030455	Start	1.030455	Inter			1.039494	Finish
-./logs4M/allreduce4M_rdb_256.log	1.039494	Begin	1.039494	Start	1.039494	Inter			1.048533	Finish
-./logs4M/allreduce4M_rdb_256.log	1.048533	Begin	1.048533	Start	1.048533	Inter			1.057572	Finish
-./logs4M/allreduce4M_rdb_256.log	1.057572	Begin	1.057572	Start	1.057572	Inter			1.066610	Finish
-./logs4M/allreduce4M_rdb_256.log	1.066610	Begin	1.066610	Start	1.066610	Inter			1.075649	Finish
-./logs4M/allreduce4M_rdb_256.log	1.075649	Begin	1.075649	Start	1.075649	Inter			1.084688	Finish
-./logs4M/allreduce4M_rdb_256.log	1.084688	Begin	1.084688	Start	1.084688	Inter			1.093727	Finish
-./logs4M/allreduce4M_rdb_256.log	1.093727	Begin	1.093727	Start	1.093727	Inter			1.102766	Finish
-./logs4M/allreduce4M_rdb_256.log	1.102766	Begin	1.102766	Start	1.102766	Inter			1.111805	Finish
-./logs4M/allreduce4M_rdb_256.log	1.111805	Begin	1.111805	Start	1.111805	Inter			1.120844	Finish
-./logs4M/allreduce4M_rdb_256.log	1.120844	Begin	1.120844	Start	1.120844	Inter			1.129882	Finish
-./logs4M/allreduce4M_rdb_256.log	1.129882	Begin	1.129882	Start	1.129882	Inter			1.138921	Finish
-./logs4M/allreduce4M_rdb_256.log	1.138921	Begin	1.138921	Start	1.138921	Inter			1.147960	Finish
-./logs4M/allreduce4M_rdb_256.log	1.147960	Begin	1.147960	Start	1.147960	Inter			1.156999	Finish
-./logs4M/allreduce4M_rdb_256.log	1.156999	Begin	1.156999	Start	1.156999	Inter			1.166038	Finish
-./logs4M/allreduce4M_rdb_256.log	1.166038	Begin	1.166038	Start	1.166038	Inter			1.175077	Finish
-./logs4M/allreduce4M_rdb_256.log	1.175077	Begin	1.175077	Start	1.175077	Inter			1.184115	Finish
-./logs4M/allreduce4M_rdb_256.log	1.184116	Begin	1.184116	Start	1.184116	Inter			1.193154	Finish
-./logs4M/allreduce4M_rdb_256.log	1.193154	Begin	1.193154	Start	1.193154	Inter			1.202193	Finish
-./logs4M/allreduce4M_rdb_256.log	1.202193	Begin	1.202193	Start	1.202193	Inter			1.211232	Finish
-./logs4M/allreduce4M_rdb_256.log	1.211232	Begin	1.211232	Start	1.211232	Inter			1.220271	Finish
-./logs4M/allreduce4M_rdb_256.log	1.220271	Begin	1.220271	Start	1.220271	Inter			1.229310	Finish
-./logs4M/allreduce4M_rdb_256.log	1.229310	Begin	1.229310	Start	1.229310	Inter			1.238349	Finish
-./logs4M/allreduce4M_rdb_256.log	1.238349	Begin	1.238349	Start	1.238349	Inter			1.247387	Finish
-./logs4M/allreduce4M_rdb_256.log	1.247387	Begin	1.247387	Start	1.247387	Inter			1.256426	Finish
-./logs4M/allreduce4M_rdb_256.log	1.256426	Begin	1.256426	Start	1.256426	Inter			1.265465	Finish
-./logs4M/allreduce4M_rdb_256.log	1.265465	Begin	1.265465	Start	1.265465	Inter			1.274504	Finish
-./logs4M/allreduce4M_rdb_256.log	1.274504	Begin	1.274504	Start	1.274504	Inter			1.283543	Finish
-./logs4M/allreduce4M_rdb_256.log	1.283543	Begin	1.283543	Start	1.283543	Inter			1.292582	Finish
-./logs4M/allreduce4M_rdb_256.log	1.292582	Begin	1.292582	Start	1.292582	Inter			1.301621	Finish
-./logs4M/allreduce4M_rdb_256.log	1.301621	Begin	1.301621	Start	1.301621	Inter			1.310659	Finish
-./logs4M/allreduce4M_rdb_256.log	1.310659	Begin	1.310659	Start	1.310659	Inter			1.319698	Finish
-./logs4M/allreduce4M_rdb_256.log	1.319698	Begin	1.319698	Start	1.319698	Inter			1.328737	Finish
-./logs4M/allreduce4M_rdb_256.log	1.328737	Begin	1.328737	Start	1.328737	Inter			1.337776	Finish
-./logs4M/allreduce4M_rdb_256.log	1.337776	Begin	1.337776	Start	1.337776	Inter			1.346815	Finish
-./logs4M/allreduce4M_rdb_256.log	1.346815	Begin	1.346815	Start	1.346815	Inter			1.355854	Finish
-./logs4M/allreduce4M_rdb_256.log	1.355854	Begin	1.355854	Start	1.355854	Inter			1.364893	Finish
-./logs4M/allreduce4M_rdb_256.log	1.364893	Begin	1.364893	Start	1.364893	Inter			1.373931	Finish
-./logs4M/allreduce4M_rdb_256.log	1.373931	Begin	1.373931	Start	1.373931	Inter			1.382970	Finish
-./logs4M/allreduce4M_rdb_256.log	1.382970	Begin	1.382970	Start	1.382970	Inter			1.392009	Finish
-./logs4M/allreduce4M_rdb_256.log	1.392009	Begin	1.392009	Start	1.392009	Inter			1.401048	Finish
-./logs4M/allreduce4M_rdb_256.log	1.401048	Begin	1.401048	Start	1.401048	Inter			1.410087	Finish
-./logs4M/allreduce4M_rdb_256.log	1.410087	Begin	1.410087	Start	1.410087	Inter			1.419126	Finish
-./logs4M/allreduce4M_rdb_256.log	1.419126	Begin	1.419126	Start	1.419126	Inter			1.428164	Finish
-./logs4M/allreduce4M_rdb_256.log	1.428165	Begin	1.428165	Start	1.428165	Inter			1.437203	Finish
-./logs4M/allreduce4M_rdb_256.log	1.437203	Begin	1.437203	Start	1.437203	Inter			1.446242	Finish
-./logs4M/allreduce4M_rdb_256.log	1.446242	Begin	1.446242	Start	1.446242	Inter			1.455281	Finish
-./logs4M/allreduce4M_rdb_256.log	1.455281	Begin	1.455281	Start	1.455281	Inter			1.464320	Finish
-./logs4M/allreduce4M_rdb_256.log	1.464320	Begin	1.464320	Start	1.464320	Inter			1.473359	Finish
-./logs4M/allreduce4M_rdb_256.log	1.473359	Begin	1.473359	Start	1.473359	Inter			1.482398	Finish
-./logs4M/allreduce4M_rdb_256.log	1.482398	Begin	1.482398	Start	1.482398	Inter			1.491436	Finish
-./logs4M/allreduce4M_rdb_256.log	1.491436	Begin	1.491436	Start	1.491436	Inter			1.500475	Finish
-./logs4M/allreduce4M_rdb_256.log	1.500475	Begin	1.500475	Start	1.500475	Inter			1.509514	Finish
-./logs4M/allreduce4M_rdb_256.log	1.509514	Begin	1.509514	Start	1.509514	Inter			1.518553	Finish
-./logs4M/allreduce4M_rdb_256.log	1.518553	Begin	1.518553	Start	1.518553	Inter			1.527592	Finish
-./logs4M/allreduce4M_rdb_256.log	1.527592	Begin	1.527592	Start	1.527592	Inter			1.536631	Finish
-./logs4M/allreduce4M_rdb_256.log	1.536631	Begin	1.536631	Start	1.536631	Inter			1.545670	Finish
-./logs4M/allreduce4M_rdb_256.log	1.545670	Begin	1.545670	Start	1.545670	Inter			1.554709	Finish
-./logs4M/allreduce4M_rdb_256.log	1.554709	Begin	1.554709	Start	1.554709	Inter			1.563747	Finish
-./logs4M/allreduce4M_rdb_256.log	1.563747	Begin	1.563747	Start	1.563747	Inter			1.572786	Finish
-./logs4M/allreduce4M_rdb_256.log	1.572786	Begin	1.572786	Start	1.572786	Inter			1.581825	Finish
-./logs4M/allreduce4M_rdb_256.log	1.581825	Begin	1.581825	Start	1.581825	Inter			1.590864	Finish
-./logs4M/allreduce4M_rdb_256.log	1.590864	Begin	1.590864	Start	1.590864	Inter			1.599903	Finish
-./logs4M/allreduce4M_rdb_256.log	1.599903	Begin	1.599903	Start	1.599903	Inter			1.608942	Finish
-./logs4M/allreduce4M_rdb_256.log	1.608942	Begin	1.608942	Start	1.608942	Inter			1.617980	Finish
-./logs4M/allreduce4M_rdb_256.log	1.617980	Begin	1.617980	Start	1.617980	Inter			1.627019	Finish
-./logs4M/allreduce4M_rdb_256.log	1.627019	Begin	1.627019	Start	1.627019	Inter			1.636058	Finish
-./logs4M/allreduce4M_rdb_256.log	1.636058	Begin	1.636058	Start	1.636058	Inter			1.645097	Finish
-./logs4M/allreduce4M_rdb_256.log	1.645097	Begin	1.645097	Start	1.645097	Inter			1.654136	Finish
-./logs4M/allreduce4M_rdb_256.log	1.654136	Begin	1.654136	Start	1.654136	Inter			1.663175	Finish
-./logs4M/allreduce4M_rdb_256.log	1.663175	Begin	1.663175	Start	1.663175	Inter			1.672213	Finish
-./logs4M/allreduce4M_rdb_256.log	1.672214	Begin	1.672214	Start	1.672214	Inter			1.681252	Finish
-./logs4M/allreduce4M_rdb_256.log	1.681252	Begin	1.681252	Start	1.681252	Inter			1.690291	Finish
-./logs4M/allreduce4M_rdb_256.log	1.690291	Begin	1.690291	Start	1.690291	Inter			1.699330	Finish
-./logs4M/allreduce4M_rdb_256.log	1.699330	Begin	1.699330	Start	1.699330	Inter			1.708369	Finish
-./logs4M/allreduce4M_rdb_256.log	1.708369	Begin	1.708369	Start	1.708369	Inter			1.717408	Finish
-./logs4M/allreduce4M_rdb_256.log	1.717408	Begin	1.717408	Start	1.717408	Inter			1.726447	Finish
-./logs4M/allreduce4M_rdb_256.log	1.726447	Begin	1.726447	Start	1.726447	Inter			1.735485	Finish
-./logs4M/allreduce4M_rdb_256.log	1.735485	Begin	1.735485	Start	1.735485	Inter			1.744524	Finish
-./logs4M/allreduce4M_rdb_256.log	1.744524	Begin	1.744524	Start	1.744524	Inter			1.753563	Finish
-./logs4M/allreduce4M_rdb_256.log	1.753563	Begin	1.753563	Start	1.753563	Inter			1.762602	Finish
-./logs4M/allreduce4M_rdb_256.log	1.762602	Begin	1.762602	Start	1.762602	Inter			1.771641	Finish
-./logs4M/allreduce4M_rdb_256.log	1.771641	Begin	1.771641	Start	1.771641	Inter			1.780680	Finish
-./logs4M/allreduce4M_rdb_256.log	1.780680	Begin	1.780680	Start	1.780680	Inter			1.789719	Finish
-./logs4M/allreduce4M_rdb_256.log	1.789719	Begin	1.789719	Start	1.789719	Inter			1.798758	Finish
-./logs4M/allreduce4M_rdb_256.log	1.798758	Begin	1.798758	Start	1.798758	Inter			1.807797	Finish
-./logs4M/allreduce4M_rdb_256.log	1.807797	Begin	1.807797	Start	1.807797	Inter			1.816835	Finish
-./logs4M/allreduce4M_rdb_256.log	1.816835	Begin	1.816835	Start	1.816835	Inter			1.825874	Finish
-./logs4M/allreduce4M_rdb_256.log	1.825874	Begin	1.825874	Start	1.825874	Inter			1.834913	Finish
-./logs4M/allreduce4M_rdb_256.log	1.834913	Begin	1.834913	Start	1.834913	Inter			1.843952	Finish
-./logs4M/allreduce4M_rdb_256.log	1.843952	Begin	1.843952	Start	1.843952	Inter			1.852991	Finish
-./logs4M/allreduce4M_rdb_256.log	1.852991	Begin	1.852991	Start	1.852991	Inter			1.862030	Finish
-./logs4M/allreduce4M_rdb_256.log	1.862030	Begin	1.862030	Start	1.862030	Inter			1.871068	Finish
-./logs4M/allreduce4M_rdb_256.log	1.871068	Begin	1.871068	Start	1.871068	Inter			1.880107	Finish
-./logs4M/allreduce4M_rdb_256.log	1.880107	Begin	1.880107	Start	1.880107	Inter			1.889146	Finish
-./logs4M/allreduce4M_rdb_256.log	1.889146	Begin	1.889146	Start	1.889146	Inter			1.898185	Finish
-./logs4M/allreduce4M_rdb_256.log	1.898185	Begin	1.898185	Start	1.898185	Inter			1.907224	Finish
-./logs4M/allreduce4M_rdb_256.log	1.907224	Begin	1.907224	Start	1.907224	Inter			1.916263	Finish
-./logs4M/allreduce4M_rdb_256.log	1.916263	Begin	1.916263	Start	1.916263	Inter			1.925302	Finish
-./logs4M/allreduce4M_rdb_256.log	1.925302	Begin	1.925302	Start	1.925302	Inter			1.934341	Finish
-./logs4M/allreduce4M_rdb_256.log	1.934341	Begin	1.934341	Start	1.934341	Inter			1.943379	Finish
-./logs4M/allreduce4M_rdb_256.log	1.943379	Begin	1.943379	Start	1.943379	Inter			1.952418	Finish
-./logs4M/allreduce4M_rdb_256.log	1.952418	Begin	1.952418	Start	1.952418	Inter			1.961457	Finish
-./logs4M/allreduce4M_rdb_256.log	1.961457	Begin	1.961457	Start	1.961457	Inter			1.970496	Finish
-./logs4M/allreduce4M_rdb_256.log	1.970496	Begin	1.970496	Start	1.970496	Inter			1.979535	Finish
-./logs4M/allreduce4M_rdb_256.log	1.979535	Begin	1.979535	Start	1.979535	Inter			1.988574	Finish
-./logs4M/allreduce4M_rdb_256.log	1.988574	Begin	1.988574	Start	1.988574	Inter			1.997613	Finish
-./logs4M/allreduce4M_rdb_256.log	1.997613	Begin	1.997613	Start	1.997613	Inter			2.006651	Finish
-./logs4M/allreduce4M_rdb_256.log	2.006651	Begin	2.006651	Start	2.006651	Inter			2.015690	Finish
-./logs4M/allreduce4M_rdb_256.log	2.015690	Begin	2.015690	Start	2.015690	Inter			2.024729	Finish
-./logs4M/allreduce4M_rdb_256.log	2.024729	Begin	2.024729	Start	2.024729	Inter			2.033768	Finish
-./logs4M/allreduce4M_rdb_256.log	2.033768	Begin	2.033768	Start	2.033768	Inter			2.042807	Finish
-./logs4M/allreduce4M_rdb_256.log	2.042807	Begin	2.042807	Start	2.042807	Inter			2.051846	Finish
-./logs4M/allreduce4M_rdb_256.log	2.051846	Begin	2.051846	Start	2.051846	Inter			2.060884	Finish
-./logs4M/allreduce4M_rdb_256.log	2.060884	Begin	2.060884	Start	2.060884	Inter			2.069923	Finish
-./logs4M/allreduce4M_rdb_256.log	2.069923	Begin	2.069923	Start	2.069923	Inter			2.078962	Finish
-./logs4M/allreduce4M_rdb_256.log	2.078962	Begin	2.078962	Start	2.078962	Inter			2.088001	Finish
-./logs4M/allreduce4M_rdb_256.log	2.088001	Begin	2.088001	Start	2.088001	Inter			2.097040	Finish
-./logs4M/allreduce4M_rdb_256.log	2.097040	Begin	2.097040	Start	2.097040	Inter			2.106079	Finish
-./logs4M/allreduce4M_rdb_256.log	2.106079	Begin	2.106079	Start	2.106079	Inter			2.115118	Finish
-./logs4M/allreduce4M_rdb_256.log	2.115118	Begin	2.115118	Start	2.115118	Inter			2.124156	Finish
-./logs4M/allreduce4M_rdb_256.log	2.124156	Begin	2.124156	Start	2.124156	Inter			2.133195	Finish
-./logs4M/allreduce4M_rdb_256.log	2.133195	Begin	2.133195	Start	2.133195	Inter			2.142234	Finish
-./logs4M/allreduce4M_rdb_256.log	2.142234	Begin	2.142234	Start	2.142234	Inter			2.151273	Finish
-./logs4M/allreduce4M_rdb_256.log	2.151273	Begin	2.151273	Start	2.151273	Inter			2.160312	Finish
-./logs4M/allreduce4M_rdb_256.log	2.160312	Begin	2.160312	Start	2.160312	Inter			2.169351	Finish
-./logs4M/allreduce4M_rdb_256.log	2.169351	Begin	2.169351	Start	2.169351	Inter			2.178389	Finish
-./logs4M/allreduce4M_rdb_256.log	2.178389	Begin	2.178389	Start	2.178389	Inter			2.187428	Finish
-./logs4M/allreduce4M_rdb_256.log	2.187428	Begin	2.187428	Start	2.187428	Inter			2.196467	Finish
-./logs4M/allreduce4M_rdb_256.log	2.196467	Begin	2.196467	Start	2.196467	Inter			2.205506	Finish
-./logs4M/allreduce4M_rdb_256.log	2.205506	Begin	2.205506	Start	2.205506	Inter			2.214545	Finish
-./logs4M/allreduce4M_rdb_256.log	2.214545	Begin	2.214545	Start	2.214545	Inter			2.223584	Finish
-./logs4M/allreduce4M_rdb_256.log	2.223584	Begin	2.223584	Start	2.223584	Inter			2.232623	Finish
-./logs4M/allreduce4M_rdb_256.log	2.232623	Begin	2.232623	Start	2.232623	Inter			2.241661	Finish
-./logs4M/allreduce4M_rdb_256.log	2.241661	Begin	2.241661	Start	2.241661	Inter			2.250700	Finish
-./logs4M/allreduce4M_rdb_256.log	2.250700	Begin	2.250700	Start	2.250700	Inter			2.259739	Finish
-./logs4M/allreduce4M_rdb_256.log	2.259739	Begin	2.259739	Start	2.259739	Inter			2.268778	Finish
-./logs4M/allreduce4M_rdb_256.log	2.268778	Begin	2.268778	Start	2.268778	Inter			2.277817	Finish
-./logs4M/allreduce4M_rdb_256.log	2.277817	Begin	2.277817	Start	2.277817	Inter			2.286856	Finish
-./logs4M/allreduce4M_rdb_256.log	2.286856	Begin	2.286856	Start	2.286856	Inter			2.295895	Finish
-./logs4M/allreduce4M_rdb_256.log	2.295895	Begin	2.295895	Start	2.295895	Inter			2.304933	Finish
-./logs4M/allreduce4M_rdb_256.log	2.304933	Begin	2.304933	Start	2.304933	Inter			2.313972	Finish
-./logs4M/allreduce4M_rdb_256.log	2.313972	Begin	2.313972	Start	2.313972	Inter			2.323011	Finish
-./logs4M/allreduce4M_rdb_256.log	2.323011	Begin	2.323011	Start	2.323011	Inter			2.332050	Finish
-./logs4M/allreduce4M_rdb_256.log	2.332050	Begin	2.332050	Start	2.332050	Inter			2.341089	Finish
-./logs4M/allreduce4M_rdb_256.log	2.341089	Begin	2.341089	Start	2.341089	Inter			2.350128	Finish
-./logs4M/allreduce4M_rdb_256.log	2.350128	Begin	2.350128	Start	2.350128	Inter			2.359166	Finish
-./logs4M/allreduce4M_rdb_256.log	2.359166	Begin	2.359166	Start	2.359166	Inter			2.368205	Finish
-./logs4M/allreduce4M_rdb_256.log	2.368205	Begin	2.368205	Start	2.368205	Inter			2.377244	Finish
-./logs4M/allreduce4M_rdb_256.log	2.377244	Begin	2.377244	Start	2.377244	Inter			2.386283	Finish
-./logs4M/allreduce4M_rdb_256.log	2.386283	Begin	2.386283	Start	2.386283	Inter			2.395322	Finish
-./logs4M/allreduce4M_rdb_256.log	2.395322	Begin	2.395322	Start	2.395322	Inter			2.404361	Finish
-./logs4M/allreduce4M_rdb_256.log	2.404361	Begin	2.404361	Start	2.404361	Inter			2.413400	Finish
-./logs4M/allreduce4M_rdb_256.log	2.413400	Begin	2.413400	Start	2.413400	Inter			2.422439	Finish
-./logs4M/allreduce4M_rdb_256.log	2.422439	Begin	2.422439	Start	2.422439	Inter			2.431477	Finish
-./logs4M/allreduce4M_rdb_256.log	2.431477	Begin	2.431477	Start	2.431477	Inter			2.440516	Finish
-./logs4M/allreduce4M_rdb_256.log	2.440516	Begin	2.440516	Start	2.440516	Inter			2.449555	Finish
-./logs4M/allreduce4M_rdb_256.log	2.449555	Begin	2.449555	Start	2.449555	Inter			2.458594	Finish
-./logs4M/allreduce4M_rdb_256.log	2.458594	Begin	2.458594	Start	2.458594	Inter			2.467633	Finish
-./logs4M/allreduce4M_rdb_256.log	2.467633	Begin	2.467633	Start	2.467633	Inter			2.476672	Finish
-./logs4M/allreduce4M_rdb_256.log	2.476672	Begin	2.476672	Start	2.476672	Inter			2.485710	Finish
-./logs4M/allreduce4M_rdb_256.log	2.485710	Begin	2.485710	Start	2.485710	Inter			2.494749	Finish
-./logs4M/allreduce4M_rdb_256.log	2.494749	Begin	2.494749	Start	2.494749	Inter			2.503788	Finish
-./logs4M/allreduce4M_rdb_256.log	2.503788	Begin	2.503788	Start	2.503788	Inter			2.512827	Finish
-./logs4M/allreduce4M_rdb_256.log	2.512827	Begin	2.512827	Start	2.512827	Inter			2.521866	Finish
-./logs4M/allreduce4M_rdb_256.log	2.521866	Begin	2.521866	Start	2.521866	Inter			2.530905	Finish
-./logs4M/allreduce4M_rdb_256.log	2.530905	Begin	2.530905	Start	2.530905	Inter			2.539944	Finish
-./logs4M/allreduce4M_rdb_256.log	2.539944	Begin	2.539944	Start	2.539944	Inter			2.548982	Finish
-./logs4M/allreduce4M_rdb_256.log	2.548982	Begin	2.548982	Start	2.548982	Inter			2.558021	Finish
-./logs4M/allreduce4M_rdb_256.log	2.558021	Begin	2.558021	Start	2.558021	Inter			2.567060	Finish
-./logs4M/allreduce4M_rdb_256.log	2.567060	Begin	2.567060	Start	2.567060	Inter			2.576099	Finish
-./logs4M/allreduce4M_rdb_256.log	2.576099	Begin	2.576099	Start	2.576099	Inter			2.585138	Finish
-./logs4M/allreduce4M_rdb_256.log	2.585138	Begin	2.585138	Start	2.585138	Inter			2.594177	Finish
-./logs4M/allreduce4M_rdb_256.log	2.594177	Begin	2.594177	Start	2.594177	Inter			2.603215	Finish
-./logs4M/allreduce4M_rdb_256.log	2.603215	Begin	2.603215	Start	2.603215	Inter			2.612254	Finish
-./logs4M/allreduce4M_rdb_256.log	2.612254	Begin	2.612254	Start	2.612254	Inter			2.621293	Finish
-./logs4M/allreduce4M_rdb_256.log	2.621293	Begin	2.621293	Start	2.621293	Inter			2.630332	Finish
-./logs4M/allreduce4M_rdb_256.log	2.630332	Begin	2.630332	Start	2.630332	Inter			2.639371	Finish
-./logs4M/allreduce4M_rdb_256.log	2.639371	Begin	2.639371	Start	2.639371	Inter			2.648410	Finish
-./logs4M/allreduce4M_rdb_256.log	2.648410	Begin	2.648410	Start	2.648410	Inter			2.657449	Finish
-./logs4M/allreduce4M_rdb_256.log	2.657449	Begin	2.657449	Start	2.657449	Inter			2.666487	Finish
-./logs4M/allreduce4M_rdb_256.log	2.666487	Begin	2.666487	Start	2.666487	Inter			2.675526	Finish
-./logs4M/allreduce4M_rdb_256.log	2.675526	Begin	2.675526	Start	2.675526	Inter			2.684565	Finish
-./logs4M/allreduce4M_rdb_256.log	2.684565	Begin	2.684565	Start	2.684565	Inter			2.693604	Finish
-./logs4M/allreduce4M_rdb_256.log	2.693604	Begin	2.693604	Start	2.693604	Inter			2.702643	Finish
-./logs4M/allreduce4M_rdb_256.log	2.702643	Begin	2.702643	Start	2.702643	Inter			2.711682	Finish
-./logs4M/allreduce4M_rdb_256.log	2.711682	Begin	2.711682	Start	2.711682	Inter			2.720720	Finish
-./logs4M/allreduce4M_rdb_256.log	2.720720	Begin	2.720720	Start	2.720720	Inter			2.729759	Finish
-./logs4M/allreduce4M_rdb_256.log	2.729759	Begin	2.729759	Start	2.729759	Inter			2.738798	Finish
-./logs4M/allreduce4M_rdb_256.log	2.738798	Begin	2.738798	Start	2.738798	Inter			2.747837	Finish
-./logs4M/allreduce4M_rdb_256.log	2.747837	Begin	2.747837	Start	2.747837	Inter			2.756876	Finish
-./logs4M/allreduce4M_rdb_256.log	2.756876	Begin	2.756876	Start	2.756876	Inter			2.765915	Finish
-./logs4M/allreduce4M_rdb_256.log	2.765915	Begin	2.765915	Start	2.765915	Inter			2.774954	Finish
-./logs4M/allreduce4M_rdb_256.log	2.774954	Begin	2.774954	Start	2.774954	Inter			2.783992	Finish
-./logs4M/allreduce4M_rdb_256.log	2.783992	Begin	2.783992	Start	2.783992	Inter			2.793031	Finish
-./logs4M/allreduce4M_rdb_256.log	2.793031	Begin	2.793031	Start	2.793031	Inter			2.802070	Finish
-./logs4M/allreduce4M_rdb_256.log	2.802070	Begin	2.802070	Start	2.802070	Inter			2.811109	Finish
-./logs4M/allreduce4M_rdb_256.log	2.811109	Begin	2.811109	Start	2.811109	Inter			2.820148	Finish
-./logs4M/allreduce4M_rdb_256.log	2.820148	Begin	2.820148	Start	2.820148	Inter			2.829187	Finish
-./logs4M/allreduce4M_rdb_256.log	2.829187	Begin	2.829187	Start	2.829187	Inter			2.838225	Finish
-./logs4M/allreduce4M_rdb_256.log	2.838225	Begin	2.838225	Start	2.838225	Inter			
