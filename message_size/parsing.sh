@@ -1,6 +1,6 @@
 #!/bin/bash
 ## PARSING CG' LOG FILE
-SIZE="128M"
+SIZE="1M"
 OUTPUT_FILE="./parse${SIZE}.txt"
 ENERGY_OUPUT_FILE="./energy_parse${SIZE}.txt"
 TEMP_FILE="./temp${SIZE}.txt"
@@ -24,7 +24,9 @@ do
 	
 	grep -rl 'Finish algorithm' ${TEMP_FILE}| xargs sed -i "s|Finish algorithm|Finish algorithm\n${f}\t|g"
 
+	sed -i "s|Global[^\[]*\[n0:0:(1)|\[n0:0:(1)|g"  ${TEMP_FILE}
 	sed -i "s|\[n0:0:(1)||g"  ${TEMP_FILE}
+	sed -i 's/Global.*\[0\] Start function/\tBegin\t/g' ${TEMP_FILE}
 	sed -i 's/\]\s*allreduce-.*\[0\] Start function/\tBegin\t/g' ${TEMP_FILE}
 	sed -i 's/\]\s*allreduce-.*\[0\] Start algorithm/\tStart\t/g' ${TEMP_FILE}
 

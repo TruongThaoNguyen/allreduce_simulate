@@ -10,7 +10,12 @@ template<class IdxType, class ValType> int c_allreduce_big(const struct stream *
   int rank, worldsize;
   MPI_Comm_size(comm, &worldsize);
   MPI_Comm_rank(comm, &rank);
-
+	double t_mpi1, t_mpi, computeTime, interTime, initTime; 
+	computeTime = 0;
+	interTime=0;
+	initTime = 0;
+	t_mpi = -MPI_Wtime();
+	
   if(worldsize == 1) {
     memcpy(recvbuf, sendbuf, countBytes<IdxType, ValType>(sendbuf, dim));
     return MPI_SUCCESS;
@@ -44,7 +49,10 @@ template<class IdxType, class ValType> int c_allreduce_big(const struct stream *
 
   // Split streams
   split_stream<IdxType, ValType>(sendbuf, splits, dim, worldsize);
-
+	t_mpi += MPI_Wtime();
+	initTime += t_mpi;
+	t_mpi = -MPI_Wtime();
+	
   struct stream *mybuf = (struct stream *) malloc(mymaxbytes);
   struct stream *mytmp2 = (struct stream *) malloc(mymaxbytes);
   struct stream *mytmp3 = NULL;
@@ -94,8 +102,10 @@ template<class IdxType, class ValType> int c_allreduce_big(const struct stream *
       printf("Unexpected error!\n");
       MPI_Abort(MPI_COMM_WORLD, 1); 
     }
-
+	t_mpi1 = -MPI_Wtime();
     struct stream* res = sum_into_first_stream<IdxType, ValType>(mybuf, recvs[index], mytmp2, mymaxsize);
+	t_mpi1 += MPI_Wtime();
+	computeTime += t_mpi1;
     if(res != mybuf) {
       mytmp3 = mybuf;
       mybuf = mytmp2;
@@ -121,6 +131,12 @@ template<class IdxType, class ValType> int c_allreduce_big(const struct stream *
     free(recvs[i]);
   }
   free(recvs);
-
+	t_mpi += MPI_Wtime();
+	interTime += t_mpi;
+    if(rank == 0) {
+		printf("\t\tSparse Ring-Big Compute time: \t%f\tsecs\n", computeTime);
+		printf("\t\tSparse Ring-Big Inter time: \t%f\tsecs\n", interTime);
+		printf("\t\tSparse Ring-Big Init time: \t%f\tsecs\n", initTime);
+	}
   return MPI_SUCCESS;
 }

@@ -1,11 +1,9 @@
-./logs4M/allreduce4M_lr_256.log	lr	4	4194304	1000		
+./logs4M/allreduce4M_lr_256.log	lr	4	4194304	1000	16919.281730	9323.657348
 ./logs4M/allreduce4M_ntt_binominal_lr_256.log	ntt_binominal_lr	4	4194304	1000	14219.893360	10287.826761
 ./logs4M/allreduce4M_ntt_lr_lr_256.log	ntt_lr_lr	4	4194304	1000	10737.294454	5895.141189
 ./logs4M/allreduce4M_ntt_lr_rab_256.log	ntt_lr_rab	4	4194304	1000	8623.328836	4450.570303
 ./logs4M/allreduce4M_ntt_lr_rdb_256.log	ntt_lr_rdb	4	4194304	1000	21928.368805	11435.260568
 ./logs4M/allreduce4M_ntt_smp_binominal_256.log	ntt_smp_binominal	4	4194304	1000	43180.016363	40104.661924
-./logs4M/allreduce4M_rab_256.log	rab	4	4194304	1000	9412.382014	5369.139611
-./logs4M/allreduce4M_rdb_256.log	rdb	4	4194304	1000		
 ----------------
 ./logs8M/allreduce8M_lr_256.log	lr	4	8388608	1000	24492.414046	11939.471118
 ./logs8M/allreduce8M_ntt_binominal_lr_256.log	ntt_binominal_lr	4	8388608	1000	23073.694722	16326.985973

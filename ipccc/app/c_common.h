@@ -103,6 +103,69 @@ template<class IdxType, class ValType> void split_stream(const struct stream *st
   }
 }
 
+template<class IdxType, class ValType> void concat_stream(struct stream **streams, struct stream *result, int *dims,unsigned *offsets , unsigned stream_number) {
+	int i;
+	bool is_dense = false;
+	unsigned maxsize = 0;
+	unsigned tmp_cnt = 0;
+	for (i = 0; i < stream_number; i++) {
+/* 		if(streams[i]->nofitems < dims[i]) {
+			is_dense = false;
+		} */
+		tmp_cnt += streams[i]->nofitems;
+		maxsize += dims[i];
+	}
+	result->nofitems = tmp_cnt;
+
+	
+	//Check output is dense or not
+	if (tmp_cnt *(sizeof(IdxType) + sizeof(ValType)) >= maxsize * sizeof(ValType)){
+		is_dense = true;
+	}
+	
+	if (is_dense){ //output is dense format
+		for (i = 0; i < stream_number; i++) {
+			for(size_t j = 0; j < dims[i]; ++j) {
+				((ValType *)result->items)[offsets[i] + j] = 0.0;
+			}
+			
+			if(streams[i]->nofitems == dims[i]) { //input in dense format
+				const ValType *values = (const ValType *)streams[i]->items;
+				for(size_t j = 0; j < streams[i]->nofitems; ++j) {
+					((ValType *)result->items)[offsets[i] + j] = values[j];
+				}
+			}
+			else {//intput in sparse format. Note that in sparse format, item.idx is relative idx of its partitions...
+				const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)streams[i]->items;
+				for(size_t j = 0; j < streams[i]->nofitems; ++j) {
+					((ValType *)result->items)[values[j].idx + offsets[i]] = values[j].val;
+				}
+			}
+		}
+	}
+	else{ //output is sparse
+		size_t output_idx = 0;
+		for (i = 0; i < stream_number; i++) {
+			if(streams[i]->nofitems == dims[i]) { //input in dense format
+				const ValType *values = (const ValType *)streams[i]->items;
+				for(size_t j = 0; j < dims[i]; ++j) {
+					((struct s_item<IdxType, ValType> *)result->items)[output_idx].idx = offsets[i]+ j;
+					((struct s_item<IdxType, ValType> *)result->items)[output_idx].val = values[j];
+					output_idx++;
+				}
+			}
+			else{ //intput in sparse format. item.idx is relative idx of its partitions...
+				const struct s_item<IdxType, ValType> *values = (const struct s_item<IdxType, ValType> *)streams[i]->items;
+				for(size_t j = 0; j < streams[i]->nofitems; ++j) {
+					((struct s_item<IdxType, ValType> *)result->items)[output_idx].idx = offsets[i] + values[j].idx;
+					((struct s_item<IdxType, ValType> *)result->items)[output_idx].val = values[j].val;
+					output_idx++;
+				}
+			}
+		}
+	}
+}
+
 template<class IdxType, class ValType>
 struct stream * sum_into_first_stream(struct stream *first_s, struct stream *second_s, struct stream *tmpbuf, unsigned dim) {
   unsigned p1 = 0;
@@ -452,7 +515,8 @@ int isDifferent(const ValType* res, const struct stream *recvbuf, unsigned dim, 
     if(recvbuf->nofitems == dim) {
       for(size_t i = 0; i < dim; ++i) {
         if(fabs(res[i] - ((ValType *)recvbuf->items)[i]) > 1e-5) {
-          printf("[Rank %d] Not Equal at '%lu': %d != %d\n", rank, i, res[i], ((ValType *)recvbuf->items)[i]);
+		  printf("dense but not equal");
+          //printf("[Rank %d] Not Equal at '%lu': %d != %d\n", rank, i, res[i], ((ValType *)recvbuf->items)[i]);
           neq = 1;
           //break;
         }
@@ -463,14 +527,14 @@ int isDifferent(const ValType* res, const struct stream *recvbuf, unsigned dim, 
       for(size_t i = 0; i < dim; ++i) {
         if(idx < recvbuf->nofitems && ((struct s_item<IdxType, ValType>*)recvbuf->items)[idx].idx == i) {
           if(fabs(res[i] - ((struct s_item<IdxType, ValType>*)recvbuf->items)[idx].val) > 1e-5) {
-            //printf("[Rank %d] Not Equal at '%lu': %d != %d\n", rank, i, res[i], ((struct s_item<IdxType, ValType>*)recvbuf->items)[idx].val);
+            printf("[Rank %d] ....Not Equal at '%lu': %d != %d\n", rank, i, res[i], ((struct s_item<IdxType, ValType>*)recvbuf->items)[idx].val);
             neq = 1;
             break;
           }
           idx++;
         } else {
           if(fabs(res[i]) > 1e-5) {
-            //printf("[Rank %d] Not Equal 0.0 at '%lu': %d != 0.0\n", rank, i, res[i]);
+            printf("[Rank %d] Not Equal 0.0 at '%lu': %d != 0.0\n", rank, i, res[i]);
             neq = 1;
             break;
           }

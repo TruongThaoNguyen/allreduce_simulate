@@ -1,0 +1,62 @@
+[rank 0] -> n0
+[rank 1] -> n1
+[rank 2] -> n2
+[rank 3] -> n3
+[rank 4] -> n4
+[rank 5] -> n5
+[rank 6] -> n6
+[rank 7] -> n7
+[rank 8] -> n8
+[rank 9] -> n9
+[rank 10] -> n10
+[rank 11] -> n11
+[rank 12] -> n12
+[rank 13] -> n13
+[rank 14] -> n14
+[rank 15] -> n15
+[rank 16] -> n16
+[rank 17] -> n17
+[rank 18] -> n18
+[rank 19] -> n19
+[rank 20] -> n20
+[rank 21] -> n21
+[rank 22] -> n22
+[rank 23] -> n23
+[rank 24] -> n24
+[rank 25] -> n25
+[rank 26] -> n26
+[rank 27] -> n27
+[rank 28] -> n28
+[rank 29] -> n29
+[rank 30] -> n30
+[rank 31] -> n31
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'exception/cutpath' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/process_of_node' to '4'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+[0.306736] [smpi_kernel/INFO] Simulated time: 0.306736 seconds. 
+
+The simulation took 43.8442 seconds (after parsing and platform setup)
+36.9668 seconds were actual computation of the application
+[0.306736] [smpi_kernel/INFO] More than 75% of the time was spent inside the application code.
+You may want to use sampling functions or trace replay to reduce this.
+Data created with 262144 / 16777216 indices (1.562500 percentage)
+Dense blocking finished [0]:				0.182357 secs
+Dense Ring AllReduce finished [6]:			0.022921 secs - Dense: True
+Dense Ring_Ring AllReduce finished [7]:		0.012499 secs - Dense: True
+Sparse blocking (RecDoulbing) finished [2]:	0.019532 secs - Dense: False
+Sparse blocking (Big) finished [3]:			0.031662 secs - Dense: True
+Sparse blocking (Small) finished [4]:		0.017542 secs - Dense: False
+Sparse Ring AllReduce finished [5]:			0.014289 secs - Dense: False
+=================================================================
+=================================================================

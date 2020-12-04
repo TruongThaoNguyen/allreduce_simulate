@@ -1,0 +1,480 @@
+
+../logs/	ABCI_4_33554432_0.0078125_0_0	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_0	Dense Ring 	0.002949	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_0	Dense Ring Ring 	0.002949	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_0	Sparse  (Big)	0.001086	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_0	Sparse  (Small)	0.000563	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_0	Sparse Ring 	0.000805	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_0	Sparse Ring Ring 	0.000826	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_1	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_1	Dense Ring 	0.002948	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_1	Dense Ring Ring 	0.002954	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_1	Sparse  (Big)	0.001073	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_1	Sparse  (Small)	0.000555	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_1	Sparse Ring 	0.000797	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_1	Sparse Ring Ring 	0.000811	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_2	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_2	Dense Ring 	0.002952	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_2	Dense Ring Ring 	0.002947	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_2	Sparse  (Big)	0.001083	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_2	Sparse  (Small)	0.000562	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_2	Sparse Ring 	0.000800	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_2	Sparse Ring Ring 	0.000817	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_3	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_3	Dense Ring 	0.002947	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_3	Dense Ring Ring 	0.002945	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_3	Sparse  (Big)	0.001073	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_3	Sparse  (Small)	0.000554	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_3	Sparse Ring 	0.000792	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_3	Sparse Ring Ring 	0.000809	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_4	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_4	Dense Ring 	0.002946	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_4	Dense Ring Ring 	0.002946	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_4	Sparse  (Big)	0.001073	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_4	Sparse  (Small)	0.000552	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_4	Sparse Ring 	0.000793	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_4	Sparse Ring Ring 	0.000807	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_5	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_5	Dense Ring 	0.002950	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_5	Dense Ring Ring 	0.002945	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_5	Sparse  (Big)	0.001085	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_5	Sparse  (Small)	0.000574	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_5	Sparse Ring 	0.000805	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_5	Sparse Ring Ring 	0.000824	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_6	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_6	Dense Ring 	0.002947	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_6	Dense Ring Ring 	0.002946	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_6	Sparse  (Big)	0.001074	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_6	Sparse  (Small)	0.000559	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_6	Sparse Ring 	0.000800	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_6	Sparse Ring Ring 	0.000817	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_7	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_7	Dense Ring 	0.002951	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_7	Dense Ring Ring 	0.002947	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_7	Sparse  (Big)	0.001078	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_7	Sparse  (Small)	0.000584	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_7	Sparse Ring 	0.000798	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_7	Sparse Ring Ring 	0.000811	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_8	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_8	Dense Ring 	0.002948	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_8	Dense Ring Ring 	0.002945	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_8	Sparse  (Big)	0.001073	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_8	Sparse  (Small)	0.000552	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_8	Sparse Ring 	0.000793	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_8	Sparse Ring Ring 	0.000807	secs - Dense: False
+
+../logs/	ABCI_4_33554432_0.0078125_0_9	Dense 	0.004682	secs
+../logs/	ABCI_4_33554432_0.0078125_0_9	Dense Ring 	0.003004	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_9	Dense Ring Ring 	0.002963	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_9	Sparse  (Big)	0.001078	secs - Dense: True
+../logs/	ABCI_4_33554432_0.0078125_0_9	Sparse  (Small)	0.000555	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_9	Sparse Ring 	0.000816	secs - Dense: False
+../logs/	ABCI_4_33554432_0.0078125_0_9	Sparse Ring Ring 	0.000817	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_0	Dense 	0.751766	secs
+../logs/	ABCI_64_33554432_0.0078125_0_0	Dense Ring 	0.050919	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_0	Dense Ring Ring 	0.037161	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_0	Sparse  (Big)	0.055302	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_0	Sparse  (Small)	0.038299	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_0	Sparse Ring 	0.037379	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_0	Sparse Ring Ring 	0.025034	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_1	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_1	Dense Ring 	0.052180	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_1	Dense Ring Ring 	0.037437	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_1	Sparse  (Big)	0.054873	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_1	Sparse  (Small)	0.038023	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_1	Sparse Ring 	0.037779	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_1	Sparse Ring Ring 	0.024900	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_2	Dense 	0.751766	secs
+../logs/	ABCI_64_33554432_0.0078125_0_2	Dense Ring 	0.049193	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_2	Dense Ring Ring 	0.037408	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_2	Sparse  (Big)	0.054876	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_2	Sparse  (Small)	0.038872	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_2	Sparse Ring 	0.037563	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_2	Sparse Ring Ring 	0.025086	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_3	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_3	Dense Ring 	0.052242	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_3	Dense Ring Ring 	0.037451	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_3	Sparse  (Big)	0.054872	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_3	Sparse  (Small)	0.038003	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_3	Sparse Ring 	0.037645	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_3	Sparse Ring Ring 	0.025107	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_4	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_4	Dense Ring 	0.052088	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_4	Dense Ring Ring 	0.037455	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_4	Sparse  (Big)	0.054871	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_4	Sparse  (Small)	0.038309	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_4	Sparse Ring 	0.038696	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_4	Sparse Ring Ring 	0.024862	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_5	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_5	Dense Ring 	0.052345	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_5	Dense Ring Ring 	0.037447	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_5	Sparse  (Big)	0.054871	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_5	Sparse  (Small)	0.038255	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_5	Sparse Ring 	0.037452	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_5	Sparse Ring Ring 	0.025090	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_6	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_6	Dense Ring 	0.051717	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_6	Dense Ring Ring 	0.037451	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_6	Sparse  (Big)	0.054872	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_6	Sparse  (Small)	0.038142	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_6	Sparse Ring 	0.037942	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_6	Sparse Ring Ring 	0.025051	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_7	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_7	Dense Ring 	0.052578	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_7	Dense Ring Ring 	0.037453	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_7	Sparse  (Big)	0.054871	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_7	Sparse  (Small)	0.038603	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_7	Sparse Ring 	0.037360	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_7	Sparse Ring Ring 	0.025016	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_8	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_8	Dense Ring 	0.052582	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_8	Dense Ring Ring 	0.037441	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_8	Sparse  (Big)	0.054871	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_8	Sparse  (Small)	0.038307	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_8	Sparse Ring 	0.037764	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_8	Sparse Ring Ring 	0.025056	secs - Dense: False
+
+../logs/	ABCI_64_33554432_0.0078125_0_9	Dense 	0.751765	secs
+../logs/	ABCI_64_33554432_0.0078125_0_9	Dense Ring 	0.052571	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_9	Dense Ring Ring 	0.037452	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_9	Sparse  (Big)	0.054873	secs - Dense: True
+../logs/	ABCI_64_33554432_0.0078125_0_9	Sparse  (Small)	0.038391	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_9	Sparse Ring 	0.037937	secs - Dense: False
+../logs/	ABCI_64_33554432_0.0078125_0_9	Sparse Ring Ring 	0.024925	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_0	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_0	Dense Ring 	0.005143	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_0	Dense Ring Ring 	0.005137	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_0	Sparse  (Big)	0.001810	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_0	Sparse  (Small)	0.000648	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_0	Sparse Ring 	0.000898	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_0	Sparse Ring Ring 	0.000915	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_1	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_1	Dense Ring 	0.005126	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_1	Dense Ring Ring 	0.005122	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_1	Sparse  (Big)	0.001824	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_1	Sparse  (Small)	0.000651	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_1	Sparse Ring 	0.000902	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_1	Sparse Ring Ring 	0.000912	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_2	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_2	Dense Ring 	0.005126	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_2	Dense Ring Ring 	0.005250	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_2	Sparse  (Big)	0.001818	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_2	Sparse  (Small)	0.000660	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_2	Sparse Ring 	0.000906	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_2	Sparse Ring Ring 	0.000909	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_3	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_3	Dense Ring 	0.005147	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_3	Dense Ring Ring 	0.005249	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_3	Sparse  (Big)	0.001821	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_3	Sparse  (Small)	0.000649	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_3	Sparse Ring 	0.000897	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_3	Sparse Ring Ring 	0.000917	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_4	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_4	Dense Ring 	0.005130	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_4	Dense Ring Ring 	0.005130	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_4	Sparse  (Big)	0.001814	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_4	Sparse  (Small)	0.000664	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_4	Sparse Ring 	0.000908	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_4	Sparse Ring Ring 	0.000928	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_5	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_5	Dense Ring 	0.005123	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_5	Dense Ring Ring 	0.005125	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_5	Sparse  (Big)	0.001806	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_5	Sparse  (Small)	0.000651	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_5	Sparse Ring 	0.000898	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_5	Sparse Ring Ring 	0.000911	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_6	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_6	Dense Ring 	0.005125	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_6	Dense Ring Ring 	0.005126	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_6	Sparse  (Big)	0.001817	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_6	Sparse  (Small)	0.000658	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_6	Sparse Ring 	0.000902	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_6	Sparse Ring Ring 	0.000919	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_7	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_7	Dense Ring 	0.005125	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_7	Dense Ring Ring 	0.005205	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_7	Sparse  (Big)	0.001818	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_7	Sparse  (Small)	0.000672	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_7	Sparse Ring 	0.000914	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_7	Sparse Ring Ring 	0.000921	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_8	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_8	Dense Ring 	0.005126	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_8	Dense Ring Ring 	0.005122	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_8	Sparse  (Big)	0.001806	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_8	Sparse  (Small)	0.000649	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_8	Sparse Ring 	0.000896	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_8	Sparse Ring Ring 	0.000912	secs - Dense: False
+
+../logs/	DGX1_4_33554432_0.0078125_0_9	Dense 	0.007588	secs
+../logs/	DGX1_4_33554432_0.0078125_0_9	Dense Ring 	0.005142	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_9	Dense Ring Ring 	0.005142	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_9	Sparse  (Big)	0.001821	secs - Dense: True
+../logs/	DGX1_4_33554432_0.0078125_0_9	Sparse  (Small)	0.000678	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_9	Sparse Ring 	0.000906	secs - Dense: False
+../logs/	DGX1_4_33554432_0.0078125_0_9	Sparse Ring Ring 	0.000923	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_0	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_0	Dense Ring 	0.048068	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_0	Dense Ring Ring 	0.021350	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_0	Sparse  (Big)	0.042888	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_0	Sparse  (Small)	0.036682	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_0	Sparse Ring 	0.038214	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_0	Sparse Ring Ring 	0.015283	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_1	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_1	Dense Ring 	0.046671	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_1	Dense Ring Ring 	0.021683	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_1	Sparse  (Big)	0.042823	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_1	Sparse  (Small)	0.035493	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_1	Sparse Ring 	0.038005	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_1	Sparse Ring Ring 	0.014797	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_2	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_2	Dense Ring 	0.046666	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_2	Dense Ring Ring 	0.021668	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_2	Sparse  (Big)	0.043065	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_2	Sparse  (Small)	0.035680	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_2	Sparse Ring 	0.038031	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_2	Sparse Ring Ring 	0.014833	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_3	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_3	Dense Ring 	0.046672	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_3	Dense Ring Ring 	0.021687	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_3	Sparse  (Big)	0.043082	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_3	Sparse  (Small)	0.035467	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_3	Sparse Ring 	0.037865	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_3	Sparse Ring Ring 	0.014775	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_4	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_4	Dense Ring 	0.046685	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_4	Dense Ring Ring 	0.021344	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_4	Sparse  (Big)	0.042819	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_4	Sparse  (Small)	0.035454	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_4	Sparse Ring 	0.038378	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_4	Sparse Ring Ring 	0.014891	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_5	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_5	Dense Ring 	0.046678	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_5	Dense Ring Ring 	0.021672	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_5	Sparse  (Big)	0.042835	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_5	Sparse  (Small)	0.035467	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_5	Sparse Ring 	0.038138	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_5	Sparse Ring Ring 	0.014961	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_6	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_6	Dense Ring 	0.046750	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_6	Dense Ring Ring 	0.021573	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_6	Sparse  (Big)	0.042810	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_6	Sparse  (Small)	0.035482	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_6	Sparse Ring 	0.038977	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_6	Sparse Ring Ring 	0.014929	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_7	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_7	Dense Ring 	0.046839	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_7	Dense Ring Ring 	0.021697	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_7	Sparse  (Big)	0.042891	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_7	Sparse  (Small)	0.035447	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_7	Sparse Ring 	0.037937	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_7	Sparse Ring Ring 	0.014766	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_8	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_8	Dense Ring 	0.046679	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_8	Dense Ring Ring 	0.021623	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_8	Sparse  (Big)	0.042840	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_8	Sparse  (Small)	0.035977	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_8	Sparse Ring 	0.038141	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_8	Sparse Ring Ring 	0.014904	secs - Dense: False
+
+../logs/	DGX1_64_33554432_0.0078125_0_9	Dense 	0.694164	secs
+../logs/	DGX1_64_33554432_0.0078125_0_9	Dense Ring 	0.046683	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_9	Dense Ring Ring 	0.021714	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_9	Sparse  (Big)	0.042944	secs - Dense: True
+../logs/	DGX1_64_33554432_0.0078125_0_9	Sparse  (Small)	0.036083	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_9	Sparse Ring 	0.038121	secs - Dense: False
+../logs/	DGX1_64_33554432_0.0078125_0_9	Sparse Ring Ring 	0.014913	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_0	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_0	Dense Ring 	0.018968	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_0	Dense Ring Ring 	0.018975	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_0	Sparse  (Big)	0.012385	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_0	Sparse  (Small)	0.001899	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_0	Sparse Ring 	0.002280	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_0	Sparse Ring Ring 	0.002296	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_1	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_1	Dense Ring 	0.018970	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_1	Dense Ring Ring 	0.018971	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_1	Sparse  (Big)	0.012381	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_1	Sparse  (Small)	0.001907	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_1	Sparse Ring 	0.002271	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_1	Sparse Ring Ring 	0.002294	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_2	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_2	Dense Ring 	0.018976	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_2	Dense Ring Ring 	0.018978	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_2	Sparse  (Big)	0.012384	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_2	Sparse  (Small)	0.001904	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_2	Sparse Ring 	0.002281	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_2	Sparse Ring Ring 	0.002297	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_3	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_3	Dense Ring 	0.018979	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_3	Dense Ring Ring 	0.018978	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_3	Sparse  (Big)	0.012394	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_3	Sparse  (Small)	0.001916	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_3	Sparse Ring 	0.002299	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_3	Sparse Ring Ring 	0.002305	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_4	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_4	Dense Ring 	0.018974	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_4	Dense Ring Ring 	0.018981	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_4	Sparse  (Big)	0.012381	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_4	Sparse  (Small)	0.001905	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_4	Sparse Ring 	0.002272	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_4	Sparse Ring Ring 	0.002294	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_5	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_5	Dense Ring 	0.018980	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_5	Dense Ring Ring 	0.018976	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_5	Sparse  (Big)	0.012394	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_5	Sparse  (Small)	0.001909	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_5	Sparse Ring 	0.002286	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_5	Sparse Ring Ring 	0.002302	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_6	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_6	Dense Ring 	0.018971	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_6	Dense Ring Ring 	0.018976	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_6	Sparse  (Big)	0.012384	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_6	Sparse  (Small)	0.001906	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_6	Sparse Ring 	0.002272	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_6	Sparse Ring Ring 	0.002293	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_7	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_7	Dense Ring 	0.018927	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_7	Dense Ring Ring 	0.018879	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_7	Sparse  (Big)	0.012385	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_7	Sparse  (Small)	0.001903	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_7	Sparse Ring 	0.002303	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_7	Sparse Ring Ring 	0.002302	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_8	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_8	Dense Ring 	0.018978	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_8	Dense Ring Ring 	0.018969	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_8	Sparse  (Big)	0.012380	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_8	Sparse  (Small)	0.001912	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_8	Sparse Ring 	0.002288	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_8	Sparse Ring Ring 	0.002300	secs - Dense: False
+
+../logs/	DGX2_4_33554432_0.0078125_0_9	Dense 	0.027175	secs
+../logs/	DGX2_4_33554432_0.0078125_0_9	Dense Ring 	0.018975	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_9	Dense Ring Ring 	0.018985	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_9	Sparse  (Big)	0.012381	secs - Dense: True
+../logs/	DGX2_4_33554432_0.0078125_0_9	Sparse  (Small)	0.001907	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_9	Sparse Ring 	0.002258	secs - Dense: False
+../logs/	DGX2_4_33554432_0.0078125_0_9	Sparse Ring Ring 	0.002294	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_0	Dense 	0.632331	secs
+../logs/	DGX2_64_33554432_0.0078125_0_0	Dense Ring 	0.087372	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_0	Dense Ring Ring 	0.106497	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_0	Sparse  (Big)	0.036947	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_0	Sparse  (Small)	0.045837	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_0	Sparse Ring 	0.058289	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_0	Sparse Ring Ring 	0.051310	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_1	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_1	Dense Ring 	0.087971	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_1	Dense Ring Ring 	0.107532	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_1	Sparse  (Big)	0.037219	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_1	Sparse  (Small)	0.045272	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_1	Sparse Ring 	0.057286	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_1	Sparse Ring Ring 	0.051895	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_2	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_2	Dense Ring 	0.087791	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_2	Dense Ring Ring 	0.107562	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_2	Sparse  (Big)	0.036925	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_2	Sparse  (Small)	0.045278	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_2	Sparse Ring 	0.057814	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_2	Sparse Ring Ring 	0.051908	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_3	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_3	Dense Ring 	0.087766	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_3	Dense Ring Ring 	0.106209	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_3	Sparse  (Big)	0.036932	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_3	Sparse  (Small)	0.045326	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_3	Sparse Ring 	0.058451	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_3	Sparse Ring Ring 	0.052485	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_4	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_4	Dense Ring 	0.087713	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_4	Dense Ring Ring 	0.104978	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_4	Sparse  (Big)	0.037203	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_4	Sparse  (Small)	0.045334	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_4	Sparse Ring 	0.057738	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_4	Sparse Ring Ring 	0.051541	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_5	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_5	Dense Ring 	0.087344	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_5	Dense Ring Ring 	0.106044	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_5	Sparse  (Big)	0.037223	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_5	Sparse  (Small)	0.045195	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_5	Sparse Ring 	0.058251	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_5	Sparse Ring Ring 	0.052716	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_6	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_6	Dense Ring 	0.087933	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_6	Dense Ring Ring 	0.107551	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_6	Sparse  (Big)	0.037197	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_6	Sparse  (Small)	0.045417	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_6	Sparse Ring 	0.058099	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_6	Sparse Ring Ring 	0.052910	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_7	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_7	Dense Ring 	0.087290	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_7	Dense Ring Ring 	0.105542	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_7	Sparse  (Big)	0.036927	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_7	Sparse  (Small)	0.045670	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_7	Sparse Ring 	0.057579	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_7	Sparse Ring Ring 	0.053130	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_8	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_8	Dense Ring 	0.087719	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_8	Dense Ring Ring 	0.107483	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_8	Sparse  (Big)	0.037217	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_8	Sparse  (Small)	0.045308	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_8	Sparse Ring 	0.058104	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_8	Sparse Ring Ring 	0.052603	secs - Dense: False
+
+../logs/	DGX2_64_33554432_0.0078125_0_9	Dense 	0.632330	secs
+../logs/	DGX2_64_33554432_0.0078125_0_9	Dense Ring 	0.087364	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_9	Dense Ring Ring 	0.106230	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_9	Sparse  (Big)	0.037295	secs - Dense: True
+../logs/	DGX2_64_33554432_0.0078125_0_9	Sparse  (Small)	0.045319	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_9	Sparse Ring 	0.058456	secs - Dense: False
+../logs/	DGX2_64_33554432_0.0078125_0_9	Sparse Ring Ring 	0.052258	secs - Dense: False

@@ -1,0 +1,146 @@
+[rank 0] -> n0
+[rank 1] -> n1
+[rank 2] -> n2
+[rank 3] -> n3
+[rank 4] -> n4
+[rank 5] -> n5
+[rank 6] -> n6
+[rank 7] -> n7
+[rank 8] -> n8
+[rank 9] -> n9
+[rank 10] -> n10
+[rank 11] -> n11
+[rank 12] -> n12
+[rank 13] -> n13
+[rank 14] -> n14
+[rank 15] -> n15
+[rank 16] -> n16
+[rank 17] -> n17
+[rank 18] -> n18
+[rank 19] -> n19
+[rank 20] -> n20
+[rank 21] -> n21
+[rank 22] -> n22
+[rank 23] -> n23
+[rank 24] -> n24
+[rank 25] -> n25
+[rank 26] -> n26
+[rank 27] -> n27
+[rank 28] -> n28
+[rank 29] -> n29
+[rank 30] -> n30
+[rank 31] -> n31
+[rank 32] -> n32
+[rank 33] -> n33
+[rank 34] -> n34
+[rank 35] -> n35
+[rank 36] -> n36
+[rank 37] -> n37
+[rank 38] -> n38
+[rank 39] -> n39
+[rank 40] -> n40
+[rank 41] -> n41
+[rank 42] -> n42
+[rank 43] -> n43
+[rank 44] -> n44
+[rank 45] -> n45
+[rank 46] -> n46
+[rank 47] -> n47
+[rank 48] -> n48
+[rank 49] -> n49
+[rank 50] -> n50
+[rank 51] -> n51
+[rank 52] -> n52
+[rank 53] -> n53
+[rank 54] -> n54
+[rank 55] -> n55
+[rank 56] -> n56
+[rank 57] -> n57
+[rank 58] -> n58
+[rank 59] -> n59
+[rank 60] -> n60
+[rank 61] -> n61
+[rank 62] -> n62
+[rank 63] -> n63
+[rank 64] -> n64
+[rank 65] -> n65
+[rank 66] -> n66
+[rank 67] -> n67
+[rank 68] -> n68
+[rank 69] -> n69
+[rank 70] -> n70
+[rank 71] -> n71
+[rank 72] -> n72
+[rank 73] -> n73
+[rank 74] -> n74
+[rank 75] -> n75
+[rank 76] -> n76
+[rank 77] -> n77
+[rank 78] -> n78
+[rank 79] -> n79
+[rank 80] -> n80
+[rank 81] -> n81
+[rank 82] -> n82
+[rank 83] -> n83
+[rank 84] -> n84
+[rank 85] -> n85
+[rank 86] -> n86
+[rank 87] -> n87
+[rank 88] -> n88
+[rank 89] -> n89
+[rank 90] -> n90
+[rank 91] -> n91
+[rank 92] -> n92
+[rank 93] -> n93
+[rank 94] -> n94
+[rank 95] -> n95
+[rank 96] -> n96
+[rank 97] -> n97
+[rank 98] -> n98
+[rank 99] -> n99
+[rank 100] -> n100
+[rank 101] -> n101
+[rank 102] -> n102
+[rank 103] -> n103
+[rank 104] -> n104
+[rank 105] -> n105
+[rank 106] -> n106
+[rank 107] -> n107
+[rank 108] -> n108
+[rank 109] -> n109
+[rank 110] -> n110
+[rank 111] -> n111
+[rank 112] -> n112
+[rank 113] -> n113
+[rank 114] -> n114
+[rank 115] -> n115
+[rank 116] -> n116
+[rank 117] -> n117
+[rank 118] -> n118
+[rank 119] -> n119
+[rank 120] -> n120
+[rank 121] -> n121
+[rank 122] -> n122
+[rank 123] -> n123
+[rank 124] -> n124
+[rank 125] -> n125
+[rank 126] -> n126
+[rank 127] -> n127
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/privatization' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'surf/precision' to '1e-9'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/model' to 'SMPI'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'exception/cutpath' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/display-timing' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/process_of_node' to '4'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'contexts/nthreads' to '1'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'cpu/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'maxmin/precision' to '1e-4'
+[0.000000] [surf_parse/INFO] The custom configuration 'network/model' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'network/optim' to 'Lazy'
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/cpu-threshold' to '0.00000000001'
+[0.000000] [surf_parse/INFO] The custom configuration 'smpi/display-timing' is already defined by user!
+[0.000000] [xbt_cfg/INFO] Configuration change: Set 'smpi/host-speed' to '50000000000.0'
+/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpirun: line 501: 27117 Killed                  ${WRAPPER} "/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpimain" ${EXEC} ${PRIVATIZE} ${TRACEOPTIONS} ${SIMOPTS} ${PLATFORMTMP} ${APPLICATIONTMP} 0<&3 3>&-
+/home/nguyen_truong/allreduce_simulate/ipccc/app/run.out --cfg=smpi/privatization:1 --cfg=surf/precision:1e-9 --cfg=network/model:SMPI --cfg=exception/cutpath:1 --cfg=smpi/display-timing:1 --cfg=smpi/process_of_node:4 ../../platforms/Tsubame3_64.xml smpitmp-appc8Z3py
+Generated unrolled hostfile smpitmp-hostfLphwyI kept.
+Execution failed with code 137.

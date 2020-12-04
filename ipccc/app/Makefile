@@ -1,5 +1,5 @@
-#CC=/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpicxx
-CC=/home/nguyen/ai/allreduce_simulate/SimGrid-3.19/build/bin/smpicxx
+CC=/home/nguyen_truong/allreduce_simulate/SimGrid-3.19/build/bin/smpicxx
+#CC=/home/nguyen/ai/allreduce_simulate/SimGrid-3.19/build/bin/smpicxx
 CC_DAINT=CC
 #CCFLAGS=-O3 -Wall -std=c++11 -fopenmp
 CCFLAGS=-O3 -Wall -std=c++11
